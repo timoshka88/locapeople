@@ -1,0 +1,1 @@
+An app created for people who like to have a good time and want to make sure they choose the best place based on their preferences no matter which country they visit
