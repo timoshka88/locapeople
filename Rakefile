@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-IntroToRails::Application.load_tasks
+LocaPeople::Application.load_tasks
