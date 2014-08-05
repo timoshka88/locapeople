@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  host: localhost
+  database: locapeople_dev
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  host: localhost
+  database: locapeople_test
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  host: localhost
+  database: locapeople
+  pool: 5
+  timeout: 5000
