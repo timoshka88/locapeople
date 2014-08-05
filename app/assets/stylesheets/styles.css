@@ -4,31 +4,33 @@
   width:100%;
   position: absolute;
   top: 0;
-  opacity: 0.6
+  opacity: 0.8
 }
 
-	span.reference{
-				position:fixed;
-				left:10px;
-				bottom:10px;
-				font-size:12px;
-			}
-			span.reference a{
-				color:#aaa;
-				text-transform:uppercase;
-				text-decoration:none;
-				text-shadow:1px 1px 1px #000;
-				margin-right:30px;
-			}
-			span.reference a:hover{
-				color:#ddd;
-			}
-			ul.sdt_menu{
-				margin-top:150px;
-			}
+/*Landing Page Menu style*/
+span.reference{
+	position:fixed;
+	left:10px;
+	bottom:10px;
+	font-size:12px;
+}
+span.reference a{
+	color:#aaa;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #000;
+	margin-right:30px;
+}
+span.reference a:hover{
+	color:#ddd;
+}
+ul.sdt_menu{
+	margin-top:200px;
+	margin-left: auto;
+}
 
 ul.sdt_menu{
-	margin:0;
+	/*margin:0;*/
 	padding:0;
 	list-style: none;
 	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
@@ -42,7 +44,7 @@ ul.sdt_menu a{
 ul.sdt_menu li{
 	float:left;
 	width:170px;
-	height:85px;
+	height:100px;
 	position:relative;
 	cursor:pointer;
 }
@@ -51,9 +53,9 @@ ul.sdt_menu li > a{
 	top:0px;
 	left:0px;
 	width:170px;
-	height:85px;
+	height:100px;
 	z-index:12;
-	background:transparent url(../images/overlay.png) no-repeat bottom right;
+	background:transparent url(overlay.png) no-repeat bottom right;
 	-moz-box-shadow:0px 0px 2px #000 inset;
 	-webkit-box-shadow:0px 0px 2px #000 inset;
 	box-shadow:0px 0px 2px #000 inset;
