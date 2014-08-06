@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LocaPeople</title>
+  <title>PartyBot</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
 <canvas id="landing-canvas">
 	
 </canvas> 
-
+<img class="logo" src="assets/logo1.png">
 <div class="content">
 			<ul id="sdt_menu" class="sdt_menu">
 				<li>
@@ -22,11 +23,9 @@
 							<span class="sdt_descr">Launch the PartyBot</span>
 						</span>
 					</a>
-<!-- 					<div class="sdt_box">
-							<a href="#">Packages</a>
-							<a href="#">Photos</a>
-							<a href="#">Bookins</a>
-					</div> -->
+					<div class="sdt_box">
+							<a href="#">Search form</a>
+					</div>
 				</li>
 				<li>
 					<a href="#">
@@ -50,7 +49,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="assets/image05.jpg" alt=""/>
+						<img src="assets/image12.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">About the Bot</span>
@@ -58,21 +57,6 @@
 						</span>
 					</a>
 				</li>
-		<!-- 		<li>
-					<a href="#">
-						<img src="images/6.jpg" alt=""/>
-						<span class="sdt_active"></span>
-						<span class="sdt_wrap">
-							<span class="sdt_link">Search</span>
-							<span class="sdt_descr">I love to travel</span>
-						</span>
-					</a>
-					<div class="sdt_box">
-						<a href="#">Destination</a>
-						<a href="#">Category</a>
-						<a href="#">Price</a>
-					</div>
-				</li> -->
 			</ul>
 		</div>
 <script>
@@ -83,7 +67,7 @@
 	imageObj.onload = function() {
 	  context.drawImage(imageObj, 0,0,imageObj.width,imageObj.height,0,0,canvas.width,canvas.height);
 	  };
-	imageObj.src = 'assets/image01.jpg';
+	imageObj.src = 'assets/image27.jpg';
 
      //  var canvas = document.getElementById('landing-canvas');
      //  var context = canvas.getContext('2d');
@@ -105,7 +89,7 @@
 				* then we slide it - if the element is the last one in the menu
 				* we slide it to the left, otherwise to the right
 				*/
-                $('#sdt_menu > li').bind('mouseenter',function(){
+          $('#sdt_menu > li').bind('mouseenter',function(){
 					var $elem = $(this);
 					$elem.find('img')
 						 .stop(true)
