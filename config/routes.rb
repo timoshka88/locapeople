@@ -1,6 +1,6 @@
 LocaPeople::Application.routes.draw do
 
-  root :to => 'pages#index'
+  root :to => 'pages#landingPage'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+gsource 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'pg'

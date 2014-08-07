@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-	def index
+	def landingPage
 		
 	end
 end
