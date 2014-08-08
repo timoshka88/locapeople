@@ -54,6 +54,7 @@ module LocaPeople
     config.active_record.whitelist_attributes = true
 
     # Enable the asset pipeline
+    config.assets.precompile += %w( *Controller.js )
 
     config.assets.enabled = true
 
