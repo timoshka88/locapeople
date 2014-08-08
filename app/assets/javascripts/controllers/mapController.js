@@ -12,21 +12,24 @@ MapController.prototype = {
 		this.view.drawMap()
 		console.log("I've executed the MapController init")
 	}
-};
+}
+
 
 // Map View
 function MapView(){
 	this.mapSelector = 'map-canvas'
-};
+}
 
 MapView.prototype = {
 	drawMap: function(){
 		this.map = new google.maps.Map(document.getElementById(this.mapSelector), mapOptions);
+		console.log("I'm in map draw")
 	}
-};
+}
+
+
 
 // Map Model
-
 var mapOptions = (function(){
   var defaultCoordinates = {
     lat: 40.689493,

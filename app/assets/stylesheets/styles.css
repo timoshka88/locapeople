@@ -143,3 +143,11 @@ ul.sdt_menu li div.sdt_box a:first-child{
 ul.sdt_menu li div.sdt_box a:hover{
 	color:#fff;
 }
+
+/*Map Page styling*/
+#map-canvas {
+  height:100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+}
