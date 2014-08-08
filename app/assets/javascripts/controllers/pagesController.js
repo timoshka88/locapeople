@@ -1,3 +1,7 @@
+$(document).ready(function(){
+	new PagesController(new PagesView).init();
+})
+
 function PagesController(view){
 	this.view = view
 
