@@ -1,6 +1,6 @@
 class CreateLookupCuisineTypes < ActiveRecord::Migration
   def change
-    create_table :lookup_cuisine_types do |t|
+    create_table 	:lookup_cuisine_types do |t|
     	t.string		:name
     	t.string		:description
     	
