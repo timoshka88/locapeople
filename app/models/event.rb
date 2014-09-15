@@ -1,7 +1,7 @@
 class Event < ActiveRecord::Base
 	has_and_belongs_to_many :tribes
 	has_and_belongs_to_many :cuisines
-	has_and_belongs_to_many :musics
+	has_and_belongs_to_many :lookup_music_types
 	
   # attr_accessible :title, :body
 end
