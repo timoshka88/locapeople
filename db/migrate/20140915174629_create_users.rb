@@ -15,7 +15,7 @@ class CreateUsers < ActiveRecord::Migration
 		t.integer 	:hometown_city_id #city_name_id foreign key one-to -many a user has one city but city can have many users
 		t.integer 	:current_city_id #city_name_id foreign key one-to -many a user has one city but city can have many users
 		# t.integer 	:language_id #language_id foreign key, many-to-many
-		t.integer 	:relationship_status_id #relationship_status_id foreign key one-to-many check from FB
+		t.belongs_to 	:lookup_relationship_status #relationship_status_id foreign key one-to-many check from FB
 		# t.integer 	:music_id #music_type id foreign key many-to-many
 		# t.integer 	:cuisine_id #cuisine_type id foreign key many-to-many
 		# t.integer   :tribe_id #tribe_type id foreign key many-to-many
