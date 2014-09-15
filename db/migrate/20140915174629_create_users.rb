@@ -8,9 +8,9 @@ class CreateUsers < ActiveRecord::Migration
 		t.boolean 	:ambassador #true or false then boolean
 		t.string 		:photo #check what to do and what type of data
 		t.string 		:phone
-		t.integer 	:gender #lookup table fullfilling two columns gender and interested in, therefore lookup will have male/female/both.
+		t.belongs_to 	:gender #lookup table fullfilling two columns gender and interested in, therefore lookup will have male/female/both.
 		#one to many, user has one genred and gender can beong to many users
-		t.integer 	:interested_in #lookup table fullfilling two columns gender and interested in, therefore lookup will have male/female/both.
+		t.belongs_to 	:interested_in_gender #lookup table fullfilling two columns gender and interested in, therefore lookup will have male/female/both.
 		#one to many, user has one genred and gender can beong to many users
 		t.integer 	:hometown_city_id #city_name_id foreign key one-to -many a user has one city but city can have many users
 		t.integer 	:current_city_id #city_name_id foreign key one-to -many a user has one city but city can have many users
