@@ -18,7 +18,7 @@ class CreateVenues < ActiveRecord::Migration
 		t.string 		:alt_phone
 		t.belongs_to 	:user #owner #one user can own many venues, one venue belongs to one user t.belongs to user
 		t.belongs_to	:lookup_parking_type #foreign_key paid/free/vallet/NA
-		t.integer 	:city_id #city_id a foreign key one city has many venuse, one venue belongs to one city, t.belongs to city
+		t.belongs_to 	:city #city_id a foreign key one city has many venuse, one venue belongs to one city, t.belongs to city
 		# t.integer 	:music_id # has_and_belongs_to music_type id foreign key, many-to-many
 		# t.integer 	:cuisine_id # has_and_belongs_to cuisine_type id foreign key, many-to-many
 		# t.integer 	:venue_type_id # has_and_belongs_to venue type id foreign key , many-to-many
