@@ -6,6 +6,7 @@ class Venue < ActiveRecord::Base
 	has_and_belongs_to_many :lookup_hours
 	has_and_belongs_to_many :lookup_days
 	has_and_belongs_to_many :lookup_rating_types
+	has_many 								:events
 	belongs_to 							:lookup_parking_type
 	belongs_to 							:owner, :class_name => "User"
 	belongs_to 							:city
