@@ -1,6 +1,6 @@
 class CreateLookupCities < ActiveRecord::Migration
   def change
-    create_table :lookup_cities do |t|
+    create_table      :lookup_cities do |t|
     	t.string				:name_state #includes the state if neccessary
     	t.string				:description 
     	t.string				:english_speakers_percentage #has to be a data which can be a float
