@@ -8,6 +8,10 @@ class User < ActiveRecord::Base
 	has_and_belongs_to_many :drinks
 	has_many    						:venues
 	belongs_to 							:lookup_relationship_status
-  belongs_to 							:gender
+  belongs_to 							:lookup_gender
+  belongs_to    					:interested_in_gender, :class_name => "LookupGender"
+  belongs_to    					:hometown_city, :class_name => "LookupCity"
+  belongs_to    					:current_city, :class_name => "LookupCity"
+
   # attr_accessible :title, :body
 end
