@@ -16,7 +16,7 @@ class CreateVenues < ActiveRecord::Migration
 		t.boolean 		:entrance_fee #true or false #think about the possibility of having special promos as free for girls until, etc
 		t.boolean 		:wheelchair_access #true or false
 		t.boolean			:gay_friendly #yes / no/  should we have gay only?
-		t.belongs_to 	:user #owner #one user can own many venues, one venue belongs to one user t.belongs to user
+		t.belongs_to 	:owner #owner #one user can own many venues, one venue belongs to one user t.belongs to user
 		t.belongs_to	:lookup_parking_type #foreign_key paid/free/vallet/NA
 		t.belongs_to 	:city #city_id a foreign key one city has many venuse, one venue belongs to one city, t.belongs to city
 		

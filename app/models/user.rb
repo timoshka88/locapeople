@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
 	has_and_belongs_to_many :lookup_spirits
 	has_and_belongs_to_many :lookup_drink_types
 	has_and_belongs_to_many :drinks
-	has_many    						:venues
+	has_many    						:owned_venues, :foreign_key => "owner_id", :class_name => "Venue"
 	belongs_to 							:lookup_relationship_status
   belongs_to 							:lookup_gender
   belongs_to    					:interested_in_gender, :class_name => "LookupGender"
