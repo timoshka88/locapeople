@@ -16,16 +16,16 @@ class CreateVenues < ActiveRecord::Migration
 		t.boolean 	:wheelchair_access #true or false
 		t.string 		:phone
 		t.string 		:alt_phone
-		t.integer 	:owner_id #user #one user can own many venues, one venue belongs to one user t.belongs to user
+		t.belongs_to 	:user #owner #one user can own many venues, one venue belongs to one user t.belongs to user
 		t.belongs_to	:lookup_parking_type #foreign_key paid/free/vallet/NA
 		t.integer 	:city_id #city_id a foreign key one city has many venuse, one venue belongs to one city, t.belongs to city
 		# t.integer 	:music_id # has_and_belongs_to music_type id foreign key, many-to-many
 		# t.integer 	:cuisine_id # has_and_belongs_to cuisine_type id foreign key, many-to-many
 		# t.integer 	:venue_type_id # has_and_belongs_to venue type id foreign key , many-to-many
 		# t.integer   :tribe_id #has_and_belongs_to lookup for subcltures many-to-many
-		t.integer   :google_uid #or place_id which is now instead of reference key and unique key
-		t.integer		:x_coord # geocoding google ID
-		t.integer		:y_coord
+		# t.integer   :google_uid #or place_id which is now instead of reference key and unique key
+		# t.integer		:x_coord # geocoding google ID
+		# t.integer		:y_coord
 
       t.timestamps
     end

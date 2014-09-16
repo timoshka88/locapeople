@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
 	has_and_belongs_to_many :lookup_spirits
 	has_and_belongs_to_many :lookup_drink_types
 	has_and_belongs_to_many :drinks
+	has_many    						:venues
 	belongs_to 							:lookup_relationship_status
   belongs_to 							:gender
   # attr_accessible :title, :body
