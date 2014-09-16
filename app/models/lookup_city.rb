@@ -1,5 +1,5 @@
 class LookupCity < ActiveRecord::Base
-	belongs_to 							:country
+	belongs_to 							:lookup_country
 	has_many 								:venues
 	# has_many 								:users
 	has_many :hometown_city_users, :foreign_key => "hometown_city_id", :class_name => "User"
