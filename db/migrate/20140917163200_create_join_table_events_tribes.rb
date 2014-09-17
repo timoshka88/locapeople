@@ -1,6 +1,6 @@
-class CreateJoinTableEventsTribes < ActiveRecord::Migration
-	create_join_table :events, :tribes do |t|
+class CreateJoinTableEventsLookupTribeTypes < ActiveRecord::Migration
+	create_join_table :events, :lookup_tribe_types do |t|
 	  t.index :event_id
-	  t.index :tribe_id
+	  t.index :lookup_tribe_type_id
 	end
 end

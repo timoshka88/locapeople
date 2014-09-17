@@ -1,6 +1,6 @@
-class CreateJoinTablePerformersTribes < ActiveRecord::Migration
-	create_join_table :performers, :tribes do |t|
+class CreateJoinTableLookupTribeTypesPerformers < ActiveRecord::Migration
+	create_join_table :lookup_tribe_types, :performers do |t|
+	  t.index :lookup_tribe_type_id
 	  t.index :performer_id
-	  t.index :tribe_id
 	end
 end
