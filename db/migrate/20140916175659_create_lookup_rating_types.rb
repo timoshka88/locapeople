@@ -3,7 +3,7 @@ class CreateLookupRatingTypes < ActiveRecord::Migration
     create_table :lookup_rating_types do |t|
 
     	t.string 		:name
-    	t.string		:description
+    	t.text			:description
     	
       t.timestamps
     end
