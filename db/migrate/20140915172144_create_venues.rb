@@ -8,10 +8,10 @@ class CreateVenues < ActiveRecord::Migration
 		t.string 			:website
 		t.string 			:phone
 		t.string 			:alt_phone
-		t.integer 		:minimum_age #the smallest integer
-		t.string 			:description
-		t.string 			:whats_cool
-		t.string 			:tips_and_tricks
+		t.integer 		:minimum_age
+		t.text 				:description
+		t.text	 			:whats_cool
+		t.text 				:tips_and_tricks
 		t.boolean 		:outdoor_seating #true or false
 		t.boolean 		:entrance_fee #true or false #think about the possibility of having special promos as free for girls until, etc
 		t.boolean 		:wheelchair_access #true or false
