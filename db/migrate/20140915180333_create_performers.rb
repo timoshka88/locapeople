@@ -3,7 +3,7 @@ class CreatePerformers < ActiveRecord::Migration
     create_table      :performers do |t|
     	
     	t.string		    :name
-    	t.string		    :description
+    	t.text   		    :description
       t.belongs_to    :user #one-to-many
     	t.belongs_to		:hometown_city #city_name_id foreign key one-to-many
 			# t.integer   :language_id #language_id foreign key many-to-many
