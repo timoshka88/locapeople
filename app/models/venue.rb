@@ -6,7 +6,9 @@ class Venue < ActiveRecord::Base
 	has_many :venue_cuisines
 	has_many :cuisines, 		:through => :venue_cuisines
 	has_and_belongs_to_many :lookup_music_types
-	has_and_belongs_to_many :lookup_venue_types
+	# has_and_belongs_to_many :lookup_venue_types
+	has_many :venue_classifications
+	has_many :lookup_venue_types, :through => :venue_classifications
 	has_and_belongs_to_many :lookup_days
 	has_and_belongs_to_many :lookup_rating_types
 	has_many 								:events
