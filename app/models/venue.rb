@@ -1,5 +1,7 @@
 class Venue < ActiveRecord::Base
-	has_and_belongs_to_many :lookup_tribe_types
+	# has_and_belongs_to_many :lookup_tribe_types
+	has_many :venue_tribes
+	has_many :lookup_tribe_types, :through => :venue_tribes
 	has_and_belongs_to_many :lookup_cuisine_types
 	has_and_belongs_to_many :lookup_music_types
 	has_and_belongs_to_many :lookup_venue_types
