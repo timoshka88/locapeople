@@ -3,7 +3,9 @@ class User < ActiveRecord::Base
 	has_many :user_tribes
 	has_many :tribes, :through => :user_tribes
 	has_and_belongs_to_many :lookup_languages
-	has_and_belongs_to_many :lookup_cuisine_types
+	# has_and_belongs_to_many :lookup_cuisine_types
+	has_many :user_cuisines
+	has_many :cuisines, 		:through => :user_cuisines
 	has_and_belongs_to_many :lookup_music_types
 	has_and_belongs_to_many :lookup_spirits
 	has_and_belongs_to_many :lookup_drink_types
