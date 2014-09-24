@@ -1,7 +1,7 @@
 class LookupSpirit < ActiveRecord::Base
-  # has_and_belongs_to_many :users
   has_many :user_fav_spirits
-	has_many :users, 		:through => :user_fav_spirits
-  has_and_belongs_to_many :drinks
+	has_many :users, 						:through => :user_fav_spirits
+	has_many :drink_spirits
+	has_many :drinks, 					:through => :drink_spirits
   # attr_accessible :title, :body
 end
