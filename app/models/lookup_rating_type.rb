@@ -7,6 +7,8 @@ class LookupRatingType < ActiveRecord::Base
 	has_many :country_ratings
 	has_many :lookup_countries, :through => :country_ratings
 	has_many :users, :through => :country_ratings
-	has_and_belongs_to_many :cities
+	# has_and_belongs_to_many :cities
+	has_many :city_ratings
+	has_many :lookup_cities, :through => :city_ratings
   # attr_accessible :title, :body
 end

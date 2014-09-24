@@ -22,6 +22,9 @@ class User < ActiveRecord::Base
 	has_many :drinks, 		:through => :user_fav_drinks
 	has_many :country_ratings
 	has_many :lookup_rating_types, :through => :country_ratings
+	has_many :city_ratings
+	has_many :lookup_rating_types, :through => :city_ratings
+
 	has_many    						:owned_venues, :foreign_key => "owner_id", :class_name => "Venue"
 	has_many 								:performers
 	belongs_to 							:lookup_relationship_status

@@ -5,7 +5,10 @@ class LookupCity < ActiveRecord::Base
 	has_many :hometown_city_users, :foreign_key => "hometown_city_id", :class_name => "User"
   has_many :current_city_users, :foreign_key => "current_city_id", :class_name => "User"
 	has_many :hometown_city_performers, :foreign_key => "hometown_city_id", :class_name => "Performer"
-	has_and_belongs_to_many :lookup_rating_types
+	# has_and_belongs_to_many :lookup_rating_types
+	has_many :city_ratings
+	has_many :lookup_rating_types, :through => :city_ratings
+	has_many :users, :through => :city_ratings
   belongs_to    					:last_call_time, :class_name => "LookupHour"
 
   # attr_accessible :title, :body
