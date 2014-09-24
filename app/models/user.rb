@@ -14,7 +14,9 @@ class User < ActiveRecord::Base
 	# has_and_belongs_to_many :lookup_spirits
 	has_many :user_fav_spirits
 	has_many :lookup_spirits, 		:through => :user_fav_spirits
-	has_and_belongs_to_many :lookup_drink_types
+	# has_and_belongs_to_many :lookup_drink_types
+	has_many :user_fav_drink_types
+	has_many :lookup_drink_types, 		:through => :user_fav_drink_types
 	has_and_belongs_to_many :drinks
 	has_and_belongs_to_many :lookup_rating_types
 	has_many    						:owned_venues, :foreign_key => "owner_id", :class_name => "Venue"
