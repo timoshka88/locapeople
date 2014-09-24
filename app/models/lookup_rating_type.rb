@@ -6,6 +6,9 @@ class LookupRatingType < ActiveRecord::Base
 	has_many :events, :through => :event_ratings
 	has_many :users, :through => :event_ratings
 	has_and_belongs_to_many	:performers
+	has_many :performer_ratings
+	has_many :performers, :through => :performer_ratings
+	has_many :users, :through => :performer_ratings
 	# has_and_belongs_to_many	:countries
 	has_many :country_ratings
 	has_many :lookup_countries, :through => :country_ratings

@@ -26,6 +26,8 @@ class User < ActiveRecord::Base
 	has_many :lookup_rating_types, :through => :city_ratings
 	has_many :event_ratings
 	has_many :lookup_rating_types, :through => :event_ratings
+	has_many :performer_ratings
+	has_many :lookup_rating_types, :through => :performer_ratings
 
 	has_many    						:owned_venues, :foreign_key => "owner_id", :class_name => "Venue"
 	has_many 								:performers
