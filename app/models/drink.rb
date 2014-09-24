@@ -5,7 +5,9 @@ class Drink < ActiveRecord::Base
   # has_and_belongs_to_many :lookup_drink_types
   has_many :drink_categorizations
 	has_many :lookup_drink_types, 		:through => :drink_categorizations
-  has_and_belongs_to_many :lookup_spirits
+  # has_and_belongs_to_many :lookup_spirits
+  has_many :drink_spirits
+	has_many :lookup_spirits, 		:through => :drink_spirits
   # has_and_belongs_to_many :users
   has_many :user_fav_drinks
 	has_many :users, 		:through => :user_fav_drinks
