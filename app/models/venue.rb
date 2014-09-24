@@ -13,6 +13,8 @@ class Venue < ActiveRecord::Base
 	has_many :lookup_venue_types, :through => :venue_classifications
 	has_and_belongs_to_many :lookup_days
 	has_and_belongs_to_many :lookup_rating_types
+	has_many :venue_ratings
+	has_many :lookup_rating_types, :through => :venue_ratings
 	has_many 								:events
 	has_many 								:working_hours
 	belongs_to 							:lookup_parking_type

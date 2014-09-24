@@ -1,5 +1,8 @@
 class LookupRatingType < ActiveRecord::Base
-	has_and_belongs_to_many :venues
+	# has_and_belongs_to_many :venues
+	has_many :venue_ratings
+	has_many :venues, :through => :venue_ratings
+	has_many :users, :through => :venue_ratings
 	# has_and_belongs_to_many :users
 	# has_and_belongs_to_many	:events
 	has_many :event_ratings
