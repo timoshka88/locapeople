@@ -12,24 +12,18 @@ class CreateVenues < ActiveRecord::Migration
 		t.text 				:description
 		t.text	 			:whats_cool
 		t.text 				:tips_and_tricks
-		t.boolean 		:outdoor_seating #true or false
-		t.boolean 		:entrance_fee #true or false #think about the possibility of having special promos as free for girls until, etc
-		t.boolean 		:wheelchair_access #true or false
-		t.boolean			:gay_friendly #yes / no/  should we have gay only?
+		t.boolean 		:outdoor_seating
+		t.boolean 		:entrance_fee #think about the possibility of having special promos as free for girls until, etc
+		t.boolean 		:wheelchair_access
+		t.boolean			:gay_friendly
 		t.belongs_to 	:owner #owner #one user can own many venues, one venue belongs to one user t.belongs to user
 		t.belongs_to	:lookup_parking_type #foreign_key paid/free/vallet/NA
-		t.belongs_to 	:city #city_id a foreign key one city has many venuse, one venue belongs to one city, t.belongs to city
+		t.belongs_to 	:city
 		
 		#check
 		# t.integer   :google_uid #or place_id which is now instead of reference key and unique key
 		# t.integer		:x_coord # geocoding google ID
 		# t.integer		:y_coord
-
-		#many-to-many relationships
-		# t.integer 	:music_id # has_and_belongs_to music_type id foreign key, many-to-many
-		# t.integer 	:cuisine_id # has_and_belongs_to cuisine_type id foreign key, many-to-many
-		# t.integer 	:venue_type_id # has_and_belongs_to venue type id foreign key , many-to-many
-		# t.integer   :tribe_id #has_and_belongs_to lookup for subcltures many-to-many
 
 
       t.timestamps
