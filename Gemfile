@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'pg'
 gem 'httparty'
+# gem 'rack-utf8_sanitizer'
+# gem 'handle_invalid_percent_encoding_requests'
 
 group :assets do
 	gem 'sass-rails',   '~> 3.2.3'
