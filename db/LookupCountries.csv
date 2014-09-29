@@ -1,1 +1,276 @@
-country_name,fips104,iso2,iso3,ison,internet,capital,map_reference,nationality,currency,currency_code,populationAfghanistan,AF,AF,AFG,4,AF,Kabul ,Asia ,Afghan,Afghani ,AFA,26813057Albania,AL,AL,ALB,8,AL,Tirana ,Europe ,Albanian,Lek ,ALL,3510484Algeria,AG,DZ,DZA,12,DZ,Algiers ,Africa ,Algerian,Algerian Dinar ,DZD,31736053American Samoa,AQ,AS,ASM,16,AS,Pago Pago ,Oceania ,American Samoan,US Dollar,USD,67084Andorra,AN,AD,AND,20,AD,Andorra la Vella ,Europe ,Andorran,Euro,EUR,67627Angola,AO,AO,AGO,24,AO,Luanda ,Africa ,Angolan,Kwanza ,AOA,10366031Anguilla,AV,AI,AIA,660,AI,The Valley ,Central America and the Caribbean ,Anguillan,East Caribbean Dollar ,XCD,12132Antarctica,AY,AQ,ATA,10,AQ,,Antarctic Region ,,,,0Antigua and Barbuda,AC,AG,ATG,28,AG,Saint John's ,Central America and the Caribbean ,Antiguan and Barbudan,East Caribbean Dollar ,XCD,66970Argentina,AR,AR,ARG,32,AR,Buenos Aires ,South America ,Argentine,Argentine Peso ,ARS,37384816Armenia,AM,AM,ARM,51,AM,Yerevan ,Commonwealth of Independent States ,Armenian,Armenian Dram ,AMD,3336100Aruba,AA,AW,ABW,533,AW,Oranjestad ,Central America and the Caribbean ,Aruban,Aruban Guilder,AWG,70007Ashmore and Cartier,AT,, ,,,,Southeast Asia ,,,,0Australia,AS,AU,AUS,36,AU,Canberra ,Oceania ,Australian,Australian dollar ,AUD,19357594Austria,AU,AT,AUT,40,AT,Vienna ,Europe ,Austrian,Euro,EUR,8150835Azerbaijan,AJ,AZ,AZE,31,AZ,Baku (Baki) ,Commonwealth of Independent States ,Azerbaijani,Azerbaijani Manat ,AZM,7771092The Bahamas,BF,BS,BHS,44,BS,Nassau ,Central America and the Caribbean ,Bahamian,Bahamian Dollar ,BSD,297852Bahrain,BA,BH,BHR,48,BH,Manama ,Middle East ,Bahraini,Bahraini Dinar ,BHD,645361Baker Island,FQ,, ,,,,Oceania ,,,,0Bangladesh,BG,BD,BGD,50,BD,Dhaka ,Asia ,Bangladeshi,Taka ,BDT,131269860Barbados,BB,BB,BRB,52,BB,Bridgetown ,Central America and the Caribbean ,Barbadian,Barbados Dollar,BBD,275330Bassas da India,BS,, ,,,,Africa ,,,,0Belarus,BO,BY,BLR,112,BY,Minsk ,Commonwealth of Independent States ,Belarusian,Belarussian Ruble,BYR,10350194Belgium,BE,BE,BEL,56,BE,Brussels ,Europe ,Belgian,Euro,EUR,10258762Belize,BH,BZ,BLZ,84,BZ,Belmopan ,Central America and the Caribbean ,Belizean,Belize Dollar,BZD,256062Benin,BN,BJ,BEN,204,BJ,Porto-Novo  ,Africa ,Beninese,CFA Franc BCEAO,XOF,6590782Bermuda,BD,BM,BMU,60,BM,Hamilton ,North America ,Bermudian,Bermudian Dollar ,BMD,63503Bhutan,BT,BT,BTN,64,BT,Thimphu ,Asia ,Bhutanese,Ngultrum,BTN,2049412Bolivia,BL,BO,BOL,68,BO,La Paz /Sucre ,South America ,Bolivian,Boliviano ,BOB,8300463Bosnia and Herzegovina,BK,BA,BIH,70,BA,Sarajevo ,Europe ,Bosnian and Herzegovinian,Convertible Marka,BAM,3922205Botswana,BC,BW,BWA,72,BW,Gaborone ,Africa ,Motswana,Pula ,BWP,1586119Bouvet Island,BV,BV,BVT,74,BV,,Antarctic Region ,,Norwegian Krone ,NOK,0Brazil,BR,BR,BRA,76,BR,Brasilia ,South America ,Brazilian,Brazilian Real ,BRL,174468575British Indian Ocean Territory,IO,IO,IOT,86,IO,,World ,,US Dollar,USD,0British Virgin Islands,VI,VG,VGB,92,VG,Road Town ,Central America and the Caribbean ,British Virgin Islander,US Dollar,USD,20812Brunei Darussalam,BX,BN,BRN,96,BN,,,,Brunei Dollar,BND,372361Bulgaria,BU,BG,BGR,100,BG,Sofia ,Europe ,Bulgarian,Lev ,BGN,7707495Burkina Faso,UV,BF,BFA,854,BF,Ouagadougou ,Africa ,Burkinabe,CFA Franc BCEAO,XOF,12272289Burma,BM,MM,MMR,104,MM,Rangoon ,Southeast Asia ,Burmese,kyat ,MMK,41994678Burundi,BY,BI,BDI,108,BI,Bujumbura ,Africa ,Burundi,Burundi Franc ,BIF,6223897Cambodia,CB,KH,KHM,116,KH,Phnom Penh ,Southeast Asia ,Cambodian,Riel ,KHR,12491501Cameroon,CM,CM,CMR,120,CM,Yaounde ,Africa ,Cameroonian,CFA Franc BEAC,XAF,15803220Canada,CA,CA,CAN,124,CA,Ottawa ,North America ,Canadian,Canadian Dollar ,CAD,31592805Cape Verde,CV,CV,CPV,132,CV,Praia ,World ,Cape Verdean,Cape Verdean Escudo ,CVE,405163Cayman Islands,CJ,KY,CYM,136,KY,George Town ,Central America and the Caribbean ,Caymanian,Cayman Islands Dollar,KYD,35527Central African Republic,CT,CF,CAF,140,CF,Bangui ,Africa ,Central African,CFA Franc BEAC,XAF,3576884Chad,CD,TD,TCD,148,TD,N'Djamena ,Africa ,Chadian,CFA Franc BEAC,XAF,8707078Chile,CI,CL,CHL,152,CL,Santiago ,South America ,Chilean,Chilean Peso ,CLP,15328467China,CH,CN,CHN,156,CN,Beijing ,Asia ,Chinese,Yuan Renminbi,CNY,1273111290Christmas Island,KT,CX,CXR,162,CX,The Settlement ,Southeast Asia ,Christmas Island,Australian Dollar ,AUD,2771Clipperton Island,IP,, ,,,,World ,,,,0Cocos (Keeling) Islands,CK,CC,CCK,166,CC,West Island ,Southeast Asia ,Cocos Islander,Australian Dollar ,AUD,633Colombia,CO,CO,COL,170,CO,Bogota ,South America  Central America and the Caribbean ,Colombian,Colombian Peso ,COP,40349388Comoros,CN,KM,COM,174,KM,Moroni ,Africa ,Comoran,Comoro Franc,KMF,596202Congo Democratic Republic of the,CG,CD,COD,180,CD,Kinshasa ,Africa ,Congolese,Franc Congolais,CDF,53624718Congo Republic of the,CF,CG,COG,178,CG,Brazzaville ,Africa ,Congolese,CFA Franc BEAC,XAF,2894336Cook Islands,CW,CK,COK,184,CK,Avarua ,Oceania ,Cook Islander,New Zealand Dollar ,NZD,20611Coral Sea Islands,CR,, ,,,,Oceania ,,,,0Costa Rica,CS,CR,CRI,188,CR,San Jose ,Central America and the Caribbean ,Costa Rican,Costa Rican Colon,CRC,3773057Cote d'Ivoire,IV,CI,CIV,384,CI,Yamoussoukro,Africa ,Ivorian,CFA Franc BCEAO,XOF,16393221Croatia,HR,HR,HRV,191,HR,Zagreb ,Europe ,Croatian,Kuna,HRK,4334142Cuba,CU,CU,CUB,192,CU,Havana ,Central America and the Caribbean ,Cuban,Cuban Peso,CUP,11184023Cyprus,CY,CY,CYP,196,CY,Nicosia ,Middle East ,Cypriot,Cyprus Pound,CYP,762887Czech Republic,EZ,CZ,CZE,203,CZ,Prague ,Europe ,Czech,Czech Koruna,CZK,10264212Denmark,DA,DK,DNK,208,DK,Copenhagen ,Europe ,Danish,Danish Krone,DKK,5352815Djibouti,DJ,DJ,DJI,262,DJ,Djibouti ,Africa ,Djiboutian,Djibouti Franc,DJF,460700Dominica,DO,DM,DMA,212,DM,Roseau ,Central America and the Caribbean ,Dominican,East Caribbean Dollar,XCD,70786Dominican Republic,DR,DO,DOM,214,DO,Santo Domingo ,Central America and the Caribbean ,Dominican,Dominican Peso,DOP,8581477East Timor,TT,TL,TLS,626,TP,,,,Timor Escudo,TPE,1040880Ecuador,EC,EC,ECU,218,EC,Quito ,South America ,Ecuadorian,US Dollar,USD,13183978Egypt,EG,EG,EGY,818,EG,Cairo ,Africa ,Egyptian,Egyptian Pound ,EGP,69536644El Salvador,ES,SV,SLV,222,SV,San Salvador ,Central America and the Caribbean ,Salvadoran,El Salvador Colon,SVC,6237662Equatorial Guinea,EK,GQ,GNQ,226,GQ,Malabo ,Africa ,Equatorial Guinean,CFA Franc BEAC,XAF,486060Eritrea,ER,ER,ERI,232,ER,Asmara ,Africa ,Eritrean,Nakfa,ERN,4298269Estonia,EN,EE,EST,233,EE,Tallinn ,Europe ,Estonian,Kroon,EEK,1423316Ethiopia,ET,ET,ETH,231,ET,Addis Ababa ,Africa ,Ethiopian,Ethiopian Birr,ETB,65891874Europa Island,EU,, ,,,,Africa ,,,,0Falkland Islands (Islas Malvinas),FK,FK,FLK,238,FK,Stanley,South America,Falkland Island,Falkland Islands Pound,FKP,2895Faroe Islands,FO,FO,FRO,234,FO,Torshavn ,Europe ,Faroese,Danish Krone ,DKK,45661Fiji,FJ,FJ,FJI,242,FJ,Suva ,Oceania ,Fijian,Fijian Dollar ,FJD,844330Finland,FI,FI,FIN,246,FI,Helsinki ,Europe ,Finnish,Euro,EUR,5175783France,FR,FR,FRA,250,FR,Paris ,Europe ,Frenchman,Euro,EUR,59551227France Metropolitan,,, ,,FX,,,,Euro,EUR,0French Guiana,FG,GF,GUF,254,GF,Cayenne ,South America ,French Guianese,Euro,EUR,177562French Polynesia,FP,PF,PYF,258,PF,Papeete ,Oceania ,French Polynesian,CFP Franc,XPF,253506French Southern and Antarctic Lands,FS,TF,ATF,260,TF,,Antarctic Region ,,Euro,EUR,0Gabon,GB,GA,GAB,266,GA,Libreville ,Africa ,Gabonese,CFA Franc BEAC,XAF,1221175The Gambia,GA,GM,GMB,270,GM,Banjul ,Africa ,Gambian,Dalasi,GMD,1411205Gaza Strip,GZ,, ,,,,Middle East ,,New Israeli Shekel ,ILS,1178119Georgia,GG,GE,GEO,268,GE,T'bilisi ,Commonwealth of Independent States ,Georgian,Lari,GEL,4989285Germany,GM,DE,DEU,276,DE,Berlin ,Europe ,German,Euro,EUR,83029536Ghana,GH,GH,GHA,288,GH,Accra ,Africa ,Ghanaian,Cedi,GHC,19894014Gibraltar,GI,GI,GIB,292,GI,Gibraltar ,Europe ,Gibraltar,Gibraltar Pound,GIP,27649Glorioso Islands,GO,, ,,,,Africa ,,,,0Greece,GR,GR,GRC,300,GR,Athens ,Europe ,Greek,Euro,EUR,10623835Greenland,GL,GL,GRL,304,GL,Nuuk ,Arctic Region ,Greenlandic,Danish Krone,DKK,56352Grenada,GJ,GD,GRD,308,GD,Saint George's ,Central America and the Caribbean ,Grenadian,East Caribbean Dollar,XCD,89227Guadeloupe,GP,GP,GLP,312,GP,Basse-Terre ,Central America and the Caribbean ,Guadeloupe,Euro,EUR,431170Guam,GQ,GU,GUM,316,GU,Hagatna,Oceania ,Guamanian,US Dollar,USD,157557Guatemala,GT,GT,GTM,320,GT,Guatemala ,Central America and the Caribbean ,Guatemalan,Quetzal,GTQ,12974361Guernsey,GK,, ,,GG,Saint Peter Port ,Europe ,Channel Islander,Pound Sterling,GBP,64342Guinea,GV,GN,GIN,324,GN,Conakry ,Africa ,Guinean,Guinean Franc ,GNF,7613870Guinea-Bissau,PU,GW,GNB,624,GW,Bissau ,Africa ,Guinean,CFA Franc BCEAO,XOF,1315822Guyana,GY,GY,GUY,328,GY,Georgetown ,South America ,Guyanese,Guyana Dollar,GYD,697181Haiti,HA,HT,HTI,332,HT,Port-au-Prince ,Central America and the Caribbean ,Haitian,Gourde,HTG,6964549Heard Island and McDonald Islands,HM,HM,HMD,334,HM,,Antarctic Region ,,Australian Dollar,AUD,0Holy See (Vatican City),VT,VA,VAT,336,VA,Vatican City ,Europe ,,Euro,EUR,890Honduras,HO,HN,HND,340,HN,Tegucigalpa ,Central America and the Caribbean ,Honduran,Lempira,HNL,6406052Hong Kong (SAR),HK,HK,HKG,344,HK,,Southeast Asia ,,Hong Kong Dollar ,HKD,0Howland Island,HQ,, ,,,,Oceania ,,,,7210505Hungary,HU,HU,HUN,348,HU,Budapest ,Europe ,Hungarian,Forint,HUF,10106017Iceland,IC,IS,ISL,352,IS,Reykjavik ,Arctic Region ,Icelandic,Iceland Krona,ISK,277906India,IN,IN,IND,356,IN,New Delhi ,Asia ,Indian,Indian Rupee ,INR,1029991145Indonesia,ID,ID,IDN,360,ID,Jakarta ,Southeast Asia ,Indonesian,Rupiah,IDR,228437870Iran,IR,IR,IRN,364,IR,Tehran ,Middle East ,Iranian,Iranian Rial,IRR,66128965Iraq,IZ,IQ,IRQ,368,IQ,Baghdad ,Middle East ,Iraqi,Iraqi Dinar,IQD,23331985Ireland,EI,IE,IRL,372,IE,Dublin ,Europe ,Irish,Euro,EUR,3840838Israel,IS,IL,ISR,376,IL,Jerusalem,Middle East ,Israeli,New Israeli Sheqel,ILS,5938093Italy,IT,IT,ITA,380,IT,Rome ,Europe ,Italian,Euro,EUR,57679825Jamaica,JM,JM,JAM,388,JM,Kingston ,Central America and the Caribbean ,Jamaican,Jamaican dollar ,JMD,2665636Jan Mayen,JN,, ,,,,Arctic Region ,,Norway Kroner,NOK,0Japan,JA,JP,JPN,392,JP,Tokyo ,Asia ,Japanese,Yen ,JPY,126771662Jarvis Island,DQ,, ,,,,Oceania ,,,,0Jersey,JE,, ,,JE,Saint Helier ,Europe ,Channel Islander,Pound Sterling,GBP,89361Johnston Atoll,JQ,, ,,,,Oceania ,,,,0Jordan,JO,JO,JOR,400,JO,Amman ,Middle East ,Jordanian,Jordanian Dinar,JOD,5153378Juan de Nova Island,JU,, ,,,,Africa ,,,,0Kazakhstan,KZ,KZ,KAZ,398,KZ,Astana ,Commonwealth of Independent States ,Kazakhstani,Tenge,KZT,16731303Kenya,KE,KE,KEN,404,KE,Nairobi ,Africa ,Kenyan,Kenyan shilling ,KES,30765916Kingman Reef,KQ,, ,,,,Oceania ,,,,0Kiribati,KR,KI,KIR,296,KI,Tarawa ,Oceania ,I-Kiribati,Australian dollar ,AUD,94149Korea North,KN,KP,PRK,408,KP,P'yongyang ,Asia ,Korean,North Korean Won,KPW,21968228Korea South,KS,KR,KOR,410,KR,Seoul ,Asia ,Korean,Won,KRW,47904370Kuwait,KU,KW,KWT,414,KW,Kuwait ,Middle East ,Kuwaiti,Kuwaiti Dinar,KWD,2041961Kyrgyzstan,KG,KG,KGZ,417,KG,Bishkek ,Commonwealth of Independent States ,Kyrgyzstani,Som,KGS,4753003Laos,LA,LA,LAO,418,LA,Vientiane ,Southeast Asia ,Lao,Kip,LAK,5635967Latvia,LG,LV,LVA,428,LV,Riga ,Europe ,Latvian,Latvian Lats,LVL,2385231Lebanon,LE,LB,LBN,422,LB,Beirut ,Middle East ,Lebanese,Lebanese Pound,LBP,3627774Lesotho,LT,LS,LSO,426,LS,Maseru ,Africa ,Basotho,Loti,LSL,2177062Liberia,LI,LR,LBR,430,LR,Monrovia ,Africa ,Liberian,Liberian Dollar,LRD,3225837Libya,LY,LY,LBY,434,LY,Tripoli ,Africa ,Libyan,Libyan Dinar,LYD,5240599Liechtenstein,LS,LI,LIE,438,LI,Vaduz ,Europe ,Liechtenstein,Swiss Franc,CHF,32528Lithuania,LH,LT,LTU,440,LT,Vilnius ,Europe ,Lithuanian,Lithuanian Litas,LTL,3610535Luxembourg,LU,LU,LUX,442,LU,Luxembourg ,Europe ,Luxembourg,Euro,EUR,442972Macao,MC,MO,MAC,446,MO,,Southeast Asia ,Chinese,Pataca,MOP,453733Macedonia The Former Yugoslav Republic of,MK,MK,MKD,807,MK,Skopje ,Europe ,Macedonian,Denar,MKD,2046209Madagascar,MA,MG,MDG,450,MG,Antananarivo ,Africa ,Malagasy,Malagasy Franc,MGF,15982563Malawi,MI,MW,MWI,454,MW,Lilongwe ,Africa ,Malawian,Kwacha,MWK,10548250Malaysia,MY,MY,MYS,458,MY,Kuala Lumpur ,Southeast Asia ,Malaysian,Malaysian Ringgit,MYR,22229040Maldives,MV,MV,MDV,462,MV,Male ,Asia ,Maldivian,Rufiyaa,MVR,310764Mali,ML,ML,MLI,466,ML,Bamako ,Africa ,Malian,CFA Franc BCEAO,XOF,11008518Malta,MT,MT,MLT,470,MT,Valletta ,Europe ,Maltese,Euro,EUR,394583Man Isle of,IM,, ,,IM,Douglas ,Europe ,Manxman,Pound Sterling,GBP,73489Marshall Islands,RM,MH,MHL,584,MH,Majuro ,Oceania ,Marshallese,US Dollar,USD,70822Martinique,MB,MQ,MTQ,474,MQ,Fort-de-France ,Central America and the Caribbean ,Martiniquais,Euro,EUR,418454Mauritania,MR,MR,MRT,478,MR,Nouakchott ,Africa ,Mauritanian,Ouguiya,MRO,2747312Mauritius,MP,MU,MUS,480,MU,Port Louis ,World ,Mauritian,Mauritius Rupee,MUR,1189825Mayotte,MF,YT,MYT,175,YT,Mamoutzou ,Africa ,Mahorais,Euro,EUR,163366Mexico,MX,MX,MEX,484,MX,Mexico ,North America ,Mexican,Mexican Peso,MXN,101879171Micronesia Federated States of,FM,FM,FSM,583,FM,Palikir ,Oceania ,Micronesian,US Dollar,USD,134597Midway Islands,MQ,, ,,,,Oceania ,,United States Dollars,USD,0Miscellaneous (French),,, ,,,,,,,,0Moldova,MD,MD,MDA,498,MD,Chisinau ,Commonwealth of Independent States ,Moldovan,Moldovan Leu,MDL,4431570Monaco,MN,MC,MCO,492,MC,Monaco ,Europe ,Monegasque,Euro,EUR,31842Mongolia,MG,MN,MNG,496,MN,Ulaanbaatar ,Asia ,Mongolian,Tugrik,MNT,2654999Montenegro,,, ,,,,,,,,0Montserrat,MH,MS,MSR,500,MS,Plymouth,Central America and the Caribbean ,Montserratian,East Caribbean Dollar,XCD,7574Morocco,MO,MA,MAR,504,MA,Rabat ,Africa ,Moroccan,Moroccan Dirham,MAD,30645305Mozambique,MZ,MZ,MOZ,508,MZ,Maputo ,Africa ,Mozambican,Metical,MZM,19371057Myanmar,,, ,,,,,,Kyat,MMK,0Namibia,WA,NA,NAM,516,NA,Windhoek ,Africa ,Namibian,Namibian Dollar ,NAD,1797677Nauru,NR,NR,NRU,520,NR,,Oceania ,Nauruan,Australian Dollar,AUD,12088Navassa Island,BQ,, ,,,,Central America and the Caribbean ,,,,0Nepal,NP,NP,NPL,524,NP,Kathmandu ,Asia ,Nepalese,Nepalese Rupee,NPR,25284463Netherlands,NL,NL,NLD,528,NL,Amsterdam ,Europe ,Dutchman,Euro,EUR,15981472Netherlands Antilles,NT,AN,ANT,530,AN,Willemstad ,Central America and the Caribbean ,Dutch Antillean,Netherlands Antillean guilder ,ANG,212226New Caledonia,NC,NC,NCL,540,NC,Noumea ,Oceania ,New Caledonian,CFP Franc,XPF,204863New Zealand,NZ,NZ,NZL,554,NZ,Wellington ,Oceania ,New Zealand,New Zealand Dollar,NZD,3864129Nicaragua,NU,NI,NIC,558,NI,Managua ,Central America and the Caribbean ,Nicaraguan,Cordoba Oro,NIO,4918393Niger,NG,NE,NER,562,NE,Niamey ,Africa ,Nigerien,CFA Franc BCEAO,XOF,10355156Nigeria,NI,NG,NGA,566,NG,Abuja,Africa ,Nigerian,Naira,NGN,126635626Niue,NE,NU,NIU,570,NU,Alofi ,Oceania ,Niuean,New Zealand Dollar,NZD,2124Norfolk Island,NF,NF,NFK,574,NF,Kingston ,Oceania ,Norfolk Islander,Australian Dollar,AUD,1879Northern Mariana Islands,CQ,MP,MNP,580,MP,Saipan ,Oceania ,,US Dollar,USD,74612Norway,NO,NO,NOR,578,NO,Oslo ,Europe ,Norwegian,Norwegian Krone,NOK,4503440Oman,MU,OM,OMN,512,OM,Muscat ,Middle East ,Omani,Rial Omani,OMR,2622198Pakistan,PK,PK,PAK,586,PK,Islamabad ,Asia ,Pakistani,Pakistan Rupee,PKR,144616639Palau,PS,PW,PLW,585,PW,Koror ,Oceania ,Palauan,US Dollar,USD,19092Palmyra Atoll,LQ,, ,,,,Oceania ,,,,0Panama,PM,PA,PAN,591,PA,Panama ,Central America and the Caribbean ,Panamanian,balboa ,PAB,2845647Papua New Guinea,PP,PG,PNG,598,PG,Port Moresby ,Oceania ,Papua New Guinean,Kina,PGK,5049055Paracel Islands,PF,, ,,,,Southeast Asia ,,,,0Paraguay,PA,PY,PRY,600,PY,Asuncion ,South America ,Paraguayan,Guarani,PYG,5734139Peru,PE,PE,PER,604,PE,Lima ,South America ,Peruvian,Nuevo Sol,PEN,27483864Philippines,RP,PH,PHL,608,PH,Manila ,Southeast Asia ,Philippine,Philippine Peso,PHP,82841518Pitcairn Islands,PC,PN,PCN,612,PN,Adamstown ,Oceania ,Pitcairn Islander,New Zealand Dollar,NZD,47Poland,PL,PL,POL,616,PL,Warsaw ,Europe ,Polish,Zloty,PLN,38633912Portugal,PO,PT,PRT,620,PT,Lisbon ,Europe ,Portuguese,Euro,EUR,10066253Puerto Rico,RQ,PR,PRI,630,PR,San Juan ,Central America and the Caribbean ,Puerto Rican,US Dollar,USD,3937316Qatar,QA,QA,QAT,634,QA,Doha ,Middle East ,Qatari,Qatari Rial,QAR,769152Reunion,RE,RE,REU,638,RE,Saint-Denis,World,Reunionese,Euro,EUR,732570Romania,RO,RO,ROU,642,RO,Bucharest ,Europe ,Romanian,Leu,ROL,22364022Russia,RS,RU,RUS,643,RU,Moscow ,Asia ,Russian,Russian Ruble,RUB,145470197Rwanda,RW,RW,RWA,646,RW,Kigali ,Africa ,Rwandan,Rwanda Franc,RWF,7312756Saint Helena,SH,SH,SHN,654,SH,Jamestown ,Africa ,Saint Helenian,Saint Helenian Pound ,SHP,7266Saint Kitts and Nevis,SC,KN,KNA,659,KN,Basseterre ,Central America and the Caribbean ,Kittitian and Nevisian,East Caribbean Dollar ,XCD,38756Saint Lucia,ST,LC,LCA,662,LC,Castries ,Central America and the Caribbean ,Saint Lucian,East Caribbean Dollar ,XCD,158178Saint Pierre and Miquelon,SB,PM,SPM,666,PM,Saint-Pierre ,North America ,Frenchman,Euro,EUR,6928Saint Vincent and the Grenadines,VC,VC,VCT,670,VC,Kingstown ,Central America and the Caribbean ,Saint Vincentian,East Caribbean Dollar ,XCD,115942Samoa,WS,WS,WSM,882,WS,Apia ,Oceania ,Samoan,Tala,WST,179058San Marino,SM,SM,SMR,674,SM,San Marino ,Europe ,Sammarinese,Euro,EUR,27336Sao Tome and Principe,TP,ST,STP,678,ST,Sao Tome,Africa,Sao Tomean,Dobra,STD,165034Saudi Arabia,SA,SA,SAU,682,SA,Riyadh ,Middle East ,Saudi Arabian ,Saudi Riyal,SAR,22757092Senegal,SG,SN,SEN,686,SN,Dakar ,Africa ,Senegalese,CFA Franc BCEAO,XOF,10284929Serbia,,, ,,,,,,,,0Serbia and Montenegro,,, ,,,,,,,,0Seychelles,SE,SC,SYC,690,SC,Victoria ,Africa ,Seychellois,Seychelles Rupee,SCR,79715Sierra Leone,SL,SL,SLE,694,SL,Freetown ,Africa ,Sierra Leonean,Leone,SLL,5426618Singapore,SN,SG,SGP,702,SG,Singapore ,Southeast Asia ,Singaporeian,Singapore Dollar,SGD,4300419Slovakia,LO,SK,SVK,703,SK,Bratislava ,Europe ,Slovakian,Euro,EUR,5414937Slovenia,SI,SI,SVN,705,SI,Ljubljana ,Europe ,Slovenian,Euro,EUR,1930132Solomon Islands,BP,SB,SLB,90,SB,Honiara ,Oceania ,Solomon Islander,Solomon Islands Dollar,SBD,480442Somalia,SO,SO,SOM,706,SO,Mogadishu ,Africa ,Somali,Somali Shilling,SOS,7488773South Africa,SF,ZA,ZAF,710,ZA,Pretoria,Africa ,South African,Rand,ZAR,43586097South Georgia and the South Sandwich Islands,SX,GS,SGS,239,GS,,Antarctic Region ,,Pound Sterling,GBP,0Spain,SP,ES,ESP,724,ES,Madrid ,Europe ,Spanish,Euro,EUR,40037995Spratly Islands,PG,, ,,,,Southeast Asia ,,,,0Sri Lanka,CE,LK,LKA,144,LK,Colombo,Asia ,Sri Lankan,Sri Lanka Rupee,LKR,19408635Sudan,SU,SD,SDN,736,SD,Khartoum ,Africa ,Sudanese,Sudanese Dinar,SDD,36080373Suriname,NS,SR,SUR,740,SR,Paramaribo ,South America ,Surinamese,Suriname Guilder,SRG,433998Svalbard,SV,SJ,SJM,744,SJ,Longyearbyen ,Arctic Region ,,Norwegian Krone,NOK,2332Swaziland,WZ,SZ,SWZ,748,SZ,Mbabane ,Africa ,Swazi,Lilangeni,SZL,1104343Sweden,SW,SE,SWE,752,SE,Stockholm ,Europe ,Swedish,Swedish Krona,SEK,8875053Switzerland,SZ,CH,CHE,756,CH,Bern ,Europe ,Swiss,Swiss Franc,CHF,7283274Syria,SY,SY,SYR,760,SY,Damascus ,Middle East ,Syrian,Syrian Pound,SYP,16728808Taiwan,TW,TW,TWN,158,TW,Taipei ,Southeast Asia ,Taiwanese,New Taiwan Dollar,TWD,22370461Tajikistan,TI,TJ,TJK,762,TJ,Dushanbe ,Commonwealth of Independent States ,Tajikistani,Somoni,TJS,6578681Tanzania,TZ,TZ,TZA,834,TZ,Dar es Salaam,Africa ,Tanzanian,Tanzanian Shilling,TZS,36232074Thailand,TH,TH,THA,764,TH,Bangkok ,Southeast Asia ,Thai,Baht,THB,61797751Togo,TO,TG,TGO,768,TG,Lome ,Africa ,Togolese,CFA Franc BCEAO,XOF,5153088Tokelau,TL,TK,TKL,772,TK,,Oceania ,Tokelauan,New Zealand Dollar,NZD,1445Tonga,TN,TO,TON,776,TO,Nuku'alofa ,Oceania ,Tongan,Pa'anga,TOP,104227Trinidad and Tobago,TD,TT,TTO,780,TT,Port-of-Spain ,Central America and the Caribbean ,Trinidadian and Tobagonian,Trinidad and Tobago Dollar,TTD,1169682Tromelin Island,TE,, ,,,,Africa ,,,,0Tunisia,TS,TN,TUN,788,TN,Tunis ,Africa ,Tunisian,Tunisian Dinar,TND,9705102Turkey,TU,TR,TUR,792,TR,Ankara ,Middle East ,Turkish,Turkish Lira,TRL,66493970Turkmenistan,TX,TM,TKM,795,TM,Ashgabat ,Commonwealth of Independent States ,Turkmen,Manat,TMM,4603244Turks and Caicos Islands,TK,TC,TCA,796,TC,Cockburn Town ,Central America and the Caribbean ,,US Dollar,USD,18122Tuvalu,TV,TV,TUV,798,TV,Funafuti ,Oceania ,Tuvaluan,Australian Dollar,AUD,10991Uganda,UG,UG,UGA,800,UG,Kampala ,Africa ,Ugandan,Uganda Shilling,UGX,23985712Ukraine,UP,UA,UKR,804,UA,Kiev ,Commonwealth of Independent States ,Ukrainian,Hryvnia,UAH,48760474United Arab Emirates,AE,AE,ARE,784,AE,Abu Dhabi ,Middle East ,Emirati,UAE Dirham,AED,2407460United Kingdom,UK,GB,GBR,826,UK,London ,Europe ,British,Pound Sterling,GBP,59647790United States,US,US,USA,840,US,Washington DC ,North America ,American,US Dollar,USD,278058881United States Minor Outlying Islands,,UM,UMI,581,UM,,,,US Dollar,USD,0Uruguay,UY,UY,URY,858,UY,Montevideo ,South America ,Uruguayan,Peso Uruguayo,UYU,3360105Uzbekistan,UZ,UZ,UZB,860,UZ,Tashkent,Commonwealth of Independent States ,Uzbekistani,Uzbekistan Sum,UZS,25155064Vanuatu,NH,VU,VUT,548,VU,Port-Vila ,Oceania ,Ni-Vanuatu,Vatu,VUV,192910Venezuela,VE,VE,VEN,862,VE,Caracas ,South America Central America and the Caribbean ,Venezuelan,Bolivar,VEB,23916810Vietnam,VM,VN,VNM,704,VN,Hanoi ,Southeast Asia ,Vietnamese,Dong,VND,79939014Virgin Islands,VQ,VI,VIR,850,VI,Charlotte Amalie ,Central America and the Caribbean ,Virgin Islander,US Dollar,USD,122211Virgin Islands (UK),,, ,,,,,,US Dollar,USD,0Virgin Islands (US),,, ,,,,,,US Dollar,USD,0Wake Island,WQ,, ,,,,Oceania ,,US Dollar,USD,0Wallis and Futuna,WF,WF,WLF,876,WF,Mata-Utu,Oceania ,Wallis and Futuna Islander,CFP Franc,XPF,15435West Bank,WE,, ,,,,Middle East ,,New Israeli Shekel ,ILS,2090713Western Sahara,WI,EH,ESH,732,EH,,Africa ,Sahrawian,Moroccan Dirham,MAD,250559Western Samoa,,, ,,,,,,Tala,WST,0Yemen,YM,YE,YEM,887,YE,Sanaa ,Middle East ,Yemeni,Yemeni Rial,YER,18078035Yugoslavia,YI,YU,YUG,891,YU,Belgrade ,Europe ,Serbian,Yugoslavian Dinar ,YUM,10677290Zaire,,, ,,,,,,,,0Zambia,ZA,ZM,ZWB,894,ZM,Lusaka ,Africa ,Zambian,Kwacha,ZMK,9770199Zimbabwe,ZI,ZW,ZWE,716,ZW,Harare ,Africa ,Zimbabwean,Zimbabwe Dollar,ZWD,11365366Palestinian Territory Occupied,,PS,PSE,275,PS,,,,,,0
+country_name;fips104;iso2;iso3;ison;internet;capital;map_reference;nationality;currency;currency_code;population
+Afghanistan;AF;AF;AFG;4;AF;Kabul;Asia;Afghan;Afghani;AFA;26813057
+Albania;AL;AL;ALB;8;AL;Tirana;Europe;Albanian;Lek;ALL;3510484
+Algeria;AG;DZ;DZA;12;DZ;Algiers;Africa;Algerian;AlgerianDinar;DZD;31736053
+American Samoa;AQ;AS;ASM;16;AS;Pago Pago;Oceania;American Samoan;USDollar;USD;67084
+Andorra;AN;AD;AND;20;AD;Andorra la Vella;Europe;Andorran;Euro;EUR;67627
+Angola;AO;AO;AGO;24;AO;Luanda;Africa;Angolan;Kwanza;AOA;10366031
+Anguilla;AV;AI;AIA;660;AI;The Valley;Central America and the Caribbean;Anguillan;EastCaribbeanDollar;XCD;12132
+Antarctica;AY;AQ;ATA;10;AQ;;Antarctic Region;;;;0
+Antigua and Barbuda;AC;AG;ATG;28;AG;Saint John's;Central America and the Caribbean;Antiguan and Barbudan;EastCaribbeanDollar;XCD;66970
+Argentina;AR;AR;ARG;32;AR;Buenos Aires;South America;Argentine;ArgentinePeso;ARS;37384816
+Armenia;AM;AM;ARM;51;AM;Yerevan;Commonwealth of Independent States;Armenian;ArmenianDram;AMD;3336100
+Aruba;AA;AW;ABW;533;AW;Oranjestad;Central America and the Caribbean;Aruban;ArubanGuilder;AWG;70007
+Territory of Ashmore and Cartier Islands;AT;;;;;;Southeast Asia external territory of Australia;;;;0
+Australia;AS;AU;AUS;36;AU;Canberra;Oceania;Australian;Australiandollar;AUD;19357594
+Austria;AU;AT;AUT;40;AT;Vienna;Europe;Austrian;Euro;EUR;8150835
+Azerbaijan;AJ;AZ;AZE;31;AZ;Baku(Baki);Commonwealth of Independent States;Azerbaijani;AzerbaijaniManat;AZM;7771092
+The Bahamas;BF;BS;BHS;44;BS;Nassau;Central America and the Caribbean;Bahamian;BahamianDollar;BSD;297852
+Bahrain;BA;BH;BHR;48;BH;Manama;Middle East;Bahraini;BahrainiDinar;BHD;645361
+Baker Island;FQ;;;;;;Oceania territory of United States;;;;0
+Bangladesh;BG;BD;BGD;50;BD;Dhaka;Asia;Bangladeshi;Taka;BDT;131269860
+Barbados;BB;BB;BRB;52;BB;Bridgetown;Central America and the Caribbean;Barbadian;BarbadosDollar;BBD;275330
+Bassas da India;BS;;;;;;Africa;;;;0
+Belarus;BO;BY;BLR;112;BY;Minsk;Commonwealth of Independent States;Belarusian;BelarussianRuble;BYR;10350194
+Belgium;BE;BE;BEL;56;BE;Brussels;Europe;Belgian;Euro;EUR;10258762
+Belize;BH;BZ;BLZ;84;BZ;Belmopan;Central America and the Caribbean;Belizean;BelizeDollar;BZD;256062
+Benin;BN;BJ;BEN;204;BJ;Porto-Novo;Africa;Beninese;CFAFrancBCEAO;XOF;6590782
+Bermuda;BD;BM;BMU;60;BM;Hamilton;North America;Bermudian;BermudianDollar;BMD;63503
+Bhutan;BT;BT;BTN;64;BT;Thimphu;Asia;Bhutanese;Ngultrum;BTN;2049412
+Bolivia;BL;BO;BOL;68;BO;LaPaz/Sucre;South America;Bolivian;Boliviano;BOB;8300463
+Bosnia and Herzegovina;BK;BA;BIH;70;BA;Sarajevo;Europe;Bosnian and Herzegovinian;ConvertibleMarka;BAM;3922205
+Botswana;BC;BW;BWA;72;BW;Gaborone;Africa;Motswana;Pula;BWP;1586119
+Bouvet Island;BV;BV;BVT;74;BV;;South Atlantic Ocean;;Norwegian Krone;NOK;0
+Brazil;BR;BR;BRA;76;BR;Brasilia;South America;Brazilian;BrazilianReal;BRL;174468575
+British Indian Ocean Territory;IO;IO;IOT;86;IO;Diego Garcia;Indian Ocean;British/American;US Dollar/UK pound;USD;3000
+British Virgin Islands;VI;VG;VGB;92;VG;RoadTown;Central America and the Caribbean;British Virgin Islander;USDollar;USD;20812
+Brunei Darussalam;BX;BN;BRN;96;BN;;;;BruneiDollar;BND;372361
+Bulgaria;BU;BG;BGR;100;BG;Sofia;Europe;Bulgarian;Lev;BGN;7707495
+Burkina Faso;UV;BF;BFA;854;BF;Ouagadougou;Africa;Burkinabe;CFAFrancBCEAO;XOF;12272289
+Burma;BM;MM;MMR;104;MM;Rangoon;Southeast Asia;Burmese;kyat;MMK;41994678
+Burundi;BY;BI;BDI;108;BI;Bujumbura;Africa;Burundi;BurundiFranc;BIF;6223897
+Cambodia;CB;KH;KHM;116;KH;Phnom Penh;Southeast Asia;Cambodian;Riel;KHR;12491501
+Cameroon;CM;CM;CMR;120;CM;Yaounde;Africa;Cameroonian;CFAFrancBEAC;XAF;15803220
+Canada;CA;CA;CAN;124;CA;Ottawa;North America;Canadian;CanadianDollar;CAD;31592805
+Cape Verde;CV;CV;CPV;132;CV;Praia;World;Cape Verdean;CapeVerdeanEscudo;CVE;405163
+Cayman Islands;CJ;KY;CYM;136;KY;George Town;Central America and the Caribbean;Caymanian;CaymanIslandsDollar;KYD;35527
+Central African Republic;CT;CF;CAF;140;CF;Bangui;Africa;Central African;CFAFrancBEAC;XAF;3576884
+Chad;CD;TD;TCD;148;TD;N'Djamena;Africa;Chadian;CFAFrancBEAC;XAF;8707078
+Chile;CI;CL;CHL;152;CL;Santiago;South America;Chilean;ChileanPeso;CLP;15328467
+China;CH;CN;CHN;156;CN;Beijing;Asia;Chinese;YuanRenminbi;CNY;1273111290
+Christmas Island;KT;CX;CXR;162;CX;The Settlement;Southeast Asia;Christmas Islander;AustralianDollar;AUD;2771
+Clipperton Island;IP;;;;;;Pacific Ocean;;;;0
+Cocos (Keeling) Islands;CK;CC;CCK;166;CC;WestIsland;Southeast Asia;Cocos Islander;AustralianDollar;AUD;633
+Colombia;CO;CO;COL;170;CO;Bogota;South America Central America and the Caribbean;Colombian;ColombianPeso;COP;40349388
+Comoros;CN;KM;COM;174;KM;Moroni;Africa;Comoran;ComoroFranc;KMF;596202
+Democratic Republic of the Congo;CG;CD;COD;180;CD;Kinshasa;Africa;Congolese;FrancCongolais;CDF;53624718
+Republic of Congo;CF;CG;COG;178;CG;Brazzaville;Africa;Congolese;CFAFrancBEAC;XAF;2894336
+Cook Islands;CW;CK;COK;184;CK;Avarua;Oceania;Cook Islander;NewZealandDollar;NZD;20611
+Coral Sea Islands;CR;;;;;;Oceania;;;;0
+Costa Rica;CS;CR;CRI;188;CR;San Jose;Central America and the Caribbean;Costa Rican;CostaRicanColon;CRC;3773057
+Cote d'Ivoire;IV;CI;CIV;384;CI;Yamoussoukro;Africa;Ivorian;CFAFrancBCEAO;XOF;16393221
+Croatia;HR;HR;HRV;191;HR;Zagreb;Europe;Croatian;Kuna;HRK;4334142
+Cuba;CU;CU;CUB;192;CU;Havana;Central America and the Caribbean;Cuban;CubanPeso;CUP;11184023
+Cyprus;CY;CY;CYP;196;CY;Nicosia;Middle East;Cypriot;CyprusPound;CYP;762887
+Czech Republic;EZ;CZ;CZE;203;CZ;Prague;Europe;Czech;CzechKoruna;CZK;10264212
+Denmark;DA;DK;DNK;208;DK;Copenhagen;Europe;Danish;DanishKrone;DKK;5352815
+Djibouti;DJ;DJ;DJI;262;DJ;Djibouti;Africa;Djiboutian;DjiboutiFranc;DJF;460700
+Dominica;DO;DM;DMA;212;DM;Roseau;Central America and the Caribbean;Dominican;EastCaribbeanDollar;XCD;70786
+Dominican Republic;DR;DO;DOM;214;DO;Santo Domingo;Central America and the Caribbean;Dominican;DominicanPeso;DOP;8581477
+East Timor;TT;TL;TLS;626;TP;;;;TimorEscudo;TPE;1040880
+Ecuador;EC;EC;ECU;218;EC;Quito;South America;Ecuadorian;USDollar;USD;13183978
+Egypt;EG;EG;EGY;818;EG;Cairo;Africa;Egyptian;EgyptianPound;EGP;69536644
+El Salvador;ES;SV;SLV;222;SV;San Salvador;Central America and the Caribbean;Salvadoran;ElSalvadorColon;SVC;6237662
+Equatorial Guinea;EK;GQ;GNQ;226;GQ;Malabo;Africa;Equatoguinean;Central African CFA Franc;XAF;622000
+Eritrea;ER;ER;ERI;232;ER;Asmara;Africa;Eritrean;Nakfa;ERN;4298269
+Estonia;EN;EE;EST;233;EE;Tallinn;Europe;Estonian;Kroon;EEK;1423316
+Ethiopia;ET;ET;ETH;231;ET;Addis Ababa;Africa;Ethiopian;Ethiopian Birr;ETB;65891874
+Europa Island;EU;;;;;;Africa;;;;0
+Falkland Islands (Islas Malvinas);FK;FK;FLK;238;FK;Stanley;South America;Falkland Island;Falkland Islands Pound;FKP;2895
+Faroe Islands;FO;FO;FRO;234;FO;Torshavn;Europe;Faroese;Danish Krone;DKK;45661
+Fiji;FJ;FJ;FJI;242;FJ;Suva;Oceania;Fijian;Fijian Dollar;FJD;844330
+Finland;FI;FI;FIN;246;FI;Helsinki;Europe;Finnish;Euro;EUR;5175783
+France;FR;FR;FRA;250;FR;Paris;Europe;Frenchman;Euro;EUR;59551227
+France Metropolitan;;;;;FX;;;;Euro;EUR;0
+French Guiana;FG;GF;GUF;254;GF;Cayenne;South America;French Guianese;Euro;EUR;177562
+French Polynesia;FP;PF;PYF;258;PF;Papeete;Oceania;French Polynesian;CFP Franc;XPF;253506
+French Southern and Antarctic Lands;FS;TF;ATF;260;TF;;Antarctic Region;;Euro;EUR;0
+Gabon;GB;GA;GAB;266;GA;Libreville;Africa;Gabonese;CFA Franc BEAC;XAF;1221175
+The Gambia;GA;GM;GMB;270;GM;Banjul;Africa;Gambian;Dalasi;GMD;1411205
+Gaza Strip;GZ;;;;;;Middle East;;New Israeli Shekel;ILS;1178119
+Georgia;GG;GE;GEO;268;GE;T'bilisi;Commonwealth of Independent States;Georgian;Lari;GEL;4989285
+Germany;GM;DE;DEU;276;DE;Berlin;Europe;German;Euro;EUR;83029536
+Ghana;GH;GH;GHA;288;GH;Accra;Africa;Ghanaian;Cedi;GHC;19894014
+Gibraltar;GI;GI;GIB;292;GI;Gibraltar;Europe;Gibraltar;Gibraltar Pound;GIP;27649
+Glorioso Islands;GO;;;;;;Africa;;;;0
+Greece;GR;GR;GRC;300;GR;Athens;Europe;Greek;Euro;EUR;10623835
+Greenland;GL;GL;GRL;304;GL;Nuuk;Arctic Region;Greenlandic;DanishKrone;DKK;56352
+Grenada;GJ;GD;GRD;308;GD;Saint George's;Central America and the Caribbean;Grenadian;East Caribbean Dollar;XCD;89227
+Guadeloupe;GP;GP;GLP;312;GP;Basse-Terre;Central America and the Caribbean;Guadeloupe;Euro;EUR;431170
+Guam;GQ;GU;GUM;316;GU;Hagatna;Oceania;Guamanian;US Dollar;USD;157557
+Guatemala;GT;GT;GTM;320;GT;Guatemala;Central America and the Caribbean;Guatemalan;Quetzal;GTQ;12974361
+Guernsey;GK;;;;GG;Saint Peter Port;Europe;Channel Islander;Pound Sterling;GBP;64342
+Guinea;GV;GN;GIN;324;GN;Conakry;Africa;Guinean;Guinean Franc;GNF;7613870
+Guinea-Bissau;PU;GW;GNB;624;GW;Bissau;Africa;Guinean;CFA Franc BCEAO;XOF;1315822
+Guyana;GY;GY;GUY;328;GY;Georgetown;South America;Guyanese;Guyana Dollar;GYD;697181
+Haiti;HA;HT;HTI;332;HT;Port-au-Prince;Central America and the Caribbean;Haitian;Gourde;HTG;6964549
+Heard Island and McDonald Islands;HM;HM;HMD;334;HM;;Antarctic Region;;Australian Dollar;AUD;0
+Holy See (Vatican City);VT;VA;VAT;336;VA;Vatican City;Europe;;Euro;EUR;890
+Honduras;HO;HN;HND;340;HN;Tegucigalpa;Central America and the Caribbean;Honduran;Lempira;HNL;6406052
+Hong Kong;HK;HK;HKG;344;HK;;Southeast Asia;Chinese or Hong Kong people;Hong Kong Dollar;HKD;7234800
+Howland Island;HQ;;;;;;Oceania;;;;7210505
+Hungary;HU;HU;HUN;348;HU;Budapest;Europe;Hungarian;Forint;HUF;10106017
+Iceland;IC;IS;ISL;352;IS;Reykjavik;Arctic Region;Icelandic;Iceland Krona;ISK;277906
+India;IN;IN;IND;356;IN;New Delhi;Asia;Indian;Indian Rupee;INR;1029991145
+Indonesia;ID;ID;IDN;360;ID;Jakarta;Southeast Asia;Indonesian;Rupiah;IDR;228437870
+Iran;IR;IR;IRN;364;IR;Tehran;Middle East;Iranian;Iranian Rial;IRR;66128965
+Iraq;IZ;IQ;IRQ;368;IQ;Baghdad;Middle East;Iraqi;Iraqi Dinar;IQD;23331985
+Ireland;EI;IE;IRL;372;IE;Dublin;Europe;Irish;Euro;EUR;3840838
+Israel;IS;IL;ISR;376;IL;Jerusalem;Middle East;Israeli;New Israeli Sheqel;ILS;5938093
+Italy;IT;IT;ITA;380;IT;Rome;Europe;Italian;Euro;EUR;57679825
+Jamaica;JM;JM;JAM;388;JM;Kingston;Central America and the Caribbean;Jamaican;Jamaican dollar;JMD;2665636
+Jan Mayen;JN;;;;;;Arctic Region;;Norway Krone;NOK;18
+Japan;JA;JP;JPN;392;JP;Tokyo;Asia;Japanese;Yen;JPY;126771662
+Jarvis Island;DQ;;;;;;Oceania;;;;0
+Jersey;JE;;;;JE;Saint Helier;Europe;Channel Islander;Pound Sterling;GBP;89361
+Johnston Atoll;JQ;;;;;;Oceania;;;;0
+Jordan;JO;JO;JOR;400;JO;Amman;Middle East;Jordanian;Jordanian Dinar;JOD;5153378
+Juan de Nova Island;JU;;;;;;Africa;;;;0
+Kazakhstan;KZ;KZ;KAZ;398;KZ;Astana;Commonwealth of Independent States;Kazakhstani;Tenge;KZT;16731303
+Kenya;KE;KE;KEN;404;KE;Nairobi;Africa;Kenyan;Kenyan shilling;KES;30765916
+Kingman Reef;KQ;;;;;;Oceania;;;;0
+Kiribati;KR;KI;KIR;296;KI;Tarawa;Oceania;I-Kiribati;Australian dollar;AUD;94149
+North Korea;KN;KP;PRK;408;KP;P'yongyang;Asia;Korean;North Korean Won;KPW;21968228
+South Korea;KS;KR;KOR;410;KR;Seoul;Asia;Korean;Won;KRW;47904370
+Kuwait;KU;KW;KWT;414;KW;Kuwait;Middle East;Kuwaiti;Kuwaiti Dinar;KWD;2041961
+Kyrgyzstan;KG;KG;KGZ;417;KG;Bishkek;Commonwealth of Independent States;Kyrgyzstani;Som;KGS;4753003
+Laos;LA;LA;LAO;418;LA;Vientiane;Southeast Asia;Lao;Kip;LAK;5635967
+Latvia;LG;LV;LVA;428;LV;Riga;Europe;Latvian;Latvian Lats;LVL;2385231
+Lebanon;LE;LB;LBN;422;LB;Beirut;Middle East;Lebanese;Lebanese Pound;LBP;3627774
+Lesotho;LT;LS;LSO;426;LS;Maseru;Africa;Basotho;Loti;LSL;2177062
+Liberia;LI;LR;LBR;430;LR;Monrovia;Africa;Liberian;Liberian Dollar;LRD;3225837
+Libya;LY;LY;LBY;434;LY;Tripoli;Africa;Libyan;Libyan Dinar;LYD;5240599
+Liechtenstein;LS;LI;LIE;438;LI;Vaduz;Europe;Liechtenstein;Swiss Franc;CHF;32528
+Lithuania;LH;LT;LTU;440;LT;Vilnius;Europe;Lithuanian;Lithuanian Litas;LTL;3610535
+Luxembourg;LU;LU;LUX;442;LU;Luxembourg;Europe;Luxembourg;Euro;EUR;442972
+Macao;MC;MO;MAC;446;MO;;Southeast Asia;Chinese;Pataca;MOP;453733
+Macedonia;MK;MK;MKD;807;MK;Skopje;Europe;Macedonian;Denar;MKD;2046209
+Madagascar;MA;MG;MDG;450;MG;Antananarivo;Africa;Malagasy;Malagasy Franc;MGF;15982563
+Malawi;MI;MW;MWI;454;MW;Lilongwe;Africa;Malawian;Kwacha;MWK;10548250
+Malaysia;MY;MY;MYS;458;MY;Kuala Lumpur;Southeast Asia;Malaysian;Malaysian Ringgit;MYR;22229040
+Maldives;MV;MV;MDV;462;MV;Male;Asia;Maldivian;Rufiyaa;MVR;310764
+Mali;ML;ML;MLI;466;ML;Bamako;Africa;Malian;CFA Franc BCEAO;XOF;11008518
+Malta;MT;MT;MLT;470;MT;Valletta;Europe;Maltese;Euro;EUR;394583
+Man of Isle;IM;;;;IM;Douglas;Europe;Manxman;Pound Sterling;GBP;73489
+Marshall Islands;RM;MH;MHL;584;MH;Majuro;Oceania;Marshallese;US Dollar;USD;70822
+Martinique;MB;MQ;MTQ;474;MQ;Fort-de-France;Central America and the Caribbean;Martiniquais;Euro;EUR;418454
+Mauritania;MR;MR;MRT;478;MR;Nouakchott;Africa;Mauritanian;Ouguiya;MRO;2747312
+Mauritius;MP;MU;MUS;480;MU;Port Louis;World;Mauritian;Mauritius Rupee;MUR;1189825
+Mayotte;MF;YT;MYT;175;YT;Mamoutzou;Africa;Mahorais;Euro;EUR;163366
+Mexico;MX;MX;MEX;484;MX;Mexico;North America;Mexican;Mexican Peso;MXN;101879171
+Federated States of Micronesia;FM;FM;FSM;583;FM;Palikir;Oceania;Micronesian;US Dollar;USD;134597
+Midway Islands;MQ;;;;;;Oceania;;US Dollar;USD;0
+Miscellaneous (French);NULL;NULL;NULL ;NULL;NULL;;;;;;0
+Moldova;MD;MD;MDA;498;MD;Chisinau;Commonwealth of Independent States;Moldovan;Moldovan Leu;MDL;4431570
+Monaco;MN;MC;MCO;492;MC;Monaco;Europe;Monegasque;Euro;EUR;31842
+Mongolia;MG;MN;MNG;496;MN;Ulaanbaatar;Asia;Mongolian;Tugrik;MNT;2654999
+Montenegro;;;ME;;ME;Podgorica;Europe;Montenegrins;Euro;EUR;625266
+Montserrat;MH;MS;MSR;500;MS;Plymouth;Central America and the Caribbean;Montserratian;East Caribbean Dollar;XCD;7574
+Morocco;MO;MA;MAR;504;MA;Rabat;Africa;Moroccan;Moroccan Dirham;MAD;30645305
+Mozambique;MZ;MZ;MOZ;508;MZ;Maputo;Africa;Mozambican;Metical;MZM;19371057
+Myanmar;;;MM;;MM;Naypyidaw;Southeast Asia;Burmese/Myanma;Kyat;MMK;51419420
+Namibia;WA;NA;NAM;516;NA;Windhoek;Africa;Namibian;Namibian Dollar;NAD;1797677
+Nauru;NR;NR;NRU;520;NR;;Oceania;Nauruan;Australian Dollar;AUD;12088
+Navassa Island;BQ;;;;;;Caribbean;;;;0
+Nepal;NP;NP;NPL;524;NP;Kathmandu;Asia;Nepalese;Nepalese Rupee;NPR;25284463
+Netherlands;NL;NL;NLD;528;NL;Amsterdam;Europe;Dutchman;Euro;EUR;15981472
+Netherlands Antilles;NT;AN;ANT;530;AN;Willemstad;Central America and the Caribbean;Dutch Antillean;Netherlands Antillean guilder;ANG;212226
+New Caledonia;NC;NC;NCL;540;NC;Noumea;Oceania;New Caledonian;CFP Franc;XPF;204863
+New Zealand;NZ;NZ;NZL;554;NZ;Wellington;Oceania;New Zealand;New Zealand Dollar;NZD;3864129
+Nicaragua;NU;NI;NIC;558;NI;Managua;Central America and the Caribbean;Nicaraguan;Cordoba Oro;NIO;4918393
+Niger;NG;NE;NER;562;NE;Niamey;Africa;Nigerien;CFA Franc BCEAO;XOF;10355156
+Nigeria;NI;NG;NGA;566;NG;Abuja;Africa;Nigerian;Naira;NGN;126635626
+Niue;NE;NU;NIU;570;NU;Alofi;Oceania;Niuean;New Zealand Dollar;NZD;2124
+Norfolk Island;NF;NF;NFK;574;NF;Kingston;Oceania;Norfolk Islander;Australian Dollar;AUD;1879
+Northern Mariana Islands;CQ;MP;MNP;580;MP;Saipan;Oceania;;US Dollar;USD;74612
+Norway;NO;NO;NOR;578;NO;Oslo;Europe;Norwegian;Norwegian Krone;NOK;4503440
+Oman;MU;OM;OMN;512;OM;Muscat;Middle East;Omani;Rial Omani;OMR;2622198
+Pakistan;PK;PK;PAK;586;PK;Islamabad;Asia;Pakistani;Pakistan Rupee;PKR;144616639
+Palau;PS;PW;PLW;585;PW;Koror;Oceania;Palauan;US Dollar;USD;19092
+Palmyra Atoll;LQ;;;;;;Oceania;;;;0
+Panama;PM;PA;PAN;591;PA;Panama;Central America and the Caribbean;Panamanian;balboa;PAB;2845647
+Papua New Guinea;PP;PG;PNG;598;PG;Port Moresby;Oceania;Papua New Guinean;Kina;PGK;5049055
+Paracel Islands;PF;;;;;;Southeast Asia;;;;0
+Paraguay;PA;PY;PRY;600;PY;Asuncion;South America;Paraguayan;Guarani;PYG;5734139
+Peru;PE;PE;PER;604;PE;Lima;South America;Peruvian;Nuevo Sol;PEN;27483864
+Philippines;RP;PH;PHL;608;PH;Manila;Southeast Asia;Philippine;Philippine Peso;PHP;82841518
+Pitcairn Islands;PC;PN;PCN;612;PN;Adamstown;Oceania;Pitcairn Islander;New Zealand Dollar;NZD;47
+Poland;PL;PL;POL;616;PL;Warsaw;Europe;Polish;Zloty;PLN;38633912
+Portugal;PO;PT;PRT;620;PT;Lisbon;Europe;Portuguese;Euro;EUR;10066253
+Puerto Rico;RQ;PR;PRI;630;PR;SanJuan;Central America and the Caribbean;Puerto Rican;US Dollar;USD;3937316
+Qatar;QA;QA;QAT;634;QA;Doha;Middle East;Qatari;Qatari Rial;QAR;769152
+Reunion;RE;RE;REU;638;RE;Saint-Denis;World;Reunionese;Euro;EUR;732570
+Romania;RO;RO;ROU;642;RO;Bucharest;Europe;Romanian;Leu;ROL;22364022
+Russia;RS;RU;RUS;643;RU;Moscow;Asia;Russian;Russian Ruble;RUB;145470197
+Rwanda;RW;RW;RWA;646;RW;Kigali;Africa;Rwandan;Rwanda Franc;RWF;7312756
+Saint Helena;SH;SH;SHN;654;SH;Jamestown;Africa;Saint Helenian;Saint Helenian Pound;SHP;7266
+Saint Kitts and Nevis;SC;KN;KNA;659;KN;Basseterre;Central America and the Caribbean;Kittitian and Nevisian;East Caribbean Dollar;XCD;38756
+Saint Lucia;ST;LC;LCA;662;LC;Castries;Central America and the Caribbean;Saint Lucian;East Caribbean Dollar;XCD;158178
+Saint Pierre and Miquelon;SB;PM;SPM;666;PM;Saint-Pierre;North America;Frenchman;Euro;EUR;6928
+Saint Vincent and the Grenadines;VC;VC;VCT;670;VC;Kingstown;Central America and the Caribbean;Saint Vincentian;East Caribbean Dollar;XCD;115942
+Samoa;WS;WS;WSM;882;WS;Apia;Oceania;Samoan;Tala;WST;179058
+San Marino;SM;SM;SMR;674;SM;San Marino;Europe;Sammarinese;Euro;EUR;27336
+Sao Tome and Principe;TP;ST;STP;678;ST;Sao Tome;Africa;Sao Tomean;Dobra;STD;165034
+Saudi Arabia;SA;SA;SAU;682;SA;Riyadh;Middle East;Saudi Arabian;Saudi Riyal;SAR;22757092
+Senegal;SG;SN;SEN;686;SN;Dakar;Africa;Senegalese;CFA Franc BCEAO;XOF;10284929
+Serbia;;;RS;;RS;Belgrade;Europe;Serbian;Serbian dinar;RSD;7186862
+Serbia and Montenegro;;;;;;;;;;;0
+Seychelles;SE;SC;SYC;690;SC;Victoria;Africa;Seychellois;Seychelles Rupee;SCR;79715
+Sierra Leone;SL;SL;SLE;694;SL;Freetown;Africa;Sierra Leonean;Leone;SLL;5426618
+Singapore;SN;SG;SGP;702;SG;Singapore;Southeast Asia;Singaporeian;Singapore Dollar;SGD;4300419
+Slovakia;LO;SK;SVK;703;SK;Bratislava;Europe;Slovakian;Euro;EUR;5414937
+Slovenia;SI;SI;SVN;705;SI;Ljubljana;Europe;Slovenian;Euro;EUR;1930132
+Solomon Islands;BP;SB;SLB;90;SB;Honiara;Oceania;Solomon Islander;Solomon Islands Dollar;SBD;480442
+Somalia;SO;SO;SOM;706;SO;Mogadishu;Africa;Somali;Somali Shilling;SOS;7488773
+South Africa;SF;ZA;ZAF;710;ZA;Pretoria;Africa;SouthAfrican;Rand;ZAR;43586097
+South Georgia and the South Sandwich Islands;SX;GS;SGS;239;GS;King Edward Point;Atlantic Ocean;South Georgian/South Sandwish Islander;Pound Sterling;GBP;30
+Spain;SP;ES;ESP;724;ES;Madrid;Europe;Spanish;Euro;EUR;40037995
+Spratly Islands;PG;;;;;;South China Sea;;;;0
+Sri Lanka;CE;LK;LKA;144;LK;Colombo;Asia;SriLankan;Sri Lanka Rupee;LKR;19408635
+Sudan;SU;SD;SDN;736;SD;Khartoum;Africa;Sudanese;Sudanese Dinar;SDD;36080373
+Suriname;NS;SR;SUR;740;SR;Paramaribo;South America;Surinamese;Suriname Guilder;SRG;433998
+Svalbard;SV;SJ;SJM;744;SJ;Longyearbyen;Arctic Region;;Norwegian Krone;NOK;2332
+Swaziland;WZ;SZ;SWZ;748;SZ;Mbabane;Africa;Swazi;Lilangeni;SZL;1104343
+Sweden;SW;SE;SWE;752;SE;Stockholm;Europe;Swedish;Swedish Krona;SEK;8875053
+Switzerland;SZ;CH;CHE;756;CH;Bern;Europe;Swiss;Swiss Franc;CHF;7283274
+Syria;SY;SY;SYR;760;SY;Damascus;Middle East;Syrian;Syrian Pound;SYP;16728808
+Taiwan;TW;TW;TWN;158;TW;Taipei;Southeast Asia;Taiwanese;New Taiwan Dollar;TWD;22370461
+Tajikistan;TI;TJ;TJK;762;TJ;Dushanbe;Commonwealth of Independent States;Tajikistani;Somoni;TJS;6578681
+Tanzania;TZ;TZ;TZA;834;TZ;Dares Salaam;Africa;Tanzanian;Tanzanian Shilling;TZS;36232074
+Thailand;TH;TH;THA;764;TH;Bangkok;Southeast Asia;Thai;Baht;THB;61797751
+Togo;TO;TG;TGO;768;TG;Lome;Africa;Togolese;CFA Franc BCEAO;XOF;5153088
+Tokelau;TL;TK;TKL;772;TK;;Oceania;Tokelauan;New Zealand Dollar;NZD;1445
+Tonga;TN;TO;TON;776;TO;Nuku'alofa;Oceania;Tongan;Pa'anga;TOP;104227
+Trinidad and Tobago;TD;TT;TTO;780;TT;Port-of-Spain;Central America and the Caribbean;Trinidadian and Tobagonian;Trinidad and Tobago Dollar;TTD;1169682
+Tromelin Island;TE;;;;;;Indian Ocean;;;;0
+Tunisia;TS;TN;TUN;788;TN;Tunis;Africa;Tunisian;Tunisian Dinar;TND;9705102
+Turkey;TU;TR;TUR;792;TR;Ankara;Middle East;Turkish;Turkish Lira;TRL;66493970
+Turkmenistan;TX;TM;TKM;795;TM;Ashgabat;Commonwealth of Independent States;Turkmen;Manat;TMM;4603244
+Turks and Caicos Islands;TK;TC;TCA;796;TC;CockburnTown;Central America and the Caribbean;;US Dollar;USD;18122
+Tuvalu;TV;TV;TUV;798;TV;Funafuti;Oceania;Tuvaluan;Australian Dollar;AUD;10991
+Uganda;UG;UG;UGA;800;UG;Kampala;Africa;Ugandan;Uganda Shilling;UGX;23985712
+Ukraine;UP;UA;UKR;804;UA;Kiev;Commonwealth of Independent States;Ukrainian;Hryvnia;UAH;48760474
+United Arab Emirates;AE;AE;ARE;784;AE;Abu Dhabi;Middle East;Emirati;UAE Dirham;AED;2407460
+United Kingdom;UK;GB;GBR;826;UK;London;Europe;British;Pound Sterling;GBP;59647790
+United States;US;US;USA;840;US;Washington DC;North America;American;US Dollar;USD;278058881
+United States Minor Outlying Islands;;UM;UMI;581;US;;Pacific Ocean;American Islander;US Dollar;USD;300
+Uruguay;UY;UY;URY;858;UY;Montevideo;South America;Uruguayan;Peso Uruguayo;UYU;3360105
+Uzbekistan;UZ;UZ;UZB;860;UZ;Tashkent;Commonwealth of Independent States;Uzbekistani;Uzbekistan Sum;UZS;25155064
+Vanuatu;NH;VU;VUT;548;VU;Port-Vila;Oceania;Ni-Vanuatu;Vatu;VUV;192910
+Venezuela;VE;VE;VEN;862;VE;Caracas;South AmericaCentral America and the Caribbean;Venezuelan;Bolivar;VEB;23916810
+Vietnam;VM;VN;VNM;704;VN;Hanoi;Southeast Asia;Vietnamese;Dong;VND;79939014
+Virgin Islands;VQ;VI;VIR;850;VI;Charlotte Amalie;Central America and the Caribbean;VirginIslander;US Dollar;USD;122211
+Virgin Islands (UK);;;VG;;VG;Road Town;Caribbean;Virgin Islander;US Dollar;USD;27800
+Virgin Islands (US);;;VI;;VI;Charlotte Amalie;Caribbean;Virgin Islander;US Dollar;USD;0
+Wake Island;WQ;;;;;;Oceania;;US Dollar;USD;150
+Wallis and Futuna;WF;WF;WLF;876;WF;Mata-Utu;Oceania;Wallis and Futuna Islander;CFPFranc;XPF;15435
+West Bank;WE;;;;;;Middle East;;New Israeli Shekel;ILS;2090713
+Western Sahara;WI;EH;ESH;732;EH;;Africa;Sahrawian;Moroccan Dirham;MAD;250559
+Western Samoa;;;WS;;WS;Apia;Oceania;Samoan;Tala;WST;194320
+World;;;;;;;World, Time Zones ;;;;1862433264
+Yemen;YM;YE;YEM;887;YE;Sanaa;Middle East;Yemeni;Yemeni Rial;YER;18078035
+Yugoslavia;YI;YU;YUG;891;YU;Belgrade ;Europe ;Serbian;Yugoslavian Dinar ;YUM;10677290
+Zaire;;;;;ZR;Kinshasa;Africa;Zairan;Zaire;;46498539
+Zambia;ZA;ZM;ZWB;894;ZM;Lusaka;Africa;Zambian;Kwacha;ZMK;9770199
+Zimbabwe;ZI;ZW;ZWE;716;ZW;Harare;Africa;Zimbabwean;Zimbabwe Dollar;ZWD;11365366
+State of Palestine;;;PS;;PS;Jerusalem East;;Palestinian;Egyptian pound/Israeli new sheqel/Jordanian dinar;EGP/ILS/JOD;4550368
