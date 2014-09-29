@@ -4,6 +4,7 @@ class CreateLookupRegions < ActiveRecord::Migration
     	t.string			:region_name
     	t.string			:code
     	t.string			:adm1_code
+    	t.string			:description
     	t.belongs_to	:lookup_country
 
       t.timestamps
