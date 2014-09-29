@@ -1,4 +1,6 @@
 class LookupCity < ActiveRecord::Base
+	attr_accessible	:city_name, :description , :english_speakers_percentage, :latitude, :longitude, :timezone, :code
+	
 	belongs_to 			:lookup_country
 	belongs_to			:lookup_region
 	belongs_to    	:last_call_time, 						:class_name => "LookupHour"
@@ -13,6 +15,4 @@ class LookupCity < ActiveRecord::Base
 	has_many 				:lookup_rating_types, 			:through => :city_ratings
 	has_many 				:users, 										:through => :city_ratings
 
-
-  # attr_accessible :title, :body
 end
