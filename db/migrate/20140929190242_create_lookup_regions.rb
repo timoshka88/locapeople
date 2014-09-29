@@ -3,7 +3,7 @@ class CreateLookupRegions < ActiveRecord::Migration
     create_table 		:lookup_regions do |t|
     	t.string			:region_name
     	t.string			:code
-    	t.string			:adm1_code
+    	t.string			:adm1code
     	t.string			:description
     	t.belongs_to	:lookup_country
 
