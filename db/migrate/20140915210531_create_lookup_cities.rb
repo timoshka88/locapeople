@@ -7,7 +7,8 @@ class CreateLookupCities < ActiveRecord::Migration
       t.float         :latitude
       t.float         :longitude
       t.string        :timezone
-    	t.belongs_to		:lookup_country #foreign key one-to-many
+    	t.belongs_to		:lookup_country
+      t.belongs_to    :lookup_region
     	t.belongs_to    :last_call_time #foreign key one-to-many points to the hour table
 
       t.timestamps

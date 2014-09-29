@@ -1,5 +1,6 @@
 class LookupCity < ActiveRecord::Base
 	belongs_to 			:lookup_country
+	belongs_to			:lookup_region
 	belongs_to    	:last_call_time, 						:class_name => "LookupHour"
 
 	has_many 				:venues
