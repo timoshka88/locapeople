@@ -1,7 +1,7 @@
 class CreateLookupCities < ActiveRecord::Migration
   def change
     create_table      :lookup_cities do |t|
-    	t.string				:city_name
+    	t.string				:name
     	t.text   				:description 
     	t.float  				:english_speakers_percentage #has to be a data which can be a float
       t.float         :latitude

@@ -1,7 +1,7 @@
 class CreateLookupRegions < ActiveRecord::Migration
   def change
     create_table 		:lookup_regions do |t|
-    	t.string			:region_name
+    	t.string			:name
     	t.string			:code
     	t.string			:adm1code
     	t.string			:description

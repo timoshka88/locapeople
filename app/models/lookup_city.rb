@@ -1,6 +1,5 @@
 class LookupCity < ActiveRecord::Base
-	
-	attr_accessible	:id, :city_name, :description , :english_speakers_percentage, :latitude, :longitude, :timezone, :code, :lookup_country_id
+	attr_accessible	:id, :name, :description , :english_speakers_percentage, :latitude, :longitude, :timezone, :code, :lookup_country_id, :lookup_region_id, :last_call_time_id
 
 	belongs_to 			:lookup_country
 	belongs_to			:lookup_region

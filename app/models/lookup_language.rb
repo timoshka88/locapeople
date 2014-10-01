@@ -1,4 +1,6 @@
 class LookupLanguage < ActiveRecord::Base
+	attr_accessible	:id, :name, :description
+
   has_many :performer_languages
 	has_many :performers, 				:through => :performer_languages
 
@@ -8,5 +10,4 @@ class LookupLanguage < ActiveRecord::Base
 	has_many :country_languages
 	has_many :lookup_countries,		:through => :country_languages
 
-  # attr_accessible :title, :body
 end

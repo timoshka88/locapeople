@@ -1,7 +1,7 @@
 class CreateLookupCountries < ActiveRecord::Migration
   def change
     create_table 	  :lookup_countries do |t|
-    	t.string	  :country_name
+    	t.string	  :name
     	t.string	  :fips104
     	t.string	  :iso2
     	t.string	  :iso3

@@ -1,6 +1,5 @@
 class LookupCuisineType < ActiveRecord::Base
- 	
-	attr_accessible :id ,:cuisine_name, :description
+	attr_accessible :id ,:name, :description
 
  	has_many :venue_cuisines
 	has_many :venues, 			:through => :venue_cuisines
