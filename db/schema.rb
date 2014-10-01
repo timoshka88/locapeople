@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140924230058) do
+ActiveRecord::Schema.define(:version => 20140929190242) do
 
   create_table "city_ratings", :force => true do |t|
     t.integer  "lookup_rating_type_id"
@@ -101,10 +101,15 @@ ActiveRecord::Schema.define(:version => 20140924230058) do
   end
 
   create_table "lookup_cities", :force => true do |t|
-    t.string   "name_state"
+    t.string   "city_name"
     t.text     "description"
     t.float    "english_speakers_percentage"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.string   "timezone"
+    t.string   "code"
     t.integer  "lookup_country_id"
+    t.integer  "lookup_region_id"
     t.integer  "last_call_time_id"
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
@@ -131,10 +136,10 @@ ActiveRecord::Schema.define(:version => 20140924230058) do
   end
 
   create_table "lookup_cuisine_types", :force => true do |t|
-    t.string   "name"
+    t.string   "cuisine_name"
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "lookup_days", :force => true do |t|
@@ -171,7 +176,7 @@ ActiveRecord::Schema.define(:version => 20140924230058) do
   end
 
   create_table "lookup_music_types", :force => true do |t|
-    t.string   "name"
+    t.string   "music_name"
     t.text     "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
@@ -189,6 +194,16 @@ ActiveRecord::Schema.define(:version => 20140924230058) do
     t.text     "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "lookup_regions", :force => true do |t|
+    t.string   "region_name"
+    t.string   "code"
+    t.string   "adm1code"
+    t.string   "description"
+    t.integer  "lookup_country_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "lookup_relationship_statuses", :force => true do |t|
