@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.10'
+gem 'rails', '4.1.6'
 gem 'pg'
 gem 'httparty'
 # gem 'rack-utf8_sanitizer'
@@ -18,6 +18,9 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby', '~> 3.1.5'
 gem 'rack-flash3'
 
+
+gem 'spring', group: :development
+
 group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
@@ -28,6 +31,7 @@ group :test do
   gem 'rake'
   gem 'simplecov', '~> 0.9.1', :require => false
 end
+
 
 group :development, :test do
   gem 'dotenv-rails'
