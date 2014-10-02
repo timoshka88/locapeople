@@ -56,7 +56,8 @@ module LocaPeople
     config.active_record.whitelist_attributes = true
 
     # Enable the asset pipeline
-    config.assets.enabled = true
+    # config.assets.enabled = true
+    #in Rails 4 it is set by default, if I won't need it, i just need to set it to false
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
