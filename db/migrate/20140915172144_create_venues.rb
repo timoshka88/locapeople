@@ -18,7 +18,7 @@ class CreateVenues < ActiveRecord::Migration
 		t.boolean			:gay_friendly
 		t.belongs_to 	:owner #owner #one user can own many venues, one venue belongs to one user t.belongs to user
 		t.belongs_to	:lookup_parking_type #foreign_key paid/free/vallet/NA
-		t.belongs_to 	:city
+		t.belongs_to 	:lookup_city
 		
 		#check
 		# t.integer   :google_uid #or place_id which is now instead of reference key and unique key

@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+	attr_accessible :id, :first_name, :last_name, :email, :photo, :phone, :birthday, :ambassador, :lookup_gender_id, :interested_in_gender_id, :hometown_city_id, :current_city_id, :lookup_relationship_status_id
+
 	has_many 		:user_tribes
 	has_many 		:lookup_tribe_types, 		:through => :user_tribes
 
@@ -44,5 +46,4 @@ class User < ActiveRecord::Base
   belongs_to  :hometown_city, 					:class_name => "LookupCity"
   belongs_to  :current_city, 						:class_name => "LookupCity"
 
-  # attr_accessible :title, :body
 end

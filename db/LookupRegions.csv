@@ -1,0 +1,3954 @@
+lookup_country;lookup_region;code;adm1code
+14;Victoria;VI;AS07
+14;Tasmania;TS;AS06
+14;Queensland;QL;AS04
+14;New South Wales;NS;AS02
+14;South Australia;SA;AS05
+14;Western Australia;WA;AS08
+14;Northern Territory;NT;AS03
+33;Acre;AC;BR01
+33;Amap;AP;BR03
+33;Bahia;BA;BR05
+33;Gois;GO;BR10
+33;Piaul;PI;BR20
+33;Cear;CE;BR06
+33;Paran;PR;BR18
+33;Alagoas;AL;BR02
+33;Paralba;PB;BR17
+33;Roraima;RR;BR25
+33;Sergipe;SE;BR28
+33;Amazonas;AM;BR04
+33;Maranhao;MA;BR13
+33;RondUnia;RO;BR24
+33;Sao Paulo;SP;BR27
+33;Tocantins;TO;BR31
+33;Mato Grosso;MT;BR14
+33;Minas Gerais;MG;BR15
+33;Esplrito Santo;ES;BR08
+33;Rio de Janeiro;RJ;BR21
+33;Santa Catarina;SC;BR26
+33;Rio Grande do Sul;RS;BR23
+33;Mato Grosso do Sul;MS;BR11
+33;Rio Grande do Norte;RN;BR22
+43;Quebec;QC;CA10
+43;Alberta;AB;CA01
+43;Ontario;ON;CA08
+43;Manitoba;MB;CA03
+43;Nova Scotia;NS;CA07
+43;Saskatchewan;SK;CA11
+43;Newfoundland and Labrador;NF;CA05
+43;New Brunswick;NB;CA04
+43;British Columbia;BC;CA02
+43;Prince Edward Island;PE;CA09
+43;Northwest Territories;NT;CA13
+114;Bali;BA;ID02
+159;Sonora;SO;MX26
+159;Jalisco;JA;MX14
+159;Hidalgo;HI;MX13
+159;Morelos;MR;MX17
+159;Chiapas;CP;MX05
+159;Tabasco;TB;MX27
+159;Guerrero;GR;MX12
+159;Nuevo Leon;NL;MX19
+159;Tamaulipas;TM;MX28
+159;Guanajuato;GJ;MX11
+159;Quintana Roo;QR;MX23
+159;Baja California;BN;MX02
+159;Baja California Sur;BS;MX03
+165;Tov;TO;MG18
+165;Uvs;UV;MG19
+165;Dornod;DD;MG06
+165;Hovsgol;HG;MG13
+165;Selenge;SL;MG16
+165;Suhbaatar;SB;MG17
+203;Komi;KO;RS34
+203;Dagestan;DA;RS17
+203;Mariy-El;ME;RS45
+203;Tatarstan;TT;RS73
+254;Alabama;AL;    
+254;Alaska;AK;    
+254;Arizona;AZ;    
+254;Arkansas;AR;    
+254;California;CA;    
+254;Colorado;CO;    
+254;Connecticut;CT;    
+254;Delaware;DE;    
+254;District of Columbia;DC;    
+254;Florida;FL;    
+254;Georgia;GA;    
+254;Hawaii;HI;    
+254;Idaho;ID;    
+254;Illinois;IL;    
+254;Indiana;IN;    
+254;Iowa;IA;    
+254;Kansas;KS;    
+254;Kentucky;KY;    
+254;Louisiana;LA;    
+254;Maine;ME;    
+254;Maryland;MD;    
+254;Massachusetts;MA;    
+254;Michigan;MI;    
+254;Minnesota;MN;    
+254;Mississippi;MS;    
+254;Missouri;MO;    
+254;Montana;MT;    
+254;Nebraska;NE;    
+254;Nevada;NV;    
+254;New Hampshire;NH;    
+254;New Jersey;NJ;    
+254;New Mexico;NM;    
+254;New York;NY;    
+254;North Carolina;NC;    
+254;North Dakota;ND;    
+254;Ohio;OH;    
+254;Oklahoma;OK;    
+254;Oregon;OR;    
+254;Pennsylvania;PA;    
+254;Rhode Island;RI;    
+254;South Carolina;SC;    
+254;South Dakota;SD;    
+254;Tennessee;TN;    
+254;Texas;TX;    
+254;Utah;UT;    
+254;Virginia;VA;    
+254;Washington;WA;    
+254;West Virginia;WV;    
+254;Wisconsin;WI;    
+254;Wyoming;WY;    
+254;Vermont;VT;    
+14;Australian Capital Territory;CT;AS01
+114;Papua;IJ;ID09
+165;Bulgan;BU;MG21
+165;Hovd;HD;MG12
+159;Chihuahua;CH;MX06
+159;Colima;CL;MX08
+159;Durango;DU;MX10
+159;Oaxaca;OA;MX20
+159;San Luis Potosi;SL;MX24
+159;Tlaxcala;TL;MX29
+159;Zacatecas;ZA;MX32
+269;World;;    
+2;Albania;AL;    
+3;Algeria;DZ;    
+4;American Samoa;AS;    
+5;Andorra;AD;    
+6;Angola;AO;    
+7;Anguilla;AI;    
+8;Antarctica;AQ;    
+9;Antigua and Barbuda;AG;    
+10;Argentina;AR;    
+11;Armenia;AM;    
+12;Aruba;AW;    
+13;Ashmore and Cartier;;    
+14;Australia;AU;    
+15;Austria;AT;    
+16;Azerbaijan;AZ;    
+17;The Bahamas;BS;    
+18;Bahrain;BH;    
+19;Baker Island;;    
+20;Bangladesh;BD;    
+21;Barbados;BB;    
+22;Bassas da India;;    
+23;Belarus;BY;    
+24;Belgium;BE;    
+26;Benin;BJ;    
+27;Bermuda;BM;    
+28;Bhutan;BT;    
+29;Bolivia;BO;    
+30;Bosnia and Herzegovina;BA;    
+31;Botswana;BW;    
+32;Bouvet Island;BV;    
+33;Brazil;BR;    
+34;British Indian Ocean Territory;IO;    
+35;British Virgin Islands;VG;    
+36;Brunei Darussalam;BN;    
+37;Bulgaria;BG;    
+38;Burkina Faso;BF;    
+39;Burma;MM;    
+40;Burundi;BI;    
+41;Cambodia;KH;    
+42;Cameroon;CM;    
+43;Canada;CA;    
+44;Cape Verde;CV;    
+45;Cayman Islands;KY;    
+46;Central African Republic;CF;    
+47;Chad;TD;    
+48;Chile;CL;    
+49;China;CN;    
+50;Christmas Island;CX;    
+51;Clipperton Island;;    
+52;Cocos (Keeling) Islands;CC;    
+53;Colombia;CO;    
+54;Comoros;KM;    
+55;Democratic Republic of the Congo;CD;    
+56;Republic of the Congo;CG;    
+57;Cook Islands;CK;    
+58;Coral Sea Islands;;    
+59;Costa Rica;CR;    
+60;Cote d'Ivoire;CI;    
+61;Croatia;HR;    
+62;Cuba;CU;    
+63;Cyprus;CY;    
+64;Czech Republic;CZ;    
+65;Denmark;DK;    
+67;Dominica;DM;    
+68;Dominican Republic;DO;    
+69;East Timor;TP;    
+70;Ecuador;EC;    
+71;Egypt;EG;    
+72;El Salvador;SV;    
+73;Equatorial Guinea;GQ;    
+74;Eritrea;ER;    
+75;Estonia;EE;    
+76;Ethiopia;ET;    
+77;Europa Island;;    
+78;Falkland Islands (Islas Malvinas);FK;    
+79;Faroe Islands;FO;    
+80;Fiji;FJ;    
+81;Finland;FI;    
+82;France;FR;    
+83;Metropolitan France;FX;    
+84;French Guiana;GF;    
+85;French Polynesia;PF;    
+86;French Southern and Antarctic Lands;TF;    
+87;Gabon;GA;    
+88;The Gambia;GM;    
+89;Gaza Strip;;    
+90;Georgia;GE;    
+91;Germany;DE;    
+92;Ghana;GH;    
+93;Gibraltar;GI;    
+94;Glorioso Islands;;    
+95;Greece;GR;    
+96;Greenland;GL;    
+97;Grenada;GD;    
+98;Guadeloupe;GP;    
+99;Guam;GU;    
+101;Guernsey;GG;    
+102;Guinea;GN;    
+103;Guinea-Bissau;GW;    
+104;Guyana;GY;    
+105;Haiti;HT;    
+106;Heard Island and McDonald Islands;HM;    
+107;Holy See (Vatican City);VA;    
+108;Honduras;HN;    
+109;Hong Kong (SAR);HK;    
+110;Howland Island;;    
+111;Hungary;HU;    
+112;Iceland;IS;    
+113;India;IN;    
+114;Indonesia;ID;    
+115;Iran;IR;    
+116;Iraq;IQ;    
+117;Ireland;IE;    
+118;Israel;IL;    
+119;Italy;IT;    
+120;Jamaica;JM;    
+121;Jan Mayen;;    
+122;Japan;JP;    
+123;Jarvis Island;;    
+124;Jersey;JE;    
+125;Johnston Atoll;;    
+126;Jordan;JO;    
+127;Juan de Nova Island;;    
+128;Kazakhstan;KZ;    
+129;Kenya;KE;    
+130;Kingman Reef;;    
+131;Kiribati;KI;    
+132;North Korea;KP;    
+133;South Korea;KR;    
+134;Kuwait;KW;    
+135;Kyrgyzstan;KG;    
+136;Laos;LA;    
+137;Latvia;LV;    
+138;Lebanon;LB;    
+139;Lesotho;LS;    
+140;Liberia;LR;    
+141;Libya;LY;    
+142;Liechtenstein;LI;    
+143;Lithuania;LT;    
+145;Macao;MO;    
+146;The Former Yugoslav Republic of Macedonia;MK;    
+147;Madagascar;MG;    
+148;Malawi;MW;    
+149;Malaysia;MY;    
+150;Maldives;MV;    
+151;Mali;ML;    
+152;Malta;MA;    
+153;Isle of Man;IM;    
+154;Marshall Islands;MH;    
+155;Martinique;MQ;    
+156;Mauritania;MR;    
+157;Mauritius;MU;    
+158;Mayotte;YT;    
+160;Federated States of Micronesia;FM;    
+161;Midway Islands;;    
+162;Miscellaneous (French);;    
+163;Moldova;MD;    
+164;Monaco;MC;    
+165;Mongolia;MN;    
+166;Montenegro;;    
+167;Montserrat;MS;    
+168;Morocco;MA;    
+169;Mozambique;MZ;    
+170;Myanmar;;    
+171;Namibia;NA;    
+172;Nauru;NR;    
+173;Navassa Island;;    
+174;Nepal;NP;    
+175;The Netherlands;NL;    
+176;Netherlands Antilles;AN;    
+177;New Caledonia;NC;    
+178;New Zealand;NZ;    
+179;Nicaragua;NI;    
+180;Niger;NE;    
+181;Nigeria;NG;    
+182;Niue;NU;    
+183;Norfolk Island;NF;    
+184;Northern Mariana Islands;MP;    
+185;Norway;NO;    
+186;Oman;OM;    
+187;Pakistan;PK;    
+188;Palau;PW;    
+189;Palmyra Atoll;;    
+191;Papua New Guinea;PG;    
+192;Paracel Islands;;    
+193;Paraguay;PY;    
+194;Peru;PE;    
+195;Philippines;PH;    
+196;Pitcairn Islands;PN;    
+197;Poland;PL;    
+198;Portugal;PT;    
+199;Puerto Rico;PR;    
+200;Qatar;QA;    
+201;R»union;RE;    
+202;Romania;RO;    
+203;Russia;RU;    
+204;Rwanda;RW;    
+206;Saint Kitts and Nevis;KN;    
+207;Saint Lucia;LC;    
+208;Saint Pierre and Miquelon;PM;    
+209;Saint Vincent and the Grenadines;VC;    
+210;Samoa;WS;    
+213;Saudi Arabia;SA;    
+214;Senegal;SN;    
+215;Serbia;;    
+216;Serbia and Montenegro;;    
+217;Seychelles;SC;    
+218;Sierra Leone;SL;    
+219;Singapore;SG;    
+220;Slovakia;SK;    
+221;Slovenia;SI;    
+222;Solomon Islands;SB;    
+223;Somalia;SO;    
+224;South Africa;ZA;    
+225;South Georgia and the South Sandwich Islands;GS;    
+226;Spain;ES;    
+227;Spratly Islands;;    
+228;Sri Lanka;LK;    
+229;Sudan;SD;    
+230;Suriname;SR;    
+231;Svalbard;SJ;    
+232;Swaziland;SZ;    
+233;Sweden;SE;    
+234;Switzerland;CH;    
+235;Syria;SY;    
+236;Taiwan;TW;    
+237;Tajikistan;TJ;    
+238;Tanzania;TZ;    
+239;Thailand;TH;    
+240;Togo;TG;    
+241;Tokelau;TK;    
+242;Tonga;TO;    
+243;Trinidad and Tobago;TT;    
+244;Tromelin Island;;    
+245;Tunisia;TN;    
+246;Turkey;TR;    
+247;Turkmenistan;TM;    
+248;Turks and Caicos Islands;TC;    
+249;Tuvalu;TV;    
+250;Uganda;UG;    
+251;Ukraine;UA;    
+252;United Arab Emirates;AE;    
+253;United Kingdom;UK;    
+254;United States;US;    
+255;United States Minor Outlying Islands;UM;    
+256;Uruguay;UY;    
+257;Uzbekistan;UZ;    
+258;Vanuatu;VU;    
+259;Venezuela;VE;    
+260;Vietnam;VN;    
+261;Virgin Islands;VI;    
+262;Virgin Islands (UK);;    
+263;Virgin Islands (US);;    
+264;Wake Island;;    
+265;Wallis and Futuna;WF;    
+266;West Bank;;    
+267;Western Sahara;EH;    
+268;Western Samoa;;    
+270;Yemen;YE;    
+272;Zaire;;    
+273;Zambia;ZM;    
+274;Zimbabwe;ZW;    
+43;Yukon Territory;YT;CA12
+9;Barbuda;BB;AC01
+9;Saint George;GE;AC03
+9;Saint John;JO;AC04
+9;Saint Mary;MA;AC05
+9;Saint Paul;PA;AC06
+9;Saint Peter;PE;AC07
+9;Saint Philip;PH;AC08
+1;Badakhshan;BD;AF01
+1;Badghis;BG;AF02
+1;Baghlan;BL;AF03
+1;Bamian;BM;AF05
+1;Farah;FH;AF06
+1;Faryab;FB;AF07
+1;Ghazni;GZ;AF08
+1;Ghowr;GR;AF09
+1;Helmand;HM;AF10
+1;Herat;HR;AF11
+1;Kabol;KB;AF13
+1;Kapisa;KP;AF14
+1;Konar;KR;AF15
+1;Laghman;LA;AF16
+1;Lowgar;LW;AF17
+1;Nangarhar;NG;AF18
+1;Nimruz;NM;AF19
+1;Oruzgan;OR;AF20
+1;Paktia;PT;AF21
+1;Parvan;PR;AF22
+1;Kandahar;KD;AF23
+1;Kondoz;KZ;AF24
+1;Takhar;TK;AF26
+1;Vardak;VR;AF27
+1;Zabol;ZB;AF28
+1;Paktika;PK;AF29
+1;Balkh;BK;AF30
+1;Jowzjan;JW;AF31
+1;Samangan;SM;AF32
+1;Sare Pol;SP;AF33
+3;Alger;AL;AG01
+3;Batna;BT;AG03
+3;Constantine;CO;AG04
+3;Medea;MD;AG06
+3;Mostaganem;MG;AG07
+3;Oran;OR;AG09
+3;Saida;SD;AG10
+3;Setif;SF;AG12
+3;Tiaret;TR;AG13
+3;Tizi Ouzou;TO;AG14
+3;Tlemcen;TL;AG15
+3;Bejaia;BJ;AG18
+3;Biskra;BS;AG19
+3;Blida;BL;AG20
+3;Bouira;BU;AG21
+3;Djelfa;DJ;AG22
+3;Guelma;GL;AG23
+3;Jijel;JJ;AG24
+3;Laghouat;LG;AG25
+3;Mascara;MC;AG26
+3;M'Sila;MS;AG27
+3;Oum el Bouaghi;OB;AG29
+3;Sidi Bel Abbes;SB;AG30
+3;Skikda;SK;AG31
+3;Tebessa;TB;AG33
+3;Adrar;AR;AG34
+3;Ain Defla;AD;AG35
+3;Ain Temouchent;AT;AG36
+3;Annaba;AN;AG37
+3;Bechar;BC;AG38
+3;Bordj Bou Arreridj;BB;AG39
+3;Boumerdes;BM;AG40
+3;Chlef;CH;AG41
+3;El Bayadh;EB;AG42
+3;El Oued;EO;AG43
+3;El Tarf;ET;AG44
+3;Ghardaia;GR;AG45
+3;Illizi;IL;AG46
+3;Khenchela;KH;AG47
+3;Mila;ML;AG48
+3;Naama;NA;AG49
+3;Ouargla;OG;AG50
+3;Relizane;RE;AG51
+3;Souk Ahras;SA;AG52
+3;Tamanghasset;TM;AG53
+3;Tindouf;TN;AG54
+3;Tipaza;TP;AG55
+3;Tissemsilt;TS;AG56
+16;Abseron;AR;AJ01
+16;Agcabadi;AC;AJ02
+16;Agdam;AM;AJ03
+16;Agdas;AS;AJ04
+16;Agstafa;AF;AJ05
+16;Agsu;AU;AJ06
+16;Ali Bayramli;AB;AJ07
+16;Astara;AA;AJ08
+16;Baki;BA;AJ09
+16;Balakan;BL;AJ10
+16;Barda;BR;AJ11
+16;Beylaqan;BQ;AJ12
+16;Bilasuvar;BS;AJ13
+16;Cabrayil;CB;AJ14
+16;Calilabad;CL;AJ15
+16;Daskasan;DS;AJ16
+16;Davaci;DV;AJ17
+16;Fuzuli;FU;AJ18
+16;Gadabay;GD;AJ19
+16;Ganca;GA;AJ20
+16;Goranboy;GR;AJ21
+16;Goycay;GY;AJ22
+16;Haciqabul;HA;AJ23
+16;Imisli;IM;AJ24
+16;Ismayilli;IS;AJ25
+16;Kalbacar;KA;AJ26
+16;Kurdamir;KU;AJ27
+16;Lacin;LC;AJ28
+16;Lankaran;LA;AJ30
+16;Lerik;LE;AJ31
+16;Masalli;MA;AJ32
+16;Mingacevir;MI;AJ33
+16;Naftalan;NA;AJ34
+16;Naxcivan;NX;AJ35
+16;Neftcala;NE;AJ36
+16;Oguz;OG;AJ37
+16;Qabala;QA;AJ38
+16;Qax;QX;AJ39
+16;Qazax;QZ;AJ40
+16;Qobustan;QO;AJ41
+16;Quba;QB;AJ42
+16;Qubadli;QD;AJ43
+16;Qusar;QR;AJ44
+16;Saatli;ST;AJ45
+16;Sabirabad;SB;AJ46
+16;Saki;SA;AJ48
+16;Salyan;SL;AJ49
+16;Samaxi;SI;AJ50
+16;Samkir;SM;AJ51
+16;Samux;SX;AJ52
+16;Siyazan;SY;AJ53
+16;Sumqayit;SQ;AJ54
+16;Susa;SS;AJ56
+16;Tartar;TA;AJ57
+16;Tovuz;TO;AJ58
+16;Ucar;UC;AJ59
+16;Xacmaz;XZ;AJ60
+16;Xankandi;XA;AJ61
+16;Xanlar;XR;AJ62
+16;Xizi;XI;AJ63
+16;Xocali;XC;AJ64
+16;Xocavand;XD;AJ65
+16;Yardimli;YR;AJ66
+16;Yevlax;YE;AJ68
+16;Zangilan;ZG;AJ69
+16;Zaqatala;ZQ;AJ70
+16;Zardab;ZR;AJ71
+2;Berat;BR;AL01
+2;Diber;DI;AL02
+2;Durres;DR;AL03
+2;Elbasan;EL;AL04
+2;Fier;FR;AL05
+2;Gjirokaster;GJ;AL06
+2;Gramsh;GR;AL07
+2;Kolonje;ER;AL08
+2;Korce;KO;AL09
+2;Kruje;KR;AL10
+2;Kukes;KU;AL11
+2;Lezhe;LE;AL12
+2;Librazhd;LB;AL13
+2;Lushnje;LU;AL14
+2;Mat;MT;AL15
+2;Mirdite;MR;AL16
+2;Permet;PR;AL17
+2;Pogradec;PG;AL18
+2;Puke;PU;AL19
+2;Sarande;SR;AL20
+2;Shkoder;SH;AL21
+2;Skrapar;SK;AL22
+2;Tepelene;TE;AL23
+2;Tropoje;TP;AL26
+2;Vlore;VL;AL27
+2;Tiran;TI;AL28
+2;Bulqize;BU;AL29
+2;Delvine;DL;AL30
+2;Devoll;DV;AL31
+2;Has;HA;AL32
+2;Kavaje;KA;AL33
+2;Kucove;KC;AL34
+2;Kurbin;KB;AL35
+2;Malesi e Madhe;MM;AL36
+2;Mallakaster;MK;AL37
+2;Peqin;PQ;AL38
+2;Tirane;TR;AL39
+11;Aragatsotn;AG;AM01
+11;Ararat;AR;AM02
+11;Armavir;AV;AM03
+11;Geghark'unik';GR;AM04
+11;Kotayk';KT;AM05
+11;Lorri;LO;AM06
+11;Shirak;SH;AM07
+11;Syunik';SU;AM08
+11;Tavush;TV;AM09
+11;Vayots' Dzor;VD;AM10
+11;Yerevan;ER;AM11
+5;Andorra la Vella;AN;AN07
+5;Canillo;CA;AN02
+5;Encamp;EN;AN03
+5;La Massana;MA;AN04
+5;Ordino;OR;AN05
+5;Sant Julia de Loria;JL;AN06
+6;Benguela;BG;AO01
+6;Bie;BI;AO02
+6;Cabinda;CB;AO03
+6;Cuando Cubango;CC;AO04
+6;Cuanza Norte;CN;AO05
+6;Cuanza Sul;CS;AO06
+6;Cunene;CU;AO07
+6;Huambo;HM;AO08
+6;Huila;HL;AO09
+6;Luanda;LU;AO10
+6;Malanje;ML;AO12
+6;Namibe;NA;AO13
+6;Moxico;MX;AO14
+6;Uige;UI;AO15
+6;Zaire;ZA;AO16
+6;Lunda Norte;LN;AO17
+6;Lunda Sul;LS;AO18
+6;Bengo;BO;AO19
+10;Buenos Aires;BA;AR01
+10;Catamarca;CT;AR02
+10;Chaco;CC;AR03
+10;Chubut;CH;AR04
+10;Cordoba;CB;AR05
+10;Corrientes;CN;AR06
+10;Distrito Federal;DF;AR07
+10;Entre Rios;ER;AR08
+10;Formosa;FM;AR09
+10;Jujuy;JY;AR10
+10;La Pampa;LP;AR11
+10;La Rioja;LR;AR12
+10;Mendoza;MZ;AR13
+10;Misiones;MN;AR14
+10;Neuquen;NQ;AR15
+10;Rio Negro;RN;AR16
+10;Salta;SA;AR17
+10;San Juan;SJ;AR18
+10;San Luis;SL;AR19
+10;Santa Cruz;SC;AR20
+10;Santa Fe;SF;AR21
+10;Santiago del Estero;SE;AR22
+10;Antartida e Islas del Atlan Tierra del Fuego;TF;AR23
+10;Tucuman;TM;AR24
+15;Burgenland;BU;AU01
+15;Karnten;KA;AU02
+15;Niederosterreich;NO;AU03
+15;Oberosterreich;OO;AU04
+15;Salzburg;SZ;AU05
+15;Steiermark;ST;AU06
+15;Tirol;TR;AU07
+15;Vorarlberg;VO;AU08
+15;Wien;WI;AU09
+18;Al Hadd;HD;BA01
+18;Al Manamah;MN;BA02
+18;Al Muharraq;MQ;BA03
+18;Jidd Hafs;JH;BA05
+18;Sitrah;ST;BA06
+18;Al Mintaqah al Gharbiyah;MG;BA08
+18;Mintaqat Juzur Hawar;MJ;BA09
+18;Al Mintaqah ash Shamaliyah;MS;BA10
+18;Al Mintaqah al Wusta;MW;BA11
+18;Madinat Isa;MI;BA12
+18;Madinat Hamad;MH;BA14
+21;Christ Church;CC;BB01
+21;Saint Andrew;AN;BB02
+21;Saint George;GE;BB03
+21;Saint James;JM;BB04
+21;Saint John;JN;BB05
+21;Saint Joseph;JS;BB06
+21;Saint Lucy;LU;BB07
+21;Saint Michael;MI;BB08
+21;Saint Peter;PE;BB09
+21;Saint Philip;PH;BB10
+21;Saint Thomas;TH;BB11
+31;Central;CE;BC01
+31;Chobe;CH;BC02
+31;Ghanzi;GH;BC03
+31;Kgalagadi;KG;BC04
+31;Kgatleng;KL;BC05
+31;Kweneng;KW;BC06
+31;Ngamiland;NG;BC07
+31;NorthEast;NE;BC08
+31;SouthEast;SE;BC09
+31;Southern;SO;BC10
+27;Devonshire;DE;BD01
+27;Hamilton Municipality;HC;BD03
+27;Paget;PA;BD04
+27;Pembroke;PE;BD05
+27;Saint George;SG;BD06
+27;Saint George's;SC;BD07
+27;Sandys;SA;BD08
+27;Smiths;SM;BD09
+27;Southampton;SO;BD10
+27;Warwick;WA;BD11
+24;Antwerpen;AN;BE01
+24;Hainaut;HT;BE03
+24;Liege;LG;BE04
+24;Limburg;LI;BE05
+24;Luxembourg;LX;BE06
+24;Namur;NA;BE07
+24;Oost-Vlaanderen;OV;BE08
+24;West-Vlaanderen;WV;BE09
+17;Bimini;BI;BF05
+17;Cat Island;CI;BF06
+17;Exuma;EX;BF10
+17;Inagua;IN;BF13
+17;Long Island;LI;BF15
+17;Mayaguana;MG;BF16
+17;Ragged Island;RI;BF18
+17;Harbour Island;HI;BF22
+17;New Providence;NP;BF23
+17;Acklins and Crooked Islands;AC;BF24
+17;Freeport;FP;BF25
+17;Fresh Creek;FC;BF26
+17;Governor's Harbour;GH;BF27
+17;Green Turtle Cay;GT;BF28
+17;High Rock;HR;BF29
+17;Kemps Bay;KB;BF30
+17;Marsh Harbour;MH;BF31
+17;Nichollstown and Berry Islands;NB;BF32
+17;Rock Sound;RS;BF33
+17;Sandy Point;SP;BF34
+17;San Salvador and Rum Cay;SR;BF35
+20;Chittagong;CG;BG80
+20;Dhaka;DA;BG81
+20;Khulna;KH;BG82
+20;Rajshahi;RJ;BG83
+25;Belize;BZ;BH01
+25;Cayo;CY;BH02
+25;Corozal;CZ;BH03
+25;Orange Walk;OW;BH04
+25;Stann Creek;SC;BH05
+25;Toledo;TO;BH06
+29;Chuquisaca;CQ;BL01
+29;Cochabamba;CB;BL02
+29;El Beni;EB;BL03
+29;La Paz;LP;BL04
+29;Oruro;OR;BL05
+29;Pando;PA;BL06
+29;Potosi;PO;BL07
+29;Santa Cruz;SC;BL08
+29;Tarija;TR;BL09
+39;Rakhine State;RA;BM01
+39;Chin State;CH;BM02
+39;Ayeyarwady;AY;BM03
+39;Kachin State;KC;BM04
+39;Kayin State;KN;BM05
+39;Kayah State;KH;BM06
+39;Mandalay;MD;BM08
+39;Sagaing;SA;BM10
+39;Shan State;SH;BM11
+39;Tanintharyi;TN;BM12
+39;Mon State;MO;BM13
+39;Magway;MG;BM15
+39;Bago;BA;BM16
+39;Yangon;YA;BM17
+26;Atakora;AK;BN01
+26;Atlantique;AQ;BN02
+26;Borgou;BO;BN03
+26;Mono;MO;BN04
+26;Oueme;OU;BN05
+26;Zou;ZO;BN06
+23;Brestskaya Voblasts';BR;BO01
+23;Homyel'skaya Voblasts';HO;BO02
+23;Hrodzyenskaya Voblasts';HR;BO03
+23;Minsk;HM;BO04
+23;Minskaya Voblasts';MI;BO05
+23;Mahilyowskaya Voblasts';MA;BO06
+23;Vitsyebskaya Voblasts';VI;BO07
+222;Malaita;ML;BP03
+222;Western;WE;BP04
+222;Central;CN;BP05
+222;Guadalcanal;GC;BP06
+222;Isabel;IS;BP07
+222;Makira;MK;BP08
+222;Temotu;TE;BP09
+33;Distrito Federal;DF;BR07
+33;Paro;PA;BR16
+33;Pernambuco;PE;BR19
+28;Bumthang;BU;BT05
+28;Chhukha;CK;BT06
+28;Chirang;CR;BT07
+28;Daga;DA;BT08
+28;Geylegphug;GE;BT09
+28;Ha;HA;BT10
+28;Lhuntshi;LH;BT11
+28;Mongar;MO;BT12
+28;Paro;PR;BT13
+28;Pemagatsel;PM;BT14
+28;Punakha;PN;BT15
+28;Samchi;SM;BT16
+28;Samdrup;SJ;BT17
+28;Shemgang;SG;BT18
+28;Tashigang;TA;BT19
+28;Thimphu;TM;BT20
+28;Tongsa;TO;BT21
+28;Wangdi Phodrang;WP;BT22
+37;Burgas;BR;BU39
+37;Sofiya-Grad;SG;BU42
+37;Khaskovo;KK;BU43
+37;Lovech;LV;BU46
+37;Montana;MT;BU47
+37;Plovdiv;PD;BU51
+37;Razgrad;RG;BU52
+37;Sofiya;SF;BU58
+37;Varna;VN;BU61
+36;Belait;BE;BX01
+36;Brunei and Muara;BM;BX02
+36;Temburong;TE;BX03
+36;Tutong;TU;BX04
+40;Bujumbura;BU;BY02
+40;Muramvya;MV;BY22
+40;Bubanza;BB;BY09
+40;Bururi;BR;BY10
+40;Cankuzo;CA;BY11
+40;Cibitoke;CI;BY12
+40;Gitega;GI;BY13
+40;Karuzi;KR;BY14
+40;Kayanza;KY;BY15
+40;Kirundo;KI;BY16
+40;Makamba;MA;BY17
+40;Muyinga;MY;BY18
+40;Ngozi;NG;BY19
+40;Rutana;RT;BY20
+40;Ruyigi;RY;BY21
+41;Batdambang;BA;CB29
+41;Kampong Cham;KM;CB02
+41;Kampong Chhnang;KG;CB03
+41;Kampong Spoe;KS;CB04
+41;Kampong Thum;KT;CB05
+41;Kampot;KP;CB21
+41;Kandal;KN;CB07
+41;Kaoh Kong;KK;CB08
+41;Krachen;KR;CB09
+41;Mondol Kiri;MK;CB10
+41;Phnum Penh;PP;CB22
+41;Pouthisat;PO;CB12
+41;Preah Vihear;PH;CB13
+41;Prey Veng;PY;CB14
+41;Stoeng Treng;ST;CB17
+41;Svay Rieng;SR;CB18
+41;Takev;TA;CB19
+41;Rotanah Kiri;RO;CB23
+41;Siem Reab;SI;CB24
+41;Banteay Mean Cheay;OM;CB25
+41;Keb;KB;CB26
+41;Otdar Mean Cheay;OC;CB27
+41;Preah Seihanu;KA;CB28
+47;Batha;BA;CD01
+47;Biltine;BI;CD02
+47;Borkou-Ennedi-Tibesti;BT;CD03
+47;ChariBaguirmi;CB;CD04
+47;Guera;GR;CD05
+47;Kanem;KA;CD06
+47;Lac;LC;CD07
+47;Logone Occidental;LO;CD08
+47;Logone Oriental;LR;CD09
+47;Mayo-Kebbi;MK;CD10
+47;Moyen-Chari;MC;CD11
+47;Ouaddai;OD;CD12
+47;Salamat;SA;CD13
+47;Tandjile;TA;CD14
+228;Central;CE;CE29
+228;North Central;NC;CE30
+228;North Eastern;NE;CE31
+228;North Western;NW;CE32
+228;Sabaragamuwa;SA;CE33
+228;Southern;SO;CE34
+228;Uva;UV;CE35
+228;Western;WE;CE36
+56;Bouenza;BO;CF01
+56;Cuvette;CU;CF03
+56;Kouilou;KO;CF04
+56;Lekoumou;LE;CF05
+56;Likouala;LI;CF06
+56;Niari;NI;CF07
+56;Plateaux;PL;CF08
+56;Sangha;SA;CF10
+56;Pool;PO;CF11
+56;Brazzaville;BR;CF12
+55;Bandundu;BN;CG01
+55;Equateur;EQ;CG02
+55;Kasai-Occidental;KC;CG03
+55;Kasai-Oriental;KR;CG04
+55;Katanga;KT;CG05
+55;Kinshasa;KN;CG06
+55;Bas-Congo;BC;CG08
+55;Orientale;HC;CG09
+49;Anhui;AH;CH01
+49;Zhejiang;ZJ;CH02
+49;Jiangxi;JX;CH03
+49;Jiangsu;JS;CH04
+49;Jilin;JL;CH05
+49;Qinghai;QH;CH06
+49;Fujian;FJ;CH07
+49;Heilongjiang;HL;CH08
+49;Henan;HE;CH09
+49;Hebei;HB;CH10
+49;Hunan;HN;CH11
+49;Hubei;HU;CH12
+49;Xinjiang;XJ;CH13
+49;Xizang;XZ;CH14
+49;Gansu;GS;CH15
+49;Guangxi;GX;CH16
+49;Guizhou;GZ;CH18
+49;Liaoning;LN;CH19
+49;Nei Mongol;NM;CH20
+49;Ningxia;NX;CH21
+49;Beijing;BJ;CH22
+49;Shanghai;SH;CH23
+49;Shanxi;SX;CH24
+49;Shandong;SD;CH25
+49;Shaanxi;SA;CH26
+49;Sichuan;SC;CH32
+49;Tianjin;TJ;CH28
+49;Yunnan;YN;CH29
+49;Guangdong;GD;CH30
+49;Hainan;HA;CH31
+49;Chongqing;CQ;CH33
+48;Valparaiso;VS;CI01
+48;Aisen del General Carlos Ibanez del Campo;AI;CI02
+48;Antofagasta;AN;CI03
+48;Araucania;AR;CI04
+48;Atacama;AT;CI05
+48;Bio-Bio;BI;CI06
+48;Coquimbo;CO;CI07
+48;Libertador General Bernardo O'Higgins;LI;CI08
+48;Los Lagos;LL;CI09
+48;Magallanes y de la Antartica Chilena;MA;CI10
+48;Maule;ML;CI11
+48;Region Metropolitana;RM;CI12
+48;Tarapaca;TA;CI13
+45;Creek;CR;CJ01
+45;Eastern;EA;CJ02
+45;Midland;MI;CJ03
+45;South Town;SO;CJ04
+45;Spot Bay;SP;CJ05
+45;Stake Bay;ST;CJ06
+45;West End;WD;CJ07
+45;Western;WN;CJ08
+42;Est;ES;CM04
+42;Littoral;LT;CM05
+42;NordOuest;NW;CM07
+42;Ouest;OU;CM08
+42;SudOuest;SW;CM09
+42;Adamaoua;AD;CM10
+42;Centre;CE;CM11
+42;ExtremeNord;EN;CM12
+42;Nord;NO;CM13
+42;Sud;SU;CM14
+54;Anjouan;AN;CN01
+54;Grande Comore;GC;CN02
+54;Moheli;MO;CN03
+53;Amazonas;AM;CO01
+53;Antioquia;AN;CO02
+53;Arauca;AR;CO03
+53;Atlantico;AT;CO04
+53;Caqueta;CQ;CO08
+53;Cauca;CA;CO09
+53;Cesar;CE;CO10
+53;Choco;CH;CO11
+53;Cordoba;CR;CO12
+53;Guaviare;GV;CO14
+53;Guainia;GN;CO15
+53;Huila;HU;CO16
+53;La Guajira;LG;CO17
+53;Meta;ME;CO19
+53;Narino;NA;CO20
+53;Norte de Santander;NS;CO21
+53;Putumayo;PU;CO22
+53;Quindio;QD;CO23
+53;Risaralda;RI;CO24
+53;San Andres y Providencia;SA;CO25
+53;Santander;ST;CO26
+53;Sucre;SU;CO27
+53;Tolima;TO;CO28
+53;Valle del Cauca;VC;CO29
+53;Vaupes;VP;CO30
+53;Vichada;VD;CO31
+53;Casanare;CS;CO32
+53;Cundinamarca;CU;CO33
+53;Distrito Capital;DC;CO34
+53;Bolivar;BL;CO35
+53;Boyaca;BY;CO36
+53;Caldas;CL;CO37
+53;Magdalena;MA;CO38
+59;Alajuela;AL;CS01
+59;Cartago;CA;CS02
+59;Guanacaste;GU;CS03
+59;Heredia;HE;CS04
+59;Limon;LI;CS06
+59;Puntarenas;PU;CS07
+59;San Jose;SJ;CS08
+46;Bamingui-Bangoran;BB;CT01
+46;Basse-Kotto;BK;CT02
+46;Haute-Kotto;HK;CT03
+46;Haute-Sangha;HS;CT04
+46;Haut-Mbomou;HM;CT05
+46;Kemo-Gribingui;KG;CT06
+46;Lobaye;LB;CT07
+46;Mbomou;MB;CT08
+46;Nana-Mambere;NM;CT09
+46;Ouaka;UK;CT11
+46;Ouham;AC;CT12
+46;Ouham-Pende;OP;CT13
+46;Vakaga;VK;CT14
+46;Gribingui;KB;CT15
+46;Sangha;SE;CT16
+46;Ombella-Mpoko;MP;CT17
+46;Bangui;BG;CT18
+62;Pinar del Rio;PR;CU01
+62;Ciudad de La Habana;CH;CU02
+62;Matanzas;MA;CU03
+62;Isla de la Juventud;IJ;CU04
+62;Camaguey;CM;CU05
+62;Ciego de Avila;CA;CU07
+62;Cienfuegos;CF;CU08
+62;Granma;GR;CU09
+62;Guantanamo;GU;CU10
+62;La Habana;LH;CU11
+62;Holguin;HO;CU12
+62;Las Tunas;LT;CU13
+62;Sancti Spiritus;SS;CU14
+62;Santiago de Cuba;SC;CU15
+62;Villa Clara;VC;CU16
+44;Boa Vista;BV;CV01
+44;Brava;BR;CV02
+44;Calheta de SÑo Miguel;SM;CV03
+44;Maio;MA;CV04
+44;Paul;PA;CV05
+44;Praia;PI;CV06
+44;Ribeira Grande;RG;CV07
+44;Sal;SL;CV08
+44;Santa Catarina;SC;CV09
+44;Sao Nicolau;SN;CV10
+44;Sao Vicente;SV;CV11
+44;Tarrafal;TF;CV12
+63;Famagusta;FA;CY01
+63;Kyrenia;KY;CY02
+63;Larnaca;LA;CY03
+63;Nicosia;NI;CY04
+63;Limassol;LI;CY05
+63;Paphos;PA;CY06
+65;Arhus;AR;DA01
+65;Bornholm;BO;DA02
+65;Frederiksborg;FR;DA03
+65;Fyn;FY;DA04
+65;Kobenhavn;SK;DA06
+65;Nordjylland;NJ;DA07
+65;Ribe;RB;DA08
+65;Ringkobing;RK;DA09
+65;Roskilde;RS;DA10
+65;Sonderjylland;SJ;DA11
+65;Storstrom;ST;DA12
+65;Vejle;VJ;DA13
+65;Vestsjalland;VS;DA14
+65;Viborg;VB;DA15
+65;Fredericksberg;SF;DA16
+66;'Ali Sabih;AS;DJ01
+66;Dikhil;DI;DJ02
+66;Djibouti;DJ;DJ03
+66;Obock;OB;DJ04
+66;Tadjoura;TA;DJ05
+67;Saint Andrew;AN;DO02
+67;Saint David;DA;DO03
+67;Saint George;GO;DO04
+67;Saint John;JN;DO05
+67;Saint Joseph;JH;DO06
+67;Saint Luke;LU;DO07
+67;Saint Mark;MA;DO08
+67;Saint Patrick;PK;DO09
+67;Saint Paul;PL;DO10
+67;Saint Peter;PR;DO11
+68;Azua;AZ;DR01
+68;Baoruco;BR;DR02
+68;Barahona;BH;DR03
+68;Dajabon;DA;DR04
+68;Distrito Nacional;DN;DR05
+68;Duarte;DU;DR06
+68;Espaillat;ES;DR08
+68;Independencia;IN;DR09
+68;La Altagracia;AL;DR10
+68;Elias Pina;EP;DR11
+68;La Romana;RO;DR12
+68;Maria Trinidad Sanchez;MT;DR14
+68;Monte Cristi;MC;DR15
+68;Pedernales;PN;DR16
+68;Peravia;PR;DR17
+68;Puerto Plata;PP;DR18
+68;Salcedo;SC;DR19
+68;Samana;SM;DR20
+68;Sanchez Ramirez;SZ;DR21
+68;San Juan;JU;DR23
+68;San Pedro de Macoris;PM;DR24
+68;Santiago;ST;DR25
+68;Santiago Rodriguez;SR;DR26
+68;Valverde;VA;DR27
+68;El Seibo;SE;DR28
+68;Hato Mayor;HM;DR29
+68;La Vega;VE;DR30
+68;Monsenor Nouel;MN;DR31
+68;Monte Plata;MP;DR32
+68;San Cristobal;CR;DR33
+70;Galapagos;GA;EC01
+70;Azuay;AZ;EC02
+70;Bolivar;BO;EC03
+70;Canar;CN;EC04
+70;Carchi;CR;EC05
+70;Chimborazo;CB;EC06
+70;Cotopaxi;CT;EC07
+70;El Oro;EO;EC08
+70;Esmeraldas;ES;EC09
+70;Guayas;GU;EC10
+70;Imbabura;IM;EC11
+70;Loja;LJ;EC12
+70;Los Rios;LR;EC13
+70;Manabi;MN;EC14
+70;Morona-Santiago;MS;EC15
+70;Pastaza;PA;EC17
+70;Pichincha;PI;EC18
+70;Tungurahua;TU;EC19
+70;Zamora-Chinchipe;ZC;EC20
+70;Napo;NA;EC23
+70;Sucumbios;SU;EC22
+71;Ad Daqahliyah;DQ;EG01
+71;Al Bahr al Ahmar;BA;EG02
+71;Al Buhayrah;BH;EG03
+71;Al Fayyum;FY;EG04
+71;Al Gharbiyah;GH;EG05
+71;Al Iskandariyah;IK;EG06
+71;Al Isma'iliyah;IS;EG07
+71;Al Jizah;JZ;EG08
+71;Al Minufiyah;MF;EG09
+71;Al Minya;MN;EG10
+71;Al Qahirah;QH;EG11
+71;Al Qalyÿbiyah;QL;EG12
+71;Al Wadi al Jadid;WJ;EG13
+71;Ash Sharqiyah;SQ;EG14
+71;As Suways;SW;EG15
+71;Aswan;AN;EG16
+71;Asyut;AT;EG17
+71;Bani Suwayf;BN;EG18
+71;Bur Sa'id;BS;EG19
+71;Dumyat;DT;EG20
+71;Kafr ash Shaykh;KS;EG21
+71;Matruh;MT;EG22
+71;Qina;QN;EG23
+71;Suhaj;SJ;EG24
+71;Janub Sina';JS;EG26
+71;Shamal Sina';SS;EG27
+117;Carlow;CW;EI01
+117;Cavan;CN;EI02
+117;Clare;CE;EI03
+117;Cork;CK;EI04
+117;Donegal;DL;EI06
+117;Dublin;DN;EI07
+117;Galway;GY;EI10
+117;Kerry;KY;EI11
+117;Kildare;KE;EI12
+117;Kilkenny;KK;EI13
+117;Leitrim;LM;EI14
+117;Laois;LS;EI15
+117;Limerick;LK;EI16
+117;Longford;LD;EI18
+117;Louth;LH;EI19
+117;Mayo;MO;EI20
+117;Meath;MH;EI21
+117;Monaghan;MN;EI22
+117;Offaly;OY;EI23
+117;Roscommon;RN;EI24
+117;Sligo;SO;EI25
+117;Tipperary;TY;EI26
+117;Waterford;WD;EI27
+117;Westmeath;WH;EI29
+117;Wexford;WX;EI30
+117;Wicklow;WW;EI31
+73;Annobon;AN;EK03
+73;Bioko Norte;BN;EK04
+73;Bioko Sur;BS;EK05
+73;Centro Sur;CS;EK06
+73;Kie-Ntem;KN;EK07
+73;Litoral;LI;EK08
+73;Wele-Nzas;WN;EK09
+75;Harjumaa;HA;EN01
+75;Hiiumaa;HI;EN02
+75;Ida-Virumaa;IV;EN03
+75;Jarvamaa;JR;EN04
+75;Jogevamaa;JN;EN05
+75;Laanemaa;LN;EN07
+75;Laane-Virumaa;LV;EN08
+75;Parnumaa;PR;EN11
+75;Polvamaa;PL;EN12
+75;Raplamaa;RA;EN13
+75;Saaremaa;SA;EN14
+75;Tartumaa;TA;EN18
+75;Valgamaa;VG;EN19
+75;Viljandimaa;VD;EN20
+75;Vorumaa;VR;EN21
+72;Ahuachapan;AH;ES01
+72;Cabanas;CA;ES02
+72;Chalatenango;CH;ES03
+72;Cuscatlan;CU;ES04
+72;La Libertad;LI;ES05
+72;La Paz;PA;ES06
+72;La Union;UN;ES07
+72;Morazan;MO;ES08
+72;San Miguel;SM;ES09
+72;San Salvador;SS;ES10
+72;Santa Ana;SA;ES11
+72;San Vicente;SI;ES12
+72;Sonsonate;SO;ES13
+72;Usulutan;US;ES14
+76;Harari People;HA;ET50
+76;Gambela Peoples;GA;ET49
+76;Benshangul-Gumaz;BE;ET47
+76;Tigray;TI;ET53
+76;Amhara;AM;ET46
+76;Afar;AF;ET45
+76;Oromia;OR;ET51
+76;Somali;SO;ET52
+76;Addis Ababa;AA;ET44
+76;Southern Nations;SN;ET54
+64;Hlavni Mesto Praha;PR;EZ52
+81;Ahvenanmaa;AV;FI01
+81;Lappi;LP;FI06
+81;Oulu Laani;OU;FI08
+80;Central;CE;FJ01
+80;Eastern;EA;FJ02
+80;Northern;NO;FJ03
+80;Rotuma;RO;FJ04
+80;Western;WE;FJ05
+160;Kosrae;KO;FM01
+160;Pohnpei;PO;FM02
+160;Chuuk;CH;FM03
+160;Yap;YA;FM04
+82;Aquitaine;AQ;FR97
+82;Auvergne;AU;FR98
+82;Basse-Normandie;BA;FR99
+82;Bourgogne;BO;FRA1
+82;Bretagne;BR;FRA2
+82;Centre;CE;FRA3
+82;Champagne-Ardenne;CH;FRA4
+82;Corse;CO;FRA5
+82;Franche-Comte;FC;FRA6
+82;Haute-Normandie;HA;FRA7
+82;Ile-De-France;IL;FRA8
+82;Languedoc-Roussillon;LA;FRA9
+82;Limousin;LI;FRB1
+82;Lorraine;LO;FRB2
+82;Midi-Pyrenees;MI;FRB3
+82;Nord-Pas-de-Calais;NO;FRB4
+82;Pays de la Loire;PA;FRB5
+82;Picardie;PI;FRB6
+82;Poitou-Charentes;PO;FRB7
+82;Provence-Alpes-Cote d'Azur;PR;FRB8
+82;Rhone-Alpes;RH;FRB9
+82;Alsace;AL;FRC1
+88;Banjul;BJ;GA01
+88;Lower River;LR;GA02
+88;MacCarthy Island;MC;GA03
+88;Upper River;UR;GA04
+88;Western;WE;GA05
+88;North Bank;NB;GA07
+87;Estuaire;ES;GB01
+87;Haut-Ogooue;HO;GB02
+87;Moyen-Ogooue;MO;GB03
+87;Ngounie;NG;GB04
+87;Nyanga;NY;GB05
+87;Ogooue-Ivindo;OI;GB06
+87;Ogooue-Lolo;OL;GB07
+87;Ogooue-Maritime;OM;GB08
+87;Woleu-Ntem;WN;GB09
+90;Abkhazia;AB;GG02
+90;Ajaria;AJ;GG04
+90;T'bilisi;TB;GG51
+92;Greater Accra;AA;GH01
+92;Ashanti;AH;GH02
+92;Brong-Ahafo;BA;GH03
+92;Central;CP;GH04
+92;Eastern;EP;GH05
+92;Northern;NP;GH06
+92;Volta;TV;GH08
+92;Western;WP;GH09
+92;Upper East;UE;GH10
+92;Upper West;UW;GH11
+97;Saint Andrew;AN;GJ01
+97;Saint David;DA;GJ02
+97;Saint George;GE;GJ03
+97;Saint John;JO;GJ04
+97;Saint Mark;MA;GJ05
+97;Saint Patrick;PA;GJ06
+96;Nordgronland;NG;GL01
+96;Ostgronland;EG;GL02
+96;Vestgronland;VG;GL03
+91;Baden-Wurttemberg;BW;GM01
+91;Bayern;BY;GM02
+91;Bremen;HB;GM03
+91;Hamburg;HH;GM04
+91;Hessen;HE;GM05
+91;Niedersachsen;NI;GM06
+91;Nordrhein-Westfalen;NW;GM07
+91;Rheinland-Pfalz;RP;GM08
+91;Saarland;SL;GM09
+91;Schleswig-Holstein;SH;GM10
+91;Brandenburg;BB;GM11
+91;Mecklenburg-Vorpommern;MY;GM12
+91;Sachsen;SN;GM13
+91;Sachsen-Anhalt;ST;GM14
+91;Thuringen;TH;GM15
+91;Berlin;BE;GM16
+95;Evros;ES;GR01
+95;Rodhopi;RD;GR02
+95;Xanthi;XN;GR03
+95;Drama;DR;GR04
+95;Serrai;SR;GR05
+95;Kilkis;KK;GR06
+95;Pella;PL;GR07
+95;Florina;FL;GR08
+95;Kastoria;KS;GR09
+95;Grevena;GE;GR10
+95;Kozani;KZ;GR11
+95;Imathia;IM;GR12
+95;Thessaloniki;TN;GR13
+95;Kavala;KV;GR14
+95;Khalkidhiki;KD;GR15
+95;Pieria;PI;GR16
+95;Ioannina;IO;GR17
+95;Thesprotia;TP;GR18
+95;Preveza;PV;GR19
+95;Arta;AR;GR20
+95;Larisa;LR;GR21
+95;Trikala;TR;GR22
+95;Kardhitsa;KT;GR23
+95;Magnisia;MG;GR24
+95;Kerkira;KE;GR25
+95;Levkas;LV;GR26
+95;Kefallinia;KF;GR27
+95;Zakinthos;ZK;GR28
+95;Fthiotis;FT;GR29
+95;Evritania;ET;GR30
+95;Aitolia kai Akarnania;AA;GR31
+95;Fokis;FK;GR32
+95;Voiotia;VT;GR33
+95;Evvoia;EV;GR34
+95;Attiki;AT;GR35
+95;Argolis;AG;GR36
+95;Korinthia;KO;GR37
+95;Akhaia;AK;GR38
+95;Ilia;IL;GR39
+95;Messinia;MS;GR40
+95;Arkadhia;AD;GR41
+95;Lakonia;LC;GR42
+95;Khania;KN;GR43
+95;Rethimni;RT;GR44
+95;Iraklion (Crete);IR;GR45
+95;Lasithi;LT;GR46
+95;Dhodhekanisos;DO;GR47
+95;Samos;SM;GR48
+95;Kikladhes;KY;GR49
+95;Khios;KH;GR50
+95;Lesvos;LS;GR51
+100;Alta Verapaz;AV;GT01
+100;Baja Verapaz;BV;GT02
+100;Chimaltenango;CM;GT03
+100;Chiquimula;CQ;GT04
+100;El Progreso;PR;GT05
+100;Escuintla;ES;GT06
+100;Guatemala;GU;GT07
+100;Huehuetenango;HU;GT08
+100;Izabal;IZ;GT09
+100;Jalapa;JA;GT10
+100;Jutiapa;JU;GT11
+100;Peten;PE;GT12
+100;Quetzaltenango;QZ;GT13
+100;Quiche;QC;GT14
+100;Retalhuleu;RE;GT15
+100;Sacatepequez;SA;GT16
+100;San Marcos;SM;GT17
+100;Santa Rosa;SR;GT18
+100;Solola;SO;GT19
+100;Suchitepequez;SU;GT20
+100;Totonicapan;TO;GT21
+100;Zacapa;ZA;GT22
+102;Beyla;BE;GV01
+102;Boffa;BF;GV02
+102;Boke;BK;GV03
+102;Conakry;CK;GV04
+102;Dabola;DB;GV05
+102;Dalaba;DL;GV06
+102;Dinguiraye;DI;GV07
+102;Dubreka;DU;GV31
+102;Faranah;FA;GV09
+102;Forecariah;FO;GV10
+102;Fria;FR;GV11
+102;Gaoual;GA;GV12
+102;Gueckedou;GU;GV13
+102;Kankan;KA;GV32
+102;Kerouane;KE;GV15
+102;Kindia;KD;GV16
+102;Kissidougou;KS;GV17
+102;Koundara;KN;GV18
+102;Kouroussa;KO;GV19
+102;Labe;LA;GV34
+102;Macenta;MC;GV21
+102;Mali;ML;GV22
+102;Mamou;MM;GV23
+102;Nzerekore;NZ;GV38
+102;Pita;PI;GV25
+102;Siguiri;SI;GV39
+102;Telimele;TE;GV27
+102;Tougue;TO;GV28
+102;Yomou;YO;GV29
+104;Barima-Waini;BA;GY10
+104;Cuyuni-Mazaruni;CU;GY11
+104;Demerara-Mahaica;DE;GY12
+104;East Berbice-Corentyne;EB;GY13
+104;Essequibo Islands-West Demerara;ES;GY14
+104;Mahaica-Berbice;MA;GY15
+104;Pomeroon-Supenaam;PM;GY16
+104;Potaro-Siparuni;PT;GY17
+104;Upper Demerara-Berbice;UD;GY18
+104;Upper Takutu-Upper Essequibo;UT;GY19
+105;Nord-Ouest;NO;HA03
+105;Artibonite;AR;HA06
+105;Centre;CE;HA07
+105;Grand'Anse;GA;HA08
+105;Nord;ND;HA09
+105;Nord-Est;NE;HA10
+105;Ouest;OU;HA11
+105;Sud;SD;HA12
+105;Sud-Est;SE;HA13
+108;Atlantida;AT;HO01
+108;Choluteca;CH;HO02
+108;Colon;CL;HO03
+108;Comayagua;CM;HO04
+108;Copan;CP;HO05
+108;Cortes;CR;HO06
+108;El Paraiso;EP;HO07
+108;Francisco Morazan;FM;HO08
+108;Gracias a Dios;GD;HO09
+108;Intibuca;IN;HO10
+108;Islas de la Bahia;IB;HO11
+108;La Paz;LP;HO12
+108;Lempira;LE;HO13
+108;Ocotepeque;OC;HO14
+108;Olancho;OL;HO15
+108;Santa Barbara;SB;HO16
+108;Valle;VA;HO17
+108;Yoro;YO;HO18
+111;Bacs-Kiskun;BK;HU01
+111;Baranya;BA;HU02
+111;Bekes;BE;HU03
+111;Borsod-Abauj-Zemplen;BZ;HU04
+111;Budapest;BU;HU05
+111;Csongrad;CS;HU06
+111;Debrecen;DE;HU07
+111;Fejer;FE;HU08
+111;Gyor-Moson-Sopron;GS;HU09
+111;Hajdu-Bihar;HB;HU10
+111;Heves;HE;HU11
+111;Komarom-Esztergom;KE;HU12
+111;Miskolc;MI;HU13
+111;Nograd;NO;HU14
+111;Pees;PS;HU15
+111;Pest;PE;HU16
+111;Somogy;SO;HU17
+111;Szabolcs-Szatmar-Bereg;SZ;HU18
+111;Szeged;SD;HU19
+111;Jasz-Nagykun-Szolnok;JN;HU20
+111;Tolna;TO;HU21
+111;Vas;VA;HU22
+111;Veszprem;VM;HU39
+111;Zala;ZA;HU24
+111;Gyor;GY;HU25
+111;Bekescsaba;BC;HU26
+111;Dunaujvaros;DU;HU27
+111;Eger;EG;HU28
+111;Hodmezovasarhely;HV;HU29
+111;Kaposvar;KV;HU30
+111;Kecskemet;KM;HU31
+111;Nagykanizsa;NK;HU32
+111;Nyiregyhaza;NY;HU33
+111;Sopron;SN;HU34
+111;Szekesfehervar;SF;HU35
+111;Szolnok;SK;HU36
+111;Szombathely;SH;HU37
+111;Tatabanya;TB;HU38
+111;Zalaegerszeg;ZE;HU40
+112;Akranes;AK;IC01
+112;Akureyri;AU;IC02
+112;Arnessysla;AR;IC03
+112;Austur-Bardastrandarsysla;AB;IC04
+112;Austur-Hunavatnssysla;AH;IC05
+112;Austur-Skaftafellssysla;AS;IC06
+112;Borgarfjardarsysla;BF;IC07
+112;Dalasysla;DS;IC08
+112;Eyjafjardarsysla;EY;IC09
+112;Gullbringusysla;GU;IC10
+112;Hafnarfjordur;HA;IC11
+112;Husavik;HU;IC12
+112;Isafjordur;IA;IC13
+112;Keflavik;KE;IC14
+112;Kjosarsysla;KJ;IC15
+112;Kopavogur;KO;IC16
+112;Myrasysla;MY;IC17
+112;Neskaupstadur;NE;IC18
+112;Nordur-Isafjardarsysla;NI;IC19
+112;Nordur-Mulasysla;NM;IC20
+112;Nordur-Tingeyjarsysla;NT;IC21
+112;Olafsfjordur;OL;IC22
+112;Rang_rvallasysla;RA;IC23
+112;Reykjavik;RE;IC24
+112;Saudarkrokur;SA;IC25
+112;Seydisfjordur;SE;IC26
+112;Siglufjordur;SI;IC27
+112;Skagafjardarsysla;SG;IC28
+112;Snafellsnes-og Hnappadalssysla;SH;IC29
+112;Strandasysla;SD;IC30
+112;Sudur-Mulasysla;SM;IC31
+112;Sudur-Tingeyjarsysla;ST;IC32
+112;Vestmannaeyjar;VE;IC33
+112;Vestur-Bardastrandarsysla;VB;IC34
+112;Vestur-Hunavatnssysla;VH;IC35
+112;Vestur-Isafjardarsysla;VI;IC36
+112;Vestur-Skaftafellssysla;VS;IC37
+114;Aceh (Atjeh);AC;ID01
+114;Bengkulu;BE;ID03
+114;Jakarta Raya (Djakarta Raya);JK;ID04
+114;Jambi (Djambi);JA;ID05
+114;Jawa Barat (Djawa Barat);JR;ID30
+114;Jawa Tengah (Djawa Tengah);JT;ID07
+114;Jawa Timur (Djawa Timur);JI;ID08
+114;Yogyakarta (Jogjakarta);YO;ID10
+114;Kalimantan Barat;KB;ID11
+114;Kalimantan Selatan;KS;ID12
+114;Kalimantan Tengah;KT;ID13
+114;Kalimantan Timur;KI;ID14
+114;Lampung;LA;ID15
+114;Maluku;MA;ID28
+114;Nusa Tenggara Barat;NB;ID17
+114;Nusa Tenggara Timur;NT;ID18
+114;Riau;RI;ID19
+114;Sulawesi Selatan;SN;ID20
+114;Sulawesi Tengah;ST;ID21
+114;Sulawesi Tenggara;SG;ID22
+114;Sulawesi Utara;SW;ID31
+114;Sumatera Barat;SB;ID24
+114;Sumatera Selatan;SL;ID32
+114;Sumatera Utara;SU;ID26
+113;Andaman and Nicobar Islands;AN;IN01
+113;Andhra Pradesh;AP;IN02
+113;Assam;AS;IN03
+113;Bihar;BR;IN34
+113;Chandigarh;CH;IN05
+113;Dadra and Nagar Haveli;DN;IN06
+113;Delhi;DL;IN07
+113;Gujarat;GJ;IN09
+113;Haryana;HR;IN10
+113;Himachal Pradesh;HP;IN11
+113;Jammu and Kashmir;JK;IN12
+113;Kerala;KL;IN13
+113;Lakshadweep;LD;IN14
+113;Madhya Pradesh;MP;IN35
+113;Maharashtra;MH;IN16
+113;Manipur;MM;IN17
+113;Meghalaya;ML;IN18
+113;Karnataka;KA;IN19
+113;Nagaland;NL;IN20
+113;Orissa;OR;IN21
+113;Pondicherry;PY;IN22
+113;Punjab;PB;IN23
+113;Rajasthan;RJ;IN24
+113;Tamil Nadu;TN;IN25
+113;Tripura;TR;IN26
+113;Uttar Pradesh;UP;IN36
+113;West Bengal;WB;IN28
+113;Sikkim;SK;IN29
+113;Arunachal Pradesh;AR;IN30
+113;Mizoram;MZ;IN31
+113;Daman and Diu;DD;IN32
+113;Goa;GA;IN33
+115;Azarbayjan-e Gharbi;WA;IR01
+115;Chahar Ma±all va Bakhtiari;CM;IR03
+115;Sistan va Baluchestan;SB;IR04
+115;Kohgiluyeh va Buyer Ahmad;KB;IR05
+115;Fars;FA;IR07
+115;Gilan;GI;IR08
+115;Hamadan;HD;IR09
+115;Ilam;IL;IR10
+115;Hormozgan;HG;IR11
+115;Kermanshah;BK;IR13
+115;Khuzestan;KZ;IR15
+115;Kordestan;KD;IR16
+115;Mazandaran;MN;IR35
+115;Bushehr;BS;IR22
+115;Lorestan;LO;IR23
+115;Markazi;MK;IR34
+115;Semnan;SM;IR25
+115;Tehran;TH;IR26
+115;Zanjan;ZA;IR36
+115;Esfahan;ES;IR28
+115;Kerman;KE;IR29
+115;Khorasan;KR;IR30
+115;Yazd;YA;IR31
+115;Ardabil;AR;IR32
+115;Azarbayjan-e Sharqi;EA;IR33
+118;HaDarom (Southern);HD;IS01
+118;HaMerkaz (Central);HM;IS02
+118;Ha_afon  (Northern);HZ;IS03
+118;HÃefa  (Haifa);HA;IS04
+118;Tel Aviv;TA;IS05
+118;Yerushalayim  (Jerusalem);JM;IS06
+119;Abruzzi;AB;IT01
+119;Basilicata;BA;IT02
+119;Calabria;CA;IT03
+119;Campania;CM;IT04
+119;Emilia-Romagna;EM;IT05
+119;Friuli-Venezia Giulia;FR;IT06
+119;Lazio;LA;IT07
+119;Liguria;LI;IT08
+119;Lombardia;LO;IT09
+119;Marche;MA;IT10
+119;Molise;MO;IT11
+119;Piemonte;PI;IT12
+119;Puglia;PU;IT13
+119;Sardegna;SA;IT14
+119;Sicilia;SI;IT15
+119;Toscana;TO;IT16
+119;Trentino-Alto Adige;TR;IT17
+119;Umbria;UM;IT18
+119;Valle d'Aosta;VA;IT19
+119;Veneto;VE;IT20
+60;Dabakala;DB;IV03
+60;Aboisso;AO;IV62
+60;Adzope;AZ;IV05
+60;Agboville;AV;IV06
+60;Biankouma;BI;IV07
+60;Bouna;BO;IV11
+60;Boundiali;BL;IV12
+60;Danane;DN;IV14
+60;Divo;DV;IV16
+60;Ferkessedougou;FE;IV17
+60;Gagnoa;GA;IV18
+60;Katiola;KA;IV20
+60;Korhogo;KO;IV21
+60;Odienne;OD;IV23
+60;Seguela;SE;IV25
+60;Touba;TO;IV26
+60;Bongouanou;BG;IV27
+60;Issia;IS;IV28
+60;Lakota;LA;IV29
+60;Mankono;MK;IV30
+60;Oume;OU;IV31
+60;Soubre;SO;IV32
+60;Tingrela;TG;IV33
+60;Zuenoula;ZU;IV34
+60;Abidjan;AB;IV61
+60;Bangolo;BA;IV36
+60;Beoumi;BE;IV37
+60;Bondoukou;BD;IV38
+60;Bouafle;BF;IV39
+60;Bouake;BK;IV40
+60;Daloa;DL;IV41
+60;Daoukro;DO;IV42
+60;Dimbokro;DI;IV67
+60;Duekoue;DU;IV44
+60;Grand-Lahou;GL;IV45
+60;Guiglo;GU;IV69
+60;Man;MA;IV47
+60;Mbahiakro;MB;IV48
+60;Sakassou;SK;IV49
+60;San Pedro;SP;IV50
+60;Sassandra;SA;IV51
+60;Sinfra;SI;IV52
+60;Tabou;TA;IV53
+60;Tanda;TD;IV54
+60;Tiassale;TI;IV55
+60;Toumodi;TM;IV56
+60;Vavoua;VA;IV57
+60;Yamoussoukro;YA;IV73
+60;Agnilbilekrou;AG;IV60
+116;Al Anbar;AN;IZ01
+116;Al Basrah;BA;IZ02
+116;Al Muthann_;MU;IZ03
+116;Al Qadisiyah;QA;IZ04
+116;As Sulaymaniyah;SU;IZ05
+116;Babil;BB;IZ06
+116;Baghdad;BG;IZ07
+116;Dahuk;DA;IZ08
+116;Dhi Qar;DQ;IZ09
+116;Diyala;DI;IZ10
+116;Arbil;AR;IZ11
+116;Karbala';KA;IZ12
+116;At Ta'mim;TS;IZ13
+116;Maysan;MA;IZ14
+116;Ninawa;NI;IZ15
+116;Wasit;WA;IZ16
+116;An Najaf;NA;IZ17
+116;S“alah ad Din;SD;IZ18
+122;Aichi;AI;JA01
+122;Akita;AK;JA02
+122;Aomori;AM;JA03
+122;Chiba;CH;JA04
+122;Ehime;EH;JA05
+122;Fukui;FU;JA06
+122;Fukuoka;FK;JA07
+122;Fukushima;FS;JA08
+122;Gifu;GI;JA09
+122;Gumma;GU;JA10
+122;Hiroshima;HI;JA11
+122;Hokkaido;HO;JA12
+122;Hyogo;HY;JA13
+122;Ibaraki;IB;JA14
+122;Ishikawa;IS;JA15
+122;Iwate;IW;JA16
+122;Kagawa;KA;JA17
+122;Kagoshima;KG;JA18
+122;Kanagawa;KN;JA19
+122;Kochi;KO;JA20
+122;Kumamoto;KU;JA21
+122;Kyoto;KY;JA22
+122;Mie;MI;JA23
+122;Miyagi;MY;JA24
+122;Miyazaki;MZ;JA25
+122;Nagano;NA;JA26
+122;Nagasaki;NG;JA27
+122;Nara;NR;JA28
+122;Niigata;NI;JA29
+122;Oita;OI;JA30
+122;Okayama;OK;JA31
+122;Osaka;OS;JA32
+122;Saga;SA;JA33
+122;Saitama;SI;JA34
+122;Shiga;SH;JA35
+122;Shimane;SM;JA36
+122;Shizuoka;SZ;JA37
+122;Tochigi;TO;JA38
+122;Tokushima;TK;JA39
+122;Tokyo;TY;JA40
+122;Tottori;TT;JA41
+122;Toyama;TA;JA42
+122;Wakayama;WA;JA43
+122;Yamagata;YA;JA44
+122;Yamaguchi;YM;JA45
+122;Yamanashi;YN;JA46
+122;Okinawa;ON;JA47
+120;Clarendon;CL;JM01
+120;Hanover;HA;JM02
+120;Manchester;MA;JM04
+120;Portland;PO;JM07
+120;Saint Andrew;SD;JM08
+120;Saint Ann;SN;JM09
+120;Saint Catherine;SC;JM10
+120;Saint Elizabeth;SE;JM11
+120;Saint James;SJ;JM12
+120;Saint Mary;SM;JM13
+120;Saint Thomas;ST;JM14
+120;Trelawny;TR;JM15
+120;Westmoreland;WE;JM16
+120;Kingston;KI;JM17
+126;Al Balqa';BA;JO02
+126;Ma'an;MN;JO19
+126;Al Karak;KA;JO09
+126;Al Mafraq;MA;JO15
+126;'Amman;AM;JO16
+126;At Tafilah;AT;JO12
+126;Az Zaraq;AZ;JO17
+126;Irbid;IR;JO18
+129;Central;CE;KE01
+129;Coast;CO;KE02
+129;Eastern;EA;KE03
+129;Nairobi Area;NA;KE05
+129;NorthEastern;NE;KE06
+129;Nyanza;NY;KE07
+129;Rift Valley;RV;KE08
+129;Western;WE;KE09
+135;Bishkek;BI;KG01
+135;Chuy;CH;KG02
+135;Jalal-Abad;DA;KG03
+135;Naryn;NA;KG04
+135;Osh;OS;KG08
+135;Talas;TL;KG06
+135;Ysyk-Kol;YK;KG07
+132;Chagang-do;CH;KN01
+132;Hamgyong-namdo;HN;KN03
+132;Hwanghae-namdo;WN;KN06
+132;Hwanghae-bukto;WB;KN07
+132;Kaesong-si;KS;KN08
+132;Kangwon-do;KW;KN09
+132;P'yongan-namdo;PN;KN15
+132;P'yongyang-si;PY;KN12
+132;Yanggang-do;YG;KN13
+132;Namp'o-si;NP;KN14
+132;Hamgyong-bukto;HG;KN17
+131;Gilbert Islands;GI;KR01
+131;Line Islands;LI;KR02
+131;Phoenix Islands;PI;KR03
+133;Cheju-do;CJ;KS01
+133;Cholla-bukto;CB;KS03
+133;Ch'ungch'ong-bukto;GB;KS05
+133;Kangwon-do;KW;KS06
+133;Kyongsang-namdo;KN;KS20
+133;Pusan-gwangyoksi;PU;KS10
+133;Soul-t'ukpyolsi;SO;KS11
+133;Inch'on-gwangyoksi;IN;KS12
+133;Kyonggi-do;KG;KS13
+133;Kyongsang-bukto;KB;KS14
+133;Taegu-gwangyoksi;TG;KS15
+133;Cholla-namdo;CN;KS16
+133;Ch'ungch'ong-namdo;GN;KS17
+133;Kwangju-gwangyoksi;KJ;KS18
+133;Taejon-gwangyoksi;TJ;KS19
+134;Al Kuwayt;KU;KU02
+134;Hawalli;HA;KU03
+134;Al Ahmadi;AH;KU04
+134;Al Jahra';JA;KU05
+134;Al Farwaniyah;FA;KU06
+128;Almaty;AC;KZ02
+128;Aqmola;AM;KZ03
+128;Aqtobe;AT;KZ04
+128;Astana;AS;KZ05
+128;Atyrau;AR;KZ06
+128;Batys Qazaqstan;BQ;KZ07
+128;Bayqongyr;BY;KZ08
+128;Mangghystau;MG;KZ09
+128;Ongtustik Qazaqstan;OQ;KZ10
+128;Pavlodar;PA;KZ11
+128;Qaraghandy;QG;KZ12
+128;Qostanay;QS;KZ13
+128;Qyzylorda;QO;KZ14
+128;Shyghys Qazaqstan;SQ;KZ15
+128;Soltustik Qazaqstan;SA;KZ16
+128;Zhambyl;ZM;KZ17
+136;Attapu;AT;LA01
+136;Champasak;CH;LA02
+136;Houaphan;HO;LA03
+136;Oudomxai;OU;LA07
+136;Xiagnabouli;XA;LA13
+136;Xiangkhoang;XI;LA14
+136;Khammouan;KH;LA15
+136;Louangnamtha;LM;LA16
+136;Louangphabang;LP;LA17
+136;Phongsali;PH;LA18
+136;Salavan;SL;LA19
+136;Savannakhet;SV;LA20
+136;Bokeo;BK;LA22
+136;Bolikhamxai;BL;LA23
+136;Viangchan;VI;LA27
+136;Xaisomboun;XS;LA25
+136;Xekong;XE;LA26
+138;Beqaa;BI;LE01
+138;Liban-Sud;JA;LE06
+138;Liban-Nord;AS;LE03
+138;Beyrouth;BA;LE04
+138;Mont-Liban;JL;LE05
+137;Aizjrayjkes Rajons;AI;LG01
+137;Aluksnes Rajons;AL;LG02
+137;Balvu Rajons;BL;LG03
+137;Bauskas Rajons;BU;LG04
+137;Cesu Rajons;CE;LG05
+137;Daugavpils;DA;LG06
+137;Daugavpils Rajons;DU;LG07
+137;Dobeles Rajons;DO;LG08
+137;Gulbenes Rajons;GU;LG09
+137;Jekabpils Rajons;JK;LG10
+137;Jelgava;JE;LG11
+137;Jelgavas Rajons;JL;LG12
+137;Jurmala;JU;LG13
+137;Kraslavas Rajons;KR;LG14
+137;Kuldigas Rajons;KU;LG15
+137;Liepaja;LI;LG16
+137;Liepajas Rajons;LE;LG17
+137;Limbazu Rajons;LM;LG18
+137;Ludzas Rajons;LU;LG19
+137;Madonas Rajons;MA;LG20
+137;Ogres Rajons;OG;LG21
+137;Preiju Rajons;PR;LG22
+137;Rezekne;RE;LG23
+137;Rezeknes Rajons;RA;LG24
+137;Riga;RI;LG25
+137;Rigas Rajons;RG;LG26
+137;Saldus Rajons;SA;LG27
+137;Talsu Rajons;TA;LG28
+137;Tukuma Rajons;TU;LG29
+137;Valkas Rajons;VK;LG30
+137;Valmieras Rajons;VM;LG31
+137;Ventspils;VE;LG32
+137;Ventspils Rajons;VN;LG33
+143;Alytaus Apskritis;AL;LH56
+143;Kauno Apskritis;KU;LH57
+143;Klaipedos Apskritis;KL;LH58
+143;Marijampoles Apskritis;MR;LH59
+143;Panevezio Apskritis;PN;LH60
+143;Siauliu Apskritis;SA;LH61
+143;Taurages Apskritis;TA;LH62
+143;Telsiu Apskritis;TE;LH63
+143;Utenos Apskritis;UT;LH64
+143;Vilniaus Apskritis;VL;LH65
+140;Bong;BG;LI01
+140;Grand Gedeh;GG;LI02
+140;Lofa;LO;LI05
+140;Nimba;NI;LI09
+140;Sinoe;SI;LI10
+140;Grand Bassa;GB;LI11
+140;Grand Cape Mount;CM;LI12
+140;Maryland;MY;LI13
+140;Montserrado;MO;LI14
+140;Bomi;BM;LI15
+140;Grand Kru;GK;LI16
+140;Margibi;MG;LI17
+140;River Cess;RI;LI18
+220;Banskobystricky;BC;LO01
+220;Bratislavsky;BL;LO02
+220;Kosicky;KI;LO03
+220;Nitrinsky;NI;LO04
+220;Presovsky;PV;LO05
+220;Treciansky;TC;LO06
+220;Trnavsky;TA;LO07
+220;Zilinsky;ZI;LO08
+142;Balzers;BA;LS01
+142;Eschen;ES;LS02
+142;Gamprin;GA;LS03
+142;Mauren;MA;LS04
+142;Planken;PL;LS05
+142;Ruggell;RU;LS06
+142;Schaan;SN;LS07
+142;Schellenberg;SB;LS08
+142;Triesen;TN;LS09
+142;Triesenberg;TB;LS10
+142;Vaduz;VA;LS11
+139;Berea;BE;LT10
+139;Butha-Buthe;BB;LT11
+139;Leribe;LE;LT12
+139;Mafeteng;MF;LT13
+139;Maseru;MS;LT14
+139;Mohale's Hoek;MH;LT15
+139;Mokhotlong;MK;LT16
+139;Qacha's Hoek;QN;LT17
+139;Quthing;QT;LT18
+139;Thaba-Tseka;TT;LT19
+144;Diekirch;DI;LU01
+144;Grevenmacher;GR;LU02
+144;Luxembourg;LU;LU03
+141;Al 'Aziziyah;AZ;LY03
+141;Al Jufrah;JU;LY05
+141;Al Kufrah;KU;LY08
+141;Ash Shati';SH;LY13
+141;Murzuq;MU;LY30
+141;Sabha;SB;LY34
+141;Tarhunah;TH;LY41
+141;Tàubruq;TU;LY42
+141;Zlitan;ZL;LY45
+141;Ajdabiya;AJ;LY47
+141;Al Fatih;FA;LY48
+141;Al Jabal al Akhdar;JA;LY49
+141;Al Khums;KH;LY50
+141;An Nuqat al Khams;NK;LY51
+141;Awbari;AW;LY52
+141;Az Zawiyah;ZA;LY53
+141;Banghazi;BA;LY54
+141;Darnah;DA;LY55
+141;Ghadamis;GD;LY56
+141;Gharyan;GR;LY57
+141;Misratah;MI;LY58
+141;Sawfajjin;SF;LY59
+141;Surt;SU;LY60
+141;Tarabulus;TB;LY61
+141;Yafran;YA;LY62
+147;Antsiranana;AS;MA01
+147;Fianarantsoa;FI;MA02
+147;Mahajanga;MA;MA03
+147;Toamasina;TM;MA04
+147;Antananarivo;AV;MA05
+147;Toliara;TL;MA06
+145;Ilhas;IL;MC01
+145;Macau;MA;MC02
+163;Balti;BL;MD46
+163;Cahul;CG;MD47
+163;Chisinau;CE;MD48
+163;Stinga Nistrului;DU;MD49
+163;Edinet;ET;MD50
+163;Gagauzia;GA;MD51
+163;Orhei;OR;MD53
+163;Soroca;SR;MD54
+163;Ungheni;UN;MD56
+165;Arhangay;AR;MG01
+165;Bayanhongor;BH;MG02
+165;Bayan-Olgiy;BO;MG03
+165;Dornogovi;DG;MG07
+165;Dundgovi;DU;MG08
+165;Dzavhan;DZ;MG09
+165;Govi-Altay;GA;MG10
+165;Hentiy;HN;MG11
+165;Omnogovi;OG;MG14
+165;Ovorhangay;OH;MG15
+165;Ulaanbaatar;UB;MG20
+165;Orhon;ER;MG25
+167;Saint Anthony;SA;MH01
+167;Saint Georges;SG;MH02
+167;Saint Peter;SP;MH03
+148;Chikwawa;CK;MI02
+148;Chiradzulu;CR;MI03
+148;Chitipa;CT;MI04
+148;Thyolo;TH;MI05
+148;Dedza;DE;MI06
+148;Dowa;DO;MI07
+148;Karonga;KR;MI08
+148;Kasungu;KS;MI09
+148;Machinga (Kasupe);MA;MI10
+148;Lilongwe;LI;MI11
+148;Mangochi (Fort Johnston);MG;MI12
+148;Mchinji;MC;MI13
+148;Mulanje (Mlange);MJ;MI14
+148;Mzimba;MZ;MI15
+148;Ntcheu;NU;MI16
+148;Nkhata Bay;NA;MI17
+148;Nkhotakota;NK;MI18
+148;Nsanje;NS;MI19
+148;Ntchisi (Nchisi);NI;MI20
+148;Rumphi (Rumpil);RU;MI21
+148;Salima;SA;MI22
+148;Zomba;ZO;MI23
+148;Blantyre;BL;MI24
+148;Mwanza;MN;MI25
+151;Bamako;BA;ML01
+151;Gao;GA;ML02
+151;Kayes;KY;ML03
+151;Mopti;MO;ML04
+151;Segou;SG;ML05
+151;Sikasso;SK;ML06
+151;Koulikoro;KK;ML07
+151;Tombouctou;TB;ML08
+168;Agadir;AG;MO01
+168;Al Hoceëma;AH;MO02
+168;Azilal;AZ;MO03
+168;Ben Slimane;BS;MO04
+168;Beni Mellal;BM;MO05
+168;Boulemane;BO;MO06
+168;Casablanca;CA;MO07
+168;Chaouen;CH;MO08
+168;El Jadida;EJ;MO09
+168;El Kelaa des Sraghna;EK;MO10
+168;Er Rachidia;ER;MO11
+168;Essaouira;ES;MO12
+168;Fes;FE;MO13
+168;Figuig;FI;MO14
+168;Kenitra;KE;MO15
+168;Khemisset;KH;MO16
+168;Khenifra;KN;MO17
+168;Khouribga;KO;MO18
+168;Marrakech;MR;MO19
+168;Meknes;ME;MO20
+168;Nador;NA;MO21
+168;Ouarzazate;OU;MO22
+168;Oujda;OJ;MO23
+168;Rabat-Sale;RA;MO24
+168;Safi;SA;MO25
+168;Settat;SE;MO26
+168;Tanger;TG;MO27
+168;Tata;TT;MO29
+168;Taza;TZ;MO30
+168;Tiznit;TI;MO32
+168;Guelmim;GU;MO42
+168;Ifrane;IF;MO34
+168;Laayoune;LA;MO35
+168;Tan-Tan;TN;MO36
+168;Taounate;TO;MO37
+168;Sidi Kacem;SK;MO38
+168;Taroudannt;TA;MO39
+168;Tetouan;TE;MO40
+168;Larache;LR;MO41
+168;Assa-Zag;AS;MO43
+168;Es Smara;EM;MO44
+157;Black River;BL;MP12
+157;Flacq;FL;MP13
+157;Grand Port;GP;MP14
+157;Moka;MO;MP15
+157;Pamplemousses;PA;MP16
+157;Plaines Wilhems;PW;MP17
+157;Port Louis;PL;MP18
+157;Rivi¿re du Rempart;RR;MP19
+157;Savanne;SA;MP20
+157;Agalega Islands;AG;MP21
+157;Cargados Carajos;CC;MP22
+157;Rodrigues;RO;MP23
+156;Hodh Ech Chargui;HC;MR01
+156;Hodh El Gharbi;HG;MR02
+156;Assaba;AS;MR03
+156;Gorgol;GO;MR04
+156;Brakna;BR;MR05
+156;Trarza;TR;MR06
+156;Adrar;AD;MR07
+156;Dakhlet Nouadhibou;DN;MR08
+156;Tagant;TG;MR09
+156;Guidimaka;GD;MR10
+156;Tiris Zemmour;TZ;MR11
+156;Inchiri;IN;MR12
+186;Ad Dakhiliyah;DA;MU01
+186;Al Batinah;BA;MU02
+186;Al Wusta;WU;MU03
+186;Ash Sharqiyah;SH;MU04
+186;Az Zahirah;ZA;MU05
+186;Masqat;MA;MU06
+186;Musandam;MU;MU07
+186;Zufar;JA;MU08
+150;Seenu;SE;MV01
+150;Laamu;LM;MV05
+150;Thaa;TH;MV46
+150;Raa;RA;MV44
+150;Baa;BA;MV31
+150;Shaviyani;SH;MV45
+150;Noonu;NO;MV43
+150;Kaafu;KA;MV38
+150;Alifu;AA;MV30
+150;Dhaalu;DA;MV32
+150;Faafa;FA;MV33
+150;Gaafu Alifu;GA;MV34
+150;Gaafu Dhaalu;GD;MV35
+150;Haa Alifu;HA;MV36
+150;Haa Dhaalu;HD;MV37
+150;Lhaviyani;LV;MV39
+150;Maale;MA;MV40
+150;Meenu;ME;MV41
+150;Gnaviyani;NA;MV42
+150;Vaavu;WA;MV47
+159;Aguascalientes;AG;MX01
+159;Campeche;CM;MX04
+159;Coahuila de Zaragoza;CA;MX07
+159;Distrito Federal;DF;MX09
+159;Mexico;MX;MX15
+159;Michoacan de Ocampo;MC;MX16
+159;Nayarit;NA;MX18
+159;Puebla;PU;MX21
+159;Queretaro de Arteaga;QE;MX22
+159;Sinaloa;SI;MX25
+159;Veracruz-Llave;VE;MX30
+159;Yucatan;YU;MX31
+149;Johor;JH;MY01
+149;Kedah;KH;MY02
+149;Kelantan;KN;MY03
+149;Melaka;ME;MY04
+149;Negeri Sembilan;NS;MY05
+149;Pahang;PH;MY06
+149;Perak;PK;MY07
+149;Perlis;PL;MY08
+149;Pulau Pinang;PG;MY09
+149;Sarawak;SK;MY11
+149;Selangor;SL;MY12
+149;Terengganu;TE;MY13
+149;Wilayah Persekutuan;KL;MY14
+149;Labuan;LA;MY15
+149;Sabah;SA;MY16
+169;Cabo Delgado;CD;MZ01
+169;Gaza;GA;MZ02
+169;Inhambane;IN;MZ03
+169;Maputo;MP;MZ04
+169;Sofala;SO;MZ05
+169;Nampula;NM;MZ06
+169;Niassa;NS;MZ07
+169;Tete;TE;MZ08
+169;Zambezia;ZA;MZ09
+169;Manica;MN;MZ10
+180;Agadez;AG;NG01
+180;Diffa;DF;NG02
+180;Dosso;DS;NG03
+180;Maradi;MA;NG04
+180;Niamey;NI;NG08
+180;Tahoua;TH;NG06
+180;Zinder;ZI;NG07
+180;Tillaberi;TL;NG09
+258;Aoba//Maewo;AO;NH06
+258;Torba;TR;NH07
+258;Sanma;SN;NH13
+258;Tafea;TF;NH15
+181;Lagos;LA;NI05
+181;Bauchi;BA;NI46
+181;Rivers;RI;NI50
+181;Abuja Capital Territory;FC;NI11
+181;Ogun;OG;NI16
+181;Ondo;ON;NI48
+181;Plateau;PL;NI49
+181;Akwa Ibom;AK;NI21
+181;Cross River;CR;NI22
+181;Kaduna;KD;NI23
+181;Anambra;AN;NI25
+181;Benue;BE;NI26
+181;Borno;BO;NI27
+181;Kano;KN;NI29
+181;Kwara;KW;NI30
+181;Niger;NI;NI31
+181;Oyo;OY;NI32
+181;Sokoto;SO;NI51
+181;Abia;AB;NI45
+181;Adamawa;AD;NI35
+181;Delta;DE;NI36
+181;Edo;ED;NI37
+181;Enugu;EN;NI47
+181;Jigawa;JI;NI39
+181;Kebbi;KE;NI40
+181;Kogi;KO;NI41
+181;Osun;OS;NI42
+181;Taraba;TA;NI43
+181;Yobe;YO;NI44
+175;Drenthe;DR;NL01
+175;Friesland;FR;NL02
+175;Gelderland;GE;NL03
+175;Groningen;GR;NL04
+175;Limburg;LI;NL05
+175;Noord-Brabant;NB;NL06
+175;Noord-Holland;NH;NL07
+175;Overijssel;OV;NL15
+175;Utrecht;UT;NL09
+175;Zeeland;ZE;NL10
+175;Zuid-Holland;ZH;NL11
+175;Flevoland;FL;NL16
+185;Akershus;AK;NO01
+185;Aust-Agder;AA;NO02
+185;Buskerud;BU;NO04
+185;Finnmark;FI;NO05
+185;Hedmark;HE;NO06
+185;Hordaland;HO;NO07
+185;More og Romsdal;MR;NO08
+185;Nordland;NL;NO09
+185;Nord-Trondelag;NR;NO10
+185;Oppland;OP;NO11
+185;Oslo;OS;NO12
+185;_stfold;OF;NO13
+185;Rogaland;RO;NO14
+185;Sogn og Fjordane;SF;NO15
+185;Sor-Trondelag;ST;NO16
+185;Telemark;TE;NO17
+185;Troms;TR;NO18
+185;Vest-Agder;VA;NO19
+185;Vestfold;VF;NO20
+174;Bagmati;BA;NP01
+174;Bheri;BH;NP02
+174;Dhawalagiri;DH;NP03
+174;Gandaki;GA;NP04
+174;Janakpur;JA;NP05
+174;Karnali;KA;NP06
+174;Kosi;KO;NP07
+174;Lumbini;LU;NP08
+174;Mahakali;MA;NP09
+174;Mechi;ME;NP10
+174;Narayani;NA;NP11
+174;Rapti;RA;NP12
+174;Sagarmatha;SA;NP13
+174;Seti;SE;NP14
+172;Aiwo;AI;NR01
+172;Anabar;AB;NR02
+172;Anetan;AT;NR03
+172;Anibare;AR;NR04
+172;Baiti;BA;NR05
+172;Boe;BO;NR06
+172;Buada;BU;NR07
+172;Denigomodu;DE;NR08
+172;Ewa;EW;NR09
+172;Ijuw;IJ;NR10
+172;Meneng;ME;NR11
+172;Nibok;NI;NR12
+172;Uaboe;UA;NR13
+172;Yaren;YA;NR14
+230;Brokopondo;BR;NS10
+230;Commewijne;CM;NS11
+230;Coronie;CR;NS12
+230;Marowijne;MA;NS13
+230;Nickerie;NI;NS14
+230;Para;PR;NS15
+230;Paramaribo;PM;NS16
+230;Saramacca;SA;NS17
+230;Sipaliwini;SI;NS18
+230;Wanica;WA;NS19
+179;Boaco;BO;NU01
+179;Carazo;CA;NU02
+179;Chinandega;CI;NU03
+179;Chontales;CO;NU04
+179;Esteli;ES;NU05
+179;Granada;GR;NU06
+179;Jinotega;JI;NU07
+179;Leon;LE;NU08
+179;Madriz;MD;NU09
+179;Managua;MN;NU10
+179;Masaya;MS;NU11
+179;Matagalpa;MT;NU12
+179;Nueva Segovia;NS;NU13
+179;Rio San Juan;SJ;NU14
+179;Rivas;RI;NU15
+179;Atlantico Norte;AN;NU17
+179;Atlantico Sur;AS;NU18
+178;Hawke's Bay;HB;NZ31
+178;Marlborough;MA;NZ50
+178;Southland;SO;NZ72
+178;Taranaki;TK;NZ76
+178;Waikato;WK;NZ85
+193;Alto Parana;AA;PA01
+193;Amambay;AM;PA02
+193;Caaguazu;CG;PA04
+193;Caazapa;CZ;PA05
+193;Central;CE;PA06
+193;Concepcion;CN;PA07
+193;Cordillera;CR;PA08
+193;Guaira;GU;PA10
+193;Itapua;IT;PA11
+193;Misiones;MI;PA12
+193;Neembucu;NE;PA13
+193;Paraguari;PG;PA15
+193;Presidente Hayes;PH;PA16
+193;San Pedro;SP;PA17
+193;Canindeyu;CY;PA19
+193;Asuncion;AS;PA22
+193;Alto Paraguay;AG;PA23
+193;Boqueron;BQ;PA24
+194;Amazonas;AM;PE01
+194;Ancash;AN;PE02
+194;Apurimac;AP;PE03
+194;Arequipa;AR;PE04
+194;Ayacucho;AY;PE05
+194;Cajamarca;CJ;PE06
+194;Callao;CL;PE07
+194;Cusco;CS;PE08
+194;Huancavelica;HV;PE09
+194;Huanuco;HC;PE10
+194;Ica;IC;PE11
+194;Junin;JU;PE12
+194;La Libertad;LL;PE13
+194;Lambayeque;LB;PE14
+194;Lima;LI;PE15
+194;Loreto;LO;PE16
+194;Madre de Dios;MD;PE17
+194;Moquegua;MQ;PE18
+194;Pasco;PA;PE19
+194;Piura;PI;PE20
+194;Puno;PU;PE21
+194;San Martin;SM;PE22
+194;Tacna;TA;PE23
+194;Tumbes;TU;PE24
+194;Ucayali;UC;PE25
+187;Federally Administered Tribal Areas;TA;PK01
+187;Balochistan;BA;PK02
+187;North-West Frontier;NW;PK03
+187;Punjab;PB;PK04
+187;Sindh;SD;PK05
+187;Azad Kashmir;JK;PK06
+187;Northern Areas;NA;PK07
+187;Islamabad;IS;PK08
+197;Dolnoslaskie;DS;PL72
+197;Kujawsko-Pomorskie;KP;PL73
+197;Lodzkie;LD;PL74
+197;Lubelskie;LU;PL75
+197;Lubuskie;LB;PL76
+197;Malopolskie;MA;PL77
+197;Mazowieckie;MZ;PL78
+197;Opolskie;OP;PL79
+197;Podkarpackie;PK;PL80
+197;Podlaskie;PD;PL81
+197;Pomorskie;PM;PL82
+197;Slaskie;SL;PL83
+197;Swietokrzyskie;SK;PL84
+197;Warminsko-Mazurskie;WN;PL85
+197;Wielkopolskie;WP;PL86
+197;Zachodniopomorskie;ZP;PL87
+190;Bocas del Toro;BC;PM01
+190;Chiriqui;CH;PM02
+190;Cocle;CC;PM03
+190;Colon;CL;PM04
+190;Darien;DR;PM05
+190;Herrera;HE;PM06
+190;Los Santos;LS;PM07
+190;Panama;PN;PM08
+190;San Blas;SB;PM09
+190;Veraguas;VR;PM10
+198;Aveiro;AV;PO02
+198;Beja;BE;PO03
+198;Braga;BR;PO04
+198;Braganca;BA;PO05
+198;Castelo Branco;CB;PO06
+198;Coimbra;CO;PO07
+198;Evora;EV;PO08
+198;Faro;FA;PO09
+198;Madeira;MA;PO10
+198;Guarda;GU;PO11
+198;Leiria;LE;PO13
+198;Lisboa;LI;PO14
+198;Portalegre;PA;PO16
+198;Porto;PO;PO17
+198;Santarem;SA;PO18
+198;Setubal;SE;PO19
+198;Viana do Castelo;VC;PO20
+198;Vila Real;VR;PO21
+198;Viseu;VI;PO22
+198;Azores;AC;PO23
+191;Central;CE;PP01
+191;Gulf;GU;PP02
+191;Milne Bay;MB;PP03
+191;Northern;NO;PP04
+191;Southern Highlands;SH;PP05
+191;Western;WE;PP06
+191;Bougainville;NS;PP07
+191;Chimbu;CH;PP08
+191;Eastern Highlands;EH;PP09
+191;East New Britain;EN;PP10
+191;East Sepik;ES;PP11
+191;Madang;MD;PP12
+191;Manus;MN;PP13
+191;Morobe;MR;PP14
+191;New Ireland;NI;PP15
+191;Western Highlands;WH;PP16
+191;West New Britain;WN;PP17
+191;Sandaun;SA;PP18
+191;Enga;EG;PP19
+191;National Capital;NC;PP20
+103;Bafata;BA;PU01
+103;Quinara;QU;PU02
+103;Oio;OI;PU04
+103;Bolama;BL;PU05
+103;Cacheu;CA;PU06
+103;Tombali;TO;PU07
+103;Gabu;GA;PU10
+103;Bissau;BS;PU11
+103;Biombo;BM;PU12
+200;Ad Dawhah;DA;QA01
+200;Al Ghuwayriyah;GH;QA02
+200;Al Jumayliyah;JU;QA03
+200;Al Khawr;KH;QA04
+200;Al Wakrah;WA;QA05
+200;Ar Rayyan;RA;QA06
+200;Jarayan al Batinah;JB;QA07
+200;Madinat ash Shamal;MS;QA08
+200;Umm Salal;US;QA09
+202;Alba;AB;RO01
+202;Arad;AR;RO02
+202;Arges;AG;RO03
+202;Bacau;BC;RO04
+202;Bihor;BH;RO05
+202;Bistrita-Nasaud;BN;RO06
+202;Botosani;BT;RO07
+202;Braila;BR;RO08
+202;Brasov;BV;RO09
+202;Bucuresti;BU;RO10
+202;Buzau;BZ;RO11
+202;Caras-Severin;CS;RO12
+202;Cluj;CJ;RO13
+202;Constanta;CT;RO14
+202;Covasna;CV;RO15
+202;Dambovita;DB;RO16
+202;Dolj;DJ;RO17
+202;Galati;GL;RO18
+202;Gorj;GJ;RO19
+202;Harghita;HR;RO20
+202;Hunedoara;HD;RO21
+202;Ialomita;IL;RO22
+202;Iasi;IS;RO23
+202;Maramures;MM;RO25
+202;Mehedinti;MH;RO26
+202;Mures;MS;RO27
+202;Neamt;NT;RO28
+202;Olt;OT;RO29
+202;Prahova;PH;RO30
+202;Salaj;SJ;RO31
+202;Satu Mare;SM;RO32
+202;Sibiu;SB;RO33
+202;Suceava;SV;RO34
+202;Teleorman;TR;RO35
+202;Timis;TM;RO36
+202;Tulcea;TL;RO37
+202;Vaslui;VS;RO38
+202;Valcea;VL;RO39
+202;Vrancea;VN;RO40
+202;Calarasi;CL;RO41
+202;Giurgiu;GR;RO42
+195;Abra;AB;RP01
+195;Agusan del Norte;AN;RP02
+195;Agusan del Sur;AS;RP03
+195;Aklan;AK;RP04
+195;Albay;AL;RP05
+195;Antique;AQ;RP06
+195;Bataan;BA;RP07
+195;Batanes;BN;RP08
+195;Batangas;BT;RP09
+195;Benguet;BG;RP10
+195;Bohol;BO;RP11
+195;Bukidnon;BK;RP12
+195;Bulacan;BU;RP13
+195;Cagayan;CG;RP14
+195;Camarines Norte;CN;RP15
+195;Camarines Sur;CS;RP16
+195;Camiguin;CM;RP17
+195;Capiz;CP;RP18
+195;Catanduanes;CT;RP19
+195;Cavite;CV;RP20
+195;Cebu;CB;RP21
+195;Basilan;BS;RP22
+195;Eastern Samar;ES;RP23
+195;Davao del Norte;DV;RP24
+195;Davao del Sur;DS;RP25
+195;Davao Oriental;DO;RP26
+195;Ifugao;IF;RP27
+195;Ilocos Norte;IN;RP28
+195;Ilocos Sur;IS;RP29
+195;Iloilo;II;RP30
+195;Isabela;IB;RP31
+195;Kalinga-Apayao;KA;RP32
+195;Laguna;LG;RP33
+195;Lanao del Norte;LN;RP34
+195;Lanao del Sur;LS;RP35
+195;La Union;LB;RP36
+195;Leyte;LY;RP37
+195;Marinduque;MQ;RP38
+195;Masbate;MB;RP39
+195;Mindoro Occidental;MC;RP40
+195;Mindoro Oriental;MR;RP41
+195;Misamis Occidental;MD;RP42
+195;Misamis Oriental;MN;RP43
+195;Mountain;MT;RP44
+195;RP45;RP;RP45
+195;Negros Oriental;NR;RP46
+195;Nueva Ecija;NE;RP47
+195;Nueva Vizcaya;NV;RP48
+195;Palawan;PL;RP49
+195;Pampanga;PM;RP50
+195;Pangasinan;PN;RP51
+195;Rizal;RI;RP53
+195;Romblon;RM;RP54
+195;Samar;SM;RP55
+195;Maguindanao;MG;RP56
+195;North Cotabato;NC;RP57
+195;Sorsogon;SR;RP58
+195;Southern Leyte;SL;RP59
+195;Sulu;SU;RP60
+195;Surigao del Norte;SN;RP61
+195;Surigao del Sur;SS;RP62
+195;Tarlac;TR;RP63
+195;Zambales;ZM;RP64
+195;Zamboanga del Norte;ZN;RP65
+195;Zamboanga del Sur;ZS;RP66
+195;Northern Samar;NS;RP67
+195;Quirino;QR;RP68
+195;Siquijor;SQ;RP69
+195;South Cotabato;SC;RP70
+195;Sultan Kudarat;SK;RP71
+195;Tawi-Tawi;TT;RP72
+195;Angeles;AG;RPA1
+195;Bacolod;BL;RPA2
+195;Bago;BB;RPA3
+195;Baguio;BI;RPA4
+195;Bais;BD;RPA5
+195;Basilan City;BC;RPA6
+195;Batangas City;BY;RPA7
+195;Butuan;BV;RPA8
+195;Cabanatuan;CA;RPA9
+195;Cadiz;CI;RPB1
+195;Cagayan de Oro;CD;RPB2
+195;Calbayog;CL;RPB3
+195;Caloocan;CF;RPB4
+195;Canlaon;CH;RPB5
+195;Cavite City;CE;RPB6
+195;Cebu City;CU;RPB7
+195;Cotabato;CO;RPB8
+195;Dagupan;DA;RPB9
+195;Danao;DN;RPC1
+195;Dapitane;DP;RPC2
+195;Davao City;DC;RPC3
+195;Dipolog;DI;RPC4
+195;Dumaguete;DU;RPC5
+195;General Santos;GS;RPC6
+195;Gingoog;GI;RPC7
+195;Iligan;IL;RPC8
+195;Iloilo City;IC;RPC9
+195;Iriga;IR;RPD1
+195;La Carlota;LC;RPD2
+195;Laoag;LO;RPD3
+195;LapuLapu;LA;RPD4
+195;Legaspi;LE;RPD5
+195;Lipa;LI;RPD6
+195;Lucena;LU;RPD7
+195;Mandaue;MU;RPD8
+195;Manila;MM;RPD9
+195;Marawi;MA;RPE1
+195;Naga;NA;RPE2
+195;Olongapo;OL;RPE3
+195;Ormoc;OM;RPE4
+195;Oroquieta;OR;RPE5
+195;Ozamis;OZ;RPE6
+195;Pagadiane;PG;RPE7
+195;Palayan;PY;RPE8
+195;Pasay;PA;RPE9
+195;Puerto Princesa;PP;RPF1
+195;Quezon City;QC;RPF2
+195;Roxas;RO;RPF3
+195;Negros Occidental San Carlos;SA;RPF4
+195;Pangasinan San Carlos;SO;RPF5
+195;San Jose;SJ;RPF6
+195;San Pablo;SP;RPF7
+195;Silay;SI;RPF8
+195;Surigao;SG;RPF9
+195;Tacloban;TC;RPG1
+195;Tagaytay;TG;RPG2
+195;Tagbilaran;TB;RPG3
+195;Tangub;TA;RPG4
+195;Toledo;TO;RPG5
+195;Trece Martires;TM;RPG6
+195;Zamboanga;ZA;RPG7
+195;Aurora;AU;RPG8
+195;Quezon;QZ;RPH2
+195;Negros Occidental;ND;RPH3
+203;Adygeya;AD;RS01
+203;Aginskiy Buryatskiy Avtonomnyy Okrug;AB;RS02
+203;Altay;GA;RS03
+203;Altayskiy Kray;AL;RS04
+203;Amurskaya Oblast';AM;RS05
+203;Arkhangel'skaya Oblast';AR;RS06
+203;Astrakhanskaya Oblast';AS;RS07
+203;Bashkortostan;BK;RS08
+203;Belgorodskaya Oblast';BL;RS09
+203;Bryanskaya Oblast';BR;RS10
+203;Buryatiya;BU;RS11
+203;Chechnya;CN;RS12
+203;Chelyabinskaya Oblast';CL;RS13
+203;Chitinskaya Oblast';CT;RS14
+203;Chukotskiy Avtonomnyy Okrug;CK;RS15
+203;Chuvashiya;CV;RS16
+203;Evenkiyskiy Avtonomnyy Okrug;EN;RS18
+203;Ingushetiya;IN;RS19
+203;Irkutskaya Oblast';IR;RS20
+203;Ivanovskaya Oblast';IV;RS21
+203;Kabardino-Balkariya;KB;RS22
+203;Kaliningradskaya Oblast';KN;RS23
+203;Kalmykiya;KL;RS24
+203;Kaluzhskaya Oblast';KG;RS25
+203;Kamchatskaya Oblast';KA;RS26
+203;Karachayevo-Cherkesiya;KC;RS27
+203;Kareliya;KI;RS28
+203;Kemerovskaya Oblast';KE;RS29
+203;Khabarovskiy Kray;KH;RS30
+203;Khakasiya;KK;RS31
+203;Khanty-Mansiyskiy Avtonomnyy Okrug;KM;RS32
+203;Kirovskaya Oblast';KV;RS33
+203;Komi-Permyatskiy Avtonomnyy Okrug;KP;RS35
+203;Koryakskiy Avtonomnyy Okrug;KR;RS36
+203;Kostromskaya Oblast';KT;RS37
+203;Krasnodarskiy Kray;KD;RS38
+203;Krasnoyarskiy Kray;KY;RS39
+203;Kurganskaya Oblast';KU;RS40
+203;Kurskaya Oblast';KS;RS41
+203;Leningradskaya Oblast';LN;RS42
+203;Lipetskaya Oblast';LP;RS43
+203;Magadanskaya Oblast';MG;RS44
+203;Mordoviya;MR;RS46
+203;Moskovskaya Oblast';MS;RS47
+203;Moskva;MC;RS48
+203;Murmanskaya Oblast';MM;RS49
+203;Nenetskiy Avtonomnyy Okrug;NN;RS50
+203;Nizhegorodskaya Oblast';NZ;RS51
+203;Novgorodskaya Oblast';NG;RS52
+203;Novosibirskaya Oblast';NS;RS53
+203;Omskaya Oblast';OM;RS54
+203;Orenburgskaya Oblast';OB;RS55
+203;Orlovskaya Oblast';OL;RS56
+203;Penzenskaya Oblast';PZ;RS57
+203;Permskaya Oblast';PM;RS58
+203;Primorskiy Kray;PR;RS59
+203;Pskovskaya Oblast';PS;RS60
+203;Rostovskaya Oblast';RO;RS61
+203;Ryazanskaya Oblast';RZ;RS62
+203;Sakha (Yakutiya);SK;RS63
+203;Sakhalinskaya Oblast';SL;RS64
+203;Samarskaya Oblast';SA;RS65
+203;Sankt-Peterburg;SP;RS66
+203;Saratovskaya Oblast';SR;RS67
+203;Severnaya Osetiya-Alaniya;NO;RS68
+203;Smolenskaya Oblast';SM;RS69
+203;Stavropol'skiy Kray;ST;RS70
+203;Sverdlovskaya Oblast';SV;RS71
+203;Tambovskaya Oblast';TB;RS72
+203;Taymyrskiy Dolgano-Nenetskiy Avtonomnyy Okrug;TM;RS74
+203;Tomskaya Oblast';TO;RS75
+203;Tul'skaya Oblast';TL;RS76
+203;Tverskaya Oblast';TV;RS77
+203;Tyumenskaya Oblast';TY;RS78
+203;Udmurtiya;UD;RS80
+203;Ul'yanovskaya Oblast';UL;RS81
+203;Ust'-Ordynskiy Buryatskiy Avtonomnyy Okrug;UB;RS82
+203;Vladimirskaya Oblast';VL;RS83
+203;Volgogradskaya Oblast';VG;RS84
+203;Vologodskaya oblast';VO;RS85
+203;Voronezhskaya Oblast';VR;RS86
+203;Yamalo-Nenetskiy Avtonomnyy Okrug;YN;RS87
+203;Yaroslavskaya Oblast';YS;RS88
+203;Yevreyskaya Avtonomnyy Oblast';YV;RS89
+204;Butare;BT;RW01
+204;Byumba;BM;RW02
+204;Cyangugu;CY;RW03
+204;Gikongoro;GK;RW04
+204;Gisenyi;GS;RW05
+204;Gitarama;GT;RW06
+204;Kibungo;KN;RW07
+204;Kibuye;KY;RW08
+204;Kigali-Rural;KR;RW09
+204;Ruhengeri;RU;RW10
+213;Al Bahah;BA;SA02
+213;Al Madinah;MD;SA05
+213;Ash Sharqiyah;SH;SA06
+213;Al Qasim;QS;SA08
+213;Ar Riyad;RI;SA10
+213;'Asir;AS;SA11
+213;Ha'il;HA;SA13
+213;Makkah;MK;SA14
+213;Al Hudud ash Shamaliyah;HS;SA15
+213;Najran;NJ;SA16
+213;Jizan;JZ;SA17
+213;Tabuk;TB;SA19
+213;Al Jawf;JF;SA20
+206;Christ Church Nicholatown;CC;SC01
+206;Saint Anne Sandy Point;AS;SC02
+206;Saint George Basseterre;GB;SC03
+206;Saint George Gingerland;GG;SC04
+206;Saint James Windward;JW;SC05
+206;Saint John Capesterre;JC;SC06
+206;Saint John Figtree;JF;SC07
+206;Saint Mary Cayon;MC;SC08
+206;Saint Paul Capesterre;PP;SC09
+206;Saint Paul Charlestown;PL;SC10
+206;Saint Peter Basseterre;PB;SC11
+206;Saint Thomas Lowland;TL;SC12
+206;Saint Thomas Middle Island;TM;SC13
+206;Trinity Palmetto Point;TP;SC15
+217;Anse aux Pins;PI;SE01
+217;Anse Boileau;AB;SE02
+217;Anse Etoile;ET;SE03
+217;Anse Louis;LO;SE04
+217;Anse Royale;RO;SE05
+217;Baie Lazare;BL;SE06
+217;Baie Sainte Anne;BS;SE07
+217;Beau Vallon;BV;SE08
+217;Bel Air;BA;SE09
+217;Bel Ombre;BO;SE10
+217;Cascade;CA;SE11
+217;Glacis;GL;SE12
+217;Grand' Anse;GP;SE14
+217;La Digue;DI;SE15
+217;La Riviere Anglaise;RA;SE16
+217;Mont Buxton;MB;SE17
+217;Mont Fleuri;MF;SE18
+217;Plaisance;PL;SE19
+217;Pointe La Rue;PR;SE20
+217;Port Glaud;PG;SE21
+217;Saint Louis;SL;SE22
+217;Takamaka;TA;SE23
+224;KwaZulu-Natal;NL;SF02
+224;Free State;FS;SF03
+224;Eastern Cape;EC;SF05
+224;Gauteng;GT;SF06
+224;Mpumalanga;MP;SF07
+224;Northern Cape;NC;SF08
+224;Northern Province;NP;SF09
+224;North-West;NW;SF10
+224;Western Cape;WC;SF11
+214;Dakar;DK;SG01
+214;Diourbel;DB;SG03
+214;Saint-Louis;SL;SG04
+214;Tambacounda;TC;SG05
+214;Thies;TH;SG07
+214;Louga;LG;SG08
+214;Fatick;FK;SG09
+214;Kaolack;KL;SG10
+214;Kolda;KD;SG11
+214;Ziguinchor;ZG;SG12
+205;Ascension;AC;SH01
+205;Saint Helena;SH;SH02
+205;Tristan da Cunha;TA;SH03
+221;Ajdovscina;AJ;SI01
+221;Beltinci;BE;SI02
+221;Bled;BL;SI03
+221;Bohinj;BH;SI04
+221;Borovnica;BO;SI05
+221;Bovec;BC;SI06
+221;Brda;BR;SI07
+221;Brezice;BZ;SI08
+221;Brezovica;BV;SI09
+221;Cankova-Tisina;CA;SI10
+221;Celje;CL;SI11
+221;Cerklje Na Gorenjskem;CG;SI12
+221;Cerknica;CK;SI13
+221;Cerkno;CE;SI14
+221;Crensovci;CR;SI15
+221;Crna na Koroskem;CN;SI16
+221;Crnomelj;CO;SI17
+221;Destrnik-Trnovska Vas;DV;SI18
+221;Divaca;DI;SI19
+221;Dobrepolje;DB;SI20
+221;Dobrova-Horjul-Polhov Gradec;DG;SI21
+221;Dol pri Ljubljani;DP;SI22
+221;Domzale;DM;SI23
+221;Dornava;DO;SI24
+221;Dravograd;DR;SI25
+221;Duplek;DU;SI26
+221;Gorenja Vas-Poljane;GV;SI27
+221;Gorisnica;GO;SI28
+221;Gornja Radgona;GR;SI29
+221;Gornji Grad;GG;SI30
+221;Gornji Petrovci;GP;SI31
+221;Grosuplje;GS;SI32
+221;HodosSalovci;HO;SI33
+221;Hrastnik;HR;SI34
+221;Hrpelje-Kozina;HK;SI35
+221;Idrija;ID;SI36
+221;Ig;IG;SI37
+221;Ilirska Bistrica;IB;SI38
+221;Ivancna Gorica;IV;SI39
+221;Izola;IZ;SI40
+221;Jesenice;JE;SI41
+221;Jursinci;JU;SI42
+221;Kamnik;KA;SI43
+221;Kanal;KN;SI44
+221;Kidricevo;KI;SI45
+221;Kobarid;KO;SI46
+221;Kobilje;KB;SI47
+221;Kocevje;KC;SI48
+221;Komen;KM;SI49
+221;Koper;KP;SI50
+221;Kozje;KJ;SI51
+221;Kranj;KR;SI52
+221;Kranjska Gora;KG;SI53
+221;Krsko;KS;SI54
+221;Kungota;KZ;SI55
+221;Kuzma;KU;SI56
+221;Lasko;LA;SI57
+221;Lenart;LE;SI58
+221;Lendava;LN;SI59
+221;Litija;LI;SI60
+221;Ljubljana;LB;SI61
+221;Ljubno;LC;SI62
+221;Ljutomer;LJ;SI63
+221;Logatec;LO;SI64
+221;Loska Dolina;LD;SI65
+221;Loski Potok;LP;SI66
+221;Luce;LU;SI67
+221;Lukovica;LK;SI68
+221;Majsperk;MJ;SI69
+221;Maribor;MA;SI70
+221;Medvode;MD;SI71
+221;Menges;MN;SI72
+221;Metlika;ME;SI73
+221;Mezica;MZ;SI74
+221;Miren-Kostanjevica;MI;SI75
+221;Mislinja;ML;SI76
+221;Moravce;MV;SI77
+221;Moravske Toplice;MT;SI78
+221;Mozirje;MO;SI79
+221;Murska Sobota;MS;SI80
+221;Muta;MU;SI81
+221;Naklo;NA;SI82
+221;Nazarje;NZ;SI83
+221;Nova Gorica;NG;SI84
+221;Novo Mesto;NM;SI85
+221;Odranci;OD;SI86
+221;Ormoz;OR;SI87
+221;Osilnica;OS;SI88
+221;Pesnica;PE;SI89
+221;Piran;PA;SI90
+221;Pivka;PI;SI91
+221;Podcetrtek;PD;SI92
+221;Podvelka-Ribnica;PV;SI93
+221;Postojna;PO;SI94
+221;Preddvor;PR;SI95
+221;Ptuj;PT;SI96
+221;Puconci;PU;SI97
+221;Race-Fram;RF;SI98
+221;Radece;RA;SI99
+221;Radenci;RD;SIA1
+221;Radlje ob Dravi;RL;SIA2
+221;Radovljica;RV;SIA3
+221;Ravne-Prevalje;RN;SIA4
+221;Ribnica;RI;SIA5
+221;Rogasevci;RO;SIA6
+221;Rogaska Slatina;RS;SIA7
+221;Rogatec;RT;SIA8
+221;Ruse;RU;SIA9
+221;Semic;SM;SIB1
+221;Sencur;SN;SIB2
+221;Sentilj;SE;SIB3
+221;Sentjernej;SR;SIB4
+221;Sentjur pri Celju;SU;SIB5
+221;Sevnica;SV;SIB6
+221;Sezana;SZ;SIB7
+221;Skocjan;SC;SIB8
+221;Skofja Loka;SL;SIB9
+221;Skofljica;SK;SIC1
+221;Slovenj Gradec;SG;SIC2
+221;Slovenska Bistrica;SB;SIC3
+221;Slovenske Konjice;SS;SIC4
+221;Smarje pri Jelsah;SP;SIC5
+221;Smartno ob Paki;SA;SIC6
+221;Sostanj;SO;SIC7
+221;Starse;SH;SIC8
+221;Store;ST;SIC9
+221;Sveti Jurij;SJ;SID1
+221;Tolmin;TO;SID2
+221;Trbovlje;TB;SID3
+221;Trebnje;TE;SID4
+221;Trzic;TR;SID5
+221;Turnisce;TU;SID6
+221;Velenje;VE;SID7
+221;Velike Lasce;VL;SID8
+221;Videm;VI;SID9
+221;Vipava;VP;SIE1
+221;Vitanje;VT;SIE2
+221;Vodice;VO;SIE3
+221;Vojnik;VJ;SIE4
+221;Vrhnika;VR;SIE5
+221;Vuzenica;VU;SIE6
+221;Zagorje ob Savi;ZO;SIE7
+221;Zalec;ZA;SIE8
+221;Zavrc;ZV;SIE9
+221;Zelezniki;ZE;SIF1
+221;Ziri;ZI;SIF2
+221;Zrece;ZR;SIF3
+218;Eastern;EA;SL01
+218;Northern;NO;SL02
+218;Southern;SO;SL03
+218;Western Area;WE;SL04
+211;Acquaviva;AC;SM01
+211;Chiesanuova;CH;SM02
+211;Domagnano;DO;SM03
+211;Faetano;FA;SM04
+211;Fiorentino;FI;SM05
+211;Borgo Maaggiore;BM;SM06
+211;San Marino;SM;SM07
+211;Monte Giardino;MG;SM08
+211;Serravalle;SE;SM09
+223;Bakool;BK;SO01
+223;Banaadir;BN;SO02
+223;Bari;BR;SO03
+223;Bay;BY;SO04
+223;Galguduud;GA;SO05
+223;Gedo;GE;SO06
+223;Hiiraan;HI;SO07
+223;Jubbada Dhexe;JD;SO08
+223;Jubbada Hoose;JH;SO09
+223;Mudug;MU;SO10
+223;Nugaal;NU;SO11
+223;Sanaag;SA;SO12
+223;Shabeellaha Dhexe;SD;SO13
+223;Shabeellaha Hoose;SH;SO14
+223;Togdheer;TO;SO15
+223;Woqooyi Galbeed;WO;SO16
+226;Islas Baleares;PM;SP07
+226;La Rioja;LO;SP27
+226;Madrid;MD;SP29
+226;Murcia;MU;SP31
+226;Navarra;NA;SP32
+226;Asturias;AS;SP34
+226;Cantabria;CB;SP39
+226;Andalucia;AN;SP51
+226;Aragon;AR;SP52
+226;Canarias;CN;SP53
+226;Castilla-La Mancha;CM;SP54
+226;Castilla y Leon;CL;SP55
+226;Catalu“a;CT;SP56
+226;Extremadura;EX;SP57
+226;Galicia;GA;SP58
+226;Pais Vasco;PV;SP59
+226;Valenciana;VC;SP60
+271;Vojvodina;VO;    
+207;Anse-la-Raye;AR;ST01
+207;Dauphin;DA;ST02
+207;Castries;CS;ST03
+207;Choiseul;CH;ST04
+207;Dennery;DE;ST05
+207;Gros-Islet;GI;ST06
+207;Laborie;LB;ST07
+207;Micoud;MI;ST08
+207;Soufriere;CO;ST09
+207;Vieux-Fort;VF;ST10
+207;Praslin;PR;ST11
+229;A'ali an Nil;UN;SU35
+229;Al Khartum;KH;SU29
+229;Ash Shamaliyah;NO;SU43
+229;Al Babr al Ahmar;RS;SU36
+229;Al Buhayrat;EB;SU37
+229;Al Jazirah;GZ;SU38
+229;Al Qadarif;GD;SU39
+229;Al Wahdah;WH;SU40
+229;An Nil al Abyad;WN;SU41
+229;An Nil al Azraq;BN;SU42
+229;Bahr al Jabal;BG;SU44
+229;Gharb al Istiwa'iyah;WE;SU45
+229;Gharb Bahr al Ghazal;WB;SU46
+229;Gharb Darfur;WD;SU47
+229;Gharb Kurdufan;WK;SU48
+229;Janub Darfur;JD;SU49
+229;Janub Kurdufan;SK;SU50
+229;Junqali;JG;SU51
+229;Kassala;KA;SU52
+229;Nahr an Nil;RN;SU53
+229;Shamal Bahr al Ghazal;NB;SU54
+229;Shamal Darfur;ND;SU55
+229;Shamal Kurdufan;NK;SU56
+229;Sharq al Istiwa'iyah;EE;SU57
+229;Sinnar;SI;SU58
+229;Warab;WR;SU59
+233;Blekinge Lan;BL;SW02
+233;Gavleborgs Lan;GV;SW03
+233;Gotlands Lan;GT;SW05
+233;Hallands Lan;HA;SW06
+233;Jamtlands Lan;JA;SW07
+233;Jonkopings Lan;JO;SW08
+233;Kalmar Lan;KA;SW09
+233;Dalarnas Lan;KO;SW10
+233;Kronobergs Lan;KR;SW12
+233;Norrbottens Lan;NB;SW14
+233;Orebro Lan;OR;SW15
+233;Ostergotlands Lan;OG;SW16
+233;Sodermanlands Lan;SD;SW18
+233;Uppsala Lan;UP;SW21
+233;Varmlands Lan;VR;SW22
+233;Vasterbottens Lan;VB;SW23
+233;Vasternorrlands Lan;VN;SW24
+233;Vastmanlands Lan;VM;SW25
+233;Stockholms Lan;ST;SW26
+233;Skane Lan;SN;SW27
+233;Vastra Gotaland;VG;SW28
+235;Al Hasakah;HA;SY01
+235;Al Ladhiqiyah;LA;SY02
+235;Al Qunaytirah;QU;SY03
+235;Ar Raqqah;RA;SY04
+235;As Suwayda';SU;SY05
+235;Dar'a;DR;SY06
+235;Dayr az Zawr;DY;SY07
+235;Rif Dimashq;RD;SY08
+235;Halab;HL;SY09
+235;Hamah;HM;SY10
+235;Hims;HI;SY11
+235;Idlib;ID;SY12
+235;Dimashq;DI;SY13
+235;Tartus;TA;SY14
+234;Aargau;AG;SZ01
+234;Ausser-Rhoden;AR;SZ02
+234;Basel-Landschaft;BL;SZ03
+234;Basel-Stadt;BS;SZ04
+234;Bern;BE;SZ05
+234;Fribourg;FR;SZ06
+234;Geneve;GE;SZ07
+234;Glarus;GL;SZ08
+234;Graubunden;GR;SZ09
+234;Inner-Rhoden;AI;SZ10
+234;Luzern;LU;SZ11
+234;Neuchatel;NE;SZ12
+234;Nidwalden;NW;SZ13
+234;Obwalden;OW;SZ14
+234;Sankt Gallen;SG;SZ15
+234;Schaffhausen;SH;SZ16
+234;Schwyz;SZ;SZ17
+234;Solothurn;SO;SZ18
+234;Thurgau;TG;SZ19
+234;Ticino;TI;SZ20
+234;Uri;UR;SZ21
+234;Valais;VS;SZ22
+234;Vaud;VD;SZ23
+234;Zug;ZG;SZ24
+234;Zurich;ZH;SZ25
+234;Jura;JU;SZ26
+243;Arima;AR;TD01
+243;Caroni;CA;TD02
+243;Mayaro;MA;TD03
+243;Nariva;NA;TD04
+243;Port-of-Spain;PO;TD05
+243;Saint Andrew;SA;TD06
+243;Saint David;SD;TD07
+243;Saint George;SG;TD08
+243;Saint Patrick;SP;TD09
+243;San Fernando;SF;TD10
+243;Tobago;TO;TD11
+243;Victoria;VI;TD12
+239;Mae Hong Son;MH;TH01
+239;Chiang Mai;CM;TH02
+239;Chiang Rai;CR;TH03
+239;Nan;NA;TH04
+239;Lamphun;LN;TH05
+239;Lampang;LG;TH06
+239;Phrae;PR;TH07
+239;Tak;TK;TH08
+239;Sukhothai;SO;TH09
+239;Uttaradit;UD;TH10
+239;Kamphaeng Phet;KP;TH11
+239;Phitsanulok;PS;TH12
+239;Phichit;PC;TH13
+239;Phetchabun;PH;TH14
+239;Uthai Thani;UT;TH15
+239;Nakhon Sawan;NS;TH16
+239;Nong Khai;NK;TH17
+239;Loei;LE;TH18
+239;Udon Thani;UN;TH76
+239;Sakon Nakhon;SN;TH20
+239;Nakhon Phanom;NF;TH73
+239;Khon Kaen;KK;TH22
+239;Kalasin;KL;TH23
+239;Maha Sarakham;MS;TH24
+239;Roi Et;RE;TH25
+239;Chaiyaphum;CY;TH26
+239;Nakhon Ratchasima;NR;TH27
+239;Buriram;BR;TH28
+239;Surin;SU;TH29
+239;Sisaket;SI;TH30
+239;Narathiwat;NW;TH31
+239;Chai Nat;CN;TH32
+239;Sing Buri;SB;TH33
+239;Lop Buri;LB;TH34
+239;Ang Thong;AT;TH35
+239;Phra Nakhon Si Ayutthaya;PA;TH36
+239;Sara Buri;SR;TH37
+239;Nonthaburi;NO;TH38
+239;Pathum Thani;PT;TH39
+239;Krung Thep Mahanakhon;BM;TH40
+239;Phayao;PY;TH41
+239;Samut Prakan;SP;TH42
+239;Nakhon Nayok;NN;TH43
+239;Chachoengsao;CC;TH44
+239;Prachin Buri;PB;TH74
+239;Chon Buri;CB;TH46
+239;Rayong;RY;TH47
+239;Chanthaburi;CT;TH48
+239;Trat;TT;TH49
+239;Kanchanaburi;KN;TH50
+239;Suphan Buri;SH;TH51
+239;Ratchaburi;RT;TH52
+239;Nakhon Pathom;NP;TH53
+239;Samut Songkhram;SM;TH54
+239;Samut Sakhon;SS;TH55
+239;Phetchaburi;PE;TH56
+239;Prachuap Khiri Khan;PK;TH57
+239;Chumphon;CP;TH58
+239;Ranong;RN;TH59
+239;Surat Thani;ST;TH60
+239;Phangnga;PG;TH61
+239;Phuket;PU;TH62
+239;Krabi;KR;TH63
+239;Nakon Si Thammarat;NT;TH64
+239;Trang;TG;TH65
+239;Phatthalung;PL;TH66
+239;Satun;SA;TH67
+239;Songkhla;SG;TH68
+239;Pattani;PI;TH69
+239;Yala;YL;TH70
+239;Yasothon;YS;TH72
+239;Ubon Ratchanthani;UR;TH75
+239;Amnat Charoen;AC;TH77
+239;Mukdahan;MD;TH78
+239;Nong Bua Lamphu;NB;TH79
+239;Sa Kaeo;SK;TH80
+237;Kuhistoni Badakhshon;BK;TI01
+237;Khatlon;KL;TI02
+237;Leninobod;LE;TI03
+242;Ha'apai;HA;TN01
+242;Tongatapu;TT;TN02
+242;Vava'u;VA;TN03
+212;Principe;PR;TP01
+212;Sao Tome;ST;TP02
+245;Al Qasrayn;KS;TS02
+245;Al Qayrawan;KR;TS03
+245;Jundubah;JE;TS06
+245;Al Kaf;KF;TS14
+245;Al Mahdiyah;MH;TS15
+245;Al Munastir;MS;TS16
+245;Bajah;BJ;TS17
+245;Banzart;BZ;TS18
+245;Nabul;NB;TS19
+245;Silyanah;SL;TS22
+245;Susah;SS;TS23
+245;Aryanah;AN;TS26
+245;Bin 'Arus;BA;TS27
+245;Madanin;ME;TS28
+245;Qabis;GB;TS29
+245;Qafsah;QA;TS30
+245;Qibili;KB;TS31
+245;Safaqi;SF;TS32
+245;Sidi Bu Zayd;SZ;TS33
+245;Tatawin;TA;TS34
+245;Tawzar;TO;TS35
+245;Tunis;TU;TS36
+245;Zaghwan;ZA;TS37
+246;Adana;AA;TU81
+246;Adiyaman;AD;TU02
+246;Afyon;AF;TU03
+246;Agri;AG;TU04
+246;Amasya;AM;TU05
+246;Antalya;AL;TU07
+246;Artvin;AV;TU08
+246;Aydin;AY;TU09
+246;Balikesir;BK;TU10
+246;Bilecik;BC;TU11
+246;Bingol;BG;TU12
+246;Bitlis;BT;TU13
+246;Bolu;BL;TU14
+246;Burdur;BD;TU15
+246;Bursa;BU;TU16
+246;Canakkale;CK;TU17
+246;Cankiri;CI;TU82
+246;Corum;CM;TU19
+246;Denizli;DN;TU20
+246;Diyarbakir;DY;TU21
+246;Edirne;ED;TU22
+246;Elazig;EG;TU23
+246;Erzincan;EN;TU24
+246;Erzurum;EM;TU25
+246;Eskisehir;ES;TU26
+246;Gaziantep;GA;TU83
+246;Giresun;GI;TU28
+246;Hatay;HT;TU31
+246;Icel;IC;TU32
+246;Isparta;IP;TU33
+246;Istanbul;IB;TU34
+246;Izmir;IZ;TU35
+246;Kars;KA;TU84
+246;Kastamonu;KS;TU37
+246;Kayseri;KY;TU38
+246;Kirklareli;KL;TU39
+246;Kirsehir;KH;TU40
+246;Kocaeli;KC;TU41
+246;Kutahya;KU;TU43
+246;Malatya;ML;TU44
+246;Manisa;MN;TU45
+246;Kahramanmaras;KM;TU46
+246;Mugla;MG;TU48
+246;Mus;MS;TU49
+246;Nevsehir;NV;TU50
+246;Ordu;OR;TU52
+246;Rize;RI;TU53
+246;Sakarya;SK;TU54
+246;Samsun;SS;TU55
+246;Sinop;SP;TU57
+246;Sivas;SV;TU58
+246;Tekirdag;TG;TU59
+246;Tokat;TT;TU60
+246;Trabzon;TB;TU61
+246;Tunceli;TC;TU62
+246;Sanliurfa;SU;TU63
+246;Usak;US;TU64
+246;Van;VA;TU65
+246;Yozgat;YZ;TU66
+246;Zonguldak;ZO;TU85
+246;Ankara;AN;TU68
+246;Gumushane;GU;TU69
+246;Hakkari;HK;TU70
+246;Konya;KO;TU71
+246;Mardin;MR;TU72
+246;Nigde;NG;TU73
+246;Siirt;SI;TU74
+246;Aksaray;AK;TU75
+246;Batman;BM;TU76
+246;Bayburt;BB;TU77
+246;Karaman;KR;TU78
+246;Kirikkale;KK;TU79
+246;Sirnak;SR;TU80
+236;Fu-chien;FK;TW01
+236;Kao-hsiung;KH;TW02
+236;T'ai-pei;TP;TW03
+236;T'ai-wan;TA;TW04
+238;Arusha;AR;TZ01
+238;Dar es Salaam;DS;TZ23
+238;Dodoma;DO;TZ03
+238;Iringa;IR;TZ04
+238;Kigoma;KM;TZ05
+238;Kilimanjaro;KL;TZ06
+238;Lindi;LI;TZ07
+238;Mara;MA;TZ08
+238;Mbeya;MB;TZ09
+238;Morogoro;MO;TZ10
+238;Mtwara;MT;TZ11
+238;Mwanza;MW;TZ12
+238;Pemba North;PN;TZ13
+238;Ruvuma;RV;TZ14
+238;Shinyanga;SH;TZ15
+238;Singida;SD;TZ16
+238;Tabora;TB;TZ17
+238;Tanga;TN;TZ18
+238;Kagera;KR;TZ19
+238;Pemba South;PS;TZ20
+238;Zanzibar Central//South;ZS;TZ21
+238;Zanzibar North;ZN;TZ22
+238;Rukwa;RK;TZ24
+238;Zanzibar Urban//West;ZW;TZ25
+250;Apac;AP;UG26
+250;Arua;AR;UG27
+250;Bundibogyo;BN;UG28
+250;Bushenyi;BS;UG29
+250;Gulu;GU;UG30
+250;Hoima;HO;UG31
+250;Iganga;IG;UG68
+250;Jinja;JI;UG33
+250;Kabale;KA;UG34
+250;Kabarole;KB;UG35
+250;Kalangala;KN;UG36
+250;Kampala;KM;UG37
+250;Kamuli;KL;UG38
+250;Kapchorwa;KC;UG39
+250;Kasese;KS;UG40
+250;Kibale;KI;UG41
+250;Kiboga;KG;UG42
+250;Kisoro;KR;UG43
+250;Kitgum;KT;UG44
+250;Kotido;KO;UG45
+250;Kumi;KU;UG46
+250;Lira;LI;UG47
+250;Luwero;LU;UG70
+250;Masaka;MA;UG71
+250;Masindi;MS;UG50
+250;Mbale;ML;UG51
+250;Mbarara;MR;UG52
+250;Moroto;MO;UG53
+250;Moyo;MY;UG72
+250;Mpigi;MP;UG55
+250;Mubende;MU;UG56
+250;Mukono;MK;UG57
+250;Nebbi;NE;UG58
+250;Ntungamo;NT;UG59
+250;Pallisa;PA;UG60
+250;Rakai;RA;UG61
+250;Rukungiri;RU;UG62
+250;Soroti;SO;UG75
+250;Tororo;TO;UG76
+251;Cherkas'ka Oblast';CK;UP01
+251;Chernihivs'ka Oblast';CH;UP02
+251;Chernivets'ka Oblast';CV;UP03
+251;Dnipropetrovs'ka Oblast';DP;UP04
+251;Donets'ka Oblast';DT;UP05
+251;Ivano-Frankivs'ka Oblast';IF;UP06
+251;Kharkivs'ka Oblast';KK;UP07
+251;Khersons'ka Oblast';KS;UP08
+251;Khmel'nyts'ka Oblast';KM;UP09
+251;Kirovohrads'ka Oblast';KH;UP10
+251;Avtonomna Respublika Krym;KR;UP11
+251;Misto Kyyiv;KC;UP12
+251;Kyyivs'ka Oblast';KV;UP13
+251;Luhans'ka Oblast';LH;UP14
+251;L'vivs'ka Oblast';LV;UP15
+251;Mykolayivs'ka Oblast';MY;UP16
+251;Odes'ka Oblast;OD;UP17
+251;Poltavs'ka Oblast';PL;UP18
+251;Rivnens'ka Oblast';RV;UP19
+251;Misto Sevastopol;SC;UP20
+251;Sums'ka Oblast';SM;UP21
+251;Ternopil's'ka Oblast';TP;UP22
+251;Vinnyts'ka Oblast';VI;UP23
+251;Volyns'ka Oblast';VO;UP24
+251;Zakarpats'ka Oblast';ZK;UP25
+251;Zaporiz'ka Oblast';ZP;UP26
+251;Zhytomyrs'ka Oblast';ZT;UP27
+38;Bam;BM;UV15
+38;Bazega;BZ;UV16
+38;Bougouriba;BB;UV17
+38;Boulgou;BL;UV18
+38;Boulkiemde;BK;UV19
+38;Ganzourgou;GZ;UV20
+38;Gnagna;GG;UV21
+38;Gourma;GM;UV22
+38;Houe;HO;UV23
+38;Kadiogo;KA;UV24
+38;Kenedougou;KN;UV25
+38;Komoe;KM;UV26
+38;Kossi;KS;UV27
+38;Kouritenga;KR;UV28
+38;Mouhoun;MO;UV29
+38;Namentenga;NM;UV30
+38;Naouri;NR;UV31
+38;Oubritenga;OB;UV32
+38;Oudalan;OD;UV33
+38;Passore;PA;UV34
+38;Poni;PO;UV35
+38;Sanguie;SG;UV36
+38;Sanmatenga;ST;UV37
+38;Seno;SE;UV38
+38;Sissili;SS;UV39
+38;Soum;SM;UV40
+38;Sourou;SR;UV41
+38;Tapoa;TA;UV42
+38;Yatenga;YT;UV43
+38;Zoundweogo;ZW;UV44
+256;Artigas;AR;UY01
+256;Canelones;CA;UY02
+256;Cerro Largo;CL;UY03
+256;Colonia;CO;UY04
+256;Durazno;DU;UY05
+256;Flores;FS;UY06
+256;Florida;FD;UY07
+256;Lavalleja;LA;UY08
+256;Maldonado;MA;UY09
+256;Montevideo;MO;UY10
+256;Paysandu;PA;UY11
+256;Rio Negro;RN;UY12
+256;Rivera;RV;UY13
+256;Rocha;RO;UY14
+256;Salto;SA;UY15
+256;San Jose;SJ;UY16
+256;Soriano;SO;UY17
+256;Tacuarembo;TA;UY18
+256;Treinta y Tres;TT;UY19
+257;Andijon;AN;UZ01
+257;Bukhoro;BU;UZ02
+257;Farghona;FA;UZ03
+257;Jizzakh;JI;UZ15
+257;Khorazm;KH;UZ05
+257;Namangan;NG;UZ06
+257;Nawoiy;NW;UZ07
+257;Qashqadaryo;QA;UZ08
+257;Qoraqalpoghiston;QR;UZ09
+257;Samarqand;SA;UZ10
+257;Sirdaryo;SI;UZ15
+257;Surkhondaryo;SU;UZ12
+257;Toshkent;TO;UZ14
+209;Charlotte;CH;VC01
+209;Saint Andrew;AN;VC02
+209;Saint David;DA;VC03
+209;Saint George;GE;VC04
+209;Saint Patrick;PA;VC05
+209;Grenadines;GT;VC06
+259;Amazonas;AM;VE01
+259;Anzoategui;AN;VE02
+259;Apure;AP;VE03
+259;Aragua;AR;VE04
+259;Barinas;BA;VE05
+259;Bolivar;BO;VE06
+259;Carabobo;CA;VE07
+259;Cojedes;CO;VE08
+259;Delta Amacuro;DA;VE09
+259;Distrito Federal;DF;VE25
+259;Falcon;FA;VE11
+259;Guarico;GU;VE12
+259;Lara;LA;VE13
+259;Merida;ME;VE14
+259;Miranda;MI;VE15
+259;Monagas;MO;VE16
+259;Nueva Esparta;NE;VE17
+259;Portuguesa;PO;VE18
+259;Sucre;SU;VE19
+259;Tachira;TA;VE20
+259;Trujillo;TR;VE21
+259;Yaracuy;YA;VE22
+259;Zulia;ZU;VE23
+259;Dependencias Federales;DP;VE24
+260;An Giang;AG;VM01
+260;Ben Tre;BR;VM03
+260;Cao Bang;CB;VM05
+260;Dak Lak;DL;VM07
+260;Dong Thap;DT;VM09
+260;Hai Phong;HP;VM13
+260;Ha Noi;HN;VM44
+260;Ho Chi Minh;HC;VM20
+260;Kien Giang;KG;VM21
+260;Lai Chau;LC;VM22
+260;Lam Dong;LD;VM23
+260;Long An;LA;VM24
+260;Quang Ninh;QN;VM30
+260;Son La;SL;VM32
+260;Tay Ninh;TN;VM33
+260;Thanh Hoa;TH;VM34
+260;Thai Binh;TB;VM35
+260;Tien Giang;TG;VM37
+260;Lang Son;LS;VM39
+260;Dong Nai;DN;VM43
+260;Ba Ria-Vung Tau;BV;VM45
+260;Binh Dinh;BD;VM46
+260;Binh Thuan;BU;VM47
+260;Can Tho;CT;VM48
+260;Gia Lai;GL;VM49
+260;Ha Giang;HG;VM50
+260;Ha Tay;HA;VM51
+260;Ha Tinh;HT;VM52
+260;Hoa Binh;HO;VM53
+260;Khanh Hoa;KH;VM54
+260;Kon Tum;KT;VM55
+260;Lao Cai;LO;VM56
+260;Nghe An;NA;VM58
+260;Ninh Binh;NB;VM59
+260;Ninh Thuan;NT;VM60
+260;Phu Yen;PY;VM61
+260;Quang Binh;QB;VM62
+260;Quang Ngai;QG;VM63
+260;Quang Tri;QT;VM64
+260;Soc Trang;ST;VM65
+260;Thura Thien-Hue;TT;VM66
+260;Tra Vinh;TV;VM67
+260;Tuyen Quang;TQ;VM68
+260;Vinh Long;VL;VM69
+260;Yen Bai;YB;VM70
+260;Bac Giang;BG;VM71
+260;Bac Kan;BK;VM72
+260;Bac Lieu;BL;VM73
+260;Bac Ninh;BN;VM74
+260;Bin Duong;BI;VM75
+260;Bin Phuoc;BP;VM76
+260;Ca Mau;CM;VM77
+260;Da Nang;DA;VM78
+260;Hai Duong;HD;VM79
+260;Ha Nam;HM;VM80
+260;Hung Yen;HY;VM81
+260;Nam Dinh;ND;VM82
+260;Phu Tho;PT;VM83
+260;Quang Nam;QM;VM84
+260;Thai Nguyen;TY;VM85
+260;Vinh Phuc;VC;VM86
+171;Khomas;KH;WA21
+171;Caprivi;CA;WA28
+171;Erongo;ER;WA29
+171;Hardap;HA;WA30
+171;Karas;KA;WA31
+171;Kunene;KU;WA32
+171;Ohangwena;OW;WA33
+171;Okavango;OK;WA34
+171;Omaheke;OH;WA35
+171;Omusati;OS;WA36
+171;Oshana;ON;WA37
+171;Oshikoto;OT;WA38
+171;Otjozondjupa;OD;WA39
+210;A'ana;AA;WS01
+210;Aiga-i-le-Tai;AL;WS02
+210;Atua;AT;WS03
+210;Fa'asaleleaga;FA;WS04
+210;Gaga'emauga;GE;WS05
+210;Va'a-o-Fonoti;VF;WS06
+210;Gagaifomauga;GI;WS07
+210;Palauli;PA;WS08
+210;Satupa'itea;SA;WS09
+210;Tuamasaga;TU;WS10
+210;Vaisigano;VS;WS11
+232;Hhohho;HH;WZ01
+232;Lubombo;LU;WZ02
+232;Manzini;MA;WZ03
+232;Shiselweni;SH;WZ04
+270;Abyan;AB;YM01
+270;'Adan;AD;YM02
+270;Al Mahrah;MR;YM03
+270;Hadramawt;HD;YM04
+270;Shabwah;SH;YM05
+270;Lahij;LA;YM06
+270;Al Bayda';BA;YM07
+270;Al Hudaydah;HU;YM08
+270;Al Jawf;JA;YM09
+270;Al Mahwit;MW;YM10
+270;Dhamar;DH;YM11
+270;Hajjah;HJ;YM12
+270;Ibb;IB;YM13
+270;Ma'rib;MA;YM14
+270;Sa'dah;SD;YM15
+270;San'a';SN;YM16
+270;Ta'izz;TA;YM17
+273;North-Western;WE;ZA01
+273;Copperbelt;CE;ZA02
+273;Western;EA;ZA03
+273;Southern;LP;ZA04
+273;Central;NO;ZA05
+273;Eastern;NW;ZA06
+273;Northern;SO;ZA07
+273;Luapula;CO;ZA08
+273;Lusaka;LS;ZA09
+274;Manicaland;MA;ZI01
+274;Midlands;MI;ZI02
+274;Mashonaland Central;MC;ZI03
+274;Mashonaland East;ME;ZI04
+274;Mashonaland West;MW;ZI05
+274;Matabeleland North;MN;ZI06
+274;Matabeleland South;MS;ZI07
+274;Masvingo;MV;ZI08
+178;Auckland;AU;    
+178;Wellington;WG;    
+178;Canterbury;CA;    
+178;Bay of Plenty;BP;    
+178;Northland;NO;    
+178;Otago;OT;    
+8;Enderby Land;EL;    
+8;Ross Island;RI;    
+178;Chatham Islands;CI;    
+81;Etela-Suomen Laani;ES;FI13
+156;Nouakchott;NO;    
+43;Nunavut;NU;CA14
+252;United Arab Emigrates (general);UA;AE00
+252;Abu Zaby;AZ;AE01
+252;'Ajman;AJ;AE02
+252;Dubayy;DU;AE03
+252;Al Fujayrah;FU;AE04
+252;Ra's al Khaymah;RK;AE05
+252;Ash Shariqah;SH;AE06
+252;Umm al Qaywayn;UQ;AE07
+178;Gisborne;GI;    
+178;Nelson;NE;    
+178;Tasman;TS;    
+178;Wanganui-Manawatu;MW;    
+178;West Coast;WC;    
+81;Ita-Suomen Laani;IS;FI14
+81;Lansi-Suomen Laani;LS;FI15
+271;Yugoslavia;YU;    
+61;Bjelovarsko-Bilogorska;BB;HR01
+61;Brodsko-Posavka;SP;HR02
+61;Dubrovacko-Neretvanska;DN;HR03
+61;Istarska;IS;HR04
+61;Karlovacka;KA;HR05
+61;Koprivnicko-Krizevacka;KK;HR06
+61;Krapinsko-Zagorska;KZ;HR07
+61;Licko-Senjska;LS;HR08
+61;Medimurska;ME;HR09
+61;Osjecko-Baranjska;OB;HR10
+61;Pozesko-Slavonska;PS;HR11
+61;Primorsko-Goranska;PG;HR12
+61;Sibensko-Kninska;SB;HR13
+61;Sisacko-Moslavacka;SM;HR14
+61;Splitsko-Dalmatinska;SD;HR15
+61;Varazdinska;VA;HR16
+61;Viroviticko-Podravska;VP;HR17
+61;Vukovarsko-Srijemska;VS;HR18
+61;Zadarska;ZD;HR19
+61;Zagrebacka;ZG;HR20
+61;Grad Zagreb;GZ;HR21
+176;Curacao;CU;    
+176;Bonaire;BO;    
+176;St Maarten;SM;    
+24;Brussels;BU;BE11
+5;Escaldes-Engordany;EE;AN08
+247;Ahal;AL;TX01
+247;Balkan;BA;TX02
+247;Dashhowuz;DA;TX03
+247;Lebap;LE;TX04
+247;Mary;MA;TX05
+41;Pailin;PL;CB30
+70;Orellana;OR;EC24
+114;Maluku Utara;MU;ID29
+259;Vargas;VA;VE26
+271;Crna Gora (Montenegro);CG;YI01
+271;Srbija (Serbia);SR;YI02
+55;Maniema;MN;CG10
+55;Nord-Kivu;NK;CG11
+55;Sud-Kivu;SK;CG12
+126;Ajlun;AJ;JO20
+126;Al Aqabah;AQ;JO21
+126;Jarash;JA;JO22
+126;Madaba;MD;JO23
+258;Malampa;ML;NH16
+258;Penama;PM;NH17
+258;Shefa;SE;NH18
+181;Bayelsa;BY;NI52
+181;Ebonyi;EB;NI53
+181;Ekiti;EK;NI54
+181;Gombe;GO;NI55
+181;Nassarawa;NA;NI56
+181;Zamfara;ZA;NI57
+163;Lapusna;LP;MD52
+163;Tighina;TG;MD55
+37;Blagoevgrad;BL;BU38
+37;Dobrich;DO;BU40
+37;Gabrovo ;GB;BU41
+37;Kurdzhali;KZ;BU44
+37;Kyustendil;KY;BU45
+37;Pazardzhik;PZ;BU48
+37;Pernik;PN;BU49
+37;Pleven;PV;BU50
+37;Ruse;RS;BU53
+37;Shumen;SH;BU54
+37;Silistra;SI;BU55
+37;Sliven;SL;BU56
+37;Smolyan;SM;BU57
+37;Stara Zagora;SZ;BU59
+37;Turgovishte;TU;BU60
+37;Veliko Turnovo;VT;BU62
+37;Vidin;VD;BU63
+37;Vratsa;VR;BU64
+37;Yambol;YA;BU65
+115;Golestan;GO;IR37
+115;Qazvin;QZ;IR38
+115;Qom;QM;IR39
+246;Ardahan;AR;TU86
+246;Bartin;BR;TU87
+246;Igdir;IG;TU88
+246;Karabuk;KB;TU89
+246;Kilis;KI;TU90
+246;Osmaniye;OS;TU91
+246;Yalova;YL;TU92
+18;Ar Rifa' wa al Mintaqah al Janubiyah;RF;BA13
+30;Republika Srpska;SR;BK02
+30;Federation of Bosnia and Herzegovina;BF;BK01
+135;Batken;BA;KG09
+132;P'yongan-bukto;PB;KN11
+203;Tyva;TU;RS79
+64;Jihomoravsky Kraj;JM;EZ78
+64;Jihocesky Kraj;JC;EZ79
+64;Vysocina;VY;EZ80
+64;Karlovarsky Kraj;KA;EZ81
+64;Kralovehradecky Kraj;KR;EZ82
+64;Liberecky Kraj;LI;EZ83
+64;Olomoucky Kraj;OL;EZ84
+64;Moravskoslezsky Kraj;MO;EZ85
+64;Pardubicky Kraj;PA;EZ86
+64;Plzensky Kraj;PL;EZ87
+64;Stredocesky Kraj;ST;EZ88
+64;Ustecky Kraj;US;EZ89
+64;Zlinsky Kraj;ZL;EZ90
+146;Aracinovo;AR;MK01
+146;Bac;BA;MK02
+146;Belcista;BE;MK03
+146;Berovo;BR;MK04
+146;Bistrica;BI;MK05
+146;Bitola;BO;MK06
+146;Blatec;BL;MK07
+146;Bogdanci;BG;MK08
+146;Bogomila;BM;MK09
+146;Bogovinje;BJ;MK10
+146;Bosilovo;BS;MK11
+146;Brvenica;BN;MK12
+146;Cair;CR;MK13
+146;Capari;CP;MK14
+146;Caska;CK;MK15
+146;Cegrane;CG;MK16
+146;Centar;CE;MK17
+146;Centar Zupa;CZ;MK18
+146;Cesinovo;CN;MK19
+146;Cucer-Sandevo;CS;MK20
+146;Debar;DB;MK21
+146;Delcevo;DL;MK22
+146;Delogozdi;DG;MK23
+146;Demir Hisar;DX;MK24
+146;Demir Kapija;DK;MK25
+146;Dobrusevo;DO;MK26
+146;Dolna Banjica;DJ;MK27
+146;Dolneni;DN;MK28
+146;Dorce Petrov;GP;MK29
+146;Drugovo;DR;MK30
+146;Dzepciste;DZ;MK31
+146;Gazi Baba;GB;MK32
+146;Gevgelija;GE;MK33
+146;Gostivar;GO;MK34
+146;Gradsko;GR;MK35
+146;Ilinden;IL;MK36
+146;Izvor;IZ;MK37
+146;Jegunovce;JE;MK38
+146;Kamenjane;KJ;MK39
+146;Karbinci;KB;MK40
+146;Karpos;KX;MK41
+146;Kavadarci;KD;MK42
+146;Kicevo;KH;MK43
+146;Kisela Voda;KV;MK44
+146;Klecevce;KL;MK45
+146;Kocani;KC;MK46
+146;Konce;KN;MK47
+146;Kondovo;KW;MK48
+146;Konopiste;KF;MK49
+146;Kosel;KE;MK50
+146;Kartovo;KY;MK51
+146;Kriva Palanka;KZ;MK52
+146;Krivogastani;KG;MK53
+146;Krusevo;KS;MK54
+146;Kuklis;KK;MK55
+146;Kukurecani;KQ;MK56
+146;Kumanovo;KM;MK57
+146;Labunista;LA;MK58
+146;Lipkovo;LI;MK59
+146;Lozovo;LO;MK60
+146;Lukovo;LU;MK61
+146;Makedonska Kamenica;MM;MK62
+146;Makedonski Brod;MB;MK63
+146;Mavrovi Anovi;MA;MK64
+146;Meseista;ME;MK65
+146;Miravci;MI;MK66
+146;Mogila;MO;MK67
+146;Murtino;MU;MK68
+146;Negotino;NG;MK69
+146;Negotino-Polosko;NP;MK70
+146;Novaci;NO;MK71
+146;Novo Selo;NS;MK72
+146;Oblesevo;OB;MK73
+146;Ohrid;OX;MK74
+146;Orasac;OR;MK75
+146;Orizari;OZ;MK76
+146;Oslomej;OS;MK77
+146;Pehcevo;PH;MK78
+146;Petrovec;PE;MK79
+146;Plasnica;PN;MK80
+146;Podares;PO;MK81
+146;Prilep;PR;MK82
+146;Probistip;PB;MK83
+146;Radovis;RD;MK84
+146;Rankovce;RN;MK85
+146;Resen;RE;MK86
+146;Rosoman;RM;MK87
+146;Rostusa;RT;MK88
+146;Samokov;SA;MK89
+146;Saraj;SJ;MK90
+146;Sipkovica;SI;MK91
+146;Sopiste;SS;MK92
+146;Sopotnica;SC;MK93
+146;Srbinovo;SB;MK94
+146;Staravina;SV;MK95
+146;Star Dojran;SD;MK96
+146;Star Nagoricane;SE;MK97
+146;Stip;ST;MK98
+146;Struga;SQ;MK99
+146;Strumica;SR;MKA1
+146;Studenicani;SU;MKA2
+146;Suto Orizari;SO;MKA3
+146;Sveti Nikole;SL;MKA4
+146;Tearce;TR;MKA5
+146;Tetovo;TT;MKA6
+146;Topolcani;TO;MKA7
+146;Valandovo;VA;MKA8
+146;Vasilevo;VL;MKA9
+146;Veles;VE;MKB1
+146;Velesta;VS;MKB2
+146;Vevcani;VV;MKB3
+146;Vinica;VN;MKB4
+146;Vitoliste;VT;MKB5
+146;Vranestica;VC;MKB6
+146;Vrapciste;VP;MKB7
+146;Vratnica;VR;MKB8
+146;Vrutok;VK;MKB9
+146;Zajas;ZA;MKC1
+146;Zelenikovo;ZK;MKC2
+146;Zelino;ZE;MKC3
+146;Zitose;ZI;MKC4
+146;Zletovo;ZL;MKC5
+146;Zrnovci;ZR;MKC6
+271;Kosovo;KM;    
+113;Uttaranchal;UL;IN39
+254;AOL;AO;    
+254;WebTV;WE;    
+14;AOL;AO;    
+253;AOL;AO;    
+33;AOL;AO;    
+122;AOL;AO;    
+91;AOL;AO;    
+113;Chhattisgarh;CT;IN37
+113;Jharkhand;JH;IN38
+40;Mwaro;MW;BY23
+274;Bulawayo;BU;ZI09
+274;Harare;HA;ZI10
+60;Adiake;AD;IV63
+60;Alepe;AL;IV64
+60;Bocanda;BN;IV65
+60;Dabou;DA;IV66
+60;Grand-Bassam;GR;IV68
+60;Jacqueville;JA;IV70
+60;Toulepleu;TP;IV72
+102;Mandiana;MD;GV37
+102;Lola;LO;GV36
+102;Lelouma;LE;GV35
+102;Koubia;KB;GV33
+102;Coyah;CO;GV30
+114;Gorontalo;GO;ID34
+114;Kepulauan Bangka Belitung;BB;ID35
+114;Banten;BT;ID33
+133;Ulsan-gwangyoksi;UL;KS21
+250;Sembabule;SE;UG74
+250;Nakasongola;NA;UG73
+250;Katakwi;KW;UG69
+250;Busia;BU;UG67
+250;Bugiri;BG;UG66
+250;Adjumani;AD;UG65
+138;Nabatiye;NA;LE07
+1;Khost;KT;    
+1;Nuristan;NR;    
+16;Sarur;SR;    
+16;Sahbuz;SH;    
+16;Sadarak;SD;    
+16;Ordubud;OR;    
+16;Babak;BB;    
+20;Barisal;BA;    
+20;Sylhet;SY;    
+24;Brabant Wallon;BW;BE10
+24;Vlaams-Brabant;VB;BE12
+27;Hamilton;HA;BD02
+4;Eastern Tutuila;ET;    
+4;Unorganized;UU;    
+4;Western Tutuila;WT;    
+4;Manu'a;MA;    
+30;Brcko District;BR;BKBD
+28;Tashi Yangtse;TY;    
+28;Gasa;GA;    
+26;Plateau;PL;    
+26;Littoral;LI;    
+26;Donga;DO;    
+26;Couffo;CF;    
+26;Collines;CL;    
+26;Alibori;AL;    
+90;Guria;GU;    
+90;Imereti;IM;    
+90;Kakheti;KA;    
+90;Kvemo Kartli;KK;    
+90;Mtskheta-Mtianeti;MM;    
+90;Racha-Lochkhumi-Kvemo Svaneti;RL;    
+90;Samegrelo-Zemo Svateni;SZ;    
+90;Samtskhe-Javakheti;SJ;    
+90;Shida Kartli;SK;    
+165;Govi-Sumber;GS;MG24
+165;Darhan Uul;DA;MG23
+132;Najin Sonbong-si;NJ;KN18
+74;Anseba;AN;    
+74;Semenawi Keyih Bahri;SK;    
+74;Maekel;MA;    
+74;Gash Barka;GB;    
+74;Debubawi Keyih Bahri;DK;    
+74;Debub;DU;    
+44;Mosteiros;MO;    
+44;Porto Novo;PN;    
+44;Santa Cruz;SZ;    
+44;SÑo Domingos;SD;    
+44;SÑo Filipe;SF;    
+38;Bal»;BA;    
+38;Banwa;BW;    
+38;Ioba;IO;    
+38;Komondjari;KJ;    
+38;Kompienga;KP;    
+38;Koulp»logo;KL;    
+38;Kourw»ogo;KW;    
+38;L»raba;LE;    
+38;Loroum;LO;    
+38;Nayala;NY;    
+38;Noumbiel;NB;    
+38;Tui;TU;    
+38;Yagha;YG;    
+38;Ziro;ZR;    
+38;Zondoma;ZM;    
+97;Carriacou;CA;    
+140;River Gee;RG;    
+140;Gbarpolu;GP;    
+238;Pwani;PW;TZ02
+246;D∏zce;DU;TU93
+245;Manouba;MN;    
+151;Kidal;KD;    
+184;Rota;RO;    
+184;Saipan;SA;    
+184;Tinian;TA;    
+204;Kigali-Ville;KV;    
+204;Umutara;UM;    
+155;Trinit»;TR;    
+155;Saint-Pierre;SP;    
+155;Marin;MA;    
+155;Fort-de-France;FF;    
+163;Taraclia;TR;    
+148;Phalombe;PH;    
+148;Likoma;LK;    
+148;Balaka;BA;    
+149;Putrajaya;PJ;    
+84;Saint-Laurent-du-Maroni;SL;    
+84;Cayenne;CY;    
+261;Saint Thomas;ST;    
+261;Saint John;SJ;    
+261;Saint Croix;SC;    
+275;West Bank;WE;    
+275;Gaza;GZ;    
+253;Wales;WA;    
+253;Scotland;SC;    
+253;Northern Ireland;NI;    
+253;England;EN;    
+240;Centre;CE;    
+240;Kara;KA;    
+240;Maritime;MA;    
+240;Plateaux;PL;    
+240;Savanes;SA;    
+221;Imo;IM;NI28
+181;Katsina;KT;NI24

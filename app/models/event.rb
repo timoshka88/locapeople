@@ -1,4 +1,6 @@
 class Event < ActiveRecord::Base
+	attr_accessible :id, :name, :description, :official_website_link, :price, :venue_id
+
 	has_many 		:event_tribes
 	has_many 		:lookup_tribe_types, 		:through => :event_tribes
 

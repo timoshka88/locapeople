@@ -1,4 +1,6 @@
 class Venue < ActiveRecord::Base
+	attr_accessible :id, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id
+	
 	has_many 		:venue_tribes
 	has_many 		:lookup_tribe_types, 		:through => :venue_tribes
 
@@ -20,5 +22,4 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:owner, 							:class_name => "User"
 	belongs_to 	:lookup_city
 
-  # attr_accessible :title, :body
 end

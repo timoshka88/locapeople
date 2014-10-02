@@ -1,4 +1,6 @@
 class LookupCuisineType < ActiveRecord::Base
+	attr_accessible :id ,:name, :description
+
  	has_many :venue_cuisines
 	has_many :venues, 			:through => :venue_cuisines
 
@@ -8,5 +10,4 @@ class LookupCuisineType < ActiveRecord::Base
 	has_many :event_cuisines
 	has_many :events, 			:through => :event_cuisines
 
-  # attr_accessible :title, :body
 end

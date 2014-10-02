@@ -1,4 +1,6 @@
 class LookupRatingType < ActiveRecord::Base
+	attr_accessible :name, :description
+
 	has_many :venue_ratings
 	has_many :venues, 					:through => :venue_ratings
 	has_many :users, 						:through => :venue_ratings
@@ -19,5 +21,4 @@ class LookupRatingType < ActiveRecord::Base
 	has_many :lookup_cities, 		:through => :city_ratings
 	has_many :users, 						:through => :city_ratings
 
-  # attr_accessible :title, :body
 end

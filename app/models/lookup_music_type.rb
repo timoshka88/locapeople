@@ -1,4 +1,6 @@
 class LookupMusicType < ActiveRecord::Base
+  attr_accessible :id ,:name, :description
+
   has_many :venue_musics
 	has_many :venues, 			:through => :venue_musics
 

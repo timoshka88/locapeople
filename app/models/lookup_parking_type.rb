@@ -1,4 +1,6 @@
 class LookupParkingType < ActiveRecord::Base
+	attr_accessible :name, :description
+
   has_many :venues
-  # attr_accessible :title, :body
+
 end
