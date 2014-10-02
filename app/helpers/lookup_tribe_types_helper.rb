@@ -1,0 +1,2 @@
+module LookupTribeTypesHelper
+end
