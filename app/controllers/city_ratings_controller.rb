@@ -1,4 +1,4 @@
-class CityRatingController < ApplicationController
+class CityRatingsController < ApplicationController
 
 
   private

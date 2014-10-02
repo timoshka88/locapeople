@@ -1,4 +1,4 @@
-class CountryLanguageController < ApplicationController
+class CountryLanguagesController < ApplicationController
 
 
 	private

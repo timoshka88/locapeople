@@ -1,4 +1,4 @@
-class CountryRatingController < ApplicationController
+class CountryRatingsController < ApplicationController
 
 	private
 

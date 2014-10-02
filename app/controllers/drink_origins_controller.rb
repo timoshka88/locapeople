@@ -1,4 +1,4 @@
-class DrinkOriginController < ApplicationController
+class DrinkOriginsController < ApplicationController
 
 	private
 
