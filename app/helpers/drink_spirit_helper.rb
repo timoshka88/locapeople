@@ -1,0 +1,2 @@
+module DrinkSpiritHelper
+end
