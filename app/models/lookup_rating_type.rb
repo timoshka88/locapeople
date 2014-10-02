@@ -1,5 +1,5 @@
 class LookupRatingType < ActiveRecord::Base
-	attr_accessible :name, :description
+	# attr_accessible :name, :description
 
 	has_many :venue_ratings
 	has_many :venues, 					:through => :venue_ratings
