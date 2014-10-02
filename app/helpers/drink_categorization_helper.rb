@@ -1,0 +1,2 @@
+module DrinkCategorizationHelper
+end
