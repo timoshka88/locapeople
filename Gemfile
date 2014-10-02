@@ -1,21 +1,21 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.10'
 gem 'pg'
 gem 'httparty'
 # gem 'rack-utf8_sanitizer'
 # gem 'handle_invalid_percent_encoding_requests'
 
-group :assets do
-	gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-  gem 'handlebars_assets'
-end
+
+gem 'sass-rails',   '~> 4.0.3'
+gem 'coffee-rails', '~> 4.0.1'
+gem 'uglifier', '>= 1.3.0'
+gem 'handlebars_assets'
+
 
 gem 'jquery-rails'
 
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.1.5'
 gem 'rack-flash3'
 
 group :test do
