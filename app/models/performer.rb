@@ -1,5 +1,5 @@
 class Performer < ActiveRecord::Base
-	attr_accessible :id, :name, :description, :user_id, :hometown_city_id
+	# attr_accessible :id, :name, :description, :user_id, :hometown_city_id
 	
 	has_many 		:performer_tribes
 	has_many 		:lookup_tribe_types, 	:through => :performer_tribes

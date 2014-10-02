@@ -80,4 +80,11 @@ class PerformersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+    def performer_params
+      params.require(:performer).permit(:id, :name, :description, :user_id, :hometown_city_id)
+    end
+
 end
