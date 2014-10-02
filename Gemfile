@@ -26,7 +26,7 @@ group :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rake'
-  gem 'simplecov', '~> 0.7.1', :require => false
+  gem 'simplecov', '~> 0.9.1', :require => false
 end
 
 group :development, :test do
