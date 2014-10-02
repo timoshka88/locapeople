@@ -1,0 +1,2 @@
+module EventTribesHelper
+end
