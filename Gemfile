@@ -18,6 +18,9 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby', '~> 3.1.5'
 gem 'rack-flash3'
 
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+#gem 'turbolinks'
+
 
 gem 'spring', group: :development
 
