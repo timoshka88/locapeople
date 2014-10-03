@@ -17,7 +17,7 @@ class LookupCountry < ActiveRecord::Base
 
 	def self.import(file)
 	  CSV.foreach(file, headers: true) do |country|
-	    self.create!(country.to_hash.symbolize_keys, :without_protection => true)
+	    self.create!(country.to_hash.symbolize_keys)
 	  end
 	end
 end
