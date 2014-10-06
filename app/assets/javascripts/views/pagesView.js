@@ -1,4 +1,5 @@
 function PagesView(){
+	console.log("I'm here in the PagesView model")
 	this.landingPageCanvas = 'landing-canvas'
 }
 

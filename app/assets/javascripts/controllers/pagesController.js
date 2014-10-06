@@ -1,4 +1,10 @@
+$(document).ready(function(){
+	console.log("in the document ready function")
+	new PagesController(new PagesView).init();
+});
+
 function PagesController(view){
+	console.log("in the pagesController model")
 	this.view = view
 
 }
