@@ -1,2 +1,2 @@
-module DrinkCategorizationHelper
+module DrinkCategorizationsHelper
 end

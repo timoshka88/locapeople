@@ -1,2 +1,2 @@
-module CountryRatingHelper
+module CountryRatingsHelper
 end

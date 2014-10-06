@@ -1,2 +1,2 @@
-module DrinkHelper
+module DrinksHelper
 end

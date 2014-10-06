@@ -1,2 +1,2 @@
-module CityRatingHelper
+module CityRatingsHelper
 end

@@ -1,2 +1,2 @@
-module DrinkOriginHelper
+module DrinkOriginsHelper
 end
