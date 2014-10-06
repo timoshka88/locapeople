@@ -1,5 +1,5 @@
 class LookupCountry < ActiveRecord::Base
-  attr_accessible :id, :name, :fips104, :iso2, :iso3, :ison, :internet, :capital, :map_reference, :nationality, :currency, :currency_code, :population, :description, :english_speakers_percentage, :last_call_time_id
+  # attr_accessible :id, :name, :fips104, :iso2, :iso3, :ison, :internet, :capital, :map_reference, :nationality, :currency, :currency_code, :population, :description, :english_speakers_percentage, :last_call_time_id
 
   has_many 		:lookup_cities
   has_many		:lookup_regions
@@ -17,7 +17,7 @@ class LookupCountry < ActiveRecord::Base
 
 	def self.import(file)
 	  CSV.foreach(file, headers: true) do |country|
-	    self.create!(country.to_hash.symbolize_keys, :without_protection => true)
+	    self.create!(country.to_hash.symbolize_keys)
 	  end
 	end
 end

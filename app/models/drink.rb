@@ -1,5 +1,5 @@
 class Drink < ActiveRecord::Base
-	attr_accessible	:id, :name, :description, :ingredients
+	# attr_accessible	:id, :name, :description, :ingredients
 
   has_many :drink_origins
 	has_many :lookup_countries, 		   :through => :drink_origins

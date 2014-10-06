@@ -80,4 +80,12 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+    def user_params
+      params.require(:user).permit(:id, :first_name, :last_name, :email, :photo, :phone, :birthday, :ambassador, :lookup_gender_id, :interested_in_gender_id, :hometown_city_id, :current_city_id, :lookup_relationship_status_id
+)
+    end
+
 end

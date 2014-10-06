@@ -1,0 +1,2 @@
+module VenueCuisinesHelper
+end

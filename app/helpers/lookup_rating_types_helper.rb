@@ -1,0 +1,2 @@
+module LookupRatingTypesHelper
+end

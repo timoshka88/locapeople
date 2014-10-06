@@ -1,0 +1,2 @@
+module UserCuisinesHelper
+end

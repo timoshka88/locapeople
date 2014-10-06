@@ -1,5 +1,5 @@
 class LookupLanguage < ActiveRecord::Base
-	attr_accessible	:id, :name, :description
+	# attr_accessible	:id, :name, :description
 
   has_many :performer_languages
 	has_many :performers, 				:through => :performer_languages

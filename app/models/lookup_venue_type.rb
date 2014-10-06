@@ -1,5 +1,5 @@
 class LookupVenueType < ActiveRecord::Base
-	attr_accessible :id, :name, :description
+	# attr_accessible :id, :name, :description
 	
   has_many :venue_classifications
 	has_many :venues, :through => :venue_classifications

@@ -1,0 +1,2 @@
+module VenueRatingsHelper
+end

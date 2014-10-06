@@ -1,5 +1,5 @@
 class LookupMusicType < ActiveRecord::Base
-  attr_accessible :id ,:name, :description
+  # attr_accessible :id ,:name, :description
 
   has_many :venue_musics
 	has_many :venues, 			:through => :venue_musics
@@ -12,5 +12,5 @@ class LookupMusicType < ActiveRecord::Base
 
 	has_many :performer_musics
 	has_many :performers, 	:through => :performer_musics
-  # attr_accessible :title, :body
+
 end

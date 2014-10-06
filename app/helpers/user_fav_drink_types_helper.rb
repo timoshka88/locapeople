@@ -1,0 +1,2 @@
+module UserFavDrinkTypesHelper
+end

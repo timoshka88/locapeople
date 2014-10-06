@@ -1,5 +1,5 @@
 class LookupTribeType < ActiveRecord::Base
-	attr_accessible :id, :name, :description
+	# attr_accessible :id, :name, :description
 
   has_many :venue_tribes
 	has_many :venues, 		:through => :venue_tribes

@@ -1,0 +1,2 @@
+module UserFavSpiritsHelper
+end

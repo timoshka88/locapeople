@@ -1,0 +1,2 @@
+module LookupMusicTypesHelper
+end
