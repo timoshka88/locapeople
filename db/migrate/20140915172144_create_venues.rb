@@ -19,14 +19,14 @@ class CreateVenues < ActiveRecord::Migration
 		t.belongs_to 	:owner #owner #one user can own many venues, one venue belongs to one user t.belongs to user
 		t.belongs_to	:lookup_parking_type #foreign_key paid/free/vallet/NA
 		t.belongs_to 	:lookup_city
-		
-		#check
-		# t.integer   :google_uid #or place_id which is now instead of reference key and unique key
-		# t.integer		:x_coord # geocoding google ID
-		# t.integer		:y_coord
+		t.decimal			:lat,									:precision => 16, :scale => 13
+		t.decimal			:lng,									:precision => 16, :scale => 13
+		t.string			:place_id #google place id
 
+    t.timestamps
 
-      t.timestamps
     end
+
   end
+
 end
