@@ -1,0 +1,8 @@
+<div>
+	<%= form_tag('/venues', :method => :get, remote: true) do %>
+		<%= text_field :city_name, placeholder: "City" %>
+
+		<%= submit_tag("Search") %>
+		
+	<% end -%>
+</div>
