@@ -153,3 +153,19 @@ html, body, #map-canvas {
 /*  position: absolute;
   top: 0;*/
 }
+
+/* Search box styling */
+
+#search-box {
+  color:white;
+  width: 60%;
+  max-width: 300px;
+  position:absolute;
+  background-color:rgba(0,0,0,0.5);
+	top: 0px;
+  left: 40%;
+  z-index: 1;
+  padding-right: 10px;
+  border-radius:5px;
+  box-shadow: 5px 8px 5px 0px rgba(0,0,0,0.75);
+}
