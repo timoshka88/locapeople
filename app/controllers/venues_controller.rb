@@ -10,6 +10,11 @@ class VenuesController < ApplicationController
     end
   end
 
+  def search
+    @venues = Venue.search params[:search]
+    
+  end
+
   # GET /venues/1
   # GET /venues/1.json
   def show
