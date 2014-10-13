@@ -12,7 +12,7 @@ class VenuesController < ApplicationController
 
   def search
     @venues = Venue.search params[:search]
-    
+    puts @venues.first
   end
 
   # GET /venues/1
