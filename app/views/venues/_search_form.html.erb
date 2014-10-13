@@ -1,6 +1,8 @@
-<%= form_tag(@venue) do |f| %>
+<%= form_tag('/venues', :method => :get, :class => 'search') do %>
+
+  <%= text_field_tag :city_name, nil, placeholder: "City" %>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= submit_tag ('Search', :name => nil) %>
   </div>
 <% end %>
