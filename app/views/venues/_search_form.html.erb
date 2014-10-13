@@ -1,5 +1,5 @@
 <div id = 'search-box'>
-<%= form_tag('/venues', :action => 'search', :method => :get, :class => 'search') do %>
+<%= form_tag('/venues', :method => :get, :class => 'search') do %>
 
   <%= text_field_tag :search, params[:search], placeholder: "City" %>
 

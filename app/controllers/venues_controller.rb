@@ -2,18 +2,27 @@ class VenuesController < ApplicationController
   # GET /venues
   # GET /venues.json
   def index
-    @venues = Venue.all
+    # @venues = Venue.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @venues }
-    end
+    # respond_to do |format|
+    #   format.html # index.html.erb
+    #   format.json { render json: @venues }
+    # end
+
+      if params[:search]
+        puts "In the search method of venues controller"
+        @venues = Venue.search(params[:search])
+        puts @venues.first.name
+      else
+        @venues = Venue.all
+      end
   end
 
-  def search
-    @venues = Venue.search params[:search]
-    puts @venues.first
-  end
+  # def search
+  #   puts "In the search method of venues controller"
+  #   @venues = Venue.search params[:search]
+  #   puts @venues.first
+  # end
 
   # GET /venues/1
   # GET /venues/1.json
