@@ -23,12 +23,12 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:lookup_city
 
 	def self.search(query)
-		puts "******************"
-		puts 'The search word is : '
-		puts query
-		puts "******************"
-
+		query_for_google = query + " entertainment establishments"
+		puts "*********"
+		puts "the query passed to google is "
+		puts query_for_google
+		puts "*****************"
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		@client.spots_by_query(query)
+		@client.spots_by_query(query_for_google, :types => ['restaurant', 'bar', 'night_club', 'cafe'])
 	end
 end

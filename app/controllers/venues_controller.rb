@@ -18,12 +18,6 @@ class VenuesController < ApplicationController
       end
   end
 
-  # def search
-  #   puts "In the search method of venues controller"
-  #   @venues = Venue.search params[:search]
-  #   puts @venues.first
-  # end
-
   # GET /venues/1
   # GET /venues/1.json
   def show
