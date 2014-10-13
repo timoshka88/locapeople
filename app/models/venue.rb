@@ -22,4 +22,8 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:owner, 							:class_name => "User"
 	belongs_to 	:lookup_city
 
+	def self.search(search)
+		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
+		
+	end
 end
