@@ -10,8 +10,7 @@ LocaPeople::Application.routes.draw do
 
   resources :venues
 
-
-
+  get '/venues', to: 'venues#search'
 
   root :to => 'pages#landingPage'
   # The priority is based upon order of creation:
