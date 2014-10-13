@@ -13,12 +13,13 @@ class VenuesController < ApplicationController
   # GET /venues/1
   # GET /venues/1.json
   def show
-    @venue = Venue.find(params[:id])
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @venue }
-    end
+    # @venue = Venue.find(params[:id])
+
+    # respond_to do |format|
+    #   format.html # show.html.erb
+    #   format.json { render json: @venue }
+    # end
   end
 
   # GET /venues/new
