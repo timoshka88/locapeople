@@ -5,13 +5,20 @@ $(document).ready(function(){
 //Map Controller
 function MapController(mapView){
 	this.view = mapView
+  this.venueMarker = new VenueMarker()
+  this.markers = []
 }
 
 MapController.prototype = {
 	init: function(){
 		this.view.drawMap()
 		console.log("I'm in the init function, drawing the map")
-	}
+	},
+
+  placeMarkers: function(event, venueData) {
+    console.log (event)
+    console.log(venueData)
+  }
 }
 
 
