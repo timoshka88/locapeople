@@ -3,7 +3,7 @@ function VenueMarker(){
 }
 
 VenueMarker.prototype = {
-	setMarkers: function(venueData){
+	createMarkers: function(venueData){
 		var markers = []
 		var length = venueData.length
 		for (var i = 0; i< length; i++){
