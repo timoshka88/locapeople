@@ -12,12 +12,13 @@ function MapController(mapView){
 MapController.prototype = {
 	init: function(){
 		this.view.drawMap()
+    this.view.placeMarkers()
 		console.log("I'm in the init function, drawing the map")
 	},
 
-  placeMarkers: function(event, venueData) {
+  placeMarkers: function(event, eventData) {
     console.log (event)
-    console.log(venueData)
+    console.log(eventData)
   }
 }
 
