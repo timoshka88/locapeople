@@ -16,10 +16,7 @@ MapView.prototype = {
 	},
 
 	placeMarkers: function(markers){
-		// console.log("printing the markers from the MapView")
-		// console.log(markers)
 		console.log("i'm in the placeMarkers function of MapView")
-		console.log(markers)
 		for (var i = 0; i < markers.length; i++){
 			markers[i].setMap(this.map)
 		}
@@ -28,7 +25,7 @@ MapView.prototype = {
 	clearMarkers: function(markers){
 		console.log("i'm in the clearMarkers function of MapView")
 		for (var i = 0; i < markers.length; i++){
-			markers[i].centerMap(null);
+			markers[i].setMap(null);
 		}
 	}
 }

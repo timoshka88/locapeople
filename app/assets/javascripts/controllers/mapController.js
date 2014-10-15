@@ -24,7 +24,6 @@ MapController.prototype = {
 
   placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
-    console.log(response)
     this.view.clearMarkers(this.markers)
     this.markers = this.venueMarker.createMarkers(response.venues)
     this.view.placeMarkers(this.markers)
