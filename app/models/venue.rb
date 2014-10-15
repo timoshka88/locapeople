@@ -23,7 +23,7 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:lookup_city
 
 	def self.search(query)
-		query_for_google = query + " entertainment establishments"
+		query_for_google = query + " establishments"
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
 		result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'])
 	end
