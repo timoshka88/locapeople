@@ -12,7 +12,7 @@ MapView.prototype = {
 		var lng = parseFloat(locationCoordinates.lng)
 		var lat = parseFloat(locationCoordinates.lat)
 		var centerMap = new google.maps.LatLng(lat, lng)
-		this.map.pantTo(center)
+		this.map.panTo(center)
 		this.map.setZoom(12)
 	},
 
