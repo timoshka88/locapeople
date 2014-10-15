@@ -14,35 +14,21 @@ MapController.prototype = {
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
     this.setAjaxListeners()
-    // console.log(this)
 	},
 
   setAjaxListeners: function(){
     console.log("I'm in the setAjaxListeners function of MapController")
     $('.search').on('ajax:success', this.placeMarkers.bind(this))
     $('.search').on('ajax:error', function(){console.log("Error while searching")})
-    // console.log(this.view)
   },
 
   placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
-    // console.log (event)
     console.log(response)
-    // console.log("coords")
-    // console.log(response.venues[0].lat)
-    // console.log(response.venues[0].lng)
-    // console.log(response.venues.first.lng)
-    // console.log(this.view)
     this.view.clearMarkers(this.markers)
-    // console.log("Printing response.venues")
-    // console.log(response.venues)
     this.markers = this.venueMarker.createMarkers(response.venues)
-    console.log("Printing the markers")
-    console.log(this.markers)
-    // console.log(response.center_coords)
     this.view.placeMarkers(this.markers)
     this.view.centerMap(response.center_coords)
-
   }
 }
 

@@ -8,8 +8,6 @@ MapView.prototype = {
 	},
 
 	centerMap: function(locationCoordinates){
-		console.log("i'm in the centerMap function of MapView")
-		console.log(locationCoordinates)
 		var lng = parseFloat(locationCoordinates.lng)
 		var lat = parseFloat(locationCoordinates.lat)
 		var center = new google.maps.LatLng(lat, lng)
@@ -18,12 +16,12 @@ MapView.prototype = {
 	},
 
 	placeMarkers: function(markers){
-		console.log("printing the markers from the MapView")
-		console.log(markers)
+		// console.log("printing the markers from the MapView")
+		// console.log(markers)
 		console.log("i'm in the placeMarkers function of MapView")
+		console.log(markers)
 		for (var i = 0; i < markers.length; i++){
-			console.log(markers)
-			markers[i].centerMap(this.map)
+			markers[i].setMap(this.map)
 		}
 	},
 
