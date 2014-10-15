@@ -11,14 +11,22 @@ function MapController(mapView){
 
 MapController.prototype = {
 	init: function(){
+    console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
-    this.view.placeMarkers()
-		console.log("I'm in the init function, drawing the map")
+    this.setAjaxListeners()
+    // console.log(this)
 	},
 
-  placeMarkers: function(event, eventData) {
-    console.log (event)
-    console.log(eventData)
+  setAjaxListeners: function(){
+    console.log("I'm in the setAjaxListeners function of MapController")
+    $('.search').on('ajax:success', this.placeMarkers)
+    $('.search').on('ajax:error', function(){console.log("Error while searching")})
+  },
+
+  placeMarkers: function(){
+    console.log("i'm in the placeMarkers of mapcontroller")
+    // console.log (event)
+    // console.log(eventData)
   }
 }
 
