@@ -34,9 +34,15 @@ MapController.prototype = {
     // console.log(response.venues.first.lng)
     // console.log(this.view)
     this.view.clearMarkers(this.markers)
+    // console.log("Printing response.venues")
+    // console.log(response.venues)
     this.markers = this.venueMarker.createMarkers(response.venues)
+    console.log("Printing the markers")
+    console.log(this.markers)
+    // console.log(response.center_coords)
     this.view.placeMarkers(this.markers)
     this.view.centerMap(response.center_coords)
+
   }
 }
 
