@@ -23,10 +23,10 @@ MapController.prototype = {
     $('.search').on('ajax:error', function(){console.log("Error while searching")})
   },
 
-  placeMarkers: function(){
+  placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
-    // console.log (event)
-    // console.log(eventData)
+    console.log (event)
+    console.log(response)
   }
 }
 

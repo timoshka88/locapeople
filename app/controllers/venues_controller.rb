@@ -12,7 +12,8 @@ class VenuesController < ApplicationController
       if params[:search]
         puts "In the search method of venues controller"
         @venues = Venue.search(params[:search])
-        puts @venues.count
+        # puts @venues.count
+        render json: {:venues => @venues}
       else
         @venues = Venue.all
       end
