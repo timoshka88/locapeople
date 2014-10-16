@@ -25,6 +25,6 @@ class Venue < ActiveRecord::Base
 	def self.search(query)
 		query_for_google = query + " establishments"
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'])
+		result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 10000)
 	end
 end

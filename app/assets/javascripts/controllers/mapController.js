@@ -7,6 +7,7 @@ function MapController(mapView){
 	this.view = mapView
   this.venueMarker = new VenueMarker()
   this.markers = []
+
 }
 
 MapController.prototype = {
@@ -14,6 +15,8 @@ MapController.prototype = {
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
     this.setAjaxListeners()
+    this.autoGeolocation()
+
 	},
 
   setAjaxListeners: function(){
@@ -28,7 +31,11 @@ MapController.prototype = {
     this.markers = this.venueMarker.createMarkers(response.venues)
     this.view.placeMarkers(this.markers)
     this.view.centerMap(response.center_coords)
-  }
+  },
+
+  autoGeolocation: function(){
+    this.view.autoGeolocation()
+  },
 }
 
 
@@ -107,8 +114,9 @@ var mapOptions = (function(){
         style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
         position: google.maps.ControlPosition.BOTTOM_CENTER
     },
-    streetViewControl: false,
+    // streetViewControl: false,
     zoomControl: true,
+
     zoomControlOptions: {
         style: google.maps.ZoomControlStyle.SMALL,
         position: google.maps.ControlPosition.RIGHT_BOTTOM
