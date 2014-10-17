@@ -64,7 +64,7 @@ var mapOptions = (function(){
     }];
 
   var googleMapOptions = {
-    zoom: 5,
+    zoom: 6,
     center: new google.maps.LatLng(defaultCoordinates.lat, defaultCoordinates.lng),
     panControl: false,
     mapTypeControl: false,
@@ -85,3 +85,6 @@ var mapOptions = (function(){
   return googleMapOptions
 
 })()
+
+
+

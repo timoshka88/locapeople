@@ -168,3 +168,10 @@ html, body, #map-canvas {
   border-radius:5px;
   box-shadow: 5px 8px 5px 0px rgba(0,0,0,0.75);
 }
+
+#my-location {
+	position:absolute;
+	z-index: 1;
+	top: 0px;
+	left: 60%
+}
