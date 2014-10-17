@@ -23,6 +23,7 @@ MapController.prototype = {
     console.log("I'm in the setAjaxListeners function of MapController")
     $('.search').on('ajax:success', this.placeMarkers.bind(this))
     $('.search').on('ajax:error', function(){console.log("Error while searching")})
+    $('#my-location').on('click', this.userLocation)
   },
 
   placeMarkers: function(event, response){
@@ -36,4 +37,8 @@ MapController.prototype = {
   autoGeolocation: function(){
     this.view.autoGeolocation()
   },
+
+  userLocation: function() {
+    console.log("In the user location of Map controller")
+  }
 }
