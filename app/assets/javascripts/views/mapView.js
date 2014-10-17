@@ -2,6 +2,7 @@ function MapView(){
 	this.mapSelector = 'map-canvas'
 	this.initialLocation
 	this.map
+	this.userMarker
 	this.siberia = new google.maps.LatLng(60, 105);
 	this.newYork = new google.maps.LatLng(40.69847032728747, -73.9514422416687);
 	this.browserSupportFlag =  new Boolean();
@@ -35,15 +36,15 @@ MapView.prototype = {
 	},
 
 	userLocationCoords: function(position){
-		initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
-    map.setCenter(initialLocation);
+		initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude)
+		userMarker = new google.maps.Marker({position: initialLocation, map:map})
+    map.setCenter(initialLocation, 13)
 	},
 
 	autoGeolocation: function(){
 		if (navigator.geolocation){
 		 	this.browserSupportFlag = true;
-      navigator.geolocation.getCurrentPosition(this.userLocationCoords,
-      this.handleNoGeolocation(this.browserSupportFlag)
+      navigator.geolocation.getCurrentPosition(this.userLocationCoords, this.handleNoGeolocation(this.browserSupportFlag)
       );
     } 
     else {
