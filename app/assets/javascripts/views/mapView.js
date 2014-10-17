@@ -36,16 +36,16 @@ MapView.prototype = {
 	},
 
 	userLocationCoords: function(position){
-		initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude)
-		userMarker = new google.maps.Marker({position: initialLocation, map:map})
-    map.setCenter(initialLocation, 13)
+		initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+		userMarker = new google.maps.Marker({ position : initialLocation, map : map })
+    map.setCenter(initialLocation)
+    map.setZoom(12)
 	},
 
 	autoGeolocation: function(){
 		if (navigator.geolocation){
 		 	this.browserSupportFlag = true;
-      navigator.geolocation.getCurrentPosition(this.userLocationCoords, this.handleNoGeolocation(this.browserSupportFlag)
-      );
+      navigator.geolocation.getCurrentPosition(this.userLocationCoords)
     } 
     else {
     // Browser doesn't support Geolocation
