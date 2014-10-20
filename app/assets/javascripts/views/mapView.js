@@ -3,9 +3,14 @@ function MapView(){
 	this.initialLocation
 	this.map
 	this.userMarker
+	this.autocomplete
 	this.siberia = new google.maps.LatLng(60, 105);
 	this.newYork = new google.maps.LatLng(40.69847032728747, -73.9514422416687);
 	this.browserSupportFlag =  new Boolean();
+	this.userSearchInput
+	// this.userSearchInput = '#search'
+	this.defaultBounds = new google.maps.LatLngBounds(new google.maps.LatLng(-90,-180),new google.maps.LatLng(90,180))
+	this.autocompleteOptions = {bounds: this.defaultBounds, types: ['cities']}
 }
 
 MapView.prototype = {
@@ -65,5 +70,12 @@ MapView.prototype = {
   	}
 
   }
+
+  // googleAutocomplete: function(){
+  // 	console.log("I'm in the view googleAutocomplete")
+  // 	userSearchInput = (document.getElementById('search'))
+  // 	autocomplete = new google.maps.places.Autocomplete(userSearchInput)
+  // }
+
 
 }
