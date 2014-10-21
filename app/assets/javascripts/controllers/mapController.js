@@ -37,7 +37,8 @@ MapController.prototype = {
 
   autoGeolocation: function(){
     console.log ("in the autoGeolocation")
-    this.view.autoGeolocation()
+    this.view.clearMarkers(this.markers) //seems to be too slow..and first performing clear markers and then autolocating...check that, how to make faster
+    this.view.autoGeolocation()  
   }
 
 }
