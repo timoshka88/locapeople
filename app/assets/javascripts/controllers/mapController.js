@@ -16,7 +16,7 @@ MapController.prototype = {
 		this.view.drawMap()
     this.setAjaxListeners()
     this.autoGeolocation()
-    this.googleAutocomplete()
+    this.view.googleAutocomplete()
 
 	},
 
@@ -38,13 +38,6 @@ MapController.prototype = {
   autoGeolocation: function(){
     console.log ("in the autoGeolocation")
     this.view.autoGeolocation()
-  },
-
-  googleAutocomplete:function(){
-    console.log("Im in the googleAutocomplete Map controller")
-    // this.view.googleAutocomplete()
-    var input = (document.getElementById('autocomplete'));
-    // var defaultBounds = new google.maps.LatLngBounds(new google.maps.LatLng(-90,-180),new google.maps.LatLng(90,180))
-    var autocomplete = new google.maps.places.Autocomplete(input);
   }
+
 }
