@@ -25,10 +25,18 @@ class Venue < ActiveRecord::Base
 	def search(query)
 		query_for_google = query + " establishments"
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
+		@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
 	end
 
-	def method_name
-		
+	def google_venue_place_id(primary_google_result_array)
+		@place_id_array = []
+		@place_id_array = primary_google_result.each { |venue| @place_id_array.push(venue.place_id)  }
+		@place_id_array
+	end
+
+	def detailed_venue_info(place_id_array)
+		@detailed_venue_info_array = []
+		place_id_array.each { |place_id| @detailed_venue_info_array.push(@client.spot(place_id)) }
+		@detailed_venue_info_array
 	end
 end
