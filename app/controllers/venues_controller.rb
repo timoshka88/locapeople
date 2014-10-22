@@ -10,7 +10,7 @@ class VenuesController < ApplicationController
     # end
       if params[:search]
         puts "In the search method of venues controller"
-        @venues = Venue.search(params[:search])
+        @venues = Venue.new.search(params[:search])
         render json: {:venues => @venues, :center_coords => {:lat=> @venues.first.lat, :lng=> @venues.first.lng} }
       else
         @venues = Venue.all
