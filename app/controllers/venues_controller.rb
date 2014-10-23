@@ -10,24 +10,34 @@ class VenuesController < ApplicationController
     # end
       if params[:search]
         puts "In the search method of venues controller"
-        @venues = Venue.new.search(params[:search])
+        @venues = Venue.search(params[:search])
         render json: {:venues => @venues, :center_coords => {:lat=> @venues.first.lat, :lng=> @venues.first.lng} }
       else
         @venues = Venue.all
       end
+
+      # place_id_info = google_venue_place_id(@venues)
+      # detailed_info = detailed_venue_info(place_id_info)
   end
 
   # GET /venues/1
   # GET /venues/1.json
+
+  # def detailed_info
+  #   @detailed_venue_info = Venue.detailed_venue_info
+  #   puts @detailed_venue_info
+  # end
+
   def show
 
-    # @venue = Venue.find(params[:id])
 
     # respond_to do |format|
     #   format.html # show.html.erb
     #   format.json { render json: @venue }
     # end
   end
+
+
 
   # GET /venues/new
   # GET /venues/new.json

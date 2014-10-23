@@ -22,21 +22,21 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:owner, 							:class_name => "User"
 	belongs_to 	:lookup_city
 
-	def search(query)
+	def self.search(query)
 		query_for_google = query + " establishments"
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
 		@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
 	end
 
-	def google_venue_place_id(primary_google_result_array)
-		@place_id_array = []
-		@place_id_array = primary_google_result.each { |venue| @place_id_array.push(venue.place_id)  }
-		@place_id_array
-	end
+	# def self.google_venue_place_id
+	# 	@place_id_array = @result.map { |venue| venue.place_id  }
+	# 	@place_id_array
+	# end
 
-	def detailed_venue_info(place_id_array)
-		@detailed_venue_info_array = []
-		place_id_array.each { |place_id| @detailed_venue_info_array.push(@client.spot(place_id)) }
-		@detailed_venue_info_array
-	end
+	# def self.detailed_venue_info
+	# 	self.google_venue_place_id
+	# 	@detailed_venue_info_array = []
+	# 	@place_id_array.each { |place_id| @detailed_venue_info_array.push(@client.spot(place_id)) }
+	# 	@detailed_venue_info_array
+	# end
 end
