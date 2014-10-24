@@ -191,8 +191,8 @@ html, body, #map-canvas {
 	border-style: solid;
 }*/
 
-.outer{
-    width:90%;
+.venues-display{
+    width:98%;
     overflow:auto;
     white-space:nowrap;
     position: absolute;
@@ -201,7 +201,7 @@ html, body, #map-canvas {
 		left:1%;
 		height: 17%;
 }
-.outer li{
+.venues-display li{
     display: inline-block;
     /*display: inline;*/ /*For IE7*/
     /*zoom:1;For IE7*/
