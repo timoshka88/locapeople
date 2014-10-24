@@ -15,11 +15,11 @@ VenueMarker.prototype = {
 	},
 
 	createMarkersScrollingBar:function(venueData){
-		console.log(venueData.length)
+		console.log(venueData)
 		var length = venueData.length
 
 		for (var i = 0; i < length; i++) {
-			$('.venue_display').append('<li><div class = inner>Hello</div></li>')
+			$('.venue_display').append('<li><div class = inner><img src='+ venueData[i].icon + '></div></li>')
 		};
 
 
