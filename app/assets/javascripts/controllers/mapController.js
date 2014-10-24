@@ -38,6 +38,7 @@ MapController.prototype = {
 
   venueDisplayBar:function(event, response){
     console.log(response.venues.length)
+    this.venueMarker.createMarkersScrollingBar(response.venues)
 
   },
 
