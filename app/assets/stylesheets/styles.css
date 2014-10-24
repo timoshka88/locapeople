@@ -203,6 +203,7 @@ html, body, #map-canvas {
 		background-color: white;
 		border-radius: 5px;
 		border: solid;
+		visibility: hidden;
 }
 .venues-display li {
     display: inline-block;
@@ -216,6 +217,7 @@ html, body, #map-canvas {
     white-space:normal;
     border: solid 1px;
     border-radius: 5px;
+
 
 }
 
