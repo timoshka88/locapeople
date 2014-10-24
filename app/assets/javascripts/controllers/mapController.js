@@ -23,6 +23,7 @@ MapController.prototype = {
   setAjaxListeners: function(){
     console.log("I'm in the setAjaxListeners function of MapController")
     $('#search').on('ajax:success', this.placeMarkers.bind(this))
+    $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
     $('#search').on('ajax:error', function(){console.log("Error while searching")})
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
@@ -33,6 +34,11 @@ MapController.prototype = {
     this.markers = this.venueMarker.createMarkers(response.venues)
     this.view.placeMarkers(this.markers)
     this.view.centerMap(response.center_coords)
+  },
+
+  venueDisplayBar:function(event, response){
+    console.log(response.venues.length)
+
   },
 
   autoGeolocation: function(){
