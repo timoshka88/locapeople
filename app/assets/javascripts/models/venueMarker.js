@@ -19,7 +19,7 @@ VenueMarker.prototype = {
 		var length = venueData.length
 
 		for (var i = 0; i < length; i++) {
-			$('.venue_display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
+			$('.venues-display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
 		};
 
 

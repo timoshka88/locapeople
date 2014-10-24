@@ -191,27 +191,38 @@ html, body, #map-canvas {
 	border-style: solid;
 }*/
 
-.venues-display{
-    width:98%;
+.venues-display {
+    width:100%;
     overflow:auto;
     white-space:nowrap;
     position: absolute;
 		z-index: 1;
-		bottom: 0;
-		left:1%;
-		height: 17%;
+		bottom: 0.5%;
+		left:0.5%;
+		height: 21%;
+		background-color: white;
+		border-radius: 5px;
+		border: solid;
 }
-.venues-display li{
+.venues-display li {
     display: inline-block;
     /*display: inline;*/ /*For IE7*/
     /*zoom:1;For IE7*/
     vertical-align:bottom;
-    width:40px;
-    margin-right:20px;
+    width:130px;
+    height: 130px;
+    margin-right: 5px;
     background:white;
     white-space:normal;
+    border: solid 1px;
+    border-radius: 5px;
 
 }
+
+.venue-scroll-bar {
+	margin-top: -10px;
+}
+
 
 
 
