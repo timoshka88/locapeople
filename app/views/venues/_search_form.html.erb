@@ -2,14 +2,14 @@
 <%= form_tag('/venues', :method => :get, :id => 'search', :remote => true) do %>
 
   <%= text_field_tag :search, params[:search], :id => 'autocomplete', placeholder: "City" %>
-  <%= check_box_tag(:bar) %>
-	<%= label_tag(:bar, "Bars") %>
-	<%= check_box_tag(:night_club) %>
-	<%= label_tag(:night_club, "Night Clubs") %>
-	<%= check_box_tag(:food) %>
-	<%= label_tag(:food, "Hunger Games") %>
-	<%= check_box_tag(:all) %>
-	<%= label_tag(:all, "Clairvoyant") %>
+  <%= check_box_tag('venue_classifications', '1') %>
+	<%= label_tag("Bars") %>
+	<%= check_box_tag(:night_club, 'nightclub') %>
+	<%= label_tag("Night Clubs") %>
+	<%= check_box_tag('food') %>
+	<%= label_tag("Hunger Games") %>
+	<%= check_box_tag(:all, 'all') %>
+	<%= label_tag("Clairvoyant") %>
 
   <div class="actions">
     <%= submit_tag 'Search', :name => nil %>

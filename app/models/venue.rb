@@ -23,6 +23,23 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:lookup_city
 
 	def self.search(query)
+		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
+		if venue_classifications = '1'
+			query_for_google = query + " bar"
+			puts query_for_google
+			@result = @client.spots_by_query(query_for_google, :types => "bar", :radius => 9000)
+		end
+		# elsif value = 'nightclub'
+		# 	query_for_google = query + " nightclub"
+		# 	@result = @client.spots_by_query(query_for_google, :types => 'nightclub', :radius => 9000)
+		# elsif value = 'food'
+		# 	query_for_google = query + " food"
+		# 	@result = @client.spots_by_query(query_for_google, :types => ['restaurant','cafe','food'], :radius => 9000)
+		# elsif value = 'all' || nil
+		# 	query_for_google = query + " establishments"
+		# 	@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
+		# end
+
 		query_for_google = query + " establishments"
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
 		@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
