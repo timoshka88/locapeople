@@ -11,6 +11,7 @@ class VenuesController < ApplicationController
       if params[:search]
         puts "In the search method of venues controller"
         @venues = Venue.search(params[:search])
+        p @venues
         render json: {:venues => @venues, :center_coords => {:lat=> @venues.first.lat, :lng=> @venues.first.lng} }
       else
         @venues = Venue.all
@@ -102,7 +103,7 @@ class VenuesController < ApplicationController
   private
 
     def venue_params
-      params.require(:venue).permit(:id, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id)
+      params.require(:venue).permit(:id, {:lookup_venue_type_ids => []}, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id)
     end
 
 end

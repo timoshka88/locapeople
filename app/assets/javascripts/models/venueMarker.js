@@ -18,10 +18,27 @@ VenueMarker.prototype = {
 		console.log(venueData)
 		var length = venueData.length
 
+		// for (var i = 0; i < length; i++) {
+		// 	console.log(venueData[i].photos)
+		// 	if (venueData[i].photos.length === 0) {
+		// 		console.log("Hello")
+		// 	}
+		// 	else {
+		// 		console.log(venueData[i].photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35}))
+		// 	}
+		// };
 		for (var i = 0; i < length; i++) {
-			$('.venues-display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
+			// if (venueData[i].photos.length > 0) {
+				// var photoUrl = venueData[i].photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35}) 
+				// $('.venues-display').append('<li><div class = venue-picture><img src='+ photoUrl + '></div></li>')
+			// }
+			// else{
+				$('.venues-display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
+			// }
 		};
 
 
+	// }
 	}
 }
+

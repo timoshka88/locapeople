@@ -404,6 +404,9 @@ ActiveRecord::Schema.define(version: 20141001181015) do
     t.integer  "owner_id"
     t.integer  "lookup_parking_type_id"
     t.integer  "lookup_city_id"
+    t.decimal  "lat",                    precision: 16, scale: 13
+    t.decimal  "lng",                    precision: 16, scale: 13
+    t.string   "place_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

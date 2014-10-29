@@ -1,8 +1,8 @@
 class CreateVenueClassifications < ActiveRecord::Migration
   def change
     create_table 	:venue_classifications do |t|
-      t.integer 	:lookup_venue_type_id
-      t.integer 	:venue_id
+      t.belongs_to 	:lookup_venue_type
+      t.belongs_to	:venue
 
       t.timestamps
     end
