@@ -8,9 +8,10 @@ class VenuesController < ApplicationController
     #   format.html # index.html.erb
     #   format.json { render json: @venues }
     # end
-      if params[:search]
+      if params[:search] || (params[:bar] || params[:club] || params[:food] || params[:all])
+        puts "++++++++++++++++++++++++++++"
         puts "In the search method of venues controller"
-        @venues = Venue.search(params[:search])
+        @venues = Venue.search(params)
         p @venues
         render json: {:venues => @venues, :center_coords => {:lat=> @venues.first.lat, :lng=> @venues.first.lng} }
       else

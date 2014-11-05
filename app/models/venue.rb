@@ -22,31 +22,29 @@ class Venue < ActiveRecord::Base
 	belongs_to 	:owner, 							:class_name => "User"
 	belongs_to 	:lookup_city
 
-	def self.search(query)
-		# @client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		# case VenueClassifications
-		# when '1'
-		# 	query_for_google = query + " bar"
-		# 	puts query_for_google
-		# 	@result = @client.spots_by_query(query_for_google, :types => "bar", :radius => 9000)
-		# when '2'
-		# 	query_for_google = query + " nightclub"
-		# 	puts query_for_google
-		# 	@result = @client.spots_by_query(query_for_google, :types => "night_club", :radius => 9000)
-		# when '3'
-		# 	query_for_google = query + " food"
-		# 	puts query_for_google
-		# 	@result = @client.spots_by_query(query_for_google, :types => ["food, restaurant, cafe"], :radius => 9000)
-		# when '4' || nil
-		# 	query_for_google = query + " establishments"
-		# 	@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
-		# end
+	def self.search(params = {})
+		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
+		
+		if (params["bar"] == '1')
+			query_for_google = params["search"] + " bars"
+			@result = @client.spots_by_query(query_for_google, :types => "bar", :radius => 9000)
+		elsif (params["club"] == '1')
+			query_for_google = params["search"] + " nightclubs"
+			@result = @client.spots_by_query(query_for_google, :types => "night_club", :radius => 9000)
+		elsif (params["food"] == '1')
+			query_for_google = params["search"] + " establishments"
+			@result = @client.spots_by_query(query_for_google, :types => ['cafe', 'restaurant'], :radius => 9000)
+		else
+			query_for_google = params["search"] + " establishments"
+			@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
+		end
 
 			
 
-		query_for_google = query + " establishments"
-		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
+		# query_for_google = query + " establishments"
+		# @client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
+		# @result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
+
 		# @place_id_array = @result.map { |venue| venue.place_id  }
 		# @detailed_venue_info_array = []
 		# @place_id_array.each { |place_id| @detailed_venue_info_array.push(@client.spot(place_id)) }
