@@ -103,7 +103,11 @@ class VenuesController < ApplicationController
   private
 
     def venue_params
-      params.require(:venue).permit(:id, {:lookup_venue_type_ids => []}, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id)
+      params.require(:venue).permit(:id, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id, {:lookup_venue_type_ids => []}) 
     end
 
 end
+
+    # def venue_params
+    #   params.require(:venue).permit(:id, {:lookup_venue_type_ids => []}, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id)
+    # end
