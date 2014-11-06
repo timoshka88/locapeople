@@ -39,6 +39,7 @@ MapController.prototype = {
 
   venueDisplayBar:function(event, response){
     console.log(response.venues.length)
+    this.venueMarker.clearMarkerScrollingBar()
     this.venueMarker.createMarkersScrollingBar(response.venues)
     $('.venues-display').css('visibility', 'visible')
 
@@ -51,7 +52,8 @@ MapController.prototype = {
   },
 
   clearForm: function(){
-    $('#autocomplete').val('')
+    // $('#autocomplete').val('')
+    $('input[type="text"], textarea').val('');
     $("input:checkbox").attr('checked', false)
   }
 

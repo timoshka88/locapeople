@@ -39,6 +39,12 @@ VenueMarker.prototype = {
 
 
 	// }
+	},
+
+	clearMarkerScrollingBar:function(){
+		console.log("In the clearMarker Scrolling Bar")
+		$('.venues-display').empty()
 	}
+
 }
 
