@@ -24,6 +24,7 @@ MapController.prototype = {
     console.log("I'm in the setAjaxListeners function of MapController")
     $('#search').on('ajax:success', this.placeMarkers.bind(this))
     $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
+    $('#search').on('ajax:success', this.clearForm.bind(this))
     $('#search').on('ajax:error', function(){console.log("Error while searching")})
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
@@ -47,6 +48,11 @@ MapController.prototype = {
     console.log ("in the autoGeolocation")
     this.view.clearMarkers(this.markers) //seems to be too slow..and first performing clear markers and then autolocating...check that, how to make faster
     this.view.autoGeolocation()  
+  },
+
+  clearForm: function(){
+    $('#autocomplete').val('')
+    $("input:checkbox").attr('checked', false)
   }
 
 }
