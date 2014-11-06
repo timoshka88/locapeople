@@ -17,9 +17,6 @@ class VenuesController < ApplicationController
       else
         @venues = Venue.all
       end
-
-      # place_id_info = google_venue_place_id(@venues)
-      # detailed_info = detailed_venue_info(place_id_info)
   end
 
   # GET /venues/1
