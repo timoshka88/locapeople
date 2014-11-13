@@ -34,6 +34,7 @@ MapController.prototype = {
     console.log ("in the changeDistanceValue")
     $("#kmValue").val(event.target.value + 'km')
   },
+  
   placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
     this.view.clearMarkers(this.markers)
