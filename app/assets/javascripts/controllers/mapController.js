@@ -22,6 +22,7 @@ MapController.prototype = {
 
   setAjaxListeners: function(){
     console.log("I'm in the setAjaxListeners function of MapController")
+    $('#distance').change(this.changeDistanceValue.bind(this))
     $('#search').on('ajax:success', this.placeMarkers.bind(this))
     $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
     $('#search').on('ajax:success', this.clearForm.bind(this))
@@ -29,6 +30,10 @@ MapController.prototype = {
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
+  changeDistanceValue:function(event){
+    console.log ("in the changeDistanceValue")
+    $("#kmValue").val(event.target.value + 'km')
+  },
   placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
     this.view.clearMarkers(this.markers)

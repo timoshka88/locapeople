@@ -14,13 +14,14 @@
 	<%= label_tag("Distance of search") %>
 	<%= range_field_tag 'distance', 3, {in: 1..11, step:2, list:'distance-setting'} %>
 	<datalist id="distance-setting">
-	<option>1</option>
-	<option>3</option>
-	<option>5</option>
-	<option>7</option>
-	<option>9</option>
-	<option>11</option>
+		<option name='1' value="1">1</option>
+		<option name='3' value="3">3</option>
+		<option name='5' value="5">5</option>
+		<option name='7' value="7">7</option>
+		<option name='9' value="9">9</option>
+		<option name='11' value="11">11</option>
 	</datalist>
+	<output for=distance id="kmValue">3km</output>
 	
 
   <div class="actions">
