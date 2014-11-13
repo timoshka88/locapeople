@@ -1,0 +1,20 @@
+<div id = 'search-box'>
+<%= form_tag('/venues', :method => :get, :id => 'search', :remote => true) do %>
+
+  <%= text_field_tag :search, params[:search], :id => 'autocomplete', placeholder: "City" %>
+  <%= check_box_tag('bar') %>
+	<%= label_tag("Bars") %>
+	<%= check_box_tag('club') %>
+	<%= label_tag("Night Clubs") %>
+	<%= check_box_tag('food') %>
+	<%= label_tag("Hunger Games") %>
+	<%= check_box_tag('all') %>
+	<%= label_tag("Clairvoyant") %>
+
+
+  <div class="actions">
+    <%= submit_tag 'Search', :name => nil %>
+  </div>
+<% end %>
+</div>
+<img src="assets/my_location.png" id="my-location">
