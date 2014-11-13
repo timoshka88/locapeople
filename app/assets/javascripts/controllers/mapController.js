@@ -52,7 +52,6 @@ MapController.prototype = {
   },
 
   clearForm: function(){
-    // $('#autocomplete').val('')
     $('input[type="text"], textarea').val('');
     $("input:checkbox").attr('checked', false)
   }
