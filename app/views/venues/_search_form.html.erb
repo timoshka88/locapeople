@@ -10,9 +10,18 @@
 	<%= label_tag("Hunger Games") %>
 	<%= check_box_tag('all') %>
 	<%= label_tag("Clairvoyant") %>
-	
-	<%= range_field_tag 'distance-range', 3, {in: 1..11, step:2} %>
+	<br>
 	<%= label_tag("Distance of search") %>
+	<%= range_field_tag 'distance', 3, {in: 1..11, step:2, list:'distance-setting'} %>
+	<datalist id="distance-setting">
+	<option>1</option>
+	<option>3</option>
+	<option>5</option>
+	<option>7</option>
+	<option>9</option>
+	<option>11</option>
+	</datalist>
+	
 
   <div class="actions">
     <%= submit_tag 'Search', :name => nil %>
