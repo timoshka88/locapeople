@@ -39,12 +39,6 @@ class Venue < ActiveRecord::Base
 			@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => distance_range)
 		end
 
-			
-
-		# query_for_google = query + " establishments"
-		# @client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		# @result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
-
 		# @place_id_array = @result.map { |venue| venue.place_id  }
 		# @detailed_venue_info_array = []
 		# @place_id_array.each { |place_id| @detailed_venue_info_array.push(@client.spot(place_id)) }
