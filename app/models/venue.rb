@@ -24,26 +24,20 @@ class Venue < ActiveRecord::Base
 
 	def self.search(params = {})
 		@client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		
+		distance_range = params["distance"].to_i * 1000
 		if (params["bar"] == '1')
 			query_for_google = params["search"] + " bars"
-			@result = @client.spots_by_query(query_for_google, :types => "bar", :radius => 9000)
+			@result = @client.spots_by_query(query_for_google, :types => "bar", :radius => distance_range)
 		elsif (params["club"] == '1')
 			query_for_google = params["search"] + " nightclubs"
-			@result = @client.spots_by_query(query_for_google, :types => "night_club", :radius => 9000)
+			@result = @client.spots_by_query(query_for_google, :types => "night_club", :radius => distance_range)
 		elsif (params["food"] == '1')
 			query_for_google = params["search"] + " establishments"
-			@result = @client.spots_by_query(query_for_google, :types => ['cafe', 'restaurant'], :radius => 9000)
+			@result = @client.spots_by_query(query_for_google, :types => ['cafe', 'restaurant'], :radius => distance_range)
 		else
 			query_for_google = params["search"] + " establishments"
-			@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
+			@result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => distance_range)
 		end
-
-			
-
-		# query_for_google = query + " establishments"
-		# @client = GooglePlaces::Client.new(ENV['GOOGLE_PLACES_KEY'])
-		# @result = @client.spots_by_query(query_for_google, :types => ['bar', 'night_club', 'cafe', 'restaurant'], :radius => 9000)
 
 		# @place_id_array = @result.map { |venue| venue.place_id  }
 		# @detailed_venue_info_array = []
