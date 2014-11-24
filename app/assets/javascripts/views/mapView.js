@@ -2,6 +2,7 @@ function MapView(){
 	this.mapSelector = 'map-canvas'
 	this.initialLocation
 	this.map
+	this.places
 	this.userMarker
 	this.autocomplete
 	this.siberia = new google.maps.LatLng(60, 105)
@@ -14,6 +15,10 @@ function MapView(){
 MapView.prototype = {
 	drawMap: function(){
 		map = new google.maps.Map(document.getElementById(this.mapSelector), mapOptions);
+	},
+
+	callPlacesApi: function(){
+		places = new google.maps.places.PlacesService(map)
 	},
 
 	centerMap: function(locationCoordinates){
