@@ -14,6 +14,7 @@ MapController.prototype = {
 	init: function(){
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
+    this.view.callPlacesApi()
     this.setAjaxListeners()
     this.autoGeolocation()
     this.view.googleAutocomplete()
