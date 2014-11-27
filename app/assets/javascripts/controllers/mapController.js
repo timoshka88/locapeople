@@ -14,21 +14,29 @@ MapController.prototype = {
 	init: function(){
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
-    this.view.callPlacesApi()
+    this.view.callPlaceApi()
+    this.setListeners()
     this.setAjaxListeners()
     this.autoGeolocation()
     this.view.googleAutocomplete()
 
 	},
 
+  setListeners:function(){
+    document.getElementById('autocomplete').addEventListener("change", this.view.onPlaceChange.bind(this.view))
+    // $('#autocomplete').change(this.view.onPlaceChange.bind(this))
+    $('#distance').change(this.changeDistanceValue.bind(this))
+    $('#my-location').on('click', this.autoGeolocation.bind(this))
+  },
+
   setAjaxListeners: function(){
     console.log("I'm in the setAjaxListeners function of MapController")
-    $('#distance').change(this.changeDistanceValue.bind(this))
+    // $('#distance').change(this.changeDistanceValue.bind(this))
     $('#search').on('ajax:success', this.placeMarkers.bind(this))
     $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
     $('#search').on('ajax:success', this.clearForm.bind(this))
     $('#search').on('ajax:error', function(){console.log("Error while searching")})
-    $('#my-location').on('click', this.autoGeolocation.bind(this))
+    // $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
   changeDistanceValue:function(event){
@@ -62,5 +70,11 @@ MapController.prototype = {
     $('input[type="text"], textarea').val('');
     $("input:checkbox").attr('checked', false)
   }
+
+  // onPlaceChange:function(){
+
+  // //   console.log("I'm in the onPlaceChange")
+  //   this.view.onPlaceChange()
+  // }
 
 }

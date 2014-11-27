@@ -1,15 +1,18 @@
 function MapView(){
 	this.mapSelector = 'map-canvas'
 	this.initialLocation
-	this.map
+	// this.place
 	this.places
+	this.map
 	this.userMarker
+	this.types
 	this.autocomplete
 	this.siberia = new google.maps.LatLng(60, 105)
 	this.newYork = new google.maps.LatLng(40.69847032728747, -73.9514422416687)
 	this.browserSupportFlag =  new Boolean();
-	this.userSearchInput = (document.getElementById('autocomplete'))
+	// this.userSearchInput = (document.getElementById('autocomplete'))
   this.autocompleteOptions = {types: ['(cities)']}
+
 }
 
 MapView.prototype = {
@@ -17,7 +20,7 @@ MapView.prototype = {
 		map = new google.maps.Map(document.getElementById(this.mapSelector), mapOptions);
 	},
 
-	callPlacesApi: function(){
+	callPlaceApi:function(){
 		places = new google.maps.places.PlacesService(map)
 	},
 
@@ -76,7 +79,41 @@ MapView.prototype = {
 
   googleAutocomplete: function(){
   	console.log("I'm in the view googleAutocomplete")
-  	autocomplete = new google.maps.places.Autocomplete(this.userSearchInput, this.autocompleteOptions)
+  	autocomplete = new google.maps.places.Autocomplete((document.getElementById('autocomplete')), this.autocompleteOptions)
+  },
+
+  onPlaceChange:function(){
+
+  	console.log("the autocomplete is:")
+  	console.log (autocomplete)
+  	var place = autocomplete.getPlace()
+  	
+  	console.log("the place after .getPlace() is: ")
+    console.log(place)
+  	// this.search()
+  	// place = autocomplete.getPlace()
+  	// console.log(place)
+  	// if (place.geometry){
+  	// 	map.panTo(place.geometry.location)
+  	// 	map.setZoom(15)
+  	// 	// this.search()
+  	// }
+  	// else{
+  	// 	document.getElementById('autocomplete').placeholder = 'Enter a city'
+  	// }
+  	console.log("Im in the onPlaceChange of Map View")
+  },
+
+  search:function(){
+  	this.callPlaceApi()
+  	var search = {
+  		bounds: map.getBounds(),
+  		types:['lodging']
+  	};
+
+  	places.nearbySearch(search, function(results, status){
+  		console.log(results)
+  	})
   }
 
 
