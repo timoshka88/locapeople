@@ -1,13 +1,14 @@
 function MapView(){
 	this.mapSelector = 'map-canvas'
 	this.initialLocation
-	// this.place
+	this.place
 	this.places
 	this.map
 	this.userMarker
 	this.distanceValue
 	this.venueTypes = []
 	this.autocomplete
+	this.query
 	this.siberia = new google.maps.LatLng(60, 105)
 	this.newYork = new google.maps.LatLng(40.69847032728747, -73.9514422416687)
 	this.browserSupportFlag =  new Boolean();
@@ -85,11 +86,26 @@ MapView.prototype = {
 
   onPlaceChange:function(){
   	console.log("in the onPlaceChange of MapView")
-  	console.log(this.venueTypes)
-  	console.log(this.distanceValue)
 
   	this.checkTypeSelection()
   	this.checkDistanceSelection()
+  	
+  	console.log('this is autocomplete')
+  	console.log(autocomplete)
+  	this.query = "establishments " + autocomplete.gm_accessors_.place.td.formattedPrediction
+  	console.log(this.query)
+  	
+  	// this.place = autocomplete.getPlace()
+  	console.log(autocomplete.gm_accessors_.place.td.place.geometry.location)
+  	this.place = autocomplete.gm_accessors_.place.td.place
+  	if (this.place.geometry){
+  		map.panTo(this.place.geometry.location)
+  		map.setZoom(15)
+  		this.search()
+  	}
+  	// this.search()
+  	
+  	
   	
   	// var place = autocomplete.getPlace()
   	// this.search()
@@ -109,12 +125,19 @@ MapView.prototype = {
   	console.log("i'm in the search")
   	this.callPlaceApi()
   	console.log(this.venueTypes)
+  	console.log(this.distanceValue)
+  	// console.log(this.query)
   	var search = {
+  		query: this.query,
   		bounds: map.getBounds(),
-  		types:['lodging']
+  		types: this.venueTypes,
   	};
 
-  	places.nearbySearch(search, function(results, status){
+  	console.log(search.query)
+  	console.log(search.types)
+  	console.log(search.bounds)
+
+  	places.textSearch(search, function(results, status){
   		console.log(results)
   	})
   },

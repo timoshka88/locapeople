@@ -16,7 +16,7 @@ MapController.prototype = {
 		this.view.drawMap()
     this.view.callPlaceApi()
     this.setListeners()
-    this.setAjaxListeners()
+    // this.setAjaxListeners()
     this.autoGeolocation()
     this.view.googleAutocomplete()
 
@@ -45,6 +45,7 @@ MapController.prototype = {
   //   console.log ("in the changeDistanceValue")
   //   $("#kmValue").val(event.target.value + 'km')
   // },
+
   
   placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
