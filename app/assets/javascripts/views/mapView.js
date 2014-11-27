@@ -102,7 +102,7 @@ MapView.prototype = {
   search:function(){
   	console.log("i'm in the search")
   	this.callPlaceApi()
-  	
+  	console.log(this.venueTypes)
   	var search = {
   		bounds: map.getBounds(),
   		types:['lodging']
@@ -115,43 +115,18 @@ MapView.prototype = {
 
   userVenueTypeChoice: function(){
   	console.log("i'm in the userVenueTypeChoice")
-  	console.log(this.venueTypes)
-  	console.log($('input[name="venuetypes"]:checked').get())
-
-  	// if (this.value === 'bar'){
-  // 		this.types = ['bar']
-  // 	}
-  // 	else if(this.value === 'club'){
-  // 		this.types = ['nightclub']
-  // 	}
-  // 	else if (this.value === 'food'){
-  // 		this.types = ['food', 'restaurant', 'cafe']
-  // 	}
-  // 	else if (this.value ===)
-  // }
-  	// var venueTypes = []
-  	$('input[name="venuetypes"]:checked').each(function(){
-  		(this.venueTypes).push(this.value)
-  		console.log("heello")
-  		console.log(this.value)
-  		console.log(this.venueTypes)
-  		// return venueTypes
+  	var venueTypes = []
+  	$.each($('input[name="venuetypes"]:checked'), function(key, value){
+  		venueTypes.push($(value).attr("value"))
   	})
-  	// console.log(types)
-  }
+  	this.venueTypes = venueTypes
+  	console.log(this.venueTypes)
+  },
 
-  // venueType: function(){
-  // 	if (this.value === 'bar'){
-  // 		this.types = ['bar']
-  // 	}
-  // 	else if(this.value === 'club'){
-  // 		this.types = ['nightclub']
-  // 	}
-  // 	else if (this.value === 'food'){
-  // 		this.types = ['food', 'restaurant', 'cafe']
-  // 	}
-  // 	else if (this.value ===)
-  // }
+  changeDistanceValue:function(event){
+    console.log ("in the map view changeDistanceValue")
+    $("#kmValue").val(event.target.value + 'km')
+  }
 
 
 }

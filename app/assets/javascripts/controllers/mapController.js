@@ -23,10 +23,11 @@ MapController.prototype = {
 	},
 
   setListeners:function(){
-    document.getElementById('autocomplete').addEventListener("change", this.view.onPlaceChange.bind(this.view))
+    // document.getElementById('autocomplete').addEventListener("change", this.view.onPlaceChange.bind(this.view))
     $("input[type=checkbox]").on('click',this.view.userVenueTypeChoice.bind(this.view))
+    $("form").submit(this.view.onPlaceChange.bind(this.view))
     // $('#autocomplete').change(this.view.onPlaceChange.bind(this))
-    $('#distance').change(this.changeDistanceValue.bind(this))
+    $('#distance').change(this.view.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
@@ -40,10 +41,10 @@ MapController.prototype = {
     // $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
-  changeDistanceValue:function(event){
-    console.log ("in the changeDistanceValue")
-    $("#kmValue").val(event.target.value + 'km')
-  },
+  // changeDistanceValue:function(event){
+  //   console.log ("in the changeDistanceValue")
+  //   $("#kmValue").val(event.target.value + 'km')
+  // },
   
   placeMarkers: function(event, response){
     console.log("i'm in the placeMarkers of mapcontroller")
