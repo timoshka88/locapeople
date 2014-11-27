@@ -88,6 +88,9 @@ MapView.prototype = {
   	console.log(this.venueTypes)
   	console.log(this.distanceValue)
 
+  	this.checkTypeSelection()
+  	this.checkDistanceSelection()
+  	
   	// var place = autocomplete.getPlace()
   	// this.search()
   	// place = autocomplete.getPlace()
@@ -132,6 +135,34 @@ MapView.prototype = {
     value = value.split(' ')[0]
     this.distanceValue = parseInt(value) * 1000
     console.log(this.distanceValue)
+  },
+
+  checkTypeSelection:function(){
+
+  	console.log("i'm in the checkTypeSelection")
+
+  	if($('input[name="venuetypes"]').is(':checked')){
+  		console.log("i'm in the if of venueTypes")
+  		return this.venueTypes
+  	}
+  	else{
+  		console.log("i'm in the else of venueTypes")
+  		this.venueTypes = ['bar', 'nightclub', 'cafe', 'restaurant']
+  	}
+		console.log(this.venueTypes)
+  },
+
+  checkDistanceSelection:function(){
+  	console.log("i'm in the checkDistanceSelection")
+  	if(typeof this.distanceValue !== 'undefined'){
+  		console.log("i'm in the if of distanceValue")
+  		return this.distanceValue
+  	}
+  	else{
+  		console.log("i'm in the else of distanceValue")
+  		this.distanceValue = 3000
+  	}
+		console.log(this.distanceValue)
   }
 
 
