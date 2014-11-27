@@ -5,12 +5,12 @@ function MapView(){
 	this.places
 	this.map
 	this.userMarker
-	this.types
+	this.venueTypes = []
 	this.autocomplete
 	this.siberia = new google.maps.LatLng(60, 105)
 	this.newYork = new google.maps.LatLng(40.69847032728747, -73.9514422416687)
 	this.browserSupportFlag =  new Boolean();
-	// this.userSearchInput = (document.getElementById('autocomplete'))
+	this.userSearchInput = (document.getElementById('autocomplete'))
   this.autocompleteOptions = {types: ['(cities)']}
 
 }
@@ -79,18 +79,13 @@ MapView.prototype = {
 
   googleAutocomplete: function(){
   	console.log("I'm in the view googleAutocomplete")
-  	autocomplete = new google.maps.places.Autocomplete((document.getElementById('autocomplete')), this.autocompleteOptions)
+  	autocomplete = new google.maps.places.Autocomplete(this.userSearchInput, this.autocompleteOptions)
   },
 
   onPlaceChange:function(){
-
-  	console.log("the autocomplete is:")
+  	console.log("in the onPlaceChange of MapView")
   	console.log (autocomplete)
-  	var place = autocomplete.getPlace()
-
-  	console.log("the place after .getPlace() is: ")
-    console.log(place)
-    // this.userVenueTypeChoice()
+  	// var place = autocomplete.getPlace()
   	this.search()
   	// place = autocomplete.getPlace()
   	// console.log(place)
@@ -102,7 +97,6 @@ MapView.prototype = {
   	// else{
   	// 	document.getElementById('autocomplete').placeholder = 'Enter a city'
   	// }
-  	console.log("Im in the onPlaceChange of Map View")
   },
 
   search:function(){
@@ -121,11 +115,43 @@ MapView.prototype = {
 
   userVenueTypeChoice: function(){
   	console.log("i'm in the userVenueTypeChoice")
+  	console.log(this.venueTypes)
+  	console.log($('input[name="venuetypes"]:checked').get())
+
+  	// if (this.value === 'bar'){
+  // 		this.types = ['bar']
+  // 	}
+  // 	else if(this.value === 'club'){
+  // 		this.types = ['nightclub']
+  // 	}
+  // 	else if (this.value === 'food'){
+  // 		this.types = ['food', 'restaurant', 'cafe']
+  // 	}
+  // 	else if (this.value ===)
+  // }
+  	// var venueTypes = []
   	$('input[name="venuetypes"]:checked').each(function(){
+  		(this.venueTypes).push(this.value)
   		console.log("heello")
   		console.log(this.value)
+  		console.log(this.venueTypes)
+  		// return venueTypes
   	})
+  	// console.log(types)
   }
+
+  // venueType: function(){
+  // 	if (this.value === 'bar'){
+  // 		this.types = ['bar']
+  // 	}
+  // 	else if(this.value === 'club'){
+  // 		this.types = ['nightclub']
+  // 	}
+  // 	else if (this.value === 'food'){
+  // 		this.types = ['food', 'restaurant', 'cafe']
+  // 	}
+  // 	else if (this.value ===)
+  // }
 
 
 }
