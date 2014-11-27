@@ -85,9 +85,11 @@ MapView.prototype = {
 
   onPlaceChange:function(){
   	console.log("in the onPlaceChange of MapView")
-  	console.log (autocomplete)
+  	console.log(this.venueTypes)
+  	console.log(this.distanceValue)
+
   	// var place = autocomplete.getPlace()
-  	this.search()
+  	// this.search()
   	// place = autocomplete.getPlace()
   	// console.log(place)
   	// if (place.geometry){

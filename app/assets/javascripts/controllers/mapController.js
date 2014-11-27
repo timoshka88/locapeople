@@ -27,7 +27,7 @@ MapController.prototype = {
     $("input[type=checkbox]").on('click',this.view.userVenueTypeChoice.bind(this.view))
     $("form").submit(this.view.onPlaceChange.bind(this.view))
     // $('#autocomplete').change(this.view.onPlaceChange.bind(this))
-    $('#distance').change(this.view.changeDistanceValue.bind(this))
+    $('#distance').change(this.view.changeDistanceValue.bind(this.view))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
