@@ -5,6 +5,7 @@ function MapView(){
 	this.places
 	this.map
 	this.userMarker
+	this.distanceValue
 	this.venueTypes = []
 	this.autocomplete
 	this.siberia = new google.maps.LatLng(60, 105)
@@ -124,8 +125,11 @@ MapView.prototype = {
   },
 
   changeDistanceValue:function(event){
-    console.log ("in the map view changeDistanceValue")
-    $("#kmValue").val(event.target.value + 'km')
+    $("#kmValue").val(event.target.value + ' km')
+    var value = $("#kmValue").val()
+    value = value.split(' ')[0]
+    this.distanceValue = parseInt(value) * 1000
+    console.log(this.distanceValue)
   }
 
 
