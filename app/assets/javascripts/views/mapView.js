@@ -87,10 +87,11 @@ MapView.prototype = {
   	console.log("the autocomplete is:")
   	console.log (autocomplete)
   	var place = autocomplete.getPlace()
-  	
+
   	console.log("the place after .getPlace() is: ")
     console.log(place)
-  	// this.search()
+    // this.userVenueTypeChoice()
+  	this.search()
   	// place = autocomplete.getPlace()
   	// console.log(place)
   	// if (place.geometry){
@@ -105,7 +106,9 @@ MapView.prototype = {
   },
 
   search:function(){
+  	console.log("i'm in the search")
   	this.callPlaceApi()
+  	
   	var search = {
   		bounds: map.getBounds(),
   		types:['lodging']
@@ -113,6 +116,14 @@ MapView.prototype = {
 
   	places.nearbySearch(search, function(results, status){
   		console.log(results)
+  	})
+  },
+
+  userVenueTypeChoice: function(){
+  	console.log("i'm in the userVenueTypeChoice")
+  	$('input[name="venuetypes"]:checked').each(function(){
+  		console.log("heello")
+  		console.log(this.value)
   	})
   }
 
