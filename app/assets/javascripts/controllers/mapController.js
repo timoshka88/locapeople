@@ -103,10 +103,11 @@ MapController.prototype = {
     // this.view.centerMap()
   },
 
-  venueDisplayBar:function(event, response){
-    console.log(response.venues.length)
+  venueDisplayBar:function(results){
+    console.log("in the venueDisplayBar of the MapController")
+    console.log(results.length)
     this.venueMarker.clearMarkerScrollingBar()
-    this.venueMarker.createMarkersScrollingBar(response.venues)
+    this.venueMarker.createMarkersScrollingBar(results)
     $('.venues-display').css('visibility', 'visible')
 
   },
