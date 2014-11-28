@@ -99,7 +99,7 @@ MapController.prototype = {
     this.markers = this.venueMarker.createMarkers(results)
     this.view.placeMarkers(this.markers)
     this.venueDisplayBar(results)
-    console.log(this.place.geometry)
+    // console.log(this.place.geometry)
     // this.view.centerMap()
   },
 
@@ -117,12 +117,6 @@ MapController.prototype = {
     this.view.clearMarkers(this.markers) //seems to be too slow..and first performing clear markers and then autolocating...check that, how to make faster
     this.view.autoGeolocation()  
   },
-
-  // clearForm: function(){
-  //   $('input[type="text"], textarea').val('');
-  //   $("input:checkbox").attr('checked', false)
-  // },
-
 
   userVenueTypeChoice: function(){
     console.log("i'm in the map controller userVenueTypeChoice")

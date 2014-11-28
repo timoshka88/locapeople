@@ -4,7 +4,7 @@ function VenueMarker(){
 VenueMarker.prototype = {
 	createMarkers: function(venueData){
 		console.log("I'm in the createMarkers in the VenueMarker")
-		// console.log(venueData)
+		console.log(venueData)
 		var markers = []
 		var length = venueData.length
 		for (var i = 0; i < length; i++){
