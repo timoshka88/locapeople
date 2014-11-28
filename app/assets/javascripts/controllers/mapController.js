@@ -111,10 +111,13 @@ MapController.prototype = {
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
+    // console.log(this.place.geometry.location)
     this.view.clearMarkers(this.markers)
     this.markers = this.venueMarker.createMarkers(results)
+    // console.log(this.markers)
     this.view.placeMarkers(this.markers)
-    this.view.centerMap(response.center_coords)
+    console.log(this.place.geometry)
+    this.view.centerMap()
   },
 
   venueDisplayBar:function(event, response){

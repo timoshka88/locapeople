@@ -24,12 +24,14 @@ MapView.prototype = {
 		places = new google.maps.places.PlacesService(map)
 	},
 
-	centerMap: function(locationCoordinates){
-		var lng = parseFloat(locationCoordinates.lng)
-		var lat = parseFloat(locationCoordinates.lat)
-		var center = new google.maps.LatLng(lat, lng)
-		map.panTo(center)
-		map.setZoom(12)
+	centerMap: function(){
+		// var lng = locationCoordinates.lng
+		// var lat = locationCoordinates.lat
+		// console.log(lng)
+		// console.log(lat)
+		// var center = new google.maps.LatLng(lat,lng)
+		// map.panTo(center)
+		map.setZoom(9)
 	},
 
 	centerMaponSearch:function(coords){
