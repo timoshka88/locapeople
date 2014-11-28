@@ -133,14 +133,6 @@ MapController.prototype = {
     console.log(this.venueTypes)
   },
 
-  // changeDistanceValue:function(event){
-  //   $("#kmValue").val(event.target.value + ' km')
-    // var value = $("#kmValue").val()
-    // value = value.split(' ')[0]
-    // this.distanceValue = parseInt(value) * 1000
-    // console.log(this.distanceValue)
-  // },
-
   getSelectedDistance:function(){
     console.log ("in the getSelectedDistance of Map Controller")
     var value = $("#kmValue").val()
