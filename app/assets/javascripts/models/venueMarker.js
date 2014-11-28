@@ -20,7 +20,9 @@ VenueMarker.prototype = {
 		console.log("in the createMarkersScrollingBar")
 		var length = venueData.length
 		for (var i = 0; i < length; i++) {
-				$('.venues-display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
+			var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData[i])
+			$('.venues-display').append(venueSmallBox)
+				// $('.venues-display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
 		};
 	},
 
@@ -30,4 +32,14 @@ VenueMarker.prototype = {
 	}
 
 }
+
+
+// createMarkersScrollingBar:function(venueData){
+// 		console.log("in the createMarkersScrollingBar")
+// 		var length = venueData.length
+// 		for (var i = 0; i < length; i++) {
+// 				var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData[i])
+// 				$('.venues-display').append(venueSmallBox)
+// 		};
+// 	},
 
