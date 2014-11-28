@@ -35,18 +35,16 @@ MapController.prototype = {
     $("form").submit(this.onPlaceChange.bind(this))
     // $('#autocomplete').change(this.view.onPlaceChange.bind(this))
     $('#distance').change(this.changeDistanceValue.bind(this))
-    $('#distance').change(this.changeDistanceValue.bind(this))
+    // $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
   setAjaxListeners: function(){
     console.log("I'm in the setAjaxListeners function of MapController")
-    // $('#distance').change(this.changeDistanceValue.bind(this))
     $('#search').on('ajax:success', this.placeMarkers.bind(this))
     $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
     $('#search').on('ajax:success', this.clearForm.bind(this))
     $('#search').on('ajax:error', function(){console.log("Error while searching")})
-    // $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
   changeDistanceValue:function(event){
@@ -56,28 +54,23 @@ MapController.prototype = {
 
   onPlaceChange:function(){
     console.log("in the onPlaceChange of MapController")
-    // this.places = this.view.callPlaceApi()
-    // autocomplete = this.view.googleAutocomplete()
     
     console.log('this is autocomplete')
     console.log(autocomplete)
-  
-   
 
+    this.getSelectedDistance()
+  
     this.checkTypeSelection()
     this.checkDistanceSelection()
-    
 
     this.query = "establishments " + autocomplete.gm_accessors_.place.td.formattedPrediction
     console.log(this.query)
     
-    // this.place = autocomplete.getPlace()
     console.log(autocomplete.gm_accessors_.place.td.place.geometry.location)
+
     this.place = autocomplete.gm_accessors_.place.td.place
     if (this.place.geometry){
       this.view.centerMaponSearch(this.place.geometry)
-      // map.panTo(this.place.geometry.location)
-      // map.setZoom(15)
       this.search()
     }
 
@@ -105,7 +98,7 @@ MapController.prototype = {
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
-    
+
     this.view.clearMarkers(this.markers)
     this.markers = this.venueMarker.createMarkers(results)
     this.view.placeMarkers(this.markers)
@@ -144,13 +137,22 @@ MapController.prototype = {
     console.log(this.venueTypes)
   },
 
-  changeDistanceValue:function(event){
-    $("#kmValue").val(event.target.value + ' km')
+  // changeDistanceValue:function(event){
+  //   $("#kmValue").val(event.target.value + ' km')
+    // var value = $("#kmValue").val()
+    // value = value.split(' ')[0]
+    // this.distanceValue = parseInt(value) * 1000
+    // console.log(this.distanceValue)
+  // },
+
+  getSelectedDistance:function(){
+    console.log ("in the getSelectedDistance of Map Controller")
     var value = $("#kmValue").val()
     value = value.split(' ')[0]
     this.distanceValue = parseInt(value) * 1000
     console.log(this.distanceValue)
   },
+
 
   checkTypeSelection:function(){
 
