@@ -101,17 +101,18 @@ MapController.prototype = {
     console.log(search.location)
     console.log(search.radius)
 
-    places.textSearch(search, function(results, status){
-      console.log(results)
-      // this.markers = this.venueMarker.createMarkers(results)
+    places.textSearch(search, this.placeMarkers.bind(this))
+    // places.textSearch(search, function(results, status){
+    //   console.log(results)
+    //   // this.markers = this.venueMarker.createMarkers(results)
 
-    })
+    // })
   },
  
-  placeMarkers: function(event, response){
+  placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
     this.view.clearMarkers(this.markers)
-    this.markers = this.venueMarker.createMarkers(response.venues)
+    this.markers = this.venueMarker.createMarkers(results)
     this.view.placeMarkers(this.markers)
     this.view.centerMap(response.center_coords)
   },
