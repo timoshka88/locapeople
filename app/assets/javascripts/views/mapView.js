@@ -4,7 +4,6 @@ function MapView(){
 	this.place
 	this.places
 	this.map
-	this.userMarker
 	this.distanceValue
 	this.venueTypes = []
 	this.autocomplete
@@ -14,7 +13,6 @@ function MapView(){
 	this.browserSupportFlag =  new Boolean();
 	this.userSearchInput = (document.getElementById('autocomplete'))
   this.autocompleteOptions = {types: ['(cities)']}
-
 }
 
 MapView.prototype = {
@@ -32,6 +30,11 @@ MapView.prototype = {
 		var center = new google.maps.LatLng(lat, lng)
 		map.panTo(center)
 		map.setZoom(12)
+	},
+
+	centerMaponSearch:function(coords){
+		map.panTo(coords.location)
+		map.setZoom(15)
 	},
 
 	placeMarkers: function(markers){
@@ -139,11 +142,14 @@ MapView.prototype = {
 
   	places.textSearch(search, function(results, status){
   		console.log(results)
+  		console.log(this)
+  		this.markers = this.venueMarker.createMarkers(results)
+
   	})
   },
 
   userVenueTypeChoice: function(){
-  	console.log("i'm in the userVenueTypeChoice")
+  	console.log("i'm in the map view userVenueTypeChoice")
   	var venueTypes = []
   	$.each($('input[name="venuetypes"]:checked'), function(key, value){
   		venueTypes.push($(value).attr("value"))
