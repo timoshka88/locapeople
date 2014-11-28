@@ -225,6 +225,18 @@ html, body, #map-canvas {
 	margin-top: -10px;
 }
 
+li.venue-picture {
+	background-repeat: no-repeat;
+  background-position: center; 
+  font-size: 11px;
+}
+
+img.rating-icon {
+	width: 15px;
+	height:auto;
+}
+
+
 
 
 
