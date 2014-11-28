@@ -74,7 +74,7 @@ MapController.prototype = {
 
   search:function(){
     console.log("i'm in the search")
-
+    this.view.clearForm()
     this.places = this.view.callPlaceApi()
 
     var search = {

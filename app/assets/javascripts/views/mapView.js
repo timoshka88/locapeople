@@ -54,6 +54,7 @@ MapView.prototype = {
 	},
 
 	clearForm: function(){
+		console.log("Im in the clearForm of Map View")
     $('input[type="text"], textarea').val('');
     $("input:checkbox").attr('checked', false)
   },
