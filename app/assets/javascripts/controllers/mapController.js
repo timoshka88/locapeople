@@ -20,7 +20,7 @@ MapController.prototype = {
 	init: function(){
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
-    this.view.callPlaceApi()
+    // this.view.callPlaceApi()
     this.setListeners()
     // this.setAjaxListeners()
     this.autoGeolocation()
