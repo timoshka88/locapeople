@@ -117,10 +117,10 @@ MapController.prototype = {
     this.view.autoGeolocation()  
   },
 
-  clearForm: function(){
-    $('input[type="text"], textarea').val('');
-    $("input:checkbox").attr('checked', false)
-  },
+  // clearForm: function(){
+  //   $('input[type="text"], textarea').val('');
+  //   $("input:checkbox").attr('checked', false)
+  // },
 
 
   userVenueTypeChoice: function(){

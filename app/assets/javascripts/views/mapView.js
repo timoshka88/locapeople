@@ -53,6 +53,12 @@ MapView.prototype = {
 		}
 	},
 
+	clearForm: function(){
+    $('input[type="text"], textarea').val('');
+    $("input:checkbox").attr('checked', false)
+  },
+
+
 	userLocationCoords: function(position){
 		initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
 		userMarker = new google.maps.Marker({ position : initialLocation, map : map })
