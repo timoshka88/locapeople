@@ -20,6 +20,7 @@ VenueMarker.prototype = {
 		console.log("in the createMarkersScrollingBar")
 		var length = venueData.length
 		for (var i = 0; i < length; i++) {
+			var photo = venueData[i].photos[0].getUrl({ 'maxWidth': 50, 'maxHeight': 50 });
 			var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData[i])
 			$('.venues-display').append(venueSmallBox)
 				// $('.venues-display').append('<li><div class = venue-picture><img src='+ venueData[i].icon + '></div></li>')
