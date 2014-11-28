@@ -29,13 +29,9 @@ MapController.prototype = {
 	},
 
   setListeners:function(){
-    // document.getElementById('autocomplete').addEventListener("change", this.view.onPlaceChange.bind(this.view))
     $("input[type=checkbox]").on('click',this.userVenueTypeChoice.bind(this))
-    // $("form").submit(this.view.onPlaceChange.bind(this.view))
     $("form").submit(this.onPlaceChange.bind(this))
-    // $('#autocomplete').change(this.view.onPlaceChange.bind(this))
     $('#distance').change(this.changeDistanceValue.bind(this))
-    // $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
