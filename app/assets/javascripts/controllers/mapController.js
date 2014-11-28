@@ -98,7 +98,7 @@ MapController.prototype = {
     this.view.clearMarkers(this.markers)
     this.markers = this.venueMarker.createMarkers(results)
     this.view.placeMarkers(this.markers)
-    
+    this.venueDisplayBar(results)
     console.log(this.place.geometry)
     // this.view.centerMap()
   },
