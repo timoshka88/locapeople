@@ -2,24 +2,24 @@
 <%= form_tag('/venues', :method => :get, :id => 'search', :remote => true) do %>
 
   <%= text_field_tag :search, params[:search], :id => 'autocomplete', placeholder: "City" %>
-  <%= check_box_tag('bar') %>
+  <%= check_box_tag('venuetypes', 'bar') %>
 	<%= label_tag("Bars") %>
-	<%= check_box_tag('club') %>
+	<%= check_box_tag('venuetypes','night_club') %>
 	<%= label_tag("Night Clubs") %>
-	<%= check_box_tag('food') %>
+	<%= check_box_tag('venuetypes','food') %>
 	<%= label_tag("Hunger Games") %>
-	<%= check_box_tag('all') %>
+	<%= check_box_tag('venuetypes','all') %>
 	<%= label_tag("Clairvoyant") %>
 	<br>
 	<%= label_tag("Distance of search") %>
 	<%= range_field_tag 'distance', 3, {in: 1..11, step:2, list:'distance-setting'} %>
 	<datalist id="distance-setting">
-		<option name='1' value="1">1</option>
-		<option name='3' value="3">3</option>
-		<option name='5' value="5">5</option>
-		<option name='7' value="7">7</option>
-		<option name='9' value="9">9</option>
-		<option name='11' value="11">11</option>
+		<option name='km' value="1">1</option>
+		<option name='km' value="3">3</option>
+		<option name='km' value="5">5</option>
+		<option name='km' value="7">7</option>
+		<option name='km' value="9">9</option>
+		<option name='km' value="11">11</option>
 	</datalist>
 	<output for=distance id="kmValue">3km</output>
 	

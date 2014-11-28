@@ -7,6 +7,12 @@ function MapController(mapView){
 	this.view = mapView
   this.venueMarker = new VenueMarker()
   this.markers = []
+  this.autocomplete
+  this.query
+  this.place
+  this.places
+  this.distanceValue
+  this.venueTypes = []
 
 }
 
@@ -14,39 +20,94 @@ MapController.prototype = {
 	init: function(){
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
-    this.setAjaxListeners()
+    // this.view.callPlaceApi()
+    this.setListeners()
+    // this.setAjaxListeners()
     this.autoGeolocation()
-    this.view.googleAutocomplete()
+    this.autocomplete = this.view.googleAutocomplete()
 
 	},
 
+  setListeners:function(){
+    $("input[type=checkbox]").on('click',this.userVenueTypeChoice.bind(this))
+    $("form").submit(this.onPlaceChange.bind(this))
+    $('#distance').change(this.changeDistanceValue.bind(this))
+    $('#my-location').on('click', this.autoGeolocation.bind(this))
+  },
+
   setAjaxListeners: function(){
     console.log("I'm in the setAjaxListeners function of MapController")
-    $('#distance').change(this.changeDistanceValue.bind(this))
     $('#search').on('ajax:success', this.placeMarkers.bind(this))
     $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
     $('#search').on('ajax:success', this.clearForm.bind(this))
     $('#search').on('ajax:error', function(){console.log("Error while searching")})
-    $('#my-location').on('click', this.autoGeolocation.bind(this))
   },
 
   changeDistanceValue:function(event){
     console.log ("in the changeDistanceValue")
     $("#kmValue").val(event.target.value + 'km')
   },
+
+  onPlaceChange:function(){
+    console.log("in the onPlaceChange of MapController")
+    
+    console.log('this is autocomplete')
+    console.log(autocomplete)
+
+    this.getSelectedDistance()
   
-  placeMarkers: function(event, response){
-    console.log("i'm in the placeMarkers of mapcontroller")
-    this.view.clearMarkers(this.markers)
-    this.markers = this.venueMarker.createMarkers(response.venues)
-    this.view.placeMarkers(this.markers)
-    this.view.centerMap(response.center_coords)
+    this.checkTypeSelection()
+    this.checkDistanceSelection()
+
+    this.query = "establishments " + autocomplete.gm_accessors_.place.td.formattedPrediction
+    console.log(this.query)
+    
+    console.log(autocomplete.gm_accessors_.place.td.place.geometry.location)
+
+    this.place = autocomplete.gm_accessors_.place.td.place
+    if (this.place.geometry){
+      this.view.centerMaponSearch(this.place.geometry)
+      this.search()
+    }
+
   },
 
-  venueDisplayBar:function(event, response){
-    console.log(response.venues.length)
+  search:function(){
+    console.log("i'm in the search")
+    this.view.clearForm()
+    this.places = this.view.callPlaceApi()
+
+    var search = {
+      query: this.query,
+      location: this.place.geometry.location,
+      radius: this.distanceValue,
+      types: this.venueTypes,
+    };
+
+    console.log(search.query)
+    console.log(search.types)
+    console.log(search.location)
+    console.log(search.radius)
+
+    places.textSearch(search, this.placeMarkers.bind(this))
+  },
+ 
+  placeMarkers: function(results, status){
+    console.log("i'm in the placeMarkers of mapcontroller")
+
+    this.view.clearMarkers(this.markers)
+    this.markers = this.venueMarker.createMarkers(results)
+    this.view.placeMarkers(this.markers)
+    this.venueDisplayBar(results)
+    // console.log(this.place.geometry)
+    // this.view.centerMap()
+  },
+
+  venueDisplayBar:function(results){
+    console.log("in the venueDisplayBar of the MapController")
+    console.log(results.length)
     this.venueMarker.clearMarkerScrollingBar()
-    this.venueMarker.createMarkersScrollingBar(response.venues)
+    this.venueMarker.createMarkersScrollingBar(results)
     $('.venues-display').css('visibility', 'visible')
 
   },
@@ -57,9 +118,51 @@ MapController.prototype = {
     this.view.autoGeolocation()  
   },
 
-  clearForm: function(){
-    $('input[type="text"], textarea').val('');
-    $("input:checkbox").attr('checked', false)
+  userVenueTypeChoice: function(){
+    console.log("i'm in the map controller userVenueTypeChoice")
+    var venueTypes = []
+    $.each($('input[name="venuetypes"]:checked'), function(key, value){
+      venueTypes.push($(value).attr("value"))
+    })
+    this.venueTypes = venueTypes
+    console.log(this.venueTypes)
+  },
+
+  getSelectedDistance:function(){
+    console.log ("in the getSelectedDistance of Map Controller")
+    var value = $("#kmValue").val()
+    value = value.split(' ')[0]
+    this.distanceValue = parseInt(value) * 1000
+    console.log(this.distanceValue)
+  },
+
+
+  checkTypeSelection:function(){
+
+    console.log("i'm in the checkTypeSelection")
+
+    if($('input[name="venuetypes"]').is(':checked')){
+      console.log("i'm in the if of venueTypes")
+      return this.venueTypes
+    }
+    else{
+      console.log("i'm in the else of venueTypes")
+      this.venueTypes = ['bar', 'night_club', 'cafe', 'restaurant']
+    }
+    console.log(this.venueTypes)
+  },
+
+  checkDistanceSelection:function(){
+    console.log("i'm in the checkDistanceSelection")
+    if(typeof this.distanceValue !== 'undefined'){
+      console.log("i'm in the if of distanceValue")
+      return this.distanceValue
+    }
+    else{
+      console.log("i'm in the else of distanceValue")
+      this.distanceValue = 3000
+    }
+    console.log(this.distanceValue)
   }
 
 }

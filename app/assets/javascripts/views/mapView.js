@@ -1,9 +1,13 @@
 function MapView(){
 	this.mapSelector = 'map-canvas'
 	this.initialLocation
+	this.place
+	this.places
 	this.map
-	this.userMarker
+	this.distanceValue
+	this.venueTypes = []
 	this.autocomplete
+	this.query
 	this.siberia = new google.maps.LatLng(60, 105)
 	this.newYork = new google.maps.LatLng(40.69847032728747, -73.9514422416687)
 	this.browserSupportFlag =  new Boolean();
@@ -16,12 +20,23 @@ MapView.prototype = {
 		map = new google.maps.Map(document.getElementById(this.mapSelector), mapOptions);
 	},
 
-	centerMap: function(locationCoordinates){
-		var lng = parseFloat(locationCoordinates.lng)
-		var lat = parseFloat(locationCoordinates.lat)
-		var center = new google.maps.LatLng(lat, lng)
-		map.panTo(center)
-		map.setZoom(12)
+	callPlaceApi:function(){
+		places = new google.maps.places.PlacesService(map)
+	},
+
+	// centerMap: function(){
+	// 	// var lng = locationCoordinates.lng
+	// 	// var lat = locationCoordinates.lat
+	// 	// console.log(lng)
+	// 	// console.log(lat)
+	// 	// var center = new google.maps.LatLng(lat,lng)
+	// 	// map.panTo(center)
+	// 	map.setZoom(9)
+	// },
+
+	centerMaponSearch:function(coords){
+		map.panTo(coords.location)
+		map.setZoom(10)
 	},
 
 	placeMarkers: function(markers){
@@ -37,6 +52,13 @@ MapView.prototype = {
 			markers[i].setMap(null);
 		}
 	},
+
+	clearForm: function(){
+		console.log("Im in the clearForm of Map View")
+    $('input[type="text"], textarea').val('');
+    $("input:checkbox").attr('checked', false)
+  },
+
 
 	userLocationCoords: function(position){
 		initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
