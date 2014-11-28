@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.easing.1.3
+//= require handlebars.runtime
 //= require_tree ./sharedJavascript/
 //= require_tree ./views/
 //= require_tree ./models/
