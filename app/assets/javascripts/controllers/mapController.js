@@ -85,10 +85,9 @@ MapController.prototype = {
 
   search:function(){
     console.log("i'm in the search")
+
     this.places = this.view.callPlaceApi()
-    console.log(this.venueTypes)
-    console.log(this.distanceValue)
-    // console.log(this.query)
+
     var search = {
       query: this.query,
       location: this.place.geometry.location,
@@ -102,22 +101,17 @@ MapController.prototype = {
     console.log(search.radius)
 
     places.textSearch(search, this.placeMarkers.bind(this))
-    // places.textSearch(search, function(results, status){
-    //   console.log(results)
-    //   // this.markers = this.venueMarker.createMarkers(results)
-
-    // })
   },
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
-    // console.log(this.place.geometry.location)
+    
     this.view.clearMarkers(this.markers)
     this.markers = this.venueMarker.createMarkers(results)
-    // console.log(this.markers)
     this.view.placeMarkers(this.markers)
+    
     console.log(this.place.geometry)
-    this.view.centerMap()
+    // this.view.centerMap()
   },
 
   venueDisplayBar:function(event, response){
