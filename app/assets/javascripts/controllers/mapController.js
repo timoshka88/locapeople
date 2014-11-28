@@ -153,7 +153,7 @@ MapController.prototype = {
     }
     else{
       console.log("i'm in the else of venueTypes")
-      this.venueTypes = ['bar', 'nightclub', 'cafe', 'restaurant']
+      this.venueTypes = ['bar', 'night_club', 'cafe', 'restaurant']
     }
     console.log(this.venueTypes)
   },
