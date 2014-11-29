@@ -3,9 +3,14 @@
 	<p><center>{{name}}</center></p>
 	<p>Adress {{formatted_address}}</p>
 	<p>Phone Number{{formatted_phone_number}}</p>
-	<p>International Phone Number: {{opening_hours.weekday_text}}</p>
-
+	
 	<p>International Phone Number: {{international_phone_number}}</p>
+
+	<ul id = "wh-list">Opening Hours: 
+		{{#each opening_hours.weekday_text}}
+			<li>{{this}}</li>
+		{{/each}}
+	</ul>
 
 	<p><a href="{{website}}"> Visit their website</a></p>
 
