@@ -101,8 +101,10 @@ MapController.prototype = {
     this.markers = this.venueMarker.createMarkers(results)
 
     this.view.placeMarkers(this.markers)
-    for(var i=0; i < this.markers.length; i++) {
-      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow.bind(this))
+    for(var i=0; i < results.length; i++) {
+      console.log(this.markers[0])
+      this.markers[i].placeResult = results[i]
+      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
     }
 
     this.venueDisplayBar(results)
@@ -113,12 +115,10 @@ MapController.prototype = {
   showLargeInfoWindow:function(){
     var marker = this
     console.log(marker)
-    places.getDetails({placeId: marker.place_id},
+    places.getDetails({placeId: marker.placeResult.place_id},
       function(place, status){
-        if(status != google.maps.places.PlaceServiceStatus.OK){
-          console.log ("got the place details")
-          console.log (results)
-        }
+        console.log("Heeeeeeeeey")
+        console.log(place)
       })
   },
 
