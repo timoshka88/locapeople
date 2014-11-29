@@ -40,8 +40,8 @@ VenueMarker.prototype = {
 		var photo
 		if(typeof photos !== 'undefined'){
 			photo = photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35})
-			return 
 		}
+		return photo
 	}
 
 }
