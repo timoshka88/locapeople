@@ -238,8 +238,12 @@ img.rating-icon {
 
 .large-infobox {
 	position: absolute;
-	width: 85%;
+	width: 50%;
 	z-index: 1;
+	bottom: 40%;
+	left: 40%;
+	height: auto;
+	background-color: white;
 }
 
 .hidden {
