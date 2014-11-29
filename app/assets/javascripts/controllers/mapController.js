@@ -20,6 +20,7 @@ MapController.prototype = {
 	init: function(){
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
+    this.places = this.view.callPlaceApi()
     // this.view.callPlaceApi()
     this.setListeners()
     // this.setAjaxListeners()
@@ -76,7 +77,7 @@ MapController.prototype = {
   search:function(){
     console.log("i'm in the search")
     this.view.clearForm()
-    this.places = this.view.callPlaceApi()
+    // this.places = this.view.callPlaceApi()
 
     var search = {
       query: this.query,
@@ -98,24 +99,28 @@ MapController.prototype = {
 
     this.view.clearMarkers(this.markers)
     this.markers = this.venueMarker.createMarkers(results)
+
     this.view.placeMarkers(this.markers)
+    for(var i=0; i < this.markers.length; i++) {
+      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow.bind(this))
+    }
+
     this.venueDisplayBar(results)
 
-    for(var i=0; i < this.markers.length; i++) {
-      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
-    }
+
   },
 
   showLargeInfoWindow:function(){
     var marker = this
-    places.getDetails({placeId: marker.placeResults.place_id},
+    console.log(marker)
+    places.getDetails({placeId: marker.place_id},
       function(place, status){
         if(status != google.maps.places.PlaceServiceStatus.OK){
           console.log ("got the place details")
           console.log (results)
         }
       })
-  }
+  },
 
   venueDisplayBar:function(results){
     console.log("in the venueDisplayBar of the MapController")
