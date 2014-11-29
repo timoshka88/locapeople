@@ -3,7 +3,7 @@ Handlebars.registerHelper("venuePhotoDisplay",function(photos, icon){
 	var photo 
 
 	if(typeof photos !== 'undefined' && photos.length > 0){
-		return photo = photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35})
+		return photo = photos[0].getUrl({'maxWidth': 130, 'maxHeight': 130})
 	}
 	else{
 		return icon
