@@ -119,7 +119,13 @@ MapController.prototype = {
       function(place, status){
         console.log("Heeeeeeeeey")
         console.log(place)
+        var venueLargeBox = HandlebarsTemplates['venues/venue_large_infobox'](place)
+        console.log(venueLargeBox)
+        $('body').append(venueLargeBox)
+        $('.large-infobox').removeClass('hidden')
       })
+  
+
   },
 
   venueDisplayBar:function(results){

@@ -236,11 +236,15 @@ img.rating-icon {
 	height:auto;
 }
 
-.large-info-box {
+.large-infobox {
 	position: absolute;
 	width: 85%;
+	z-index: 1;
 }
 
+.hidden {
+  display: none;
+}
 
 
 
