@@ -236,6 +236,10 @@ img.rating-icon {
 	height:auto;
 }
 
+.large-info-box {
+	position: absolute;
+	width: 85%;
+}
 
 
 
