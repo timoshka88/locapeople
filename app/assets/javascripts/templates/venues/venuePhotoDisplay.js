@@ -1,4 +1,4 @@
-Handlebars.registerHelper("venuePhoto",function(photos, icon){
+Handlebars.registerHelper("venuePhotoDisplay",function(photos, icon){
 	console.log("I'm in the venuePhoto Handlebars helper")
 	var photo 
 
