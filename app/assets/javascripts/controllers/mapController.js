@@ -33,6 +33,7 @@ MapController.prototype = {
     $("form").submit(this.onPlaceChange.bind(this))
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
+
   },
 
   setAjaxListeners: function(){
@@ -99,8 +100,10 @@ MapController.prototype = {
     this.markers = this.venueMarker.createMarkers(results)
     this.view.placeMarkers(this.markers)
     this.venueDisplayBar(results)
-    // console.log(this.place.geometry)
-    // this.view.centerMap()
+
+    for(var i=0; i < this.markers.length; i++) {
+      google.maps.event.addListener(this.markers[i], 'click', this.getLargeInfoBoxData)
+    }
   },
 
   venueDisplayBar:function(results){
