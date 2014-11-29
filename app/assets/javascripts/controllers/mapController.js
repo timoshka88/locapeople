@@ -102,9 +102,20 @@ MapController.prototype = {
     this.venueDisplayBar(results)
 
     for(var i=0; i < this.markers.length; i++) {
-      google.maps.event.addListener(this.markers[i], 'click', this.getLargeInfoBoxData)
+      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
     }
   },
+
+  showLargeInfoWindow:function(){
+    var marker = this
+    places.getDetails({placeId: marker.placeResults.place_id},
+      function(place, status){
+        if(status != google.maps.places.PlaceServiceStatus.OK){
+          console.log ("got the place details")
+          console.log (results)
+        }
+      })
+  }
 
   venueDisplayBar:function(results){
     console.log("in the venueDisplayBar of the MapController")
