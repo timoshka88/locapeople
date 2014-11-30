@@ -34,6 +34,7 @@ MapController.prototype = {
     $("form").submit(this.onPlaceChange.bind(this))
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
+    $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
 
   },
 
@@ -124,6 +125,11 @@ MapController.prototype = {
       })
   
 
+  },
+
+    closeLargeInfoWindow: function(e) {
+    e.preventDefault();
+    $('.large-infobox').remove()
   },
 
   venueDisplayBar:function(results){
