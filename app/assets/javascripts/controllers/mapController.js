@@ -21,7 +21,6 @@ MapController.prototype = {
     console.log("I'm in the init function, drawing the map")
 		this.view.drawMap()
     this.places = this.view.callPlaceApi()
-    // this.view.callPlaceApi()
     this.setListeners()
     // this.setAjaxListeners()
     this.autoGeolocation()
@@ -104,7 +103,6 @@ MapController.prototype = {
 
     this.view.placeMarkers(this.markers)
     for(var i=0; i < results.length; i++) {
-      console.log(this.markers[0])
       this.markers[i].placeResult = results[i]
       google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
     }
