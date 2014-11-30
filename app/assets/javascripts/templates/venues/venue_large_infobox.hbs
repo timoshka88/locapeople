@@ -9,11 +9,13 @@
 
 	<p>We are: <img class="open-close-icon" src={{venueOpenNowDisplay opening_hours.open_now}}><p>
 	
+	{{#if opening_hours.weekday_text}}
 	<ul id = "wh-list">Opening Hours: 
 		{{#each opening_hours.weekday_text}}
 			<li>{{this}}</li>
 		{{/each}}
 	</ul>
+	{{/if}}
 
 	<p><a href="{{website}}"> Visit their website</a></p>
 
@@ -24,9 +26,9 @@
 		{{#if rating}}
 			<p><img class="rating-icon" src="assets/1416274893_award_star_bronze_3.png">{{rating}}</p>
 		{{/if}}
-		<p>Total User Rating{{user_ratings_total}}</p>
+		<p>Total User Rating {{user_ratings_total}}</p>
 
-	<p>Time zone{{tz}}</p>
+	<p>Time zone {{tz}}</p>
 
   
 
