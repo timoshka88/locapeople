@@ -238,7 +238,9 @@ img.rating-icon {
 
 .large-infobox {
 	position: absolute;
+	overflow: auto;
 	width: 50%;
+	max-height: 50%;
 	z-index: 1;
 	bottom: 20%;
 	left: 40%;
@@ -249,9 +251,9 @@ img.rating-icon {
   display: none;
 }
 
-div.scroll {
+/*div.scroll {
 	overflow: scroll;
-}
+}*/
 
 img.open-close-icon{
 	width: 50px;
