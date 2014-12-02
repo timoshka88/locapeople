@@ -115,10 +115,7 @@ MapController.prototype = {
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
       
-
     }
-
-    // this.venueDisplayBar(results)
 
   },
 
