@@ -111,10 +111,11 @@ MapController.prototype = {
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
+      this.venueDisplayBar(results[i], i)
 
     }
 
-    this.venueDisplayBar(results)
+    // this.venueDisplayBar(results)
 
   },
 
