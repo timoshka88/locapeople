@@ -151,11 +151,11 @@ MapController.prototype = {
     $('.large-infobox').remove()
   },
 
-  venueDisplayBar:function(results){
+  venueDisplayBar:function(result, i){
     console.log("in the venueDisplayBar of the MapController")
-    console.log(results.length)
+    console.log(result.length)
     this.venueMarker.clearMarkerScrollingBar()
-    this.venueMarker.createMarkersScrollingBar(results)
+    this.venueMarker.createMarkersScrollingBar(result, i)
     $('.venues-display').css('visibility', 'visible')
 
   },
