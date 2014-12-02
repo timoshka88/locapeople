@@ -105,7 +105,7 @@ MapController.prototype = {
     this.view.placeMarkers(this.markers)
     for(var i=0; i < results.length; i++) {
       this.markers[i].placeResult = results[i]
-      google.maps.event.addListener(this.markers[i], 'hover', this.showSmallInfoBox)
+      google.maps.event.addListener(this.markers[i], 'mouseover', this.showSmallInfoBox)
     }
 
     this.venueDisplayBar(results)
@@ -114,7 +114,12 @@ MapController.prototype = {
   },
 
   showSmallInfoBox:function(){
-    console.location("in the showSmallInfoBox")
+    console.log("in the showSmallInfoBox")
+    var marker = this
+    var venueSmalInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker)
+    infoWindow = new google.maps.InfoWindow()
+    infoWindow.setContent(venueSmalInfoBox)
+    infoWindow.open(this.map, this)
   },
 
 
