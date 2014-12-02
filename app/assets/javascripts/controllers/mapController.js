@@ -116,7 +116,9 @@ MapController.prototype = {
   showSmallInfoBox:function(){
     console.log("in the showSmallInfoBox")
     var marker = this
-    var venueSmalInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker)
+    console.log(marker)
+    var venueSmalInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker.placeResult)
+    console.log(venueSmalInfoBox)
     infoWindow = new google.maps.InfoWindow()
     infoWindow.setContent(venueSmalInfoBox)
     infoWindow.open(this.map, this)
