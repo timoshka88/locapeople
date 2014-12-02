@@ -108,50 +108,25 @@ MapController.prototype = {
       var marker = this.markers[i]
 
       var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](this.markers[i].placeResult)
-      console.log(venueSmallInfoBox)
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
-      this.bindInfoWindow(marker, this.map, infoWindow)
+      this.smallInfoBox(marker, this.map, infoWindow)
 
-      // google.maps.event.addListener(this.markers[i], 'mouseover', this.showSmallInfoBox)
-      // google.maps.event.addListener(this.markers[i], 'mouseout', this.closeSmallInfoBox)
     }
 
     this.venueDisplayBar(results)
 
-
   },
 
-  bindInfoWindow: function(marker, map, infoWindow) {
+  smallInfoBox: function(marker, map, infoWindow) {
     console.log("i'm in the bindInfoWindow")
     google.maps.event.addListener(marker, 'mouseover', function() {
-      console.log("Heeelooo")
-      // infoWindow.setContent(venueSmallInfoBox)
       infoWindow.open(this.map, marker)
     });
     google.maps.event.addListener(marker, 'mouseout', function() {
-      console.log("Heeeyy")
       infoWindow.close();
     });
   },
-
-  showSmallInfoBox:function(){
-    console.log("in the showSmallInfoBox")
-    var marker = this
-    console.log(marker)
-    var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker.placeResult)
-    console.log(venueSmallInfoBox)
-    var infoWindow = new google.maps.InfoWindow()
-    infoWindow.setContent(venueSmallInfoBox)
-    infoWindow.open(this.map, this)
-  },
-
-  closeSmallInfoBox:function(){
-    console.log("in the closeSmallInfoBox")
-    infoWindow.close()
-  },
-
-
 
   showLargeInfoWindow:function(){
     console.log("this is this")
