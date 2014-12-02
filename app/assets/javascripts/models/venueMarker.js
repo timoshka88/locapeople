@@ -16,12 +16,13 @@ VenueMarker.prototype = {
 
 	createMarkersScrollingBar:function(venueData){
 		console.log("in the createMarkersScrollingBar")
-		var length = venueData.length
 		console.log(venueData)
-		for (var i = 0; i < length; i++) {
-			var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData[i])
-			$('.venues-display').append(venueSmallBox)
-		};
+		// var length = venueData.length
+		// console.log(venueData)
+		// for (var i = 0; i < length; i++) {
+		var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData)
+		$('.venues-display').append(venueSmallBox)
+		// };
 	},
 
 	clearMarkerScrollingBar:function(){

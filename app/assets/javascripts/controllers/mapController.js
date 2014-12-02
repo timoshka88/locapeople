@@ -100,10 +100,13 @@ MapController.prototype = {
     console.log("i'm in the placeMarkers of mapcontroller")
 
     this.view.clearMarkers(this.markers)
+    this.venueMarker.clearMarkerScrollingBar()
     this.markers = this.venueMarker.createMarkers(results)
 
     this.view.placeMarkers(this.markers)
+    
     for(var i=0; i < results.length; i++) {
+      this.venueDisplayBar(results[i])
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
 
@@ -111,7 +114,7 @@ MapController.prototype = {
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
-      this.venueDisplayBar(results[i], i)
+      
 
     }
 
@@ -153,9 +156,7 @@ MapController.prototype = {
 
   venueDisplayBar:function(result, i){
     console.log("in the venueDisplayBar of the MapController")
-    console.log(result.length)
-    this.venueMarker.clearMarkerScrollingBar()
-    this.venueMarker.createMarkersScrollingBar(result, i)
+    this.venueMarker.createMarkersScrollingBar(result)
     $('.venues-display').css('visibility', 'visible')
 
   },
