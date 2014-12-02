@@ -55,19 +55,20 @@ MapController.prototype = {
     console.log("in the onPlaceChange of MapController")
     
     console.log('this is autocomplete')
-    console.log(autocomplete)
+    console.log(autocomplete.getPlace().formatted_address)
 
+    this.place = autocomplete.getPlace()
     this.getSelectedDistance()
   
     this.checkTypeSelection()
     this.checkDistanceSelection()
 
-    this.query = "establishments " + autocomplete.gm_accessors_.place.td.formattedPrediction
+    this.query = "establishments " + this.place.formatted_address
     console.log(this.query)
     
-    console.log(autocomplete.gm_accessors_.place.td.place.geometry.location)
+    console.log(this.place.geometry.location)
 
-    this.place = autocomplete.gm_accessors_.place.td.place
+    // this.place = autocomplete.gm_accessors_.place.td.place
     if (this.place.geometry){
       this.view.centerMaponSearch(this.place.geometry)
       this.search()
@@ -104,7 +105,7 @@ MapController.prototype = {
     this.view.placeMarkers(this.markers)
     for(var i=0; i < results.length; i++) {
       this.markers[i].placeResult = results[i]
-      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
+      google.maps.event.addListener(this.markers[i], 'hover', this.showSmallInfoBox)
     }
 
     this.venueDisplayBar(results)
@@ -112,7 +113,15 @@ MapController.prototype = {
 
   },
 
+  showSmallInfoBox:function(){
+    console.location("in the showSmallInfoBox")
+  },
+
+
+
   showLargeInfoWindow:function(){
+    console.log("this is this")
+    console.log(this)
     var marker = this
     console.log(marker)
     places.getDetails({placeId: marker.placeResult.place_id},
