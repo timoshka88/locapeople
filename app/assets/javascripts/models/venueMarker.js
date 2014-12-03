@@ -17,11 +17,15 @@ VenueMarker.prototype = {
 	createMarkersScrollingBar:function(venueData,i,marker){
 		console.log("in the createMarkersScrollingBar")
 		console.log(venueData)
-
 		var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData)
-		var li = $('#venues-display li')
-		li.onclick = function() {google.maps.event.trigger(markers[i], 'click')}
+		// var res = document.getElementById('venues-display')
+		
+		
 		$('#venues-display').append(venueSmallBox)
+		var li = $('ul#venues-display li').get(i)
+		console.log(li)
+		li.onclick = function() {console.log("heeey") 
+			google.maps.event.trigger(marker, 'click')}
 
 	},
 

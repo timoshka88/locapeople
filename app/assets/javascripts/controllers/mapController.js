@@ -154,7 +154,6 @@ MapController.prototype = {
   venueDisplayBar:function(result,i, marker){
     console.log("in the venueDisplayBar of the MapController")
     console.log("Here is the marker")
-    console.log(marker)
     this.venueMarker.createMarkersScrollingBar(result,i,marker)
     $('#venues-display').css('visibility', 'visible')
 
