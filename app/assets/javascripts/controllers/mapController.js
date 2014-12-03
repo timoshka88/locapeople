@@ -56,7 +56,7 @@ MapController.prototype = {
     console.log("in the onPlaceChange of MapController")
     
     console.log('this is autocomplete')
-    console.log(autocomplete.getPlace().formatted_address)
+    // console.log(autocomplete.getPlace().formatted_address)
 
     this.place = autocomplete.getPlace()
     this.getSelectedDistance()
@@ -65,7 +65,7 @@ MapController.prototype = {
     this.checkDistanceSelection()
 
     this.query = "establishments " + this.place.formatted_address
-    console.log(this.query)
+    // console.log(this.query)
     
     console.log(this.place.geometry.location)
 
@@ -88,10 +88,10 @@ MapController.prototype = {
       types: this.venueTypes,
     };
 
-    console.log(search.query)
-    console.log(search.types)
-    console.log(search.location)
-    console.log(search.radius)
+    // console.log(search.query)
+    // console.log(search.types)
+    // console.log(search.location)
+    // console.log(search.radius)
 
     places.textSearch(search, this.placeMarkers.bind(this))
   },
@@ -177,7 +177,7 @@ MapController.prototype = {
       venueTypes.push($(value).attr("value"))
     })
     this.venueTypes = venueTypes
-    console.log(this.venueTypes)
+    // console.log(this.venueTypes)
   },
 
   getSelectedDistance:function(){
@@ -185,7 +185,7 @@ MapController.prototype = {
     var value = $("#kmValue").val()
     value = value.split(' ')[0]
     this.distanceValue = parseInt(value) * 1000
-    console.log(this.distanceValue)
+    // console.log(this.distanceValue)
   },
 
 
@@ -201,7 +201,7 @@ MapController.prototype = {
       console.log("i'm in the else of venueTypes")
       this.venueTypes = ['bar', 'night_club', 'cafe', 'restaurant']
     }
-    console.log(this.venueTypes)
+    // console.log(this.venueTypes)
   },
 
   checkDistanceSelection:function(){
@@ -214,7 +214,7 @@ MapController.prototype = {
       console.log("i'm in the else of distanceValue")
       this.distanceValue = 3000
     }
-    console.log(this.distanceValue)
+    // console.log(this.distanceValue)
   }
 
 }
