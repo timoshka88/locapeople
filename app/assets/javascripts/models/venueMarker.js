@@ -14,11 +14,13 @@ VenueMarker.prototype = {
 		return markers
 	},
 
-	createMarkersScrollingBar:function(venueData){
+	createMarkersScrollingBar:function(venueData,i){
 		console.log("in the createMarkersScrollingBar")
 		console.log(venueData)
+
 		var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData)
 		$('.venues-display').append(venueSmallBox)
+
 	},
 
 	clearMarkerScrollingBar:function(){

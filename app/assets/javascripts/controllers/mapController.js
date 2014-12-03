@@ -33,6 +33,7 @@ MapController.prototype = {
     $("form").submit(this.onPlaceChange.bind(this))
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
+    // $('.more-info').on('click', this.showLargeInfoWindow.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
     $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
@@ -68,7 +69,6 @@ MapController.prototype = {
     
     console.log(this.place.geometry.location)
 
-    // this.place = autocomplete.gm_accessors_.place.td.place
     if (this.place.geometry){
       this.view.centerMaponSearch(this.place.geometry)
       this.search()
@@ -106,14 +106,17 @@ MapController.prototype = {
     this.view.placeMarkers(this.markers)
     
     for(var i=0; i < results.length; i++) {
-      this.venueDisplayBar(results[i])
+      
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
 
-      var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](this.markers[i].placeResult)
+      var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker.placeResult)
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
+      google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
+      this.venueDisplayBar(results[i],i)
+
       
     }
 
@@ -129,9 +132,9 @@ MapController.prototype = {
     });
   },
 
-  showLargeInfoWindow:function(){
-    console.log("this is this")
-    console.log(this)
+  showLargeInfoWindow:function(marker){
+    console.log("I'm in the showLargeInfoWindow")
+    // console.log(this)
     var marker = this
     console.log(marker)
     places.getDetails({placeId: marker.placeResult.place_id},
@@ -142,7 +145,6 @@ MapController.prototype = {
         $('.large-infobox').removeClass('hidden')
       })
   
-
   },
 
   closeLargeInfoWindow: function(e) {
@@ -151,9 +153,9 @@ MapController.prototype = {
     $('.large-infobox').remove()
   },
 
-  venueDisplayBar:function(result, i){
+  venueDisplayBar:function(result,i){
     console.log("in the venueDisplayBar of the MapController")
-    this.venueMarker.createMarkersScrollingBar(result)
+    this.venueMarker.createMarkersScrollingBar(result,i)
     $('.venues-display').css('visibility', 'visible')
 
   },
