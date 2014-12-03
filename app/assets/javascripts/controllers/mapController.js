@@ -156,10 +156,14 @@ MapController.prototype = {
     console.log("Here is the marker")
     this.venueMarker.createMarkersScrollingBar(result,i,marker)
     $('#venues-display').css('visibility', 'visible')
-    var li = $('ul#venues-display li').get(i)
-    console.log(li)
-    li.onclick = function() {console.log("heeey") 
+    var seeDetails = $('ul#venues-display li button').get(i)
+    console.log(seeDetails)
+    seeDetails.onclick = function() {console.log("heeey") 
     google.maps.event.trigger(marker, 'click')}
+
+  },
+
+  triggerMarkerClickShowLB:function(){
 
   },
 
