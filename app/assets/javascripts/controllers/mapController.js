@@ -132,9 +132,7 @@ MapController.prototype = {
 
   showLargeInfoWindow:function(marker){
     console.log("I'm in the showLargeInfoWindow")
-    // console.log(this)
     var marker = this
-    console.log(marker)
     places.getDetails({placeId: marker.placeResult.place_id},
       function(place, status){
         console.log(place)
@@ -154,17 +152,16 @@ MapController.prototype = {
   venueDisplayBar:function(result,i, marker){
     console.log("in the venueDisplayBar of the MapController")
     console.log("Here is the marker")
-    this.venueMarker.createMarkersScrollingBar(result,i,marker)
+    this.venueMarker.createMarkersScrollingBar(result)
     $('#venues-display').css('visibility', 'visible')
-    var seeDetails = $('ul#venues-display li button').get(i)
-    console.log(seeDetails)
-    seeDetails.onclick = function() {console.log("heeey") 
-    google.maps.event.trigger(marker, 'click')}
-
+    
+    this.triggerMarkerClickShowLB(i, marker)
   },
 
-  triggerMarkerClickShowLB:function(){
-
+  triggerMarkerClickShowLB:function(i, marker){
+    var seeDetails = $('ul#venues-display li button').get(i)
+    seeDetails.onclick = function() {
+    google.maps.event.trigger(marker, 'click')}
   },
 
   autoGeolocation: function(){

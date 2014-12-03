@@ -14,19 +14,12 @@ VenueMarker.prototype = {
 		return markers
 	},
 
-	createMarkersScrollingBar:function(venueData,i,marker){
+	createMarkersScrollingBar:function(venueData){
 		console.log("in the createMarkersScrollingBar")
 		console.log(venueData)
 		var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData)
-		// var res = document.getElementById('venues-display')
-		
-		
-		$('#venues-display').append(venueSmallBox)
-		// var li = $('ul#venues-display li').get(i)
-		// console.log(li)
-		// li.onclick = function() {console.log("heeey") 
-		// google.maps.event.trigger(marker, 'click')}
 
+		$('#venues-display').append(venueSmallBox)
 	},
 
 	clearMarkerScrollingBar:function(){
