@@ -14,18 +14,20 @@ VenueMarker.prototype = {
 		return markers
 	},
 
-	createMarkersScrollingBar:function(venueData,i){
+	createMarkersScrollingBar:function(venueData,i,marker){
 		console.log("in the createMarkersScrollingBar")
 		console.log(venueData)
 
 		var venueSmallBox = HandlebarsTemplates['venues/venue_display_scroll_bar'](venueData)
-		$('.venues-display').append(venueSmallBox)
+		var li = $('#venues-display li')
+		li.onclick = function() {google.maps.event.trigger(markers[i], 'click')}
+		$('#venues-display').append(venueSmallBox)
 
 	},
 
 	clearMarkerScrollingBar:function(){
 		console.log("In the clearMarker Scrolling Bar")
-		$('.venues-display').empty()
+		$('#venues-display').empty()
 	},
 
 	

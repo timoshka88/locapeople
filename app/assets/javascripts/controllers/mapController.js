@@ -13,6 +13,7 @@ function MapController(mapView){
   this.places
   this.distanceValue
   this.venueTypes = []
+  this.venueInfo = $('.venues-display li')
 
 }
 
@@ -33,9 +34,8 @@ MapController.prototype = {
     $("form").submit(this.onPlaceChange.bind(this))
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
-    // $('.more-info').on('click', this.showLargeInfoWindow.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
-    $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
+    // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
   },
 
@@ -109,15 +109,13 @@ MapController.prototype = {
       
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
-
       var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker.placeResult)
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
       google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
-      this.venueDisplayBar(results[i],i)
-
-      
+      this.venueDisplayBar(results[i],i, marker)
+ 
     }
 
   },
@@ -153,10 +151,12 @@ MapController.prototype = {
     $('.large-infobox').remove()
   },
 
-  venueDisplayBar:function(result,i){
+  venueDisplayBar:function(result,i, marker){
     console.log("in the venueDisplayBar of the MapController")
-    this.venueMarker.createMarkersScrollingBar(result,i)
-    $('.venues-display').css('visibility', 'visible')
+    console.log("Here is the marker")
+    console.log(marker)
+    this.venueMarker.createMarkersScrollingBar(result,i,marker)
+    $('#venues-display').css('visibility', 'visible')
 
   },
 
