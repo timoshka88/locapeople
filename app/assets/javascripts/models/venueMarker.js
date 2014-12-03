@@ -22,10 +22,10 @@ VenueMarker.prototype = {
 		
 		
 		$('#venues-display').append(venueSmallBox)
-		var li = $('ul#venues-display li').get(i)
-		console.log(li)
-		li.onclick = function() {console.log("heeey") 
-			google.maps.event.trigger(marker, 'click')}
+		// var li = $('ul#venues-display li').get(i)
+		// console.log(li)
+		// li.onclick = function() {console.log("heeey") 
+		// google.maps.event.trigger(marker, 'click')}
 
 	},
 

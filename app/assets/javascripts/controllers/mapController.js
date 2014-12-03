@@ -35,7 +35,7 @@ MapController.prototype = {
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
-    // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
+    $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
   },
 
@@ -156,6 +156,10 @@ MapController.prototype = {
     console.log("Here is the marker")
     this.venueMarker.createMarkersScrollingBar(result,i,marker)
     $('#venues-display').css('visibility', 'visible')
+    var li = $('ul#venues-display li').get(i)
+    console.log(li)
+    li.onclick = function() {console.log("heeey") 
+    google.maps.event.trigger(marker, 'click')}
 
   },
 
