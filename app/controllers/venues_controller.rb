@@ -67,7 +67,8 @@ class VenuesController < ApplicationController
     # params[:venue_hashes].each do |venue_hash|
     #   p "Here is a venue #{venue_hash}"
 
-      @venue = Venue.new(params[:venue].permit(:place_id, :lat, :lng))
+      @venue = Venue.create_with(params[:venue].permit(:lat,:lng)).find_or_create_by(params[:venue].permit(:place_id))
+      
       respond_to do |format|
       if @venue.save
         format.html { redirect_to venues_path}
