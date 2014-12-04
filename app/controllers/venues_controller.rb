@@ -57,6 +57,7 @@ class VenuesController < ApplicationController
   # POST /venues
   # POST /venues.json
   def create
+    
     @venue = Venue.new(params[:venue])
 
     respond_to do |format|
@@ -105,7 +106,3 @@ class VenuesController < ApplicationController
     end
 
 end
-
-    # def venue_params
-    #   params.require(:venue).permit(:id, {:lookup_venue_type_ids => []}, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id)
-    # end

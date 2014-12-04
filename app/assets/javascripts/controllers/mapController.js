@@ -99,6 +99,8 @@ MapController.prototype = {
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
 
+    this.extractInfoForDb(results)
+
     this.view.clearMarkers(this.markers)
     this.venueMarker.clearMarkerScrollingBar()
     this.markers = this.venueMarker.createMarkers(results)
@@ -107,18 +109,27 @@ MapController.prototype = {
     
     for(var i=0; i < results.length; i++) {
       
+      console.log("these are the RESULTS")
+      console.log(results)
+
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
+
       var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker.placeResult)
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
+
       google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
       this.venueDisplayBar(results[i],i, marker)
  
     }
 
   },
+
+  extractInfoForDb:function(results){
+    console.log("I'm in the extractInfoForDb")
+  }
 
   smallInfoBox: function(marker, map, infoWindow) {
     console.log("i'm in the bindInfoWindow")
