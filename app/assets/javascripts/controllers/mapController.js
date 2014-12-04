@@ -108,10 +108,10 @@ MapController.prototype = {
     this.view.placeMarkers(this.markers)
     
     for(var i=0; i < results.length; i++) {
-      
-      console.log("these are the RESULTS")
-      console.log(results)
-
+      // console.log("EXAMPLE:")
+      // console.log(results[0].geometry)
+      // console.log(results[0].geometry.location)
+      // console.log(results[0].geometry.location.lat())
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
 
@@ -129,7 +129,19 @@ MapController.prototype = {
 
   extractInfoForDb:function(results){
     console.log("I'm in the extractInfoForDb")
-  }
+    console.log(results)
+    var venues = new Array()
+    for(var i=0; i< results.length; i++) {
+      var place_id = results[i].place_id
+      var lat = results[i].geometry.location.lat()
+      var lng = results[i].geometry.location.lng()
+      var venue = {"place_id": place_id, "lat": lat, "lng": lng }
+      venues.push(venue)
+    }
+    console.log("THIS IS THE END RESULT FOR THE VENUES ARRAY FOR RAILS")
+    console.log(venues)
+
+  },
 
   smallInfoBox: function(marker, map, infoWindow) {
     console.log("i'm in the bindInfoWindow")
