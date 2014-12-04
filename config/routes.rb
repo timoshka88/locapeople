@@ -8,11 +8,8 @@ LocaPeople::Application.routes.draw do
 
   resources :users
 
-  
-  # get  '/venues/detailed_info',  to: 'venues#detailed_info'
 
   resources :venues
-
 
 
   root :to => 'pages#landingPage'

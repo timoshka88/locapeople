@@ -99,7 +99,7 @@ MapController.prototype = {
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
 
-    this.extractInfoForDb(results)
+
 
     this.view.clearMarkers(this.markers)
     this.venueMarker.clearMarkerScrollingBar()
@@ -108,10 +108,7 @@ MapController.prototype = {
     this.view.placeMarkers(this.markers)
     
     for(var i=0; i < results.length; i++) {
-      // console.log("EXAMPLE:")
-      // console.log(results[0].geometry)
-      // console.log(results[0].geometry.location)
-      // console.log(results[0].geometry.location.lat())
+
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
 
@@ -125,12 +122,13 @@ MapController.prototype = {
  
     }
 
+    this.extractInfoForDb(results)
+
   },
 
   extractInfoForDb:function(results){
     console.log("I'm in the extractInfoForDb")
-    // console.log(results)
-    var venues = new Array()
+
     for(var i=0; i< results.length; i++) {
       var place_id = results[i].place_id
       var lat = results[i].geometry.location.lat()
@@ -138,7 +136,7 @@ MapController.prototype = {
       var venue = {place_id: place_id, lat: lat, lng: lng }
       $.ajax({
       type:'post',
-      url:"/venues",
+      url: '/venues',
       data: {venue:venue},
       }).done(function(){
           console.log("SUCCESS")

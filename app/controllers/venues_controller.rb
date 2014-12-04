@@ -57,15 +57,6 @@ class VenuesController < ApplicationController
   # POST /venues
   # POST /venues.json
   def create
-    # @venues = []
-    # if params[:venues].is_a?(Hash)
-    #   @venue_hashes = params[:venues].values
-    # else
-    #   @venue_hashes = params[:venues]
-    # end
-
-    # params[:venue_hashes].each do |venue_hash|
-    #   p "Here is a venue #{venue_hash}"
 
       @venue = Venue.create_with(params[:venue].permit(:lat,:lng)).find_or_create_by(params[:venue].permit(:place_id))
       
@@ -76,20 +67,6 @@ class VenuesController < ApplicationController
       end
     end
 
-    # end
-
-
-    # @venue = Venue.new(params[:venue])
-
-    # respond_to do |format|
-    #   if @venue.save
-    #     format.html { redirect_to @venue, notice: 'Venue was successfully created.' }
-    #     format.json { render json: @venue, status: :created, location: @venue }
-    #   else
-    #     format.html { render action: "new" }
-    #     format.json { render json: @venue.errors, status: :unprocessable_entity }
-    #   end
-    # end
   end
 
   # PUT /venues/1
