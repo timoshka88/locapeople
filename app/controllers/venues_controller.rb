@@ -57,17 +57,16 @@ class VenuesController < ApplicationController
   # POST /venues
   # POST /venues.json
   def create
-    @venue = Venue.new(params[:venue])
 
-    respond_to do |format|
+      @venue = Venue.create_with(params[:venue].permit(:lat,:lng)).find_or_create_by(params[:venue].permit(:place_id))
+      
+      respond_to do |format|
       if @venue.save
-        format.html { redirect_to @venue, notice: 'Venue was successfully created.' }
-        format.json { render json: @venue, status: :created, location: @venue }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @venue.errors, status: :unprocessable_entity }
+        format.html { redirect_to venues_path}
+        format.json { render json: @venue, status: :created }
       end
     end
+
   end
 
   # PUT /venues/1
@@ -101,11 +100,7 @@ class VenuesController < ApplicationController
   private
 
     def venue_params
-      params.require(:venue).permit(:id, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id, {:lookup_venue_type_ids => []}) 
+      params.require(:venue).permit(:id, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id, {:lookup_venue_type_ids => []}, :lat, :lng, :place_id) 
     end
 
 end
-
-    # def venue_params
-    #   params.require(:venue).permit(:id, {:lookup_venue_type_ids => []}, :name, :address, :email, :website, :phone, :alt_phone, :minimum_age, :description, :whats_cool, :tips_and_tricks, :outdoor_seating, :entrance_fee, :wheelchair_access, :gay_friendly, :owner_id, :lookup_parking_type_id, :lookup_city_id)
-    # end

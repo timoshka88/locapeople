@@ -56,7 +56,7 @@ MapController.prototype = {
     console.log("in the onPlaceChange of MapController")
     
     console.log('this is autocomplete')
-    console.log(autocomplete.getPlace().formatted_address)
+    // console.log(autocomplete.getPlace().formatted_address)
 
     this.place = autocomplete.getPlace()
     this.getSelectedDistance()
@@ -65,7 +65,7 @@ MapController.prototype = {
     this.checkDistanceSelection()
 
     this.query = "establishments " + this.place.formatted_address
-    console.log(this.query)
+    // console.log(this.query)
     
     console.log(this.place.geometry.location)
 
@@ -88,16 +88,18 @@ MapController.prototype = {
       types: this.venueTypes,
     };
 
-    console.log(search.query)
-    console.log(search.types)
-    console.log(search.location)
-    console.log(search.radius)
+    // console.log(search.query)
+    // console.log(search.types)
+    // console.log(search.location)
+    // console.log(search.radius)
 
     places.textSearch(search, this.placeMarkers.bind(this))
   },
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
+
+
 
     this.view.clearMarkers(this.markers)
     this.venueMarker.clearMarkerScrollingBar()
@@ -106,18 +108,41 @@ MapController.prototype = {
     this.view.placeMarkers(this.markers)
     
     for(var i=0; i < results.length; i++) {
-      
+
       this.markers[i].placeResult = results[i]
       var marker = this.markers[i]
+
       var venueSmallInfoBox = HandlebarsTemplates['venues/venue_small_infobox'](marker.placeResult)
       var infoWindow = new google.maps.InfoWindow()
       infoWindow.setContent(venueSmallInfoBox)
       this.smallInfoBox(marker, this.map, infoWindow)
+
       google.maps.event.addListener(this.markers[i], 'click', this.showLargeInfoWindow)
       this.venueDisplayBar(results[i],i, marker)
  
     }
 
+    this.extractInfoForDb(results)
+
+  },
+
+  extractInfoForDb:function(results){
+    console.log("I'm in the extractInfoForDb")
+
+    for(var i=0; i< results.length; i++) {
+      var place_id = results[i].place_id
+      var lat = results[i].geometry.location.lat()
+      var lng = results[i].geometry.location.lng()
+      var venue = {place_id: place_id, lat: lat, lng: lng }
+      $.ajax({
+      type:'post',
+      url: '/venues',
+      data: {venue:venue},
+      }).done(function(){
+          console.log("SUCCESS")
+      })
+      
+    }
   },
 
   smallInfoBox: function(marker, map, infoWindow) {
@@ -177,7 +202,7 @@ MapController.prototype = {
       venueTypes.push($(value).attr("value"))
     })
     this.venueTypes = venueTypes
-    console.log(this.venueTypes)
+    // console.log(this.venueTypes)
   },
 
   getSelectedDistance:function(){
@@ -185,7 +210,7 @@ MapController.prototype = {
     var value = $("#kmValue").val()
     value = value.split(' ')[0]
     this.distanceValue = parseInt(value) * 1000
-    console.log(this.distanceValue)
+    // console.log(this.distanceValue)
   },
 
 
@@ -201,7 +226,7 @@ MapController.prototype = {
       console.log("i'm in the else of venueTypes")
       this.venueTypes = ['bar', 'night_club', 'cafe', 'restaurant']
     }
-    console.log(this.venueTypes)
+    // console.log(this.venueTypes)
   },
 
   checkDistanceSelection:function(){
@@ -214,7 +239,7 @@ MapController.prototype = {
       console.log("i'm in the else of distanceValue")
       this.distanceValue = 3000
     }
-    console.log(this.distanceValue)
+    // console.log(this.distanceValue)
   }
 
 }
