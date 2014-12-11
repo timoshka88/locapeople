@@ -35,7 +35,7 @@ MapController.prototype = {
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
-    $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
+    // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
   },
 
