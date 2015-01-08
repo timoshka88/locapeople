@@ -23,7 +23,6 @@ MapController.prototype = {
 		this.view.drawMap()
     this.places = this.view.callPlaceApi()
     this.setListeners()
-    // this.setAjaxListeners()
     this.autoGeolocation()
     this.autocomplete = this.view.googleAutocomplete()
 
@@ -37,14 +36,6 @@ MapController.prototype = {
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
     // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
-  },
-
-  setAjaxListeners: function(){
-    console.log("I'm in the setAjaxListeners function of MapController")
-    $('#search').on('ajax:success', this.placeMarkers.bind(this))
-    $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
-    $('#search').on('ajax:success', this.clearForm.bind(this))
-    $('#search').on('ajax:error', function(){console.log("Error while searching")})
   },
 
   changeDistanceValue:function(event){
