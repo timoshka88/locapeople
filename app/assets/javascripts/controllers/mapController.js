@@ -140,11 +140,9 @@ MapController.prototype = {
     console.log("i'm in the bindInfoWindow")
     google.maps.event.addListener(marker, 'mouseover', function() {
       infoWindow.open(this.map, marker)
-      marker.setAnimation(google.maps.Animation.BOUNCE)
     });
     google.maps.event.addListener(marker, 'mouseout', function() {
       infoWindow.close()
-      marker.setAnimation(null)
     });
   },
 
