@@ -170,14 +170,34 @@ MapController.prototype = {
     console.log("Here is the marker")
     this.venueMarker.createMarkersScrollingBar(result)
     $('#venues-display').css('visibility', 'visible')
-    
     this.triggerMarkerClickShowLB(i, marker)
+    this.triggerHoverEffect(i,marker)
+    // $('li.venue-info').hover(this.markerBounce(i, marker), this.markerStopBounce(i, marker))
   },
 
   triggerMarkerClickShowLB:function(i, marker){
     var seeDetails = $('ul#venues-display li button').get(i)
     seeDetails.onclick = function() {
     google.maps.event.trigger(marker, 'click')}
+  },
+
+  triggerHoverEffect:function(i, marker){
+    console.log("im in the ")
+    console.log(i)
+    var venueBox = $('ul#venues-display li').get(i)
+    console.log(venueBox)
+    $(venueBox).hover(function(){console.log('IN')}, function(){console.log("OUT")})
+  },
+
+  markerBounce: function(i, marker){
+    console.log("i'm in the markerBounce")
+    console.log(marker)
+    marker.setAnimation(google.maps.Animation.BOUNCE)
+  },
+
+  markerStopBounce: function(i, marker){
+    console.log("i'm in the markerStopBounce")
+    marker.setAnimation(null)
   },
 
   autoGeolocation: function(){
