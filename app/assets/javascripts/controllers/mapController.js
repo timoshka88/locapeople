@@ -23,7 +23,6 @@ MapController.prototype = {
 		this.view.drawMap()
     this.places = this.view.callPlaceApi()
     this.setListeners()
-    // this.setAjaxListeners()
     this.autoGeolocation()
     this.autocomplete = this.view.googleAutocomplete()
 
@@ -35,16 +34,8 @@ MapController.prototype = {
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
-    $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
+    // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
-  },
-
-  setAjaxListeners: function(){
-    console.log("I'm in the setAjaxListeners function of MapController")
-    $('#search').on('ajax:success', this.placeMarkers.bind(this))
-    $('#search').on('ajax:success', this.venueDisplayBar.bind(this))
-    $('#search').on('ajax:success', this.clearForm.bind(this))
-    $('#search').on('ajax:error', function(){console.log("Error while searching")})
   },
 
   changeDistanceValue:function(event){
@@ -151,7 +142,7 @@ MapController.prototype = {
       infoWindow.open(this.map, marker)
     });
     google.maps.event.addListener(marker, 'mouseout', function() {
-      infoWindow.close();
+      infoWindow.close()
     });
   },
 
@@ -179,14 +170,29 @@ MapController.prototype = {
     console.log("Here is the marker")
     this.venueMarker.createMarkersScrollingBar(result)
     $('#venues-display').css('visibility', 'visible')
-    
     this.triggerMarkerClickShowLB(i, marker)
+    this.triggerHoverEffect(i,marker)
+    // $('li.venue-info').hover(this.markerBounce(i, marker), this.markerStopBounce(i, marker))
   },
 
   triggerMarkerClickShowLB:function(i, marker){
     var seeDetails = $('ul#venues-display li button').get(i)
     seeDetails.onclick = function() {
     google.maps.event.trigger(marker, 'click')}
+  },
+
+  triggerHoverEffect:function(i, marker){
+    var venueBox = $('ul#venues-display li').get(i)
+    $(venueBox).hover(
+      function(){
+        marker.setAnimation(google.maps.Animation.BOUNCE)
+        marker.setIcon('assets/1420845418_down2.png')
+
+      },
+      function(){
+        marker.setAnimation(null)
+        marker.setIcon()
+      })
   },
 
   autoGeolocation: function(){
