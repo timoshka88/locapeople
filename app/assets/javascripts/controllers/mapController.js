@@ -182,22 +182,13 @@ MapController.prototype = {
   },
 
   triggerHoverEffect:function(i, marker){
-    console.log("im in the ")
-    console.log(i)
     var venueBox = $('ul#venues-display li').get(i)
-    console.log(venueBox)
-    $(venueBox).hover(function(){console.log('IN')}, function(){console.log("OUT")})
-  },
-
-  markerBounce: function(i, marker){
-    console.log("i'm in the markerBounce")
-    console.log(marker)
-    marker.setAnimation(google.maps.Animation.BOUNCE)
-  },
-
-  markerStopBounce: function(i, marker){
-    console.log("i'm in the markerStopBounce")
-    marker.setAnimation(null)
+    $(venueBox).hover(
+      function(){
+        marker.setAnimation(google.maps.Animation.BOUNCE)}, 
+      function(){
+        marker.setAnimation(null)
+      })
   },
 
   autoGeolocation: function(){
