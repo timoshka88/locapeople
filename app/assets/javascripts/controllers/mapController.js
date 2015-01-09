@@ -186,7 +186,7 @@ MapController.prototype = {
     $(venueBox).hover(
       function(){
         marker.setAnimation(google.maps.Animation.BOUNCE)
-        marker.setIcon('assets/1420845451_start-here-ubuntustudio.png')
+        marker.setIcon('assets/1420845418_down2.png')
 
       },
       function(){
