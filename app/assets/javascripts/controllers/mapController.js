@@ -185,9 +185,13 @@ MapController.prototype = {
     var venueBox = $('ul#venues-display li').get(i)
     $(venueBox).hover(
       function(){
-        marker.setAnimation(google.maps.Animation.BOUNCE)}, 
+        marker.setAnimation(google.maps.Animation.BOUNCE)
+        marker.setIcon('assets/1420845451_start-here-ubuntustudio.png')
+
+      },
       function(){
         marker.setAnimation(null)
+        marker.setIcon()
       })
   },
 
