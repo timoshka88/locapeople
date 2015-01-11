@@ -71,6 +71,7 @@ MapController.prototype = {
   search:function(){
     console.log("i'm in the search")
     this.view.clearForm()
+    this.view.toggleSearchBox() //see if this can be placed in a better place
     // this.places = this.view.callPlaceApi()
 
     var search = {
@@ -112,6 +113,8 @@ MapController.prototype = {
       this.venueDisplayBar(results[i],i, marker)
  
     }
+
+    
 
     this.extractInfoForDb(results)
 

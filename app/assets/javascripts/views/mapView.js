@@ -44,6 +44,7 @@ MapView.prototype = {
 		for (var i = 0; i < markers.length; i++){
 			markers[i].setMap(map)
 		}
+
 	},
 
 	clearMarkers: function(markers){
@@ -113,6 +114,7 @@ MapView.prototype = {
   },
 
   toggleScrollBar:function(){
+  	// rethink this method and find a way to make this cleaner
   	console.log("everyday I'm toggling'n")
 
   	$('#venues-display').toggle('slide')
