@@ -101,11 +101,13 @@ MapView.prototype = {
   		$('.search').slideDown("slow")
   		$('img#bot-search').attr('src', 'assets/Arrow-up-2-icon.png')
   		$('#search-box').css({"background-color":"rgba(0,0,0,0.5)","box-shadow":"5px 8px 5px 0px rgba(0,0,0,0.75)"})
+  		$('img#bot-search').css({"display":'block', "margin-left":'auto', "margin-right":'auto'})
   	}
   	else {
   		$('.search').slideUp()
   		$('img#bot-search').attr('src', 'assets/hitchhikeguidetogalaxy1_search.png')
   		$('#search-box').css({"background-color":"rgba(0,0,0,0)","box-shadow":"0px 0px rgba(0,0,0,0)"})
+  		$('img#bot-search').css({"display":'block', "margin-left":'0', "margin-right":'0'})
   	}
 
   }
