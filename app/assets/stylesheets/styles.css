@@ -202,7 +202,7 @@ html, body, #map-canvas {
 		background-color: white;
 		border-radius: 5px;
 		border: solid;
-		display: none;
+		/*display: none;*/
 		padding-left: 0;
 }
 #venues-display li {
