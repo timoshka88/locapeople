@@ -159,30 +159,33 @@ html, body, #map-canvas {
   width: 60%;
   max-width: 300px;
   position:absolute;
-  background-color:rgba(0,0,0,0.5);
+  /*background-color:rgba(0,0,0,0.5);*/
 	top: 0px;
-  left: 40%;
+  left: 1%;
   z-index: 1;
   padding-right: 10px;
   border-radius:5px;
-  box-shadow: 5px 8px 5px 0px rgba(0,0,0,0.75);
+  /*box-shadow: 5px 8px 5px 0px rgba(0,0,0,0.75);*/
 }
 
 #my-location {
 	position:absolute;
 	z-index: 1;
 	top: 0px;
-	left: 20%
+	left: 20%;
+	margin-left: 50px
 }
 
 #expand-collapse {
 	border-top: solid rgb(255, 249, 249) 1px;
+	background-color:rgba(0,0,0,0);
+
 }
 
 #bot-search{
-	display: block;
+/*	display: block;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;*/
 }
 
 /* Table Styling for Venue display  */
