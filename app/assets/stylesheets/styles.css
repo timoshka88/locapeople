@@ -184,12 +184,18 @@ html, body, #map-canvas {
 
 #expand-collapse-scroll-bar{
 	width: auto;
-	position: absolute; 
+	/*position: absolute; */
 	float: left;
-	bottom: 23%;
+	/*bottom: 23%;*/
 	z-index: 3;
 	left: 0.9%;
 
+}
+
+.venue-scroll-bar{
+		z-index: 3;
+		bottom: 0.5%;
+		position: absolute;
 }
 
 
@@ -200,7 +206,7 @@ html, body, #map-canvas {
     width:100%;
     overflow:auto;
     white-space:nowrap;
-    position: absolute;
+    /*position: absolute;*/
 		z-index: 3;
 		bottom: 0.5%;
 		left:0.5%;
@@ -210,7 +216,7 @@ html, body, #map-canvas {
 		border: solid;
 		/*display: none;*/
 		padding-left: 0;
-		float: right;
+		/*float: right;*/
 }
 #venues-display li {
     display: inline-block;

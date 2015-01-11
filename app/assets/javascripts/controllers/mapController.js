@@ -72,6 +72,7 @@ MapController.prototype = {
     console.log("i'm in the search")
     this.view.clearForm()
     this.view.toggleSearchBox() //see if this can be placed in a better place
+    this.view.toggleScrollBar()
     // this.places = this.view.callPlaceApi()
 
     var search = {
