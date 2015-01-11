@@ -97,7 +97,7 @@ MapController.prototype = {
 
     this.view.placeMarkers(this.markers)
 
-    $('#venues-display').append('<img src="assets/bot_back.png">')
+    $('#venues-display').append('<img id="exp-coll-scroll-bar " src="assets/bot_back.png">')
     
     for(var i=0; i < results.length; i++) {
 

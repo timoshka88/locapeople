@@ -203,6 +203,7 @@ html, body, #map-canvas {
 		border-radius: 5px;
 		border: solid;
 		display: none;
+		padding-left: 0;
 }
 #venues-display li {
     display: inline-block;
