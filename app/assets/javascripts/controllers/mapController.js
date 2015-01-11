@@ -168,7 +168,7 @@ MapController.prototype = {
     console.log("in the venueDisplayBar of the MapController")
     console.log("Here is the marker")
     this.venueMarker.createMarkersScrollingBar(result)
-    $('#venues-display').css('visibility', 'visible')
+    $('#venues-display').css('display', 'block')
     this.triggerMarkerClickShowLB(i, marker)
     this.triggerHoverEffect(i,marker)
     // $('li.venue-info').hover(this.markerBounce(i, marker), this.markerStopBounce(i, marker))
