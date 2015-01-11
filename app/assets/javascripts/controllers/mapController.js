@@ -96,6 +96,8 @@ MapController.prototype = {
     this.markers = this.venueMarker.createMarkers(results)
 
     this.view.placeMarkers(this.markers)
+
+    $('#venues-display').append('<img src="assets/bot_back.png">')
     
     for(var i=0; i < results.length; i++) {
 
