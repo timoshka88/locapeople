@@ -99,7 +99,7 @@ MapView.prototype = {
   expandSearchBox:function(){
   	if ($('.search').is(':hidden')) {
   		$('.search').slideDown("slow")
-  		$('img#bot-search').attr('src', 'assets/1420966837_collapse2-20.png')
+  		$('img#bot-search').attr('src', 'assets/Arrow-up-2-icon.png')
   	}
   	else {
   		$('.search').slideUp()
