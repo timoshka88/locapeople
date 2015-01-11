@@ -176,7 +176,13 @@ html, body, #map-canvas {
 }
 
 #expand-collapse {
-	border-top: solid rgb(255, 249, 249) 1px
+	border-top: solid rgb(255, 249, 249) 1px;
+}
+
+#bot-search{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Table Styling for Venue display  */
