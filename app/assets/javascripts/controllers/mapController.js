@@ -14,6 +14,7 @@ function MapController(mapView){
   this.distanceValue
   this.venueTypes = []
   this.venueInfo = $('.venues-display li')
+  this.spinner = new Spinner()
 
 }
 
@@ -45,10 +46,9 @@ MapController.prototype = {
 
   onPlaceChange:function(){
     console.log("in the onPlaceChange of MapController")
-    
+  
     console.log('this is autocomplete')
-    // console.log(autocomplete.getPlace().formatted_address)
-
+    
     this.place = autocomplete.getPlace()
     this.getSelectedDistance()
   
@@ -68,6 +68,9 @@ MapController.prototype = {
   },
 
   search:function(){
+    this.spinner.spin()
+    $('body').append(this.spinner.el)
+
     console.log("i'm in the search")
     this.view.clearForm()
     // this.places = this.view.callPlaceApi()
@@ -89,7 +92,7 @@ MapController.prototype = {
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
-
+    this.spinner.stop()
 
 
     this.view.clearMarkers(this.markers)
@@ -185,7 +188,7 @@ MapController.prototype = {
     var venueBox = $('ul#venues-display li').get(i)
     $(venueBox).hover(
       function(){
-        marker.setAnimation(google.maps.Animation.BOUNCE)
+        marker.setAnimation(google.maps.Animation.DROP)
         marker.setIcon('assets/1420845418_down2.png')
 
       },
@@ -198,7 +201,8 @@ MapController.prototype = {
   autoGeolocation: function(){
     console.log ("in the autoGeolocation")
     this.view.clearMarkers(this.markers) //seems to be too slow..and first performing clear markers and then autolocating...check that, how to make faster
-    this.view.autoGeolocation()  
+    this.view.autoGeolocation()
+
   },
 
   userVenueTypeChoice: function(){
