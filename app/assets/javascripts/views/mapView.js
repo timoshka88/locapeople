@@ -100,10 +100,12 @@ MapView.prototype = {
   	if ($('.search').is(':hidden')) {
   		$('.search').slideDown("slow")
   		$('img#bot-search').attr('src', 'assets/Arrow-up-2-icon.png')
+  		$('#search-box').css({"background-color":"rgba(0,0,0,0.5)","box-shadow":"5px 8px 5px 0px rgba(0,0,0,0.75)"})
   	}
   	else {
   		$('.search').slideUp()
   		$('img#bot-search').attr('src', 'assets/hitchhikeguidetogalaxy1_search.png')
+  		$('#search-box').css({"background-color":"rgba(0,0,0,0)","box-shadow":"0px 0px rgba(0,0,0,0)"})
   	}
 
   }
