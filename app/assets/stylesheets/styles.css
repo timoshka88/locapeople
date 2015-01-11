@@ -182,13 +182,18 @@ html, body, #map-canvas {
 
 }
 
-#bot-search{
-/*	display: block;
-	margin-left: auto;
-	margin-right: auto;*/
+#expand-collapse-scroll-bar{
+	width: auto;
+	position: absolute; 
+	float: left;
+	bottom: 23%;
+	z-index: 3;
+
 }
 
+
 /* Table Styling for Venue display  */
+
 
 #venues-display {
     width:100%;
@@ -204,6 +209,7 @@ html, body, #map-canvas {
 		border: solid;
 		/*display: none;*/
 		padding-left: 0;
+		float: right;
 }
 #venues-display li {
     display: inline-block;
