@@ -1,5 +1,5 @@
 <div id = 'search-box'>
-	<div>
+	<div class='search hidden'>
 	<%= form_tag('/venues', :method => :get, :id => 'search', :remote => true) do %>
 
 	  <%= text_field_tag :search, params[:search], :id => 'autocomplete', placeholder: "City" %>
