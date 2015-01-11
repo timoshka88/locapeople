@@ -173,6 +173,7 @@ MapController.prototype = {
     console.log("Here is the marker")
     this.venueMarker.createMarkersScrollingBar(result)
     $('.venue-scroll-bar').css('display', 'block')
+    $('#venues-display').css('display', 'block')
     this.triggerMarkerClickShowLB(i, marker)
     this.triggerHoverEffect(i,marker)
     // $('li.venue-info').hover(this.markerBounce(i, marker), this.markerStopBounce(i, marker))

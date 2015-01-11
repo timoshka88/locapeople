@@ -117,15 +117,27 @@ MapView.prototype = {
   	// rethink this method and find a way to make this cleaner
   	console.log("everyday I'm toggling'n")
 
-  	$('#venues-display').toggle('slide')
-  	if($('#expand-collapse-scroll-bar img').attr('src') === 'assets/arrow_down.png'){
+  	if($('#venues-display').is(':hidden')){
+  		$('#venues-display').show('slow')
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+  		$('#expand-collapse-scroll-bar').animate({'bottom':'+=22.5%'}, 'slide')
+
+  	}
+  	else {
+  		$('#venues-display').hide()
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
   		$('#expand-collapse-scroll-bar').animate({'bottom':'-=22.5%'}, 'slide')
   	}
-  	else {
-  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
-  		$('#expand-collapse-scroll-bar').animate({'bottom':'+=22.5%'}, 'slide')
-  	}
+
+  	// $('#venues-display').toggle('slide')
+  	// if($('#expand-collapse-scroll-bar img').attr('src') === 'assets/arrow_down.png'){
+  	// 	$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
+  	// 	$('#expand-collapse-scroll-bar').animate({'bottom':'-=22.5%'}, 'slide')
+  	// }
+  	// else {
+  	// 	$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+  	// 	$('#expand-collapse-scroll-bar').animate({'bottom':'+=22.5%'}, 'slide')
+  	// }
 
   }
 
