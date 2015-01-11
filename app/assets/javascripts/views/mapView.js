@@ -94,6 +94,18 @@ MapView.prototype = {
   googleAutocomplete: function(){
   	console.log("I'm in the view googleAutocomplete")
   	autocomplete = new google.maps.places.Autocomplete(this.userSearchInput, this.autocompleteOptions)
+  },
+
+  expandSearchBox:function(){
+  	if ($('.search').is(':hidden')) {
+  		$('.search').slideDown("slow")
+  		$('img#bot-search').attr('src', 'assets/1420966837_collapse2-20.png')
+  	}
+  	else {
+  		$('.search').slideUp()
+  		$('img#bot-search').attr('src', 'assets/hitchhikeguidetogalaxy1_search.png')
+  	}
+
   }
 
 
