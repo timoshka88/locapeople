@@ -35,6 +35,7 @@ MapController.prototype = {
     $('#my-location').on('click', this.autoGeolocation.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
     $('#bot-search').on('click', this.view.toggleSearchBox.bind(this))
+    $('#expand-collapse-scroll-bar').on('click', this.view.toggleScrollBar.bind(this))
     // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
   },

@@ -110,6 +110,21 @@ MapView.prototype = {
   		$('img#bot-search').css({"display":'block', "margin-left":'0', "margin-right":'0'})
   	}
 
+  },
+
+  toggleScrollBar:function(){
+  	console.log("everyday I'm toggling'n")
+
+  	$('#venues-display').toggle('slide')
+  	if($('#expand-collapse-scroll-bar img').attr('src') === 'assets/arrow_down.png'){
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
+  		$('#expand-collapse-scroll-bar').animate({'bottom':'-=22.5%'}, 'slide')
+  	}
+  	else {
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+  		$('#expand-collapse-scroll-bar').animate({'bottom':'+=22.5%'}, 'slide')
+  	}
+
   }
 
 
