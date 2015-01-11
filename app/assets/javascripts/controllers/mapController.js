@@ -14,7 +14,6 @@ function MapController(mapView){
   this.distanceValue
   this.venueTypes = []
   this.venueInfo = $('.venues-display li')
-  this.spinner = new Spinner()
 
 }
 
@@ -68,9 +67,6 @@ MapController.prototype = {
   },
 
   search:function(){
-    this.spinner.spin()
-    $('body').append(this.spinner.el)
-
     console.log("i'm in the search")
     this.view.clearForm()
     // this.places = this.view.callPlaceApi()
@@ -92,7 +88,6 @@ MapController.prototype = {
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
-    this.spinner.stop()
 
 
     this.view.clearMarkers(this.markers)
