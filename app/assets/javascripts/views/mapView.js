@@ -96,7 +96,7 @@ MapView.prototype = {
   	autocomplete = new google.maps.places.Autocomplete(this.userSearchInput, this.autocompleteOptions)
   },
 
-  expandSearchBox:function(){
+  toggleSearchBox:function(){
   	if ($('.search').is(':hidden')) {
   		$('.search').slideDown("slow")
   		$('img#bot-search').attr('src', 'assets/Arrow-up-2-icon.png')
