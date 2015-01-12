@@ -184,8 +184,8 @@ html, body, #map-canvas {
 
 #expand-collapse-scroll-bar{
 	width: auto;
-	/*position: absolute; */
-	float: left;
+	/*position: inherit; */
+	/*float: left;*/
 	/*bottom: 23%;*/
 	z-index: 3;
 	left: 0.9%;
@@ -196,6 +196,8 @@ html, body, #map-canvas {
 		z-index: 3;
 		bottom: 0.5%;
 		position: absolute;
+		width: 100%;
+		height: 22%;
 }
 
 
@@ -206,11 +208,11 @@ html, body, #map-canvas {
     width:100%;
     overflow:auto;
     white-space:nowrap;
-    /*position: absolute;*/
+    position: inherit;
 		z-index: 3;
 		bottom: 0.5%;
 		left:0.5%;
-		height: 21%;
+		/*height: 21%;*/
 		background-color: white;
 		border-radius: 5px;
 		border: solid;

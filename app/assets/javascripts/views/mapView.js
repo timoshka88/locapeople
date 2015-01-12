@@ -118,26 +118,15 @@ MapView.prototype = {
   	console.log("everyday I'm toggling'n")
 
   	if($('#venues-display').is(':hidden')){
-  		$('#venues-display').show('slow')
+  		$('#venues-display').show('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
-  		// $('#expand-collapse-scroll-bar').animate({'bottom':'+=22.5%'}, 'slide')
 
   	}
   	else {
-  		$('#venues-display').hide()
+  		$('#venues-display').hide('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
-  		// $('#expand-collapse-scroll-bar').animate({'bottom':'-=22.5%'}, 'slide')
   	}
 
-  	// $('#venues-display').toggle('slide')
-  	// if($('#expand-collapse-scroll-bar img').attr('src') === 'assets/arrow_down.png'){
-  	// 	$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
-  	// 	$('#expand-collapse-scroll-bar').animate({'bottom':'-=22.5%'}, 'slide')
-  	// }
-  	// else {
-  	// 	$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
-  	// 	$('#expand-collapse-scroll-bar').animate({'bottom':'+=22.5%'}, 'slide')
-  	// }
 
   }
 
