@@ -120,13 +120,13 @@ MapView.prototype = {
   	if($('#venues-display').is(':hidden')){
   		$('#venues-display').slideDown('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
-  		// $('#expand-collapse-scroll-bar img').animate("slide")
+  		//think of why the arrow is not moving right now, see how to fix that
 
   	}
   	else {
   		$('#venues-display').slideUp('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
-  		// $('#expand-collapse-scroll-bar img').animate("slide")
+
   	}
 
 
@@ -136,7 +136,6 @@ MapView.prototype = {
   	if($('#venues-display').is(':hidden')){
   		$('#venues-display').slideDown('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
-  		// $('#expand-collapse-scroll-bar img').animate("slide")
 
   	}
   }

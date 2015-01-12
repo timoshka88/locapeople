@@ -184,11 +184,11 @@ html, body, #map-canvas {
 
 #expand-collapse-scroll-bar{
 	width: auto;
-	/*position: inherit; */
+	position: inherit; 
 	/*float: left;*/
 	/*bottom: 23%;*/
 	z-index: 3;
-	left: 0.9%;
+	left: 1.2%;
 
 }
 
