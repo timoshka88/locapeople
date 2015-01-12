@@ -62,6 +62,7 @@ MapController.prototype = {
     console.log(this.place.geometry.location)
 
     this.view.slideupScrollBar()
+    
     if (this.place.geometry){
       this.view.centerMaponSearch(this.place.geometry)
       this.search()
