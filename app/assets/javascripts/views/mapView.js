@@ -118,16 +118,27 @@ MapView.prototype = {
   	console.log("everyday I'm toggling'n")
 
   	if($('#venues-display').is(':hidden')){
-  		$('#venues-display').show('slide')
+  		$('#venues-display').slideDown('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+  		// $('#expand-collapse-scroll-bar img').animate("slide")
 
   	}
   	else {
-  		$('#venues-display').hide('slide')
+  		$('#venues-display').slideUp('slide')
   		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
+  		// $('#expand-collapse-scroll-bar img').animate("slide")
   	}
 
 
+  },
+
+  slideupScrollBar:function(){
+  	if($('#venues-display').is(':hidden')){
+  		$('#venues-display').slideDown('slide')
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+  		// $('#expand-collapse-scroll-bar img').animate("slide")
+
+  	}
   }
 
 

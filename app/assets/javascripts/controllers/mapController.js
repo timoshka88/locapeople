@@ -61,6 +61,7 @@ MapController.prototype = {
     
     console.log(this.place.geometry.location)
 
+    this.view.slideupScrollBar()
     if (this.place.geometry){
       this.view.centerMaponSearch(this.place.geometry)
       this.search()
@@ -72,7 +73,7 @@ MapController.prototype = {
     console.log("i'm in the search")
     this.view.clearForm()
     this.view.toggleSearchBox() //see if this can be placed in a better place
-    // this.view.toggleScrollBar()
+    
     // this.places = this.view.callPlaceApi()
 
     var search = {
@@ -92,7 +93,6 @@ MapController.prototype = {
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
-
 
     this.view.clearMarkers(this.markers)
     this.venueMarker.clearMarkerScrollingBar()
@@ -172,6 +172,7 @@ MapController.prototype = {
   venueDisplayBar:function(result,i, marker){
     console.log("in the venueDisplayBar of the MapController")
     console.log("Here is the marker")
+
     this.venueMarker.createMarkersScrollingBar(result)
     $('.venue-scroll-bar').css('display', 'block')
     $('#venues-display').css('display', 'block')
