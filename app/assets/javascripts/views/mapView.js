@@ -44,6 +44,7 @@ MapView.prototype = {
 		for (var i = 0; i < markers.length; i++){
 			markers[i].setMap(map)
 		}
+
 	},
 
 	clearMarkers: function(markers){
@@ -94,6 +95,47 @@ MapView.prototype = {
   googleAutocomplete: function(){
   	console.log("I'm in the view googleAutocomplete")
   	autocomplete = new google.maps.places.Autocomplete(this.userSearchInput, this.autocompleteOptions)
+  },
+
+  toggleSearchBox:function(){
+  	if ($('.search').is(':hidden')) {
+  		$('.search').slideDown("slow")
+  		$('img#bot-search').attr('src', 'assets/Arrow-up-2-icon.png')
+  		$('#search-box').css({"background-color":"rgba(0,0,0,0.5)","box-shadow":"5px 8px 5px 0px rgba(0,0,0,0.75)"})
+  		$('img#bot-search').css({"display":'block', "margin-left":'auto', "margin-right":'auto'})
+  	}
+  	else {
+  		$('.search').slideUp()
+  		$('img#bot-search').attr('src', 'assets/hitchhikeguidetogalaxy1_search.png')
+  		$('#search-box').css({"background-color":"rgba(0,0,0,0)","box-shadow":"0px 0px rgba(0,0,0,0)"})
+  		$('img#bot-search').css({"display":'block', "margin-left":'0', "margin-right":'0'})
+  	}
+
+  },
+
+  toggleScrollBar:function(){
+  	// rethink this method and find a way to make this cleaner
+  	console.log("everyday I'm toggling'n")
+
+  	if($('#venues-display').is(':hidden')){
+  		$('#venues-display').slideDown('slide')
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+  		//think of why the arrow is not moving right now, see how to fix that
+  	}
+
+  	else {
+  		$('#venues-display').slideUp('slide')
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_up.png')
+  	}
+
+  },
+
+  slideupScrollBar:function(){
+  	if($('#venues-display').is(':hidden')){
+  		$('#venues-display').slideDown('slide')
+  		$('#expand-collapse-scroll-bar img').attr('src','assets/arrow_down.png')
+
+  	}
   }
 
 

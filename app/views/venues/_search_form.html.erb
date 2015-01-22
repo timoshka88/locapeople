@@ -1,32 +1,37 @@
 <div id = 'search-box'>
-<%= form_tag('/venues', :method => :get, :id => 'search', :remote => true) do %>
+	<div class='search hidden'>
+	<%= form_tag('/venues', :method => :get, :id => 'search', :remote => true) do %>
 
-  <%= text_field_tag :search, params[:search], :id => 'autocomplete', placeholder: "City" %>
-  <%= check_box_tag('venuetypes', 'bar') %>
-	<%= label_tag("Bars") %>
-	<%= check_box_tag('venuetypes','night_club') %>
-	<%= label_tag("Night Clubs") %>
-	<%= check_box_tag('venuetypes','food') %>
-	<%= label_tag("Hunger Games") %>
-	<%= check_box_tag('venuetypes','all') %>
-	<%= label_tag("Clairvoyant") %>
-	<br>
-	<%= label_tag("Distance of search") %>
-	<%= range_field_tag 'distance', 3, {in: 1..11, step:2, list:'distance-setting'} %>
-	<datalist id="distance-setting">
-		<option name='km' value="1">1</option>
-		<option name='km' value="3">3</option>
-		<option name='km' value="5">5</option>
-		<option name='km' value="7">7</option>
-		<option name='km' value="9">9</option>
-		<option name='km' value="11">11</option>
-	</datalist>
-	<output for=distance id="kmValue">3km</output>
-	
+	  <%= text_field_tag :search, params[:search], :id => 'autocomplete', placeholder: "City" %>
+	  <%= check_box_tag('venuetypes', 'bar') %>
+		<%= label_tag("Bars") %>
+		<%= check_box_tag('venuetypes','night_club') %>
+		<%= label_tag("Night Clubs") %>
+		<%= check_box_tag('venuetypes','food') %>
+		<%= label_tag("Hunger Games") %>
+		<%= check_box_tag('venuetypes','all') %>
+		<%= label_tag("Clairvoyant") %>
+		<br>
+		<%= label_tag("Distance of search") %>
+		<%= range_field_tag 'distance', 3, {in: 1..11, step:2, list:'distance-setting'} %>
+		<datalist id="distance-setting">
+			<option name='km' value="1">1</option>
+			<option name='km' value="3">3</option>
+			<option name='km' value="5">5</option>
+			<option name='km' value="7">7</option>
+			<option name='km' value="9">9</option>
+			<option name='km' value="11">11</option>
+		</datalist>
+		<output for=distance id="kmValue">3km</output>
+		
 
-  <div class="actions">
-    <%= submit_tag 'Search', :name => nil %>
-  </div>
-<% end %>
+	  <div class="actions">
+	    <%= submit_tag 'Search', :name => nil %>
+	  </div>
+	<% end %>
+	</div>
+	<div id="expand-collapse">
+		<img id='bot-search' src="assets/hitchhikeguidetogalaxy1_search.png">
+	</div>
 </div>
 <img src="assets/my_location.png" id="my-location">

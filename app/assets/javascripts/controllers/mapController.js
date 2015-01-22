@@ -34,6 +34,8 @@ MapController.prototype = {
     $('#distance').change(this.changeDistanceValue.bind(this))
     $('#my-location').on('click', this.autoGeolocation.bind(this))
     $(document).on('click', '.close-infobox', this.closeLargeInfoWindow.bind(this))
+    $('#bot-search').on('click', this.view.toggleSearchBox.bind(this))
+    $('#expand-collapse-scroll-bar').on('click', this.view.toggleScrollBar.bind(this))
     // $(document).mouseup(this.closeLargeInfoWindow.bind(this)) //might need to change
 
   },
@@ -45,10 +47,9 @@ MapController.prototype = {
 
   onPlaceChange:function(){
     console.log("in the onPlaceChange of MapController")
-    
+  
     console.log('this is autocomplete')
-    // console.log(autocomplete.getPlace().formatted_address)
-
+    
     this.place = autocomplete.getPlace()
     this.getSelectedDistance()
   
@@ -60,6 +61,8 @@ MapController.prototype = {
     
     console.log(this.place.geometry.location)
 
+    this.view.slideupScrollBar()
+    
     if (this.place.geometry){
       this.view.centerMaponSearch(this.place.geometry)
       this.search()
@@ -70,6 +73,8 @@ MapController.prototype = {
   search:function(){
     console.log("i'm in the search")
     this.view.clearForm()
+    this.view.toggleSearchBox() //see if this can be placed in a better place
+    
     // this.places = this.view.callPlaceApi()
 
     var search = {
@@ -89,8 +94,6 @@ MapController.prototype = {
  
   placeMarkers: function(results, status){
     console.log("i'm in the placeMarkers of mapcontroller")
-
-
 
     this.view.clearMarkers(this.markers)
     this.venueMarker.clearMarkerScrollingBar()
@@ -112,6 +115,8 @@ MapController.prototype = {
       this.venueDisplayBar(results[i],i, marker)
  
     }
+
+    
 
     this.extractInfoForDb(results)
 
@@ -168,8 +173,10 @@ MapController.prototype = {
   venueDisplayBar:function(result,i, marker){
     console.log("in the venueDisplayBar of the MapController")
     console.log("Here is the marker")
+
     this.venueMarker.createMarkersScrollingBar(result)
-    $('#venues-display').css('visibility', 'visible')
+    $('.venue-scroll-bar').css('display', 'block')
+    $('#venues-display').css('display', 'block')
     this.triggerMarkerClickShowLB(i, marker)
     this.triggerHoverEffect(i,marker)
     // $('li.venue-info').hover(this.markerBounce(i, marker), this.markerStopBounce(i, marker))
@@ -185,7 +192,7 @@ MapController.prototype = {
     var venueBox = $('ul#venues-display li').get(i)
     $(venueBox).hover(
       function(){
-        marker.setAnimation(google.maps.Animation.BOUNCE)
+        marker.setAnimation(google.maps.Animation.DROP)
         marker.setIcon('assets/1420845418_down2.png')
 
       },
@@ -198,7 +205,8 @@ MapController.prototype = {
   autoGeolocation: function(){
     console.log ("in the autoGeolocation")
     this.view.clearMarkers(this.markers) //seems to be too slow..and first performing clear markers and then autolocating...check that, how to make faster
-    this.view.autoGeolocation()  
+    this.view.autoGeolocation()
+
   },
 
   userVenueTypeChoice: function(){
