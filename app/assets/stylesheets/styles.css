@@ -186,7 +186,7 @@ html, body, #map-canvas {
 	width: auto;
 	position: inherit; 
 	/*float: left;*/
-	/*bottom: 23%;*/
+	bottom: 90%;
 	z-index: 3;
 	left: 1.2%;
 
