@@ -39,9 +39,16 @@
 					<span class="sdt_descr">Login/Signup</span>
 				</span>
 			</a>
+			<% if user_signed_in? %>
+				<div class="sdt_box">
+					<%= link_to "Your Profile", user_path(current_user.id) %>
+				</div>
+				
+			<% else %>
 				<div class="sdt_box">
 					<%= link_to "Facebook", "/auth/facebook", id:'sign_in' %>
 				</div>
+			<% end %>
 		</li>
 		<li>
 			<a href="#">
