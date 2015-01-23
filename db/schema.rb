@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141001181015) do
+ActiveRecord::Schema.define(version: 20150123043305) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -347,6 +347,10 @@ ActiveRecord::Schema.define(version: 20141001181015) do
     t.integer  "lookup_relationship_status_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "oauth_token"
+    t.datetime "oauth_expires_at"
   end
 
   create_table "venue_classifications", force: true do |t|
