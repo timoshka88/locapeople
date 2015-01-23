@@ -46,4 +46,19 @@ class User < ActiveRecord::Base
   belongs_to  :hometown_city, 					:class_name => "LookupCity"
   belongs_to  :current_city, 						:class_name => "LookupCity"
 
+
+  def self.from_omniauth(auth)
+  	where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
+  		user.provider = auth.provider
+  		user.uid = auth.uid
+  		user.first_name = auth.first_name
+  		user.last_name = auth.last_name
+  		user.email = auth.email
+  		user.oauth_token = auth.credentials.token
+  		user.oauth_expires_at = Time.at(auth.credentials.expires_at)
+  		user.save!
+  		
+  	end
+  	
+  end
 end
