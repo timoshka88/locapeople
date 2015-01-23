@@ -11,6 +11,9 @@ LocaPeople::Application.routes.draw do
 
   resources :venues
 
+  match 'auth/:provider/callback', to: 'sessions#create'
+  match 'auth/failure', to: redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
 
   root :to => 'pages#landingPage'
   # The priority is based upon order of creation:
