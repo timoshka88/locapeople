@@ -35,8 +35,13 @@
 				<img src="assets/image04.jpg" alt=""/>
 				<span class="sdt_active"></span>
 				<span class="sdt_wrap">
+				<% if user_signed_in? %>
+					<span class="sdt_link">Your Bot</span>
+					<span class="sdt_descr">Profile</span>
+				<% else %>
 					<span class="sdt_link">Activate your Bot</span>
 					<span class="sdt_descr">Login/Signup</span>
+				<% end %>
 				</span>
 			</a>
 			<% if user_signed_in? %>
