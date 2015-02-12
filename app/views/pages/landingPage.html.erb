@@ -46,7 +46,7 @@
 			</a>
 			<% if user_signed_in? %>
 				<div class="sdt_box">
-					<%= link_to "Your Profile", user_path(current_user.id) %>
+					<%= link_to "Your Profile", user_path(current_user) %>
 					<%= link_to 'Logout', signout_path %>
 				</div>
 			<% else %>
