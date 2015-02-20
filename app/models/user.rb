@@ -61,7 +61,8 @@ class User < ActiveRecord::Base
   # end
 
   def self.create_with_omniauth!(auth)
-  	where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
+
+  	first_or_initialize.tap do |user|
   		user.first_name = auth.info.first_name
   		user.last_name = auth.info.last_name
   		user.email = auth.info.email
