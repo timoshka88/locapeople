@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
 
   if @identity.nil?
     # If no identity was found, create a brand new one here
-    @identity = Authorization.create_with_omniauth!(auth, current_user)
+    @identity = Authorization.create_with_omniauth(auth, current_user)
   end
 
   if user_signed_in?
