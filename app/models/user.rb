@@ -60,6 +60,10 @@ class User < ActiveRecord::Base
   # 	end
   # end
 
+  def to_param
+  	first_name
+  end
+
   def self.create_with_omniauth(auth)
 
   	create(:first_name => auth.info.first_name, :last_name => auth.info.last_name, :email => auth.info.email)
