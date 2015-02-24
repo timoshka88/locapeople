@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 	# attr_accessible :id, :first_name, :last_name, :email, :photo, :phone, :birthday, :ambassador, :lookup_gender_id, :interested_in_gender_id, :hometown_city_id, :current_city_id, :lookup_relationship_status_id
-
+	has_many    :authorizations
 	has_many 		:user_tribes
 	has_many 		:lookup_tribe_types, 		:through => :user_tribes
 
@@ -45,5 +45,29 @@ class User < ActiveRecord::Base
   belongs_to  :interested_in_gender, 		:class_name => "LookupGender"
   belongs_to  :hometown_city, 					:class_name => "LookupCity"
   belongs_to  :current_city, 						:class_name => "LookupCity"
+
+
+  # def self.from_omniauth(auth)
+  # 	where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
+  # 		user.provider = auth.provider
+  # 		user.uid = auth.uid
+  # 		user.first_name = auth.info.first_name
+  # 		user.last_name = auth.info.last_name
+  # 		user.email = auth.info.email
+  # 		user.oauth_token = auth.credentials.token
+  # 		user.oauth_expires_at = Time.at(auth.credentials.expires_at)
+  # 		user.save!	
+  # 	end
+  # end
+
+  def to_param
+  	first_name
+  end
+
+  def self.create_with_omniauth(auth)
+
+  	create(:first_name => auth.info.first_name, :last_name => auth.info.last_name, :email => auth.info.email)
+
+  end
 
 end

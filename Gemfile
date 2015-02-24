@@ -4,6 +4,8 @@ gem 'rails', '4.1.6'
 gem 'pg'
 gem 'httparty'
 gem 'google_places'
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 # gem 'rack-utf8_sanitizer'
 # gem 'handle_invalid_percent_encoding_requests'
 
